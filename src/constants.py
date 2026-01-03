@@ -1,5 +1,5 @@
 """
-الثوابت والمتغيرات العامة للمشروع
+الثوابت والمتغيرات العامة للمشروع - مُحدث
 """
 
 # إعدادات الفيديو
@@ -7,7 +7,6 @@ VIDEO_WIDTH = 1080
 VIDEO_HEIGHT = 1920
 VIDEO_DURATION = 12  # ثانية
 BACKGROUND_BLUR_INTENSITY = 15
-FONT_PATH = "assets/fonts/arial.ttf"
 TEXT_COLOR = (255, 255, 255)  # أبيض
 TEXT_SHADOW_COLOR = (0, 0, 0)  # أسود
 
@@ -30,9 +29,7 @@ QUESTION_CATEGORIES = [
 
 # نماذج الذكاء الاصطناعي بترتيب الأفضلية
 AI_MODELS_PRIORITY = [
-    "gemini",
-    "groq",
-    "openai"
+    "gemini"
 ]
 
 # عبارات التشجيع
@@ -56,3 +53,12 @@ BACKGROUNDS_DIR = f"{ASSETS_DIR}/backgrounds"
 FONTS_DIR = f"{ASSETS_DIR}/fonts"
 AUDIO_DIR = f"{TEMP_DIR}/audio"
 VIDEO_DIR = f"{TEMP_DIR}/video"
+
+# خطوط افتراضية
+DEFAULT_FONTS = [
+    "Arial",
+    "Arial-Bold",
+    "DejaVu-Sans",
+    "Liberation-Sans",
+    "FreeSans"
+]
