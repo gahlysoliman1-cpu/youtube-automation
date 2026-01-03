@@ -1,0 +1,45 @@
+name: Daily YouTube Shorts Automation
+
+on:
+  schedule:
+    - cron: '0 9,12,15,18 * * *'  # 4 مرات يومياً
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  generate-and-upload:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.10'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    
+    - name: Run YouTube Shorts Automation
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        ELEVEN_API_KEY: ${{ secrets.ELEVEN_API_KEY }}
+        PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+        UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
+        YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+        YT_CLIENT_ID_1: ${{ secrets.YT_CLIENT_ID_1 }}
+        YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
+        YT_REFRESH_TOKEN_1: ${{ secrets.YT_REFRESH_TOKEN_1 }}
+        CAMB_AI_KEY_1: ${{ secrets.CAMB_AI_KEY_1 }}
+        REPLICATE_API_TOKEN: ${{ secrets.REPLICATE_API_TOKEN }}
+        HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
+      run: |
+        python run.py --mode=daily
