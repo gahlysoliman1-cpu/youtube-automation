@@ -1,10 +1,7 @@
-name: API Test Runner
+name: API Test Runner (Verbose)
 
 on:
-  workflow_dispatch:   # تشغيل يدوي
-  push:
-    branches:
-      - main            # أو master حسب الريبو
+  workflow_dispatch:
 
 jobs:
   test-apis:
@@ -24,18 +21,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run API Test Runner
+      - name: Run Verbose API Tests
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
-          UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
-          NEWS_API: ${{ secrets.NEWS_API }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
           YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
         run: |
-          python test_runner.py
+          python test_runner_verbose.py
