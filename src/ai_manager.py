@@ -1,5 +1,5 @@
 """
-مدير نماذج الذكاء الاصطناعي - نسخة معدلة بدون pyttsx3
+مدير نماذج الذكاء الاصطناعي - نسخة مُصلحة
 """
 
 import random
@@ -10,28 +10,6 @@ from src.config import config
 from src.utils import logger
 from src.fallback_system import FallbackSystem
 from src.constants import QUESTION_CATEGORIES, ENCOURAGEMENT_PHRASES
-
-# استيراد مشروط للنماذج
-try:
-    import google.generativeai as genai
-    GEMINI_AVAILABLE = True
-except ImportError:
-    GEMINI_AVAILABLE = False
-    logger.warning("Google Generative AI not available")
-
-try:
-    from groq import Groq
-    GROQ_AVAILABLE = True
-except ImportError:
-    GROQ_AVAILABLE = False
-    logger.warning("Groq not available")
-
-try:
-    from openai import OpenAI
-    OPENAI_AVAILABLE = True
-except ImportError:
-    OPENAI_AVAILABLE = False
-    logger.warning("OpenAI not available")
 
 class AIManager:
     """مدير نماذج الذكاء الاصطناعي"""
@@ -45,27 +23,47 @@ class AIManager:
     def initialize_models(self):
         """تهيئة نماذج الذكاء الاصطناعي المتاحة"""
         # Gemini
-        if GEMINI_AVAILABLE and config.gemini_api_key and config.gemini_api_key.strip():
+        if config.gemini_api_key and config.gemini_api_key.strip():
             try:
+                import google.generativeai as genai
                 genai.configure(api_key=config.gemini_api_key)
-                self.models["gemini"] = genai.GenerativeModel('gemini-pro')
+                
+                # استخدام نموذج Gemini Pro الصحيح
+                self.models["gemini"] = {
+                    "model": genai.GenerativeModel('gemini-1.0-pro'),
+                    "client": genai
+                }
                 self.available_models.append("gemini")
-                logger.info("✅ Gemini model initialized")
+                logger.info("✅ Gemini model initialized (gemini-1.0-pro)")
             except Exception as e:
                 logger.error(f"❌ Failed to initialize Gemini: {e}")
+                # محاولة نموذج آخر
+                try:
+                    import google.generativeai as genai
+                    genai.configure(api_key=config.gemini_api_key)
+                    self.models["gemini"] = {
+                        "model": genai.GenerativeModel('gemini-pro'),
+                        "client": genai
+                    }
+                    self.available_models.append("gemini")
+                    logger.info("✅ Gemini model initialized (gemini-pro)")
+                except Exception as e2:
+                    logger.error(f"❌ Failed to initialize Gemini with fallback: {e2}")
         
-        # Groq
-        if GROQ_AVAILABLE and config.groq_api_key and config.groq_api_key.strip():
+        # Groq (تعطيل مؤقتاً بسبب مشاكل في التهيئة)
+        if False and config.groq_api_key and config.groq_api_key.strip():
             try:
+                from groq import Groq
                 self.models["groq"] = Groq(api_key=config.groq_api_key)
                 self.available_models.append("groq")
                 logger.info("✅ Groq model initialized")
             except Exception as e:
                 logger.error(f"❌ Failed to initialize Groq: {e}")
         
-        # OpenAI
-        if OPENAI_AVAILABLE and config.openai_api_key and config.openai_api_key.strip():
+        # OpenAI (تعطيل مؤقتاً بسبب مشاكل في التهيئة)
+        if False and config.openai_api_key and config.openai_api_key.strip():
             try:
+                from openai import OpenAI
                 self.models["openai"] = OpenAI(api_key=config.openai_api_key)
                 self.available_models.append("openai")
                 logger.info("✅ OpenAI model initialized")
@@ -121,118 +119,54 @@ class AIManager:
     def _generate_with_gemini(self, category: str) -> Optional[Dict[str, Any]]:
         """التوليد باستخدام Gemini"""
         try:
-            prompt = f"""Generate a {category} quiz question for YouTube Shorts.
+            # نموذج أكثر بساطة لـ Gemini
+            prompt = f"""Create a fun {category} trivia question for a YouTube Short.
             
-            Format: Q: [question]
-            A: [answer]
+            The question should be:
+            1. Clear and easy to understand
+            2. Interesting and engaging
+            3. Maximum 15 words
             
-            Rules:
-            1. Question must be engaging and interesting
-            2. Answer should be specific and clear
-            3. Question length: 10-15 words max
-            4. Include a fun fact if possible
-            5. Make it suitable for international audience
+            Format your response like this:
+            QUESTION: [Your question here?]
+            ANSWER: [The correct answer]
+            FACT: [An interesting related fact]
             
             Example for geography:
-            Q: Guess which country this flag belongs to? 🇯🇵
-            A: Japan
-            Fun fact: Japan has over 6,800 islands
+            QUESTION: Which country has the most islands?
+            ANSWER: Sweden
+            FACT: Sweden has over 267,000 islands!
             
-            Now generate a {category} question:"""
+            Now create a {category} question:"""
             
-            response = self.models["gemini"].generate_content(prompt)
+            gemini_model = self.models["gemini"]["model"]
+            response = gemini_model.generate_content(prompt)
             content = response.text
             
             # تحليل الاستجابة
-            return self._parse_ai_response(content, category, "gemini")
+            return self._parse_gemini_response(content, category)
             
         except Exception as e:
             logger.error(f"Gemini generation failed: {e}")
             return None
     
-    def _generate_with_groq(self, category: str) -> Optional[Dict[str, Any]]:
-        """التوليد باستخدام Groq"""
+    def _parse_gemini_response(self, content: str, category: str) -> Optional[Dict[str, Any]]:
+        """تحليل استجابة Gemini"""
         try:
-            prompt = f"""Generate a {category} quiz question for YouTube Shorts in this exact format:
-            
-            Q: [Your question here?]
-            A: [Exact answer here]
-            Fact: [Optional fun fact]
-            
-            Make the question fun and engaging. Keep it under 15 words."""
-            
-            response = self.models["groq"].chat.completions.create(
-                model="mixtral-8x7b-32768",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.7,
-                max_tokens=150
-            )
-            
-            content = response.choices[0].message.content
-            
-            return self._parse_ai_response(content, category, "groq")
-            
-        except Exception as e:
-            logger.error(f"Groq generation failed: {e}")
-            return None
-    
-    def _generate_with_openai(self, category: str) -> Optional[Dict[str, Any]]:
-        """التوليد باستخدام OpenAI"""
-        try:
-            prompt = f"""Create a {category} question for YouTube Shorts quiz.
-            
-            Requirements:
-            - Question format: Start with "Q: "
-            - Answer format: Start with "A: "
-            - Optional fun fact: Start with "Fact: "
-            - Question should be catchy and short
-            - Answer should be precise
-            
-            Generate now:"""
-            
-            response = self.models["openai"].chat.completions.create(
-                model="gpt-3.5-turbo",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.7,
-                max_tokens=150
-            )
-            
-            content = response.choices[0].message.content
-            
-            return self._parse_ai_response(content, category, "openai")
-            
-        except Exception as e:
-            logger.error(f"OpenAI generation failed: {e}")
-            return None
-    
-    def _parse_ai_response(self, content: str, category: str, source: str) -> Optional[Dict[str, Any]]:
-        """تحليل استجابة الذكاء الاصطناعي"""
-        try:
-            # استخراج السؤال
-            question_match = re.search(r'Q:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+            # البحث عن السؤال
+            question_match = re.search(r'QUESTION:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             if not question_match:
-                # محاولة أنماط أخرى
-                question_match = re.search(r'Question:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
-                if not question_match:
-                    # استخدام السطر الأول كسؤال
-                    lines = [line.strip() for line in content.split('\n') if line.strip()]
-                    if len(lines) >= 1:
-                        question = lines[0]
-                        # إزالة أي أرقام أو رموز في البداية
-                        question = re.sub(r'^\d+[\.\)]\s*', '', question)
-                        question_match = type('obj', (object,), {'group': lambda x: question})()
+                question_match = re.search(r'Q:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             
-            # استخراج الإجابة
-            answer_match = re.search(r'A:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+            # البحث عن الإجابة
+            answer_match = re.search(r'ANSWER:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             if not answer_match:
-                answer_match = re.search(r'Answer:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
-                if not answer_match and len(lines) >= 2:
-                    answer = lines[1] if len(lines) > 1 else ""
-                    answer = re.sub(r'^\d+[\.\)]\s*', '', answer)
-                    answer_match = type('obj', (object,), {'group': lambda x: answer})()
+                answer_match = re.search(r'A:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             
-            # استخراج المعلومة المسلية
-            fact_match = re.search(r'Fact:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+            # البحث عن الحقيقة
+            fact_match = re.search(r'FACT:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+            if not fact_match:
+                fact_match = re.search(r'Fact:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             
             if question_match and answer_match:
                 question = question_match.group(1).strip()
@@ -240,14 +174,10 @@ class AIManager:
                 fun_fact = fact_match.group(1).strip() if fact_match else ""
                 
                 # تنظيف النص
-                question = question.replace('"', '').replace("'", "").strip()
-                answer = answer.replace('"', '').replace("'", "").strip()
+                question = self._clean_text(question)
+                answer = self._clean_text(answer)
                 
-                # التحقق من أن السؤال والإجابة غير فارغين
-                if not question or not answer:
-                    return None
-                
-                # التحقق من أن السؤال ينتهي بعلامة استفهام
+                # التأكد من أن السؤال ينتهي بعلامة استفهام
                 if not question.endswith('?'):
                     question = question + '?'
                 
@@ -256,14 +186,27 @@ class AIManager:
                     "answer": answer,
                     "category": category,
                     "fun_fact": fun_fact,
-                    "source": source
+                    "source": "gemini"
                 }
             
             return None
             
         except Exception as e:
-            logger.error(f"Failed to parse AI response: {e}")
+            logger.error(f"Failed to parse Gemini response: {e}")
             return None
+    
+    def _clean_text(self, text: str) -> str:
+        """تنظيف النص"""
+        if not text:
+            return ""
+        
+        # إزالة علامات الاقتباس الزائدة
+        text = text.replace('"', '').replace("'", "").strip()
+        
+        # إزالة النقاط في البداية
+        text = re.sub(r'^[\.\-\*\d]+', '', text).strip()
+        
+        return text
     
     def generate_seo_data(self, question_data: Dict[str, Any]) -> Dict[str, Any]:
         """توليد بيانات SEO للفيديو"""
