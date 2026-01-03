@@ -1,16 +1,14 @@
 """
-مولد الصوت والتسجيلات الصوتية
+مولد الصوت والتسجيلات الصوتية - نسخة معدلة
 """
 
 import os
 import tempfile
-from typing import Optional, Tuple
+from typing import Optional
 from src.config import config
 from src.utils import logger, validate_file_exists
 from src.constants import AUDIO_DIR
 import requests
-from elevenlabs import generate, save
-from io import BytesIO
 
 class AudioGenerator:
     """مولد الصوت والتسجيلات الصوتية"""
@@ -34,16 +32,13 @@ class AudioGenerator:
         if not audio_path:
             audio_path = self._generate_with_google_tts(question, encouragement)
         
-        # إذا فشل كل شيء، استخدم صوت النظام
-        if not audio_path:
-            audio_path = self._generate_with_system_tts(question, encouragement)
-        
         return audio_path
     
     def _generate_with_elevenlabs(self, question: str, encouragement: str) -> Optional[str]:
         """التوليد باستخدام ElevenLabs"""
         try:
-            from elevenlabs import set_api_key
+            from elevenlabs import generate, save, set_api_key
+            
             set_api_key(config.eleven_api_key)
             
             full_text = f"{question}. {encouragement}"
@@ -58,11 +53,11 @@ class AudioGenerator:
             save(audio, audio_path)
             
             if validate_file_exists(audio_path):
-                logger.info(f"Generated audio with ElevenLabs: {audio_path}")
+                logger.info(f"✅ Generated audio with ElevenLabs: {audio_path}")
                 return audio_path
         
         except Exception as e:
-            logger.error(f"ElevenLabs generation failed: {e}")
+            logger.error(f"❌ ElevenLabs generation failed: {e}")
         
         return None
     
@@ -93,18 +88,17 @@ class AudioGenerator:
                 f.write(audio_data)
             
             if validate_file_exists(audio_path):
-                logger.info(f"Generated audio with Camb AI: {audio_path}")
+                logger.info(f"✅ Generated audio with Camb AI: {audio_path}")
                 return audio_path
         
         except Exception as e:
-            logger.error(f"Camb AI generation failed: {e}")
+            logger.error(f"❌ Camb AI generation failed: {e}")
         
         return None
     
     def _generate_with_google_tts(self, question: str, encouragement: str) -> Optional[str]:
         """التوليد باستخدام Google TTS"""
         try:
-            import gtts
             from gtts import gTTS
             
             full_text = f"{question}. {encouragement}"
@@ -114,83 +108,85 @@ class AudioGenerator:
             tts.save(audio_path)
             
             if validate_file_exists(audio_path):
-                logger.info(f"Generated audio with Google TTS: {audio_path}")
+                logger.info(f"✅ Generated audio with Google TTS: {audio_path}")
                 return audio_path
         
         except Exception as e:
-            logger.error(f"Google TTS generation failed: {e}")
-        
-        return None
-    
-    def _generate_with_system_tts(self, question: str, encouragement: str) -> Optional[str]:
-        """التوليد باستخدام صوت النظام"""
-        try:
-            import pyttsx3
-            
-            full_text = f"{question}. {encouragement}"
-            
-            engine = pyttsx3.init()
-            engine.setProperty('rate', 150)
-            engine.setProperty('volume', 0.9)
-            
-            voices = engine.getProperty('voices')
-            for voice in voices:
-                if 'english' in voice.name.lower():
-                    engine.setProperty('voice', voice.id)
-                    break
-            
-            audio_path = os.path.join(AUDIO_DIR, f"question_{os.urandom(4).hex()}.mp3")
-            engine.save_to_file(full_text, audio_path)
-            engine.runAndWait()
-            
-            if validate_file_exists(audio_path):
-                logger.info(f"Generated audio with System TTS: {audio_path}")
-                return audio_path
-        
-        except Exception as e:
-            logger.error(f"System TTS generation failed: {e}")
+            logger.error(f"❌ Google TTS generation failed: {e}")
         
         return None
     
     def generate_countdown_beep(self, duration: int = 10) -> Optional[str]:
-        """توليد صوت عد تنازلي"""
+        """توليد صوت عد تنازلي بسيط"""
         try:
+            # استخدام ملف صوتي بسيط أو إنشاء نغمة بسيطة
+            # نستخدم ملف WAV بسيط أو ننشئه
+            audio_path = os.path.join(AUDIO_DIR, f"countdown_{duration}.mp3")
+            
+            # إذا كان الملف موجوداً بالفعل، نستخدمه
+            if os.path.exists(audio_path):
+                return audio_path
+            
+            # إنشاء صوت عد تنازلي بسيط باستخدام beep tones
+            # سنستخدم مكتبة بسيطة أو ننشئ ملف صوتي
+            self._create_simple_beep_audio(duration, audio_path)
+            
+            if validate_file_exists(audio_path):
+                logger.info(f"✅ Generated countdown audio: {audio_path}")
+                return audio_path
+        
+        except Exception as e:
+            logger.error(f"❌ Countdown generation failed: {e}")
+            return None
+    
+    def _create_simple_beep_audio(self, duration: int, output_path: str):
+        """إنشاء صوت بسيط للعد التنازلي"""
+        try:
+            # استخدام tone generation بسيط
             import numpy as np
             from scipy.io import wavfile
-            import wave
             
-            # إنشاء نغمات عد تنازلي
             sample_rate = 44100
-            beep_duration = 0.1
-            silence_duration = 0.9
+            beep_duration = 0.3
+            silence_duration = 0.7
             
             audio_data = np.array([], dtype=np.float32)
             
             for i in range(duration, 0, -1):
-                # نغمة للرقم
-                frequency = 800 if i <= 3 else 600  # نغمة أعلى للـ3 ثواني الأخيرة
+                # تردد مختلف للثواني الأخيرة
+                frequency = 800 if i <= 3 else 600
+                
+                # إنشاء نغمة
                 t = np.linspace(0, beep_duration, int(sample_rate * beep_duration), False)
-                beep = 0.5 * np.sin(2 * np.pi * frequency * t)
+                beep = 0.3 * np.sin(2 * np.pi * frequency * t)
                 
                 # إضافة النغمة
                 audio_data = np.concatenate([audio_data, beep])
                 
-                # إضافة صمت بين النغمات
-                silence = np.zeros(int(sample_rate * silence_duration), dtype=np.float32)
-                audio_data = np.concatenate([audio_data, silence])
+                # إضافة صمت
+                if i > 1:  # لا نضيف صمتاً بعد النغمة الأخيرة
+                    silence = np.zeros(int(sample_rate * silence_duration), dtype=np.float32)
+                    audio_data = np.concatenate([audio_data, silence])
             
-            # نغمة النهاية
-            t = np.linspace(0, 0.5, int(sample_rate * 0.5), False)
-            end_beep = 0.5 * np.sin(2 * np.pi * 1000 * t)
-            audio_data = np.concatenate([audio_data, end_beep])
+            # تحويل إلى 16-bit PCM
+            audio_data_int16 = (audio_data * 32767).astype(np.int16)
             
-            # حفظ الصوت
-            audio_path = os.path.join(AUDIO_DIR, f"countdown_{duration}.wav")
-            wavfile.write(audio_path, sample_rate, (audio_data * 32767).astype(np.int16))
+            # حفظ كـ WAV
+            wavfile.write(output_path.replace('.mp3', '.wav'), sample_rate, audio_data_int16)
             
-            logger.info(f"Generated countdown audio: {audio_path}")
-            return audio_path
-        
+            # تحويل إلى MP3 إذا أمكن
+            try:
+                from pydub import AudioSegment
+                audio = AudioSegment.from_wav(output_path.replace('.mp3', '.wav'))
+                audio.export(output_path, format="mp3")
+                # حذف ملف WAV المؤقت
+                os.remove(output_path.replace('.mp3', '.wav'))
+            except:
+                # إذا فشل التحويل، نستخدم WAV
+                output_path = output_path.replace('.mp3', '.wav')
+            
         except Exception as e:
-            logger.error(f"Countdown generation failed: {e}")
-            return None
+            logger.error(f"❌ Failed to create beep audio: {e}")
+            # إنشاء ملف صوتي فارغ كبديل
+            with open(output_path, 'wb') as f:
+                f.write(b'')  # ملف فارغ
