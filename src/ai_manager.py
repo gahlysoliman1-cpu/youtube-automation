@@ -1,18 +1,37 @@
 """
-مدير نماذج الذكاء الاصطناعي - نسخة معدلة
+مدير نماذج الذكاء الاصطناعي - نسخة معدلة بدون pyttsx3
 """
 
 import random
 import json
 import re
 from typing import Dict, Any, Optional
-import google.generativeai as genai
-from groq import Groq
-from openai import OpenAI
 from src.config import config
 from src.utils import logger
 from src.fallback_system import FallbackSystem
 from src.constants import QUESTION_CATEGORIES, ENCOURAGEMENT_PHRASES
+
+# استيراد مشروط للنماذج
+try:
+    import google.generativeai as genai
+    GEMINI_AVAILABLE = True
+except ImportError:
+    GEMINI_AVAILABLE = False
+    logger.warning("Google Generative AI not available")
+
+try:
+    from groq import Groq
+    GROQ_AVAILABLE = True
+except ImportError:
+    GROQ_AVAILABLE = False
+    logger.warning("Groq not available")
+
+try:
+    from openai import OpenAI
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+    logger.warning("OpenAI not available")
 
 class AIManager:
     """مدير نماذج الذكاء الاصطناعي"""
@@ -26,7 +45,7 @@ class AIManager:
     def initialize_models(self):
         """تهيئة نماذج الذكاء الاصطناعي المتاحة"""
         # Gemini
-        if config.gemini_api_key and config.gemini_api_key.strip():
+        if GEMINI_AVAILABLE and config.gemini_api_key and config.gemini_api_key.strip():
             try:
                 genai.configure(api_key=config.gemini_api_key)
                 self.models["gemini"] = genai.GenerativeModel('gemini-pro')
@@ -36,7 +55,7 @@ class AIManager:
                 logger.error(f"❌ Failed to initialize Gemini: {e}")
         
         # Groq
-        if config.groq_api_key and config.groq_api_key.strip():
+        if GROQ_AVAILABLE and config.groq_api_key and config.groq_api_key.strip():
             try:
                 self.models["groq"] = Groq(api_key=config.groq_api_key)
                 self.available_models.append("groq")
@@ -45,7 +64,7 @@ class AIManager:
                 logger.error(f"❌ Failed to initialize Groq: {e}")
         
         # OpenAI
-        if config.openai_api_key and config.openai_api_key.strip():
+        if OPENAI_AVAILABLE and config.openai_api_key and config.openai_api_key.strip():
             try:
                 self.models["openai"] = OpenAI(api_key=config.openai_api_key)
                 self.available_models.append("openai")
@@ -54,7 +73,11 @@ class AIManager:
                 logger.error(f"❌ Failed to initialize OpenAI: {e}")
         
         # تسجيل النماذج المتاحة
-        logger.info(f"Available AI models: {self.available_models}")
+        logger.info(f"📊 Available AI models: {self.available_models}")
+        
+        # إذا لم تتوفر أي نماذج، استخدم النظام الاحتياطي
+        if not self.available_models:
+            logger.warning("⚠️ No AI models available, will use fallback only")
     
     def generate_question(self) -> Dict[str, Any]:
         """توليد سؤال باستخدام أفضل نموذج متاح"""
@@ -66,7 +89,7 @@ class AIManager:
                 break
                 
             try:
-                logger.info(f"Generating question using {model_name}")
+                logger.info(f"⚡ Generating question using {model_name}")
                 question_data = self._generate_with_model(model_name)
                 if question_data:
                     logger.info(f"✅ Successfully generated question with {model_name}")
@@ -86,11 +109,11 @@ class AIManager:
         """توليد سؤال باستخدام نموذج محدد"""
         category = random.choice(QUESTION_CATEGORIES)
         
-        if model_name == "gemini":
+        if model_name == "gemini" and "gemini" in self.models:
             return self._generate_with_gemini(category)
-        elif model_name == "groq":
+        elif model_name == "groq" and "groq" in self.models:
             return self._generate_with_groq(category)
-        elif model_name == "openai":
+        elif model_name == "openai" and "openai" in self.models:
             return self._generate_with_openai(category)
         
         return None
@@ -188,12 +211,25 @@ class AIManager:
             # استخراج السؤال
             question_match = re.search(r'Q:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             if not question_match:
+                # محاولة أنماط أخرى
                 question_match = re.search(r'Question:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+                if not question_match:
+                    # استخدام السطر الأول كسؤال
+                    lines = [line.strip() for line in content.split('\n') if line.strip()]
+                    if len(lines) >= 1:
+                        question = lines[0]
+                        # إزالة أي أرقام أو رموز في البداية
+                        question = re.sub(r'^\d+[\.\)]\s*', '', question)
+                        question_match = type('obj', (object,), {'group': lambda x: question})()
             
             # استخراج الإجابة
             answer_match = re.search(r'A:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
             if not answer_match:
                 answer_match = re.search(r'Answer:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
+                if not answer_match and len(lines) >= 2:
+                    answer = lines[1] if len(lines) > 1 else ""
+                    answer = re.sub(r'^\d+[\.\)]\s*', '', answer)
+                    answer_match = type('obj', (object,), {'group': lambda x: answer})()
             
             # استخراج المعلومة المسلية
             fact_match = re.search(r'Fact:\s*(.*?)(?:\n|$)', content, re.IGNORECASE)
@@ -204,8 +240,16 @@ class AIManager:
                 fun_fact = fact_match.group(1).strip() if fact_match else ""
                 
                 # تنظيف النص
-                question = question.replace('"', '').replace("'", "")
-                answer = answer.replace('"', '').replace("'", "")
+                question = question.replace('"', '').replace("'", "").strip()
+                answer = answer.replace('"', '').replace("'", "").strip()
+                
+                # التحقق من أن السؤال والإجابة غير فارغين
+                if not question or not answer:
+                    return None
+                
+                # التحقق من أن السؤال ينتهي بعلامة استفهام
+                if not question.endswith('?'):
+                    question = question + '?'
                 
                 return {
                     "question": question,
@@ -226,8 +270,11 @@ class AIManager:
         question = question_data.get("question", "")
         category = question_data.get("category", "")
         
-        # توليد العنوان (مختصر)
-        title = f"{question[:50]}... #shorts" if len(question) > 50 else f"{question} #shorts"
+        # تقصير السؤال إذا كان طويلاً
+        short_question = question[:60] + "..." if len(question) > 60 else question
+        
+        # توليد العنوان
+        title = f"Can you answer this {category} question? {short_question} #shorts"
         
         # توليد الوصف
         description = f"""Can you answer this {category} question? 🤔
@@ -253,6 +300,6 @@ class AIManager:
         return {
             "title": title[:100],
             "description": description[:5000],
-            "tags": hashtags[:20],  # YouTube allows max 20 tags
+            "tags": hashtags[:20],
             "category": category
         }
