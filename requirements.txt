@@ -19,3 +19,4 @@ gtts==2.4.0
 scipy==1.11.4
 imageio==2.34.0
 imageio-ffmpeg==0.4.9
+pydub==0.25.1
