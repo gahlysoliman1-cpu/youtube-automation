@@ -1,5 +1,5 @@
 """
-Configuration file for YouTube Shorts Automation
+Configuration file for YouTube Shorts Automation - FIXED
 """
 
 import os
@@ -23,9 +23,10 @@ YOUTUBE_CONFIG = {
     "client_secret": os.environ.get("YT_CLIENT_SECRET_1"),
     "refresh_token": os.environ.get("YT_REFRESH_TOKEN_1"),
     "channel_id": os.environ.get("YT_CHANNEL_ID"),
+    "token_uri": "https://oauth2.googleapis.com/token",
     "scopes": ["https://www.googleapis.com/auth/youtube.upload"],
-    "privacy_status": "private",  # private/public/unlisted
-    "category_id": "22",  # People & Blogs
+    "privacy_status": "private",
+    "category_id": "22",
     "default_language": "en",
 }
 
@@ -54,7 +55,7 @@ TTS_CONFIG = {
     "primary": {
         "name": "elevenlabs",
         "api_key": os.environ.get("ELEVEN_API_KEY"),
-        "voice_id": "21m00Tcm4TlvDq8ikWAM",  # Rachel voice
+        "voice_id": "21m00Tcm4TlvDq8ikWAM",
         "fallback_order": ["elevenlabs", "gtts"]
     },
     "secondary": {
@@ -67,8 +68,8 @@ TTS_CONFIG = {
 # ==================== Video Config ====================
 VIDEO_CONFIG = {
     "short": {
-        "duration": 15,  # seconds
-        "resolution": (1080, 1920),  # 9:16 for Shorts
+        "duration": 15,
+        "resolution": (1080, 1920),
         "fps": 30,
         "background_blur": 10,
         "text_duration": 10,
@@ -76,7 +77,7 @@ VIDEO_CONFIG = {
         "answer_duration": 2
     },
     "long": {
-        "duration": 60,  # seconds (compilation)
+        "duration": 60,
         "resolution": (1920, 1080),
         "fps": 30
     }
@@ -87,7 +88,7 @@ CONTENT_CONFIG = {
     "categories": [
         "geography",
         "culture",
-        "history", 
+        "history",
         "science",
         "entertainment",
         "sports",
@@ -103,19 +104,6 @@ CONTENT_CONFIG = {
         "Can you name {number} {things}?",
         "Guess the {subject} from {hint}",
         "What {thing} is known for {characteristic}?"
-    ]
-}
-
-# ==================== URLs for Media Fallback ====================
-MEDIA_FALLBACK_URLS = {
-    "backgrounds": [
-        "https://images.pexels.com/photos",
-        "https://images.unsplash.com/photo",
-        "https://cdn.pixabay.com/photo"
-    ],
-    "sounds": [
-        "https://freesound.org/data/previews",
-        "https://assets.mixkit.co/music/preview"
     ]
 }
 
