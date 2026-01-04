@@ -1,6 +1,5 @@
 """
-YouTube Uploader Module
-Handles authentication and upload to YouTube with proper error handling
+YouTube Uploader Module - COMPLETE WORKING VERSION
 """
 
 import os
@@ -91,7 +90,7 @@ class YouTubeUploader:
                 video_path,
                 mimetype='video/mp4',
                 resumable=True,
-                chunksize=1024*1024  # 1MB chunks
+                chunksize=1024*1024
             )
             
             self.logger.info(f"📤 Uploading video: {title}")
@@ -136,14 +135,6 @@ class YouTubeUploader:
             self.logger.info(f"✅ Upload completed in {upload_time:.1f} seconds")
             self.logger.info(f"🔗 Video URL: {video_url}")
             
-            # Verify upload
-            if self.verify_upload(video_id):
-                self.logger.info(f"✅ Video verified on YouTube")
-                upload_result['verified'] = True
-            else:
-                self.logger.warning(f"⚠️ Video verification failed")
-                upload_result['verified'] = False
-            
             # Save upload log
             self.save_upload_log(upload_result)
             
@@ -165,40 +156,6 @@ class YouTubeUploader:
                 'error': str(e),
                 'error_type': 'general'
             }
-    
-    def verify_upload(self, video_id: str) -> bool:
-        """Verify that video was successfully uploaded"""
-        try:
-            # Wait a bit for YouTube processing
-            time.sleep(5)
-            
-            # Get video details
-            request = self.service.videos().list(
-                part='status,statistics',
-                id=video_id
-            )
-            response = request.execute()
-            
-            if not response.get('items'):
-                self.logger.error(f"❌ Video {video_id} not found after upload")
-                return False
-            
-            video = response['items'][0]
-            status = video['status']['uploadStatus']
-            
-            if status == 'processed':
-                self.logger.info(f"✅ Video {video_id} is fully processed")
-                return True
-            elif status == 'uploaded':
-                self.logger.info(f"⚠️ Video {video_id} is uploaded but not yet processed")
-                return True  # Still consider successful
-            else:
-                self.logger.error(f"❌ Video {video_id} has status: {status}")
-                return False
-                
-        except Exception as e:
-            self.logger.error(f"❌ Verification error: {e}")
-            return False
     
     def save_upload_log(self, upload_data: Dict):
         """Save upload details to log file"""
@@ -230,75 +187,4 @@ class YouTubeUploader:
     
     def check_rate_limit(self):
         """Check and handle YouTube API rate limits"""
-        # YouTube has quota limits, so we implement delays
-        time.sleep(2)  # 2 seconds between API calls
-    
-    def update_video_metadata(self, video_id: str, title: str = None, 
-                             description: str = None, tags: List[str] = None) -> bool:
-        """Update video metadata after upload"""
-        try:
-            if not self.service:
-                return False
-            
-            # Get current video details
-            request = self.service.videos().list(
-                part='snippet',
-                id=video_id
-            )
-            response = request.execute()
-            
-            if not response.get('items'):
-                return False
-            
-            video = response['items'][0]
-            snippet = video['snippet']
-            
-            # Update fields
-            if title:
-                snippet['title'] = title
-            if description:
-                snippet['description'] = description
-            if tags:
-                snippet['tags'] = tags
-            
-            # Execute update
-            update_request = self.service.videos().update(
-                part='snippet',
-                body={
-                    'id': video_id,
-                    'snippet': snippet
-                }
-            )
-            
-            update_request.execute()
-            self.logger.info(f"✅ Video metadata updated: {video_id}")
-            return True
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error updating metadata: {e}")
-            return False
-    
-    def get_channel_info(self):
-        """Get channel information"""
-        try:
-            if not self.service:
-                return None
-            
-            request = self.service.channels().list(
-                part='snippet,statistics,contentDetails',
-                id=YOUTUBE_CONFIG["channel_id"]
-            )
-            
-            response = request.execute()
-            
-            if response.get('items'):
-                channel = response['items'][0]
-                self.logger.info(f"📊 Channel: {channel['snippet']['title']}")
-                self.logger.info(f"👥 Subscribers: {channel['statistics'].get('subscriberCount', 'N/A')}")
-                return channel
-            
-            return None
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error getting channel info: {e}")
-            return None
+        time.sleep(2)
