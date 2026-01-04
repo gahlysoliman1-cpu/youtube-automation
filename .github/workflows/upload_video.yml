@@ -1,0 +1,63 @@
+name: Upload Video to YouTube
+
+on:
+  workflow_dispatch:  # تشغيل يدوي
+    inputs:
+      video_path:
+        description: 'Path to video file'
+        required: true
+        default: 'videos/video.mp4'
+      title:
+        description: 'Video title'
+        required: true
+        default: 'My YouTube Video'
+      description:
+        description: 'Video description'
+        required: false
+        default: 'Uploaded automatically via GitHub Actions'
+      tags:
+        description: 'Video tags (comma separated)'
+        required: false
+        default: 'github,automation'
+      privacy:
+        description: 'Privacy status'
+        required: false
+        default: 'private'
+        type: choice
+        options:
+          - public
+          - private
+          - unlisted
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install google-api-python-client
+        pip install google-auth-oauthlib
+        pip install google-auth-httplib2
+    
+    - name: Run YouTube Upload
+      env:
+        YT_CLIENT_ID_1: ${{ secrets.YT_CLIENT_ID_1 }}
+        YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
+        YT_REFRESH_TOKEN_1: ${{ secrets.YT_REFRESH_TOKEN_1 }}
+        YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
+        VIDEO_PATH: ${{ github.event.inputs.video_path }}
+        VIDEO_TITLE: ${{ github.event.inputs.title }}
+        VIDEO_DESCRIPTION: ${{ github.event.inputs.description }}
+        VIDEO_TAGS: ${{ github.event.inputs.tags }}
+        VIDEO_PRIVACY: ${{ github.event.inputs.privacy }}
+      run: |
+        python upload_video.py
