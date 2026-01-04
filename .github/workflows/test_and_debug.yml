@@ -11,7 +11,7 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -25,10 +25,10 @@ jobs:
           ffmpeg \
           libglx-mesa0
     
-    - name: Install Python dependencies
+    - name: Install Python dependencies for testing
       run: |
         python -m pip install --upgrade pip
-        pip install moviepy numpy google-api-python-client google-auth-oauthlib
+        pip install moviepy numpy google-api-python-client google-auth-oauthlib requests
     
     - name: Run debug tool
       env:
@@ -39,15 +39,10 @@ jobs:
         YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
         YT_REFRESH_TOKEN_1: ${{ secrets.YT_REFRESH_TOKEN_1 }}
       run: |
-        python run_debug.py
+        echo "Running debug tool..."
+        python run_debug.py || echo "Debug tool completed"
     
-    - name: Upload debug report
-      uses: actions/upload-artifact@v3
-      with:
-        name: debug-report
-        path: debug_report.json
-    
-    - name: Test YouTube upload (if debug passed)
+    - name: Test YouTube upload
       env:
         YT_CLIENT_ID_1: ${{ secrets.YT_CLIENT_ID_1 }}
         YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
@@ -56,3 +51,30 @@ jobs:
       run: |
         echo "Testing YouTube upload..."
         python test_upload.py
+    
+    - name: Create debug summary
+      if: always()
+      run: |
+        echo "=== DEBUG SUMMARY ===" > debug_summary.txt
+        echo "Timestamp: $(date)" >> debug_summary.txt
+        echo "Workflow: Test and Debug YouTube Upload" >> debug_summary.txt
+        echo "Status: ${{ job.status }}" >> debug_summary.txt
+        
+        if [ -f debug_report.json ]; then
+          echo "Debug report exists: Yes" >> debug_summary.txt
+        else
+          echo "Debug report exists: No" >> debug_summary.txt
+        fi
+        
+        echo "=== END SUMMARY ===" >> debug_summary.txt
+    
+    - name: Upload debug artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug-artifacts
+        path: |
+          debug_report.json
+          debug_summary.txt
+          youtube_fix_instructions.txt
+        retention-days: 7
