@@ -21,13 +21,18 @@ from src.audio_generator import AudioGenerator
 from src.video_generator import VideoGenerator
 from src.youtube_uploader import YouTubeUploader
 from src.fallback_system import FallbackSystem
-from src.utils import validate_environment, setup_logging, save_metadata
 
 class YouTubeShortsAutomation:
     """Main controller for YouTube Shorts automation"""
     
     def __init__(self):
+        # Initialize today FIRST
+        self.today = datetime.now().strftime("%Y%m%d")
+        
+        # Setup logging (using self.today)
         self.setup_logging()
+        
+        # Initialize other components
         self.fallback = FallbackSystem()
         self.question_gen = QuestionGenerator()
         self.audio_gen = AudioGenerator()
@@ -35,11 +40,14 @@ class YouTubeShortsAutomation:
         self.uploader = YouTubeUploader()
         
         self.generated_shorts = []
-        self.today = datetime.now().strftime("%Y%m%d")
         
     def setup_logging(self):
         """Setup logging configuration"""
         log_file = os.path.join(LOGS_DIR, f"automation_{self.today}.log")
+        
+        # Create logs directory if not exists
+        os.makedirs(LOGS_DIR, exist_ok=True)
+        
         logging.basicConfig(
             level=logging.INFO,
             format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -54,8 +62,7 @@ class YouTubeShortsAutomation:
         """Validate all required environment variables"""
         required = [
             "YT_CLIENT_ID_1", "YT_CLIENT_SECRET_1",
-            "YT_REFRESH_TOKEN_1", "YT_CHANNEL_ID",
-            "GEMINI_API_KEY"
+            "YT_REFRESH_TOKEN_1", "YT_CHANNEL_ID"
         ]
         
         for var in required:
