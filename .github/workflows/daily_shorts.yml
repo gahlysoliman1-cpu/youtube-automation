@@ -1,12 +1,28 @@
-name: 📅 Daily YouTube Shorts Automation - FIXED
+name: 🎬 YouTube Shorts Automation - PUBLIC VIDEOS
 
 on:
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'single'
+        type: choice
+        options:
+          - single
+          - daily
+      count:
+        description: 'Number of shorts (for single mode)'
+        required: false
+        default: '1'
+
+permissions:
+  contents: write
 
 jobs:
-  test-and-upload:
+  generate-and-upload:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     
     steps:
     - name: 📥 Checkout Repository
@@ -17,143 +33,82 @@ jobs:
       with:
         python-version: '3.11'
     
-    - name: 🎬 Setup FFmpeg
+    - name: 🎬 Setup FFmpeg & Fonts
       run: |
         sudo apt-get update
         sudo apt-get install -y ffmpeg imagemagick
+        sudo apt-get install -y fonts-dejavu-core fonts-noto-color-emoji
     
-    - name: 📦 Install Python Dependencies (FIXED VERSIONS)
+    - name: 📦 Install Python Dependencies
       run: |
         python -m pip install --upgrade pip
         pip install google-generativeai==0.3.2
-        pip install groq==0.5.0
-        pip install openai==0.28.1
-        pip install moviepy==1.0.3
-        pip install Pillow==10.2.0
-        pip install gTTS==2.4.0
-        pip install elevenlabs==0.2.27
         pip install google-api-python-client==2.108.0
-        pip install google-auth-httplib2==0.1.1
         pip install google-auth-oauthlib==1.1.0
-        pip install oauth2client==4.1.3
+        pip install google-auth-httplib2==0.1.1
+        pip install Pillow==10.2.0
         pip install requests==2.31.0
         pip install pytz==2024.1
     
-    - name: 🧪 Run Basic Tests
+    - name: 🎬 Create Videos Directory
+      run: |
+        mkdir -p videos/shorts
+        mkdir -p videos/long_videos
+        mkdir -p logs
+        echo "📁 Directories created"
+    
+    - name: 🚀 Run YouTube Automation
       env:
         YT_CLIENT_ID_1: ${{ secrets.YT_CLIENT_ID_1 }}
         YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
         YT_REFRESH_TOKEN_1: ${{ secrets.YT_REFRESH_TOKEN_1 }}
         YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        python test_simple.py
+        echo "🚀 Starting YouTube Shorts Automation..."
+        echo "Mode: ${{ github.event.inputs.mode }}"
+        echo "Count: ${{ github.event.inputs.count }}"
+        
+        if [ "${{ github.event.inputs.mode }}" = "daily" ]; then
+          python run.py --mode=daily
+        else
+          python run.py --mode=single --count=${{ github.event.inputs.count }}
+        fi
     
-    - name: 🎬 Create Test Video
-      run: |
-        # إنشاء فيديو بسيط للاختبار
-        mkdir -p videos/shorts
-        ffmpeg -f lavfi -i color=c=blue:s=1080x1920:d=10 -vf "drawtext=text='YouTube Short Test':fontcolor=white:fontsize=72:x=(w-text_w)/2:y=(h-text_h)/2" -c:v libx264 -t 10 -pix_fmt yuv420p videos/shorts/test_video.mp4
-        echo "✅ Test video created"
-        ls -la videos/shorts/
-    
-    - name: 🚀 Upload Test Video
-      env:
-        YT_CLIENT_ID_1: ${{ secrets.YT_CLIENT_ID_1 }}
-        YT_CLIENT_SECRET_1: ${{ secrets.YT_CLIENT_SECRET_1 }}
-        YT_REFRESH_TOKEN_1: ${{ secrets.YT_REFRESH_TOKEN_1 }}
-        YT_CHANNEL_ID: ${{ secrets.YT_CHANNEL_ID }}
-      run: |
-        echo "🚀 Starting YouTube upload test..."
-        
-        cat > upload_test.py << 'EOF'
-        import os
-        from google.oauth2.credentials import Credentials
-        from googleapiclient.discovery import build
-        from googleapiclient.http import MediaFileUpload
-        from google.auth.transport.requests import Request
-        
-        # Authenticate
-        credentials = Credentials(
-            token=None,
-            refresh_token=os.environ.get('YT_REFRESH_TOKEN_1'),
-            token_uri='https://oauth2.googleapis.com/token',
-            client_id=os.environ.get('YT_CLIENT_ID_1'),
-            client_secret=os.environ.get('YT_CLIENT_SECRET_1'),
-            scopes=['https://www.googleapis.com/auth/youtube.upload']
-        )
-        
-        if credentials.expired:
-            credentials.refresh(Request())
-        
-        youtube = build('youtube', 'v3', credentials=credentials)
-        print("✅ YouTube service created")
-        
-        # Upload video
-        request_body = {
-            'snippet': {
-                'title': 'Test Short - Automation System ✅',
-                'description': 'Testing the YouTube automation system\n\n#shorts #test #automation',
-                'tags': ['test', 'automation', 'github', 'shorts'],
-                'categoryId': '22'
-            },
-            'status': {
-                'privacyStatus': 'private',
-                'selfDeclaredMadeForKids': False
-            }
-        }
-        
-        media = MediaFileUpload(
-            'videos/shorts/test_video.mp4',
-            mimetype='video/mp4',
-            resumable=True
-        )
-        
-        print("📤 Uploading video...")
-        response = youtube.videos().insert(
-            part='snippet,status',
-            body=request_body,
-            media_body=media
-        ).execute()
-        
-        video_id = response['id']
-        video_url = f"https://www.youtube.com/watch?v={video_id}"
-        
-        print(f"✅ UPLOAD SUCCESSFUL!")
-        print(f"🎬 Video ID: {video_id}")
-        print(f"🔗 Video URL: {video_url}")
-        
-        # Save result
-        with open('upload_result.txt', 'w') as f:
-            f.write(f"Success: True\\n")
-            f.write(f"Video ID: {video_id}\\n")
-            f.write(f"Video URL: {video_url}\\n")
-        EOF
-        
-        python upload_test.py
-    
-    - name: 📝 Save Results
+    - name: 📝 Generate Summary
       if: always()
       run: |
-        echo "# 🎬 YouTube Upload Test Results" > upload_summary.md
-        echo "" >> upload_summary.md
-        echo "**Date:** $(date)" >> upload_summary.md
-        echo "" >> upload_summary.md
+        echo "📊 GENERATING UPLOAD SUMMARY"
+        echo "============================"
         
-        if [ -f "upload_result.txt" ]; then
-          echo "## ✅ Upload Successful" >> upload_summary.md
-          echo "" >> upload_summary.md
-          cat upload_result.txt >> upload_summary.md
+        if [ -f "upload_summary.md" ]; then
+          cat upload_summary.md
         else
-          echo "## ❌ Upload Failed" >> upload_summary.md
-          echo "" >> upload_summary.md
-          echo "Check the logs above for errors." >> upload_summary.md
+          echo "No summary file found."
+          echo "Check logs for errors."
         fi
         
-        echo "" >> upload_summary.md
-        echo "---" >> upload_summary.md
-        echo "*Generated by YouTube Automation System*" >> upload_summary.md
-        
-        cat upload_summary.md
+        # Show created files
+        echo ""
+        echo "📁 Created files in videos/shorts/:"
+        ls -la videos/shorts/ 2>/dev/null || echo "No videos directory"
+    
+    - name: 📤 Upload Artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: youtube-shorts-results
+        path: |
+          upload_summary.md
+          logs/
+          videos/shorts/
+        retention-days: 7
+    
+    - name: 📥 Commit Generated Files
+      if: success()
+      run: |
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "GitHub Actions"
+        git add upload_summary.md logs/ videos/
+        git commit -m "🎬 YouTube Shorts uploaded successfully [skip ci]" || echo "No changes to commit"
+        git push
