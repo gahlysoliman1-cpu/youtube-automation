@@ -1,5 +1,5 @@
 """
-Configuration file for YouTube Shorts Automation - FIXED
+Configuration file for YouTube Shorts Automation - UPDATED
 """
 
 import os
@@ -25,61 +25,35 @@ YOUTUBE_CONFIG = {
     "channel_id": os.environ.get("YT_CHANNEL_ID"),
     "token_uri": "https://oauth2.googleapis.com/token",
     "scopes": ["https://www.googleapis.com/auth/youtube.upload"],
-    "privacy_status": "private",
-    "category_id": "22",
+    "privacy_status": "public",  # CHANGED FROM 'private' TO 'public'
+    "category_id": "22",  # People & Blogs
     "default_language": "en",
 }
 
 # ==================== AI Models Config ====================
 AI_CONFIG = {
-    "primary": {
-        "name": "gemini",
-        "api_key": os.environ.get("GEMINI_API_KEY"),
-        "model": "gemini-1.5-pro",
-        "fallback_order": ["gemini", "groq", "openai"]
-    },
-    "secondary": {
-        "name": "groq",
-        "api_key": os.environ.get("GROQ_API_KEY"),
-        "model": "mixtral-8x7b-32768",
-    },
-    "tertiary": {
-        "name": "openai",
-        "api_key": os.environ.get("OPENAI_API_KEY"),
-        "model": "gpt-3.5-turbo",
-    }
+    "gemini_api_key": os.environ.get("GEMINI_API_KEY"),
+    "groq_api_key": os.environ.get("GROQ_API_KEY"),
+    "openai_api_key": os.environ.get("OPENAI_API_KEY"),
 }
 
 # ==================== TTS Config ====================
 TTS_CONFIG = {
-    "primary": {
-        "name": "elevenlabs",
-        "api_key": os.environ.get("ELEVEN_API_KEY"),
-        "voice_id": "21m00Tcm4TlvDq8ikWAM",
-        "fallback_order": ["elevenlabs", "gtts"]
-    },
-    "secondary": {
-        "name": "gtts",
-        "language": "en",
-        "tld": "com"
-    }
+    "elevenlabs_api_key": os.environ.get("ELEVEN_API_KEY"),
 }
 
 # ==================== Video Config ====================
 VIDEO_CONFIG = {
     "short": {
-        "duration": 15,
-        "resolution": (1080, 1920),
+        "duration": 22,  # إجمالي مدة الفيديو: 22 ثانية
+        "resolution": (1080, 1920),  # 9:16 for Shorts
         "fps": 30,
-        "background_blur": 10,
-        "text_duration": 10,
-        "countdown_duration": 10,
-        "answer_duration": 2
-    },
-    "long": {
-        "duration": 60,
-        "resolution": (1920, 1080),
-        "fps": 30
+        "question_duration": 10,  # مدة السؤال
+        "countdown_duration": 10,  # مدة العد التنازلي
+        "answer_duration": 2,  # مدة ظهور الإجابة
+        "background_color": (30, 30, 46),  # لون الخلفية الداكن
+        "text_color": (255, 255, 255),  # لون النص الأبيض
+        "accent_color": (0, 150, 255),  # لون التمييز الأزرق
     }
 }
 
@@ -87,7 +61,7 @@ VIDEO_CONFIG = {
 CONTENT_CONFIG = {
     "categories": [
         "geography",
-        "culture",
+        "culture", 
         "history",
         "science",
         "entertainment",
@@ -95,66 +69,92 @@ CONTENT_CONFIG = {
         "technology",
         "music"
     ],
-    "difficulty": "medium",
-    "language": "English",
-    "max_questions_per_day": 4,
-    "question_formats": [
-        "Which {thing} is {description}?",
-        "What is the {attribute} of {subject}?",
-        "Can you name {number} {things}?",
-        "Guess the {subject} from {hint}",
-        "What {thing} is known for {characteristic}?"
-    ]
+    "fallback_questions": {
+        "geography": {
+            "question": "Which river is the longest in the world? 🌍",
+            "options": ["Amazon River", "Nile River", "Yangtze River", "Mississippi River"],
+            "correct_answer": "B",
+            "explanation": "The Nile River is approximately 6,650 km long!"
+        },
+        "culture": {
+            "question": "What is the traditional dress of Scotland called? 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+            "options": ["Kilt", "Kimono", "Sari", "Dirndl"],
+            "correct_answer": "A",
+            "explanation": "The kilt is a knee-length skirt with pleats!"
+        },
+        "history": {
+            "question": "In which year did World War II end? ⚔️",
+            "options": ["1943", "1944", "1945", "1946"],
+            "correct_answer": "C",
+            "explanation": "WWII ended in 1945!"
+        },
+        "science": {
+            "question": "What is the chemical symbol for gold? ⚛️",
+            "options": ["Go", "Gd", "Au", "Ag"],
+            "correct_answer": "C",
+            "explanation": "Au comes from 'aurum' meaning gold!"
+        }
+    }
 }
 
 # ==================== Prompts ====================
 PROMPTS = {
     "question_generation": """
-    Generate an engaging multiple-choice trivia question with the following requirements:
+    Generate ONE engaging multiple-choice trivia question for YouTube Shorts.
     
-    1. Category: {category}
-    2. Difficulty: {difficulty}
-    3. Question should be clear and concise
-    4. Include 4 options (A, B, C, D)
-    5. Mark the correct answer
-    6. Add a brief interesting fact about the answer
+    REQUIREMENTS:
+    - Category: {category}
+    - Make it FUN and ENGAGING
+    - Add relevant emoji to the question
+    - Include 4 clear options (A, B, C, D)
+    - Mark ONE correct answer
+    - Add short exciting explanation (max 10 words)
     
-    Format:
-    Question: [Your question here]
-    Options:
+    FORMAT:
+    Question: [Question with emoji]
     A) [Option 1]
     B) [Option 2]
     C) [Option 3]
     D) [Option 4]
-    Correct Answer: [Letter]
-    Explanation: [Brief explanation]
+    Correct: [Letter]
+    Explanation: [Short exciting explanation with emoji!]
     
-    Make it fun and educational!
+    Example:
+    Question: Which planet is known as the Red Planet? 🪐
+    A) Venus
+    B) Mars
+    C) Jupiter
+    D) Saturn
+    Correct: B
+    Explanation: Mars is red due to iron oxide! 🔴
     """,
     
     "title_generation": """
-    Generate a catchy YouTube Shorts title for this trivia question:
+    Create a VIRAL YouTube Shorts title for this trivia:
     Question: {question}
     
     Requirements:
-    - Under 60 characters
-    - Include emoji
-    - Encourage engagement
-    - Add #shorts hashtag
+    - MAX 50 characters
+    - Include 1-2 relevant emojis
+    - Make it clickable and engaging
+    - Add #shorts at the end
     
-    Example: "Can you answer this? 🌍 #shorts"
+    Examples:
+    "Can you answer this? 🤔 #shorts"
+    "Geography quiz challenge! 🌍 #shorts"
+    "Test your knowledge! 🧠 #shorts"
     """,
     
     "description_generation": """
-    Write a YouTube description for this trivia short:
+    Create YouTube description for this Short:
     
     Question: {question}
-    Correct Answer: {correct_answer}
+    Category: {category}
     
     Include:
-    - Challenge text
+    - Engaging challenge text
     - Call to comment
-    - Subscribe prompt
+    - Subscribe reminder
     - Relevant hashtags
     
     Format:
@@ -165,9 +165,8 @@ PROMPTS = {
     👉 Write your answer in comments before the timer ends!
     
     Subscribe for daily quizzes!
+    Like if you enjoy trivia! ❤️
+    
     #shorts #quiz #trivia #challenge #{category}
     """
 }
-
-# ==================== Logging ====================
-LOG_FILE = os.path.join(LOGS_DIR, f"youtube_shorts_{datetime.now().strftime('%Y%m%d')}.log")
