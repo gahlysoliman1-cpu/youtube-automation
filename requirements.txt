@@ -20,3 +20,6 @@ scipy==1.11.4
 imageio==2.34.0
 imageio-ffmpeg==0.4.9
 pydub==0.25.1
+google-api-python-client>=2.0.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
