@@ -1,6 +1,6 @@
 """
-Video Generator Module
-Creates YouTube Shorts with text, audio, countdown timer, and answer reveal
+Video Generator Module - REAL PRODUCTION
+Creates engaging YouTube Shorts with animations
 """
 
 import os
@@ -8,408 +8,345 @@ import json
 import logging
 import subprocess
 import tempfile
+import random
 from typing import Dict, List, Optional
+from datetime import datetime
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-from moviepy.editor import *
 from src.config import *
 
 class VideoGenerator:
     def __init__(self):
         self.logger = logging.getLogger(__name__)
-        self.setup_directories()
         
-    def setup_directories(self):
-        """Create necessary directories"""
-        os.makedirs(SHORTS_DIR, exist_ok=True)
-        os.makedirs(LONG_VIDEOS_DIR, exist_ok=True)
-    
-    def get_background_image(self) -> Optional[str]:
-        """Get or create background image with blur effect"""
+    def create_short_video(self, question_data: Dict, output_path: str) -> bool:
+        """Create a complete YouTube Short video"""
         try:
-            # Create a simple gradient background
-            img = Image.new('RGB', VIDEO_CONFIG["short"]["resolution"], color=(41, 128, 185))
+            self.logger.info("🎬 Creating YouTube Short video...")
             
-            # Add some visual interest
-            draw = ImageDraw.Draw(img)
+            # إنشاء ملف نصي للـ FFmpeg
+            ffmpeg_script = self.generate_ffmpeg_script(question_data, output_path)
             
-            # Draw some abstract circles
-            width, height = VIDEO_CONFIG["short"]["resolution"]
-            for i in range(10):
-                x = random.randint(0, width)
-                y = random.randint(0, height)
-                radius = random.randint(50, 200)
-                color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255), 30)
-                draw.ellipse([x-radius, y-radius, x+radius, y+radius], fill=color)
-            
-            # Apply blur effect
-            img = img.filter(ImageFilter.GaussianBlur(
-                VIDEO_CONFIG["short"]["background_blur"]
-            ))
-            
-            # Save background
-            bg_path = os.path.join(SHORTS_DIR, "background.png")
-            img.save(bg_path, "PNG")
-            
-            return bg_path
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error creating background: {e}")
-            return None
-    
-    def create_text_overlay(self, text: str, font_size: int = 60, 
-                           color: str = "white", max_width: int = 800) -> Optional[str]:
-        """Create text overlay image"""
-        try:
-            # Create transparent image
-            img = Image.new('RGBA', VIDEO_CONFIG["short"]["resolution"], (0, 0, 0, 0))
-            draw = ImageDraw.Draw(img)
-            
-            # Try to load font, fallback to default
-            try:
-                font = ImageFont.truetype("arial.ttf", font_size)
-            except:
-                font = ImageFont.load_default()
-            
-            # Wrap text
-            words = text.split()
-            lines = []
-            current_line = []
-            
-            for word in words:
-                test_line = ' '.join(current_line + [word])
-                bbox = draw.textbbox((0, 0), test_line, font=font)
-                text_width = bbox[2] - bbox[0]
-                
-                if text_width <= max_width:
-                    current_line.append(word)
-                else:
-                    lines.append(' '.join(current_line))
-                    current_line = [word]
-            
-            if current_line:
-                lines.append(' '.join(current_line))
-            
-            # Calculate position
-            total_height = len(lines) * (font_size + 10)
-            y = (VIDEO_CONFIG["short"]["resolution"][1] - total_height) // 2
-            
-            # Draw each line
-            for i, line in enumerate(lines):
-                bbox = draw.textbbox((0, 0), line, font=font)
-                text_width = bbox[2] - bbox[0]
-                x = (VIDEO_CONFIG["short"]["resolution"][0] - text_width) // 2
-                
-                # Add text shadow
-                draw.text((x+2, y+2), line, font=font, fill="black")
-                draw.text((x, y), line, font=font, fill=color)
-                
-                y += font_size + 10
-            
-            # Save overlay
-            overlay_path = os.path.join(SHORTS_DIR, "text_overlay.png")
-            img.save(overlay_path, "PNG")
-            
-            return overlay_path
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error creating text overlay: {e}")
-            return None
-    
-    def create_countdown_overlay(self, duration: int = 10) -> List[str]:
-        """Create countdown timer overlay images"""
-        countdown_images = []
-        
-        try:
-            for second in range(duration, 0, -1):
-                img = Image.new('RGBA', (200, 100), (0, 0, 0, 150))
-                draw = ImageDraw.Draw(img)
-                
-                try:
-                    font = ImageFont.truetype("arial.ttf", 60)
-                except:
-                    font = ImageFont.load_default()
-                
-                # Draw countdown number
-                draw.text((70, 20), str(second), font=font, fill="white")
-                
-                # Save image
-                countdown_path = os.path.join(SHORTS_DIR, f"countdown_{second}.png")
-                img.save(countdown_path, "PNG")
-                countdown_images.append(countdown_path)
-            
-            return countdown_images
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error creating countdown: {e}")
-            return []
-    
-    def create_answer_reveal(self, correct_answer: str, explanation: str) -> Optional[str]:
-        """Create answer reveal overlay"""
-        try:
-            img = Image.new('RGBA', VIDEO_CONFIG["short"]["resolution"], (0, 0, 0, 200))
-            draw = ImageDraw.Draw(img)
-            
-            # Title
-            try:
-                title_font = ImageFont.truetype("arial.ttf", 70)
-                text_font = ImageFont.truetype("arial.ttf", 40)
-            except:
-                title_font = ImageFont.load_default()
-                text_font = ImageFont.load_default()
-            
-            # Draw answer
-            title = f"Answer: {correct_answer}"
-            bbox = draw.textbbox((0, 0), title, font=title_font)
-            text_width = bbox[2] - bbox[0]
-            x = (VIDEO_CONFIG["short"]["resolution"][0] - text_width) // 2
-            y = VIDEO_CONFIG["short"]["resolution"][1] // 3
-            
-            draw.text((x, y), title, font=title_font, fill="white")
-            
-            # Draw explanation (wrapped)
-            words = explanation.split()
-            lines = []
-            current_line = []
-            max_width = VIDEO_CONFIG["short"]["resolution"][0] - 100
-            
-            for word in words:
-                test_line = ' '.join(current_line + [word])
-                bbox = draw.textbbox((0, 0), test_line, font=text_font)
-                text_width = bbox[2] - bbox[0]
-                
-                if text_width <= max_width:
-                    current_line.append(word)
-                else:
-                    lines.append(' '.join(current_line))
-                    current_line = [word]
-            
-            if current_line:
-                lines.append(' '.join(current_line))
-            
-            # Draw explanation lines
-            y += 100
-            for line in lines:
-                bbox = draw.textbbox((0, 0), line, font=text_font)
-                text_width = bbox[2] - bbox[0]
-                x = (VIDEO_CONFIG["short"]["resolution"][0] - text_width) // 2
-                draw.text((x, y), line, font=text_font, fill="#FFD700")  # Gold color
-                y += 50
-            
-            # Save reveal image
-            reveal_path = os.path.join(SHORTS_DIR, "answer_reveal.png")
-            img.save(reveal_path, "PNG")
-            
-            return reveal_path
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error creating answer reveal: {e}")
-            return None
-    
-    def create_short_video(self, question_data: Dict, 
-                          question_audio_path: str,
-                          countdown_audio_path: str,
-                          output_path: str) -> bool:
-        """Create complete Short video"""
-        try:
-            self.logger.info("🎬 Creating Short video...")
-            
-            # 1. Get background
-            background_path = self.get_background_image()
-            if not background_path:
+            if not ffmpeg_script:
+                self.logger.error("❌ Failed to generate FFmpeg script")
                 return False
             
-            # 2. Create question overlay
-            question_text = question_data["question"]
-            question_overlay = self.create_text_overlay(
-                question_text, 
-                font_size=70,
-                color="white",
-                max_width=900
+            # حفظ السكريبت وتنفيذه
+            script_file = os.path.join(SHORTS_DIR, "generate_video.sh")
+            with open(script_file, 'w') as f:
+                f.write(ffmpeg_script)
+            
+            # جعل السكريبت قابلاً للتنفيذ
+            os.chmod(script_file, 0o755)
+            
+            self.logger.info(f"📝 Running FFmpeg script...")
+            
+            # تنفيذ السكريبت
+            result = subprocess.run(
+                ['bash', script_file],
+                capture_output=True,
+                text=True
             )
             
-            if not question_overlay:
-                return False
-            
-            # 3. Create countdown images
-            countdown_images = self.create_countdown_overlay(
-                VIDEO_CONFIG["short"]["countdown_duration"]
-            )
-            
-            # 4. Create answer reveal
-            answer_reveal = self.create_answer_reveal(
-                question_data["correct_answer"],
-                question_data["explanation"]
-            )
-            
-            # 5. Calculate durations
-            question_duration = self.get_audio_duration(question_audio_path)
-            countdown_duration = VIDEO_CONFIG["short"]["countdown_duration"]
-            answer_duration = VIDEO_CONFIG["short"]["answer_duration"]
-            
-            total_duration = question_duration + countdown_duration + answer_duration
-            
-            # 6. Create video using moviepy
-            clips = []
-            
-            # Part 1: Question with audio
-            background_clip = ImageClip(background_path).set_duration(total_duration)
-            question_overlay_clip = ImageClip(question_overlay).set_duration(question_duration)
-            question_audio_clip = AudioFileClip(question_audio_path)
-            
-            question_composite = CompositeVideoClip([
-                background_clip.subclip(0, question_duration),
-                question_overlay_clip
-            ]).set_audio(question_audio_clip)
-            
-            clips.append(question_composite)
-            
-            # Part 2: Countdown timer
-            if countdown_images and os.path.exists(countdown_audio_path):
-                # Create countdown clip
-                countdown_duration_per_image = countdown_duration / len(countdown_images)
-                countdown_clips = []
+            if result.returncode == 0:
+                if os.path.exists(output_path):
+                    file_size = os.path.getsize(output_path) / (1024 * 1024)
+                    self.logger.info(f"✅ Video created: {output_path} ({file_size:.1f} MB)")
+                    return True
+                else:
+                    self.logger.error("❌ Video file not created")
+                    return False
+            else:
+                self.logger.error(f"❌ FFmpeg error: {result.stderr}")
+                return self.create_simple_video(question_data, output_path)
                 
-                for i, img_path in enumerate(countdown_images):
-                    img_clip = ImageClip(img_path).set_duration(countdown_duration_per_image)
-                    countdown_clips.append(img_clip)
-                
-                countdown_video = concatenate_videoclips(countdown_clips, method="compose")
-                
-                # Position countdown at bottom
-                countdown_video = countdown_video.set_position(("center", "bottom"))
-                
-                # Add countdown audio
-                countdown_audio = AudioFileClip(countdown_audio_path)
-                countdown_composite = CompositeVideoClip([
-                    background_clip.subclip(question_duration, question_duration + countdown_duration),
-                    countdown_video
-                ]).set_audio(countdown_audio)
-                
-                clips.append(countdown_composite)
-            
-            # Part 3: Answer reveal (silent)
-            if answer_reveal:
-                answer_clip = ImageClip(answer_reveal).set_duration(answer_duration)
-                answer_composite = CompositeVideoClip([
-                    background_clip.subclip(total_duration - answer_duration, total_duration),
-                    answer_clip
-                ])
-                
-                clips.append(answer_composite)
-            
-            # 7. Concatenate all parts
-            final_video = concatenate_videoclips(clips, method="compose")
-            
-            # 8. Set video properties for Shorts
-            final_video = final_video.resize(VIDEO_CONFIG["short"]["resolution"])
-            final_video = final_video.set_fps(VIDEO_CONFIG["short"]["fps"])
-            
-            # 9. Export video
-            final_video.write_videofile(
-                output_path,
-                codec="libx264",
-                audio_codec="aac",
-                temp_audiofile="temp-audio.m4a",
-                remove_temp=True,
-                logger=None
-            )
-            
-            self.logger.info(f"✅ Video created successfully: {output_path}")
-            
-            # Cleanup temporary files
-            self.cleanup_temp_files([
-                background_path, question_overlay, answer_reveal
-            ] + countdown_images)
-            
-            return True
-            
         except Exception as e:
             self.logger.error(f"❌ Error creating video: {e}")
+            return self.create_simple_video(question_data, output_path)
+    
+    def generate_ffmpeg_script(self, question_data: Dict, output_path: str) -> str:
+        """Generate FFmpeg script for creating the Short"""
+        try:
+            # استخراج بيانات السؤال
+            question = question_data.get('question', 'Can you answer this?')
+            options = question_data.get('options', ['A', 'B', 'C', 'D'])
+            correct = question_data.get('correct_answer', 'A')
+            explanation = question_data.get('explanation', 'Good job!')
+            
+            # تنظيف النصوص
+            question = self.clean_text(question)
+            explanation = self.clean_text(explanation)
+            
+            # ألوان
+            bg_color = VIDEO_CONFIG["short"]["background_color"]
+            text_color = VIDEO_CONFIG["short"]["text_color"]
+            accent_color = VIDEO_CONFIG["short"]["accent_color"]
+            
+            # توليد سكريبت FFmpeg معقد
+            script = f'''#!/bin/bash
+echo "🎬 Generating YouTube Short..."
+
+# إعدادات الفيديو
+RESOLUTION="1080x1920"
+FPS=30
+DURATION=22
+BG_COLOR="0x{self.rgb_to_hex(bg_color)}"
+TEXT_COLOR="0x{self.rgb_to_hex(text_color)}"
+ACCENT_COLOR="0x{self.rgb_to_hex(accent_color)}"
+FONT_SIZE=72
+SMALL_FONT=48
+
+# إنشاء الفيديو الرئيسي
+ffmpeg -f lavfi -i color=c=$BG_COLOR:s=$RESOLUTION:d=$DURATION \\
+       -filter_complex "
+        
+        # === الجزء 1: السؤال (0-10 ثواني) ===
+        [0:v]drawtext=text='{question}':fontcolor=$TEXT_COLOR:fontsize=$FONT_SIZE: \\
+               fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf: \\
+               x=(w-text_w)/2:y=(h-text_h)/3:enable='between(t,0,10)'[v1];
+        
+        # === الجزء 2: العد التنازلي (10-20 ثواني) ===
+        [v1]drawtext=text='%{{eif\\\\:10 - floor(t-10)}}':fontcolor=$ACCENT_COLOR:fontsize=120: \\
+               fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf: \\
+               x=(w-text_w)/2:y=(h-text_h)*2/3:enable='between(t,10,20)'[v2];
+        
+        # === العد التنازلي النصي ===
+        [v2]drawtext=text='Write answer in comments!':fontcolor=white:fontsize=36: \\
+               x=(w-text_w)/2:y=(h-text_h)*3/4:enable='between(t,10,20)'[v3];
+        
+        # === الجزء 3: الإجابة (20-22 ثواني) ===
+        [v3]drawtext=text='Answer: {correct}':fontcolor=0x00FF00:fontsize=96: \\
+               fontfile=/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf: \\
+               x=(w-text_w)/2:y=(h-text_h)/3:enable='between(t,20,22)'[v4];
+        
+        [v4]drawtext=text='{explanation}':fontcolor=0xFFD700:fontsize=48: \\
+               x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,20,22)'[v5];
+        
+        # === إضافة تأثيرات ===
+        [v5]boxblur=5:enable='between(t,0,10)'[v6];
+        [v6]fade=t=in:st=0:d=1:alpha=1[v7];
+        [v7]fade=t=out:st=21:d=1:alpha=1[vout]
+        
+        " \\
+       -map "[vout]" \\
+       -c:v libx264 \\
+       -preset fast \\
+       -crf 23 \\
+       -pix_fmt yuv420p \\
+       -r $FPS \\
+       -y "{output_path}"
+
+# التحقق من الملف الناتج
+if [ -f "{output_path}" ]; then
+    FILESIZE=$(du -h "{output_path}" | cut -f1)
+    echo "✅ Video created successfully! Size: $FILESIZE"
+    exit 0
+else
+    echo "❌ Video creation failed!"
+    exit 1
+fi
+'''
+            return script
+            
+        except Exception as e:
+            self.logger.error(f"❌ Error generating FFmpeg script: {e}")
+            return None
+    
+    def create_simple_video(self, question_data: Dict, output_path: str) -> bool:
+        """Create simple fallback video"""
+        try:
+            self.logger.info("🔄 Creating simple fallback video...")
+            
+            question = question_data.get('question', 'Can you answer this?')
+            options = question_data.get('options', ['A', 'B', 'C', 'D'])
+            correct = question_data.get('correct_answer', 'A')
+            
+            # تنظيف النصوص
+            question = self.clean_text(question[:100])  # تقليل الطول
+            
+            # سكريبت FFmpeg مبسط
+            script = f'''#!/bin/bash
+# إنشاء فيديو بسيط
+ffmpeg -f lavfi -i color=c=0x1a1a2e:s=1080x1920:d=22 \\
+       -vf "
+            drawtext=text='{question}':fontcolor=white:fontsize=60: \\
+                    x=(w-text_w)/2:y=(h-text_h)/3:enable='between(t,0,10)',
+            drawtext=text='10 9 8 7 6 5 4 3 2 1':fontcolor=0x00aaff:fontsize=80: \\
+                    x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,10,20)',
+            drawtext=text='Answer: {correct}':fontcolor=0x00ff00:fontsize=70: \\
+                    x=(w-text_w)/2:y=(h-text_h)/2:enable='between(t,20,22)'
+       " \\
+       -c:v libx264 \\
+       -preset ultrafast \\
+       -t 22 \\
+       -pix_fmt yuv420p \\
+       -y "{output_path}"
+'''
+            
+            script_file = os.path.join(SHORTS_DIR, "simple_video.sh")
+            with open(script_file, 'w') as f:
+                f.write(script)
+            
+            os.chmod(script_file, 0o755)
+            
+            result = subprocess.run(['bash', script_file], capture_output=True, text=True)
+            
+            if result.returncode == 0 and os.path.exists(output_path):
+                self.logger.info(f"✅ Simple video created: {output_path}")
+                return True
+            return False
+            
+        except Exception as e:
+            self.logger.error(f"❌ Error creating simple video: {e}")
             return False
     
-    def get_audio_duration(self, audio_path: str) -> float:
-        """Get duration of audio file"""
+    def create_video_with_options(self, question_data: Dict, output_path: str) -> bool:
+        """Create video with multiple choice options"""
         try:
-            if os.path.exists(audio_path):
-                audio_clip = AudioFileClip(audio_path)
-                duration = audio_clip.duration
-                audio_clip.close()
-                return duration
-            return 5.0  # Default duration
-        except:
-            return 5.0
+            self.logger.info("📊 Creating video with options display...")
+            
+            question = question_data.get('question', 'Question?')
+            options = question_data.get('options', ['A', 'B', 'C', 'D'])
+            correct = question_data.get('correct_answer', 'A')
+            
+            # تنظيف النصوص
+            question = self.clean_text(question)
+            options = [self.clean_text(opt) for opt in options]
+            
+            # بناء سكريبت معقد
+            script_lines = [
+                '#!/bin/bash',
+                'echo "🎥 Creating option-based video..."',
+                '',
+                '# الألوان',
+                'BG="0x1a1a2e"',
+                'TEXT="white"',
+                'CORRECT="0x00ff00"',
+                'WRONG="0xff5555"',
+                '',
+                '# بداية سكريبت FFmpeg'
+            ]
+            
+            ffmpeg_cmd = [
+                'ffmpeg -f lavfi -i color=c=$BG:s=1080x1920:d=22 \\',
+                '       -filter_complex "'
+            ]
+            
+            # إضافة السؤال (0-8 ثواني)
+            ffmpeg_cmd.append(f'[0:v]drawtext=text=\\'{question}\\':fontcolor=$TEXT:fontsize=64:')
+            ffmpeg_cmd.append('       x=(w-text_w)/2:y=300:enable=\'between(t,0,8)\'[v1];')
+            
+            # إضافة الخيارات (8-18 ثواني)
+            y_positions = [700, 850, 1000, 1150]
+            for i, (opt, y) in enumerate(zip(options, y_positions)):
+                letter = chr(65 + i)  # A, B, C, D
+                color = '$CORRECT' if letter == correct else '$TEXT'
+                ffmpeg_cmd.append(f'[v{i+1}]drawtext=text=\\'{letter}) {opt}\\':fontcolor={color}:fontsize=48:')
+                ffmpeg_cmd.append(f'       x=100:y={y}:enable=\'between(t,8,18)\'[v{i+2}];')
+            
+            # العد التنازلي (18-20 ثواني)
+            ffmpeg_cmd.append('[v5]drawtext=text=\\'Time\\'s up!\\':fontcolor=0xffaa00:fontsize=72:')
+            ffmpeg_cmd.append('       x=(w-text_w)/2:y=1400:enable=\'between(t,18,20)\'[v6];')
+            
+            # الإجابة الصحيحة (20-22 ثواني)
+            ffmpeg_cmd.append('[v6]drawtext=text=\\'Correct: {correct}\\':fontcolor=$CORRECT:fontsize=96:')
+            ffmpeg_cmd.append('       x=(w-text_w)/2:y=800:enable=\'between(t,20,22)\'[vout]"')
+            
+            ffmpeg_cmd.append('       -map "[vout]" \\')
+            ffmpeg_cmd.append('       -c:v libx264 \\')
+            ffmpeg_cmd.append('       -preset fast \\')
+            ffmpeg_cmd.append('       -crf 23 \\')
+            ffmpeg_cmd.append('       -pix_fmt yuv420p \\')
+            ffmpeg_cmd.append(f'       -y "{output_path}"')
+            
+            script_lines.extend(ffmpeg_cmd)
+            
+            # إضافة التحقق
+            script_lines.extend([
+                '',
+                '# التحقق',
+                f'if [ -f "{output_path}" ]; then',
+                '    echo "✅ Video created successfully!"',
+                '    exit 0',
+                'else',
+                '    echo "❌ Video creation failed"',
+                '    exit 1',
+                'fi'
+            ])
+            
+            script = '\n'.join(script_lines)
+            
+            # حفظ وتنفيذ السكريبت
+            script_file = os.path.join(SHORTS_DIR, "options_video.sh")
+            with open(script_file, 'w') as f:
+                f.write(script)
+            
+            os.chmod(script_file, 0o755)
+            
+            result = subprocess.run(['bash', script_file], capture_output=True, text=True)
+            
+            if result.returncode == 0 and os.path.exists(output_path):
+                self.logger.info(f"✅ Options video created: {output_path}")
+                return True
+            
+            return False
+            
+        except Exception as e:
+            self.logger.error(f"❌ Error creating options video: {e}")
+            return False
     
-    def cleanup_temp_files(self, file_paths: List[str]):
-        """Clean up temporary files"""
-        for file_path in file_paths:
-            if file_path and os.path.exists(file_path):
-                try:
-                    os.remove(file_path)
-                except:
-                    pass
+    def clean_text(self, text: str) -> str:
+        """Clean text for FFmpeg"""
+        if not text:
+            return ""
+        
+        # استبدال الأحرف الخاصة
+        replacements = {
+            "'": "\\'",
+            '"': '\\"',
+            ':': '\\:',
+            '`': '\\`',
+            '$': '\\$'
+        }
+        
+        for old, new in replacements.items():
+            text = text.replace(old, new)
+        
+        return text
+    
+    def rgb_to_hex(self, rgb: tuple) -> str:
+        """Convert RGB tuple to hex"""
+        return f'{rgb[0]:02x}{rgb[1]:02x}{rgb[2]:02x}'
     
     def compile_shorts(self, shorts_paths: List[str], output_path: str) -> bool:
-        """Compile multiple shorts into one long video"""
+        """Compile multiple shorts into one video"""
         try:
             if len(shorts_paths) < 2:
                 return False
             
-            clips = []
+            # إنشاء قائمة ملفات
+            list_file = os.path.join(SHORTS_DIR, "concat_list.txt")
+            with open(list_file, 'w') as f:
+                for path in shorts_paths:
+                    if os.path.exists(path):
+                        f.write(f"file '{os.path.abspath(path)}'\n")
             
-            for short_path in shorts_paths:
-                if os.path.exists(short_path):
-                    clip = VideoFileClip(short_path)
-                    clips.append(clip)
+            # دمج الفيديوهات
+            cmd = [
+                'ffmpeg',
+                '-f', 'concat',
+                '-safe', '0',
+                '-i', list_file,
+                '-c', 'copy',
+                output_path
+            ]
             
-            if not clips:
-                return False
+            result = subprocess.run(cmd, capture_output=True, text=True)
             
-            # Concatenate all shorts
-            final_video = concatenate_videoclips(clips, method="compose")
+            if result.returncode == 0 and os.path.exists(output_path):
+                self.logger.info(f"✅ Compiled {len(shorts_paths)} shorts into {output_path}")
+                return True
             
-            # Add intro and outro
-            intro_duration = 3
-            outro_duration = 5
-            
-            # Create intro
-            intro_text = "Daily Trivia Compilation\nCan you answer all?"
-            intro_overlay = self.create_text_overlay(intro_text, font_size=80, color="white")
-            
-            if intro_overlay:
-                intro_clip = ImageClip(intro_overlay).set_duration(intro_duration)
-                intro_bg = self.get_background_image()
-                if intro_bg:
-                    intro_bg_clip = ImageClip(intro_bg).set_duration(intro_duration)
-                    intro = CompositeVideoClip([intro_bg_clip, intro_clip])
-                    clips.insert(0, intro)
-            
-            # Create outro
-            outro_text = "Thanks for watching!\nSubscribe for daily quizzes!"
-            outro_overlay = self.create_text_overlay(outro_text, font_size=80, color="white")
-            
-            if outro_overlay:
-                outro_clip = ImageClip(outro_overlay).set_duration(outro_duration)
-                outro_bg = self.get_background_image()
-                if outro_bg:
-                    outro_bg_clip = ImageClip(outro_bg).set_duration(outro_duration)
-                    outro = CompositeVideoClip([outro_bg_clip, outro_clip])
-                    clips.append(outro)
-            
-            # Final compilation
-            if len(clips) > 2:  # Has intro and outro
-                final_video = concatenate_videoclips(clips, method="compose")
-            
-            # Export
-            final_video.write_videofile(
-                output_path,
-                codec="libx264",
-                audio_codec="aac",
-                fps=VIDEO_CONFIG["long"]["fps"],
-                logger=None
-            )
-            
-            self.logger.info(f"✅ Compilation created: {output_path}")
-            return True
+            return False
             
         except Exception as e:
             self.logger.error(f"❌ Error compiling shorts: {e}")
