@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-YouTube Shorts Automation - Main Controller
-Production ready system for daily shorts generation and upload
+YouTube Shorts Automation - REAL PRODUCTION
 """
 
 import os
@@ -17,29 +16,26 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.config import *
 from src.question_generator import QuestionGenerator
-from src.audio_generator import AudioGenerator
 from src.video_generator import VideoGenerator
 from src.youtube_uploader import YouTubeUploader
-from src.fallback_system import FallbackSystem
 
 class YouTubeShortsAutomation:
     """Main controller for YouTube Shorts automation"""
     
     def __init__(self):
         # Initialize today FIRST
-        self.today = datetime.now().strftime("%Y%m%d")
+        self.today = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Setup logging (using self.today)
         self.setup_logging()
         
         # Initialize other components
-        self.fallback = FallbackSystem()
         self.question_gen = QuestionGenerator()
-        self.audio_gen = AudioGenerator()
         self.video_gen = VideoGenerator()
         self.uploader = YouTubeUploader()
         
         self.generated_shorts = []
+        self.logger.info(f"🚀 YouTube Shorts Automation initialized - {self.today}")
         
     def setup_logging(self):
         """Setup logging configuration"""
@@ -74,185 +70,227 @@ class YouTubeShortsAutomation:
         return True
     
     def generate_question(self, category: str) -> Optional[Dict]:
-        """Generate a question with fallback"""
-        for model in AI_CONFIG["primary"]["fallback_order"]:
-            try:
-                self.logger.info(f"🔄 Generating question using {model}...")
-                question = self.question_gen.generate_with_model(model, category)
-                
-                if question and self.validate_question(question):
-                    self.logger.info(f"✅ Question generated: {question['question'][:50]}...")
-                    return question
-                    
-            except Exception as e:
-                self.logger.warning(f"⚠️ {model} failed: {e}. Trying next model...")
-                continue
-        
-        self.logger.error("❌ All question generation models failed")
-        return None
-    
-    def validate_question(self, question: Dict) -> bool:
-        """Validate generated question"""
-        required_fields = ["question", "options", "correct_answer", "explanation"]
-        
-        for field in required_fields:
-            if field not in question:
-                self.logger.error(f"❌ Question missing field: {field}")
-                return False
-        
-        if len(question["options"]) != 4:
-            self.logger.error("❌ Question must have exactly 4 options")
-            return False
-        
-        if question["correct_answer"] not in ["A", "B", "C", "D"]:
-            self.logger.error("❌ Invalid correct answer format")
-            return False
-        
-        return True
-    
-    def generate_audio(self, text: str, output_path: str) -> bool:
-        """Generate audio with fallback"""
-        return self.audio_gen.generate_with_fallback(text, output_path)
-    
-    def create_short_video(self, question_data: Dict, index: int) -> Optional[str]:
-        """Create a Short video with all elements"""
+        """Generate a question"""
         try:
-            # 1. Generate audio for question
-            question_audio = os.path.join(SHORTS_DIR, f"question_{index}.mp3")
-            question_text = f"{question_data['question']}. Write your answer before the timer ends!"
+            self.logger.info(f"🤔 Generating {category} question...")
             
-            if not self.generate_audio(question_text, question_audio):
-                self.logger.error(f"❌ Failed to generate audio for question {index}")
-                return None
+            # Try Gemini first
+            question = self.question_gen.generate_with_model("gemini", category)
             
-            # 2. Generate audio for countdown
-            countdown_audio = os.path.join(SHORTS_DIR, f"countdown_{index}.mp3")
-            countdown_text = "10, 9, 8, 7, 6, 5, 4, 3, 2, 1"
-            
-            if not self.generate_audio(countdown_text, countdown_audio):
-                self.logger.warning(f"⚠️ Countdown audio failed for short {index}")
-            
-            # 3. Create video
+            if question:
+                self.logger.info(f"✅ Question generated: {question['question'][:50]}...")
+                return question
+            else:
+                # Use fallback
+                self.logger.warning("⚠️ Using fallback question")
+                return self.question_gen.generate_fallback_question(category)
+                
+        except Exception as e:
+            self.logger.error(f"❌ Error generating question: {e}")
+            return self.question_gen.generate_fallback_question(category)
+    
+    def create_video(self, question_data: Dict, index: int) -> Optional[str]:
+        """Create YouTube Short video"""
+        try:
+            # Generate video filename
+            timestamp = datetime.now().strftime("%H%M%S")
             output_video = os.path.join(SHORTS_DIR, f"short_{self.today}_{index}.mp4")
             
             self.logger.info(f"🎬 Creating video {index}...")
-            success = self.video_gen.create_short_video(
-                question_data=question_data,
-                question_audio_path=question_audio,
-                countdown_audio_path=countdown_audio,
-                output_path=output_video
-            )
+            
+            # Try advanced video first
+            success = self.video_gen.create_video_with_options(question_data, output_video)
+            
+            if not success:
+                # Fallback to simple video
+                self.logger.warning("🔄 Falling back to simple video")
+                success = self.video_gen.create_simple_video(question_data, output_video)
             
             if success and os.path.exists(output_video):
-                self.logger.info(f"✅ Video created: {output_video}")
+                file_size = os.path.getsize(output_video) / (1024 * 1024)
+                self.logger.info(f"✅ Video created: {output_video} ({file_size:.1f} MB)")
+                
+                # Save question data
+                question_file = output_video.replace('.mp4', '.json')
+                with open(question_file, 'w') as f:
+                    json.dump(question_data, f, indent=2)
+                
                 return output_video
             
             self.logger.error(f"❌ Video creation failed for short {index}")
             return None
             
         except Exception as e:
-            self.logger.error(f"❌ Error creating short {index}: {e}")
+            self.logger.error(f"❌ Error creating video {index}: {e}")
             return None
     
-    def upload_short(self, video_path: str, question_data: Dict) -> Optional[Dict]:
-        """Upload short to YouTube"""
+    def generate_title(self, question_data: Dict) -> str:
+        """Generate YouTube title"""
+        question = question_data.get('question', 'Can you answer this?')
+        category = question_data.get('category', 'trivia')
+        
+        # قص السؤال إذا كان طويلاً
+        if len(question) > 40:
+            question = question[:40] + "..."
+        
+        # إضافة إيموجي حسب الفئة
+        emoji_map = {
+            "geography": "🌍",
+            "culture": "🎭",
+            "history": "⚔️",
+            "science": "🔬",
+            "entertainment": "🎬",
+            "sports": "⚽",
+            "technology": "💻",
+            "music": "🎵"
+        }
+        
+        emoji = emoji_map.get(category, "🤔")
+        
+        return f"{question} {emoji} #shorts"
+    
+    def generate_description(self, question_data: Dict) -> str:
+        """Generate YouTube description"""
+        question = question_data.get('question', 'Can you answer this?')
+        category = question_data.get('category', 'trivia')
+        options = question_data.get('options', ['A', 'B', 'C', 'D'])
+        correct = question_data.get('correct_answer', 'A')
+        
+        description = f"""Can you answer this {category} question? 😊
+
+{question}
+
+Options:
+A) {options[0]}
+B) {options[1]}
+C) {options[2]}
+D) {options[3]}
+
+👉 Write your answer in comments before the timer ends!
+
+✅ Correct answer: {correct}
+
+Subscribe for daily quizzes! 🔔
+Like if you enjoy trivia! ❤️
+
+#shorts #quiz #trivia #challenge #{category} #funquiz"""
+        
+        return description
+    
+    def upload_video(self, video_path: str, question_data: Dict) -> Optional[Dict]:
+        """Upload video to YouTube"""
         try:
-            # Generate title and description
-            title = f"{question_data['question'][:40]}... 🤔 #shorts"
+            # Generate metadata
+            title = self.generate_title(question_data)
             description = self.generate_description(question_data)
+            category = question_data.get('category', 'general')
+            
+            tags = [
+                "shorts", "quiz", "trivia", "challenge",
+                "test", "knowledge", category,
+                "viral", "fun", "education"
+            ]
+            
+            self.logger.info(f"📤 Uploading: {title}")
             
             # Upload video
             result = self.uploader.upload_video(
                 video_path=video_path,
                 title=title,
                 description=description,
-                tags=["quiz", "trivia", "challenge", "shorts", question_data.get("category", "general")],
-                privacy_status=YOUTUBE_CONFIG["privacy_status"],
+                tags=tags,
+                privacy_status=YOUTUBE_CONFIG["privacy_status"],  # ستكون 'public'
                 is_short=True
             )
             
-            if result and result.get("success"):
-                self.logger.info(f"✅ Short uploaded: {result.get('video_url')}")
+            if result and result.get('success'):
+                video_url = result.get('video_url', 'N/A')
+                self.logger.info(f"✅ Upload successful! URL: {video_url}")
                 return result
-            
-            self.logger.error("❌ Short upload failed")
-            return None
-            
+            else:
+                self.logger.error(f"❌ Upload failed: {result}")
+                return None
+                
         except Exception as e:
             self.logger.error(f"❌ Upload error: {e}")
             return None
     
-    def generate_description(self, question_data: Dict) -> str:
-        """Generate YouTube description"""
-        category = question_data.get("category", "trivia")
-        question = question_data.get("question", "")
-        
-        description = f"""Can you answer this {category} question? 😊
-
-{question}
-
-👉 Write your answer in comments before the timer ends!
-
-Subscribe for daily quizzes!
-Watch our other shorts!
-Like if you enjoy quizzes!
-
-#shorts #quiz #trivia #challenge #{category} #funquiz"""
-        
-        return description
-    
-    def compile_long_video(self, shorts_paths: List[str]) -> Optional[str]:
-        """Compile shorts into a long video"""
-        if len(shorts_paths) < 4:
-            self.logger.warning("⚠️ Not enough shorts to compile long video")
-            return None
-        
-        try:
-            output_path = os.path.join(LONG_VIDEOS_DIR, f"compilation_{self.today}.mp4")
-            success = self.video_gen.compile_shorts(shorts_paths, output_path)
-            
-            if success:
-                self.logger.info(f"✅ Long video compiled: {output_path}")
-                return output_path
-            
-            return None
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error compiling long video: {e}")
-            return None
-    
-    def run_daily_automation(self) -> bool:
-        """Run daily automation process"""
+    def run_single_upload(self) -> bool:
+        """Run single upload for testing"""
         self.logger.info("=" * 60)
-        self.logger.info("🚀 STARTING DAILY YOUTUBE SHORTS AUTOMATION")
+        self.logger.info("🎬 SINGLE YOUTUBE SHORT UPLOAD")
         self.logger.info("=" * 60)
         
         # Validate environment
         if not self.validate_environment():
             return False
         
+        # Select category
+        category = random.choice(CONTENT_CONFIG["categories"])
+        self.logger.info(f"📝 Selected category: {category}")
+        
+        # Generate question
+        question_data = self.generate_question(category)
+        if not question_data:
+            self.logger.error("❌ Failed to generate question")
+            return False
+        
+        # Create video
+        video_path = self.create_video(question_data, 1)
+        if not video_path:
+            self.logger.error("❌ Failed to create video")
+            return False
+        
+        # Upload video
+        upload_result = self.upload_video(video_path, question_data)
+        if not upload_result:
+            self.logger.error("❌ Failed to upload video")
+            return False
+        
+        # Create summary
+        self.create_summary([{
+            "video_path": video_path,
+            "upload_data": upload_result,
+            "question_data": question_data
+        }])
+        
+        self.logger.info("=" * 60)
+        self.logger.info("✅ SINGLE UPLOAD COMPLETED SUCCESSFULLY!")
+        self.logger.info("=" * 60)
+        
+        return True
+    
+    def run_daily_automation(self) -> bool:
+        """Run daily automation - upload 4 shorts"""
+        self.logger.info("=" * 60)
+        self.logger.info("🚀 DAILY YOUTUBE SHORTS AUTOMATION")
+        self.logger.info("=" * 60)
+        
+        if not self.validate_environment():
+            return False
+        
         uploaded_shorts = []
         
-        # Generate and upload 4 shorts
-        for i in range(4):
-            self.logger.info(f"\n📦 Processing Short {i+1}/4")
+        for i in range(1, 5):
+            self.logger.info(f"\n📦 Processing Short {i}/4")
             
             # Select category
-            category = CONTENT_CONFIG["categories"][i % len(CONTENT_CONFIG["categories"])]
+            category = CONTENT_CONFIG["categories"][(i-1) % len(CONTENT_CONFIG["categories"])]
             
             # Generate question
             question_data = self.generate_question(category)
             if not question_data:
-                self.logger.error(f"❌ Failed to generate question for short {i+1}")
+                self.logger.error(f"❌ Failed to generate question for short {i}")
                 continue
             
             # Create video
-            video_path = self.create_short_video(question_data, i+1)
+            video_path = self.create_video(question_data, i)
             if not video_path:
+                self.logger.error(f"❌ Failed to create video for short {i}")
                 continue
             
-            # Upload to YouTube
-            upload_result = self.upload_short(video_path, question_data)
+            # Upload video
+            upload_result = self.upload_video(video_path, question_data)
             if upload_result:
                 uploaded_shorts.append({
                     "video_path": video_path,
@@ -260,72 +298,21 @@ Like if you enjoy quizzes!
                     "question_data": question_data
                 })
                 
-                # Wait between uploads to avoid rate limits
-                if i < 3:
-                    self.logger.info("⏳ Waiting 30 seconds before next upload...")
-                    time.sleep(30)
+                # Wait between uploads
+                if i < 4:
+                    wait_time = 60  # انتظر دقيقة بين الرفعات
+                    self.logger.info(f"⏳ Waiting {wait_time} seconds before next upload...")
+                    time.sleep(wait_time)
         
         # Create summary
         self.create_summary(uploaded_shorts)
         
-        # Compile and upload long video if we have at least 2 shorts
-        if len(uploaded_shorts) >= 2:
-            self.upload_long_video(uploaded_shorts)
-        
+        success_count = len(uploaded_shorts)
         self.logger.info("=" * 60)
-        self.logger.info(f"✅ DAILY AUTOMATION COMPLETED: {len(uploaded_shorts)} shorts uploaded")
+        self.logger.info(f"✅ DAILY AUTOMATION COMPLETED: {success_count}/4 shorts uploaded")
         self.logger.info("=" * 60)
         
-        return len(uploaded_shorts) > 0
-    
-    def upload_long_video(self, shorts_data: List[Dict]):
-        """Upload compilation video"""
-        try:
-            shorts_paths = [item["video_path"] for item in shorts_data]
-            compilation_path = self.compile_long_video(shorts_paths)
-            
-            if compilation_path:
-                title = f"Daily Trivia Compilation {datetime.now().strftime('%B %d')} 🎬"
-                description = self.generate_long_video_description(shorts_data)
-                
-                result = self.uploader.upload_video(
-                    video_path=compilation_path,
-                    title=title,
-                    description=description,
-                    tags=["compilation", "trivia", "quiz", "shorts", "daily"],
-                    privacy_status=YOUTUBE_CONFIG["privacy_status"],
-                    is_short=False
-                )
-                
-                if result:
-                    self.logger.info(f"✅ Long video uploaded: {result.get('video_url')}")
-            
-        except Exception as e:
-            self.logger.error(f"❌ Error uploading long video: {e}")
-    
-    def generate_long_video_description(self, shorts_data: List[Dict]) -> str:
-        """Generate description for long compilation video"""
-        description = f"""📅 Daily Trivia Compilation - {datetime.now().strftime('%B %d, %Y')}
-
-Test your knowledge with today's trivia challenges!
-Can you answer all of them correctly? 🤔
-
-"""
-        
-        for i, short in enumerate(shorts_data, 1):
-            question = short["question_data"]["question"]
-            description += f"\n{i}. {question}"
-        
-        description += """
-
-👇 Answers in the individual shorts!
-
-Subscribe for daily quizzes!
-Turn on notifications so you don't miss any!
-
-#trivia #quiz #compilation #dailyquiz #knowledge"""
-        
-        return description
+        return success_count > 0
     
     def create_summary(self, uploaded_shorts: List[Dict]):
         """Create summary markdown file"""
@@ -333,9 +320,9 @@ Turn on notifications so you don't miss any!
             summary_file = os.path.join(BASE_DIR, "upload_summary.md")
             
             with open(summary_file, "w") as f:
-                f.write("# 📊 Daily Upload Summary\n\n")
+                f.write("# 📊 YouTube Shorts Upload Summary\n\n")
                 f.write(f"**Date:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-                f.write(f"**Shorts Uploaded:** {len(uploaded_shorts)}/4\n\n")
+                f.write(f"**Shorts Uploaded:** {len(uploaded_shorts)}\n\n")
                 
                 if uploaded_shorts:
                     f.write("## 📺 Uploaded Videos\n\n")
@@ -344,11 +331,13 @@ Turn on notifications so you don't miss any!
                         question_data = short["question_data"]
                         
                         f.write(f"### Short #{i}\n")
-                        f.write(f"- **Question:** {question_data['question']}\n")
                         f.write(f"- **Category:** {question_data.get('category', 'N/A')}\n")
-                        f.write(f"- **Video URL:** {upload_data.get('video_url', 'N/A')}\n")
+                        f.write(f"- **Question:** {question_data.get('question', 'N/A')}\n")
                         f.write(f"- **Video ID:** {upload_data.get('video_id', 'N/A')}\n")
-                        f.write(f"- **Status:** {upload_data.get('status', 'N/A')}\n\n")
+                        f.write(f"- **Video URL:** {upload_data.get('video_url', 'N/A')}\n")
+                        f.write(f"- **Title:** {upload_data.get('title', 'N/A')}\n")
+                        f.write(f"- **Privacy:** {upload_data.get('privacy_status', 'N/A')}\n")
+                        f.write("\n")
                 
                 f.write("---\n")
                 f.write("*Generated by YouTube Shorts Automation*")
@@ -357,23 +346,3 @@ Turn on notifications so you don't miss any!
             
         except Exception as e:
             self.logger.error(f"❌ Error creating summary: {e}")
-
-def main():
-    """Main entry point"""
-    automation = YouTubeShortsAutomation()
-    
-    # Check command line arguments
-    import argparse
-    parser = argparse.ArgumentParser(description="YouTube Shorts Automation")
-    parser.add_argument("--mode", choices=["daily", "single"], default="daily")
-    args = parser.parse_args()
-    
-    if args.mode == "daily":
-        success = automation.run_daily_automation()
-        sys.exit(0 if success else 1)
-    else:
-        automation.logger.info("Single mode not implemented yet")
-        sys.exit(1)
-
-if __name__ == "__main__":
-    main()
