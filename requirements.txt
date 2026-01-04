@@ -18,3 +18,10 @@ oauth2client==4.1.3  # لحل مشكلة file_cache
 # Utilities
 requests==2.31.0
 pytz==2024.1
+google-generativeai==0.3.2
+google-api-python-client==2.108.0
+google-auth-oauthlib==1.1.0
+google-auth-httplib2==0.1.1
+Pillow==10.2.0
+requests==2.31.0
+pytz==2024.1
