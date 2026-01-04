@@ -1,127 +1,74 @@
 """
-Utilities Module
-Helper functions for the YouTube Shorts Automation
+Utility functions for YouTube Shorts Automation
 """
 
 import os
-import sys
 import json
 import logging
-import random
-import string
-import hashlib
-from datetime import datetime, timedelta
-from typing import Dict, List, Optional, Any
-from pathlib import Path
+import time
+from datetime import datetime
+from typing import Any, Dict, List
 
-from src.config import *
-
-def setup_logging(log_file: Optional[str] = None) -> logging.Logger:
+def setup_logging(log_file: str = None):
     """Setup logging configuration"""
-    logger = logging.getLogger("YouTubeShorts")
+    if log_file is None:
+        log_file = f"logs/automation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
     
-    if not logger.handlers:
-        logger.setLevel(logging.INFO)
-        
-        # Console handler
-        console_handler = logging.StreamHandler(sys.stdout)
-        console_handler.setLevel(logging.INFO)
-        console_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-        console_handler.setFormatter(console_format)
-        logger.addHandler(console_handler)
-        
-        # File handler
-        if log_file:
-            file_handler = logging.FileHandler(log_file)
-            file_handler.setLevel(logging.DEBUG)
-            file_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-            file_handler.setFormatter(file_format)
-            logger.addHandler(file_handler)
+    os.makedirs(os.path.dirname(log_file), exist_ok=True)
     
-    return logger
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
+    )
+    
+    return logging.getLogger(__name__)
 
-def validate_environment() -> bool:
-    """Validate all required environment variables"""
-    required_vars = [
-        "YT_CLIENT_ID_1",
-        "YT_CLIENT_SECRET_1", 
-        "YT_REFRESH_TOKEN_1",
-        "YT_CHANNEL_ID",
-        "GEMINI_API_KEY"
-    ]
+def validate_environment(required_vars: List[str]) -> bool:
+    """Validate required environment variables"""
+    logger = logging.getLogger(__name__)
     
-    logger = logging.getLogger("YouTubeShorts")
-    
+    missing_vars = []
     for var in required_vars:
         if not os.environ.get(var):
-            logger.error(f"❌ Missing required environment variable: {var}")
-            return False
+            missing_vars.append(var)
     
-    logger.info("✅ Environment variables validated")
+    if missing_vars:
+        logger.error(f"❌ Missing environment variables: {', '.join(missing_vars)}")
+        return False
+    
+    logger.info(f"✅ All environment variables validated ({len(required_vars)} vars)")
     return True
 
-def create_unique_id(prefix: str = "") -> str:
-    """Create a unique identifier"""
-    timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-    random_str = ''.join(random.choices(string.ascii_lowercase + string.digits, k=6))
-    return f"{prefix}{timestamp}_{random_str}"
-
-def calculate_md5(file_path: str) -> str:
-    """Calculate MD5 hash of a file"""
-    try:
-        with open(file_path, 'rb') as f:
-            file_hash = hashlib.md5()
-            while chunk := f.read(8192):
-                file_hash.update(chunk)
-            return file_hash.hexdigest()
-    except Exception:
-        return ""
-
-def save_metadata(data: Dict, filename: str) -> bool:
+def save_metadata(data: Dict[str, Any], filename: str):
     """Save metadata to JSON file"""
     try:
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        
         with open(filename, 'w') as f:
-            json.dump(data, f, indent=2)
+            json.dump(data, f, indent=2, default=str)
+        
         return True
     except Exception as e:
-        logging.error(f"Error saving metadata: {e}")
+        logging.error(f"❌ Error saving metadata: {e}")
         return False
 
-def load_metadata(filename: str) -> Optional[Dict]:
+def load_metadata(filename: str) -> Dict[str, Any]:
     """Load metadata from JSON file"""
     try:
         if os.path.exists(filename):
             with open(filename, 'r') as f:
                 return json.load(f)
+        return {}
     except Exception as e:
-        logging.error(f"Error loading metadata: {e}")
-    return None
-
-def ensure_directory(path: str) -> bool:
-    """Ensure directory exists"""
-    try:
-        Path(path).mkdir(parents=True, exist_ok=True)
-        return True
-    except Exception as e:
-        logging.error(f"Error creating directory {path}: {e}")
-        return False
-
-def cleanup_old_files(directory: str, days: int = 7):
-    """Clean up files older than specified days"""
-    try:
-        cutoff_time = datetime.now() - timedelta(days=days)
-        
-        for file_path in Path(directory).glob("*"):
-            if file_path.is_file():
-                file_time = datetime.fromtimestamp(file_path.stat().st_mtime)
-                if file_time < cutoff_time:
-                    file_path.unlink()
-                    logging.info(f"Cleaned up old file: {file_path}")
-    except Exception as e:
-        logging.error(f"Error cleaning up files: {e}")
+        logging.error(f"❌ Error loading metadata: {e}")
+        return {}
 
 def format_duration(seconds: float) -> str:
-    """Format duration in seconds to readable string"""
+    """Format duration in seconds to human readable format"""
     if seconds < 60:
         return f"{seconds:.1f}s"
     elif seconds < 3600:
@@ -131,98 +78,47 @@ def format_duration(seconds: float) -> str:
         hours = seconds / 3600
         return f"{hours:.1f}h"
 
-def get_file_size_mb(file_path: str) -> float:
-    """Get file size in megabytes"""
+def cleanup_old_files(directory: str, max_files: int = 50):
+    """Cleanup old files in directory"""
     try:
-        if os.path.exists(file_path):
-            return os.path.getsize(file_path) / (1024 * 1024)
-    except Exception:
-        pass
-    return 0.0
-
-def is_video_file(file_path: str) -> bool:
-    """Check if file is a video"""
-    video_extensions = {'.mp4', '.mov', '.avi', '.mkv', '.wmv', '.flv', '.webm'}
-    return Path(file_path).suffix.lower() in video_extensions
-
-def is_audio_file(file_path: str) -> bool:
-    """Check if file is an audio file"""
-    audio_extensions = {'.mp3', '.wav', '.m4a', '.ogg', '.flac', '.aac'}
-    return Path(file_path).suffix.lower() in audio_extensions
-
-def validate_video_file(file_path: str) -> tuple[bool, str]:
-    """Validate video file"""
-    if not os.path.exists(file_path):
-        return False, "File does not exist"
-    
-    if not is_video_file(file_path):
-        return False, "Not a video file"
-    
-    file_size = get_file_size_mb(file_path)
-    if file_size == 0:
-        return False, "File is empty"
-    
-    if file_size > 128 * 1024:  # 128GB YouTube limit
-        return False, f"File too large ({file_size:.1f}MB > 128GB)"
-    
-    return True, f"Valid video file ({file_size:.1f}MB)"
-
-def generate_simple_thumbnail(question: str, output_path: str) -> bool:
-    """Generate a simple thumbnail image"""
-    try:
-        from PIL import Image, ImageDraw, ImageFont
+        if not os.path.exists(directory):
+            return
         
-        # Create image
-        img = Image.new('RGB', (1280, 720), color=(41, 128, 185))
-        draw = ImageDraw.Draw(img)
+        files = []
+        for f in os.listdir(directory):
+            filepath = os.path.join(directory, f)
+            if os.path.isfile(filepath):
+                files.append((filepath, os.path.getmtime(filepath)))
         
-        # Try to load font
-        try:
-            font = ImageFont.truetype("arial.ttf", 60)
-        except:
-            font = ImageFont.load_default()
+        # Sort by modification time (oldest first)
+        files.sort(key=lambda x: x[1])
         
-        # Draw question (simplified)
-        words = question.split()
-        lines = []
-        current_line = []
-        
-        for word in words:
-            test_line = ' '.join(current_line + [word])
-            bbox = draw.textbbox((0, 0), test_line, font=font)
-            if bbox[2] - bbox[0] <= 1200:
-                current_line.append(word)
-            else:
-                lines.append(' '.join(current_line))
-                current_line = [word]
-        
-        if current_line:
-            lines.append(' '.join(current_line))
-        
-        # Draw text
-        y = 200
-        for line in lines[:3]:  # Only first 3 lines
-            bbox = draw.textbbox((0, 0), line, font=font)
-            x = (1280 - (bbox[2] - bbox[0])) // 2
-            draw.text((x, y), line, font=font, fill="white")
-            y += 70
-        
-        # Add watermark
-        draw.text((50, 650), "Daily Quiz #shorts", font=font, fill="white")
-        
-        # Save
-        img.save(output_path, "PNG")
-        return True
-        
+        # Remove oldest files if we exceed max_files
+        if len(files) > max_files:
+            for i in range(len(files) - max_files):
+                try:
+                    os.remove(files[i][0])
+                    logging.info(f"🧹 Cleaned up old file: {os.path.basename(files[i][0])}")
+                except:
+                    pass
+                    
     except Exception as e:
-        logging.error(f"Error generating thumbnail: {e}")
-        return False
+        logging.error(f"❌ Error cleaning up files: {e}")
 
-def check_disk_space(min_space_gb: float = 1.0) -> bool:
-    """Check if there's enough disk space"""
-    try:
-        stat = os.statvfs('/')
-        free_space_gb = (stat.f_bavail * stat.f_frsize) / (1024**3)
-        return free_space_gb >= min_space_gb
-    except Exception:
-        return True  # Assume enough space if can't check
+def retry_operation(operation, max_attempts: int = 3, delay: float = 1.0, **kwargs):
+    """Retry an operation with exponential backoff"""
+    logger = logging.getLogger(__name__)
+    
+    for attempt in range(max_attempts):
+        try:
+            return operation(**kwargs)
+        except Exception as e:
+            if attempt == max_attempts - 1:
+                logger.error(f"❌ Operation failed after {max_attempts} attempts: {e}")
+                raise
+            
+            wait_time = delay * (2 ** attempt)  # Exponential backoff
+            logger.warning(f"⚠️ Attempt {attempt + 1} failed. Retrying in {wait_time:.1f}s...")
+            time.sleep(wait_time)
+    
+    return None
