@@ -46,21 +46,17 @@ class AppConfig:
 
     font_bold_path: str
 
-    # LLM (free tiers if keys exist)
     groq_api_key: Optional[str]
     gemini_api_key: Optional[str]
     hf_api_token: Optional[str]
 
-    # YouTube OAuth profiles (fallback)
     yt_profiles: list[YouTubeAuthProfile]
 
-    # Upload behavior
     notify_subscribers: bool
     immediate_first_short_public: bool
     schedule_gap_hours: int
     category_id: str
 
-    # Safety
     max_used_questions: int
 
 
@@ -73,7 +69,6 @@ def load_config() -> AppConfig:
     out_dir.mkdir(parents=True, exist_ok=True)
     tmp_dir.mkdir(parents=True, exist_ok=True)
 
-    # Font on ubuntu-latest (installed by workflow)
     font_bold_path = _env(
         "FONT_BOLD_PATH",
         "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
@@ -104,7 +99,7 @@ def load_config() -> AppConfig:
     immediate_first_short_public = (_env("IMMEDIATE_FIRST_SHORT_PUBLIC", "true") or "true").lower() == "true"
     schedule_gap_hours = _env_int("SCHEDULE_GAP_HOURS", 6)
 
-    category_id = _env("YT_CATEGORY_ID", "24") or "24"  # 24 = Entertainment
+    category_id = _env("YT_CATEGORY_ID", "27") or "27"  # 27 = Education
 
     return AppConfig(
         repo_root=repo_root,
