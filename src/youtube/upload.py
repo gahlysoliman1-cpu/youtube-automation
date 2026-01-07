@@ -3,7 +3,6 @@ from __future__ import annotations
 import logging
 import time
 from dataclasses import dataclass
-from datetime import datetime
 from typing import Optional
 
 from googleapiclient.errors import HttpError
@@ -53,6 +52,7 @@ def upload_video(
             "tags": tags,
             "categoryId": category_id,
             "defaultLanguage": "en",
+            "defaultAudioLanguage": "en",
         },
         "status": {
             "privacyStatus": privacy_status,
@@ -86,7 +86,12 @@ def upload_video(
         video_id = response.get("id")
         if not isinstance(video_id, str) or not video_id:
             raise RuntimeError(f"Upload did not return video id: {response}")
-        return UploadResult(video_id=video_id, kind=str(response.get("kind", "")), privacy_status=privacy_status, publish_at=publish_at_iso)
+        return UploadResult(
+            video_id=video_id,
+            kind=str(response.get("kind", "")),
+            privacy_status=privacy_status,
+            publish_at=publish_at_iso,
+        )
 
     return retry(_do_upload, tries=5, base_delay_s=2.0, max_delay_s=30.0, retry_if=_is_retriable_http_error)
 
