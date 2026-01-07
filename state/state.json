@@ -24,6 +24,30 @@
       "a": "Denali",
       "ts": "2026-01-07T17:12:03.599813Z",
       "video_id": "HufrSJh08G4"
+    },
+    "f337c26ca1b40581a60cdfc5f9a90d3db5a59d78b3875e63db2a45f9e307e56d": {
+      "q": "What is the process by which plants make food?",
+      "a": "Photosynthesis",
+      "ts": "2026-01-07T22:54:01.076955Z",
+      "video_id": "_OYAT3JVPvk"
+    },
+    "c93c0f1f023c9332ec830cf541247066df8e2d31a0771f411441b9cd4adb2540": {
+      "q": "What is the largest living structure on Earth?",
+      "a": "Great Barrier Reef",
+      "ts": "2026-01-07T22:54:44.444280Z",
+      "video_id": "iM2ly-KPFUY"
+    },
+    "76cf2dc35a4612005cad189eb9e59632e91018f55f467c5ea83e752909234d39": {
+      "q": "What is the chemical symbol for gold?",
+      "a": "Au",
+      "ts": "2026-01-07T22:55:24.643422Z",
+      "video_id": "qFX_pE9GmI0"
+    },
+    "310f265643420c90ef20e618cf29585b7578d30e5e9789d4867b4eb3943e191a": {
+      "q": "What is the largest bird of prey?",
+      "a": "Golden Eagle",
+      "ts": "2026-01-07T22:56:09.315489Z",
+      "video_id": "W4yRHJAJp5g"
     }
   },
   "days": {
@@ -60,24 +84,56 @@
           "title": "Highest Peak in North America",
           "privacy": "private",
           "publish_at": "2026-01-08T11:09:27.808156Z"
+        },
+        {
+          "idx": 1,
+          "video_id": "_OYAT3JVPvk",
+          "qhash": "f337c26ca1b40581a60cdfc5f9a90d3db5a59d78b3875e63db2a45f9e307e56d",
+          "title": "What is the process by which plants make food? (10s Quiz)",
+          "privacy": "public",
+          "publish_at": null
+        },
+        {
+          "idx": 2,
+          "video_id": "iM2ly-KPFUY",
+          "qhash": "c93c0f1f023c9332ec830cf541247066df8e2d31a0771f411441b9cd4adb2540",
+          "title": "What is the largest living structure on Earth? (10s Quiz)",
+          "privacy": "public",
+          "publish_at": null
+        },
+        {
+          "idx": 3,
+          "video_id": "qFX_pE9GmI0",
+          "qhash": "76cf2dc35a4612005cad189eb9e59632e91018f55f467c5ea83e752909234d39",
+          "title": "What is the chemical symbol for gold? (10s Quiz)",
+          "privacy": "public",
+          "publish_at": null
+        },
+        {
+          "idx": 4,
+          "video_id": "W4yRHJAJp5g",
+          "qhash": "310f265643420c90ef20e618cf29585b7578d30e5e9789d4867b4eb3943e191a",
+          "title": "What is the largest bird of prey? (10s Quiz)",
+          "privacy": "public",
+          "publish_at": null
         }
       ],
       "compilation": {
-        "video_id": "kuIhwQHL31c",
+        "video_id": "KgJHzDx5iVA",
         "title": "Daily Trivia Compilation (4 Shorts)",
-        "privacy": "private",
-        "publish_at": "2026-01-08T13:09:27.808156Z"
+        "privacy": "public",
+        "publish_at": null
       }
     }
   },
   "youtube": {
-    "last_upload_iso": "2026-01-07T17:12:42.624169Z",
+    "last_upload_iso": "2026-01-07T22:56:49.348068Z",
     "last_video_ids": [
-      "MkXgqC-n9wk",
-      "lki-ZuwB7VY",
-      "nXytfdWxgCc",
-      "HufrSJh08G4",
-      "kuIhwQHL31c"
+      "_OYAT3JVPvk",
+      "iM2ly-KPFUY",
+      "qFX_pE9GmI0",
+      "W4yRHJAJp5g",
+      "KgJHzDx5iVA"
     ]
   }
 }
