@@ -28,8 +28,25 @@ def _render_static_segment(
     txt = out_mp4.with_suffix(".txt")
     _write_textfile(txt, wrap_for_display(text, max_chars=18, max_lines=3))
 
+    bg_zoom = 1.32
+    bg_blur = 30
+    bg_brightness = -0.12
+
+    base_bg = (
+        f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+        f"crop={width}:{height},"
+        f"scale=iw*{bg_zoom}:ih*{bg_zoom},"
+        f"crop={width}:{height},"
+        f"gblur=sigma={bg_blur},"
+        f"eq=brightness={bg_brightness}"
+    )
+
+    panel_w = int(width * 0.90)
+    panel_h = int(height * 0.30)
+
     vf = (
-        f"scale={width}:{height},"
+        f"{base_bg},"
+        f"drawbox=x=(w-{panel_w})/2:y=(h-{panel_h})/2:w={panel_w}:h={panel_h}:color=black@0.28:t=fill,"
         f"drawtext=fontfile='{font_bold_path}':textfile='{txt}':reload=1:fontsize={fontsize}:fontcolor=white:"
         f"shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2:line_spacing=10"
     )
