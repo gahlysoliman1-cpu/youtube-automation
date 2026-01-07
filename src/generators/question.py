@@ -4,7 +4,7 @@ import logging
 import random
 import re
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Tuple
 
 from ..state import StateStore
 from ..utils.text import clamp_list, normalize_text
@@ -25,6 +25,7 @@ class ShortSpec:
 
     def voice_script(self) -> str:
         return (
+            "Quick quiz. "
             f"{self.question} "
             "You have 10 seconds. "
             "If you know the answer before time runs out, write it in the comments."
@@ -81,18 +82,125 @@ def _coerce_list(x: Any) -> list[str]:
     return []
 
 
-def _ensure_hashtag_short(items: list[str]) -> list[str]:
-    out = []
+def _ensure_question_mark(q: str) -> str:
+    s = (q or "").strip()
+    if not s:
+        return s
+    s = s.replace("  ", " ")
+    if s.endswith("."):
+        s = s[:-1].strip()
+    if not s.endswith("?"):
+        s = s + "?"
+    return s
+
+
+def _dedupe_keep_order(items: list[str]) -> list[str]:
+    out: list[str] = []
+    seen = set()
     for it in items:
-        s = it.strip()
+        s = (it or "").strip()
         if not s:
             continue
-        if not s.startswith("#"):
-            s = "#" + s.lstrip("#")
+        k = s.lower()
+        if k in seen:
+            continue
+        seen.add(k)
         out.append(s)
-    if "#shorts" not in [x.lower() for x in out]:
-        out.insert(0, "#shorts")
     return out
+
+
+def _detect_niche(question: str, category: str) -> Tuple[str, list[str], list[str]]:
+    t = normalize_text(f"{question} {category}")
+
+    space_kw = ["planet", "solar", "space", "astronomy", "galaxy", "moon", "mars", "jupiter", "saturn", "nasa", "orbit"]
+    geo_kw = ["capital", "country", "flag", "continent", "geography", "city", "ocean", "mountain", "river", "map"]
+    sci_kw = ["element", "chemical", "atom", "physics", "chemistry", "biology", "science", "molecule", "energy"]
+    math_kw = ["math", "solve", "equation", "number", "puzzle", "riddle", "brain", "logic", "calculate", "×", "+", "-"]
+    hist_kw = ["history", "ancient", "year", "century", "empire", "war", "dynasty"]
+
+    if any(k in t for k in space_kw):
+        return (
+            "space",
+            ["#space", "#astronomy", "#solarsystem", "#planet", "#spacefacts"],
+            ["space", "astronomy", "solar system", "planet", "space facts"],
+        )
+    if any(k in t for k in geo_kw):
+        return (
+            "geography",
+            ["#geography", "#countries", "#capitals", "#world", "#flags"],
+            ["geography", "countries", "capital cities", "world facts", "flags"],
+        )
+    if any(k in t for k in sci_kw):
+        return (
+            "science",
+            ["#science", "#facts", "#chemistry", "#physics", "#biology"],
+            ["science", "facts", "chemistry", "physics", "biology"],
+        )
+    if any(k in t for k in math_kw):
+        return (
+            "brain",
+            ["#math", "#puzzle", "#brain", "#braintest", "#challenge"],
+            ["math", "puzzle", "brain test", "challenge", "mental math"],
+        )
+    if any(k in t for k in hist_kw):
+        return (
+            "history",
+            ["#history", "#facts", "#learn", "#didyouknow", "#timeline"],
+            ["history", "facts", "learn", "did you know", "timeline"],
+        )
+
+    return (
+        "general",
+        ["#facts", "#knowledge", "#learn", "#didyouknow", "#funfacts"],
+        ["facts", "knowledge", "learn", "did you know", "fun facts"],
+    )
+
+
+def _build_seo(question: str, category: str) -> tuple[str, str, list[str], list[str]]:
+    q = _ensure_question_mark(question)
+    niche_label, niche_hashtags, niche_tags = _detect_niche(q, category)
+
+    hashtags = _dedupe_keep_order(["#shorts", "#trivia", "#quiz", niche_hashtags[0], niche_hashtags[1]])
+    hashtags = hashtags[:5]
+
+    title = q
+    suffix = " (10s Quiz)"
+    if len(title) + len(suffix) <= 90:
+        title = title + suffix
+
+    desc_lines = [
+        q,
+        "Test your knowledge in this quick short! Comment your answer before the timer ends.",
+        "",
+        "🚀 Quick facts",
+        "🧠 Trivia challenge",
+        "⏳ 10-second timer",
+        "",
+        " ".join(hashtags),
+    ]
+    description = "\n".join(desc_lines).strip()
+
+    tags_base = ["trivia", "quiz", "general knowledge"]
+    if niche_label == "space":
+        tags_base += ["space", "astronomy"]
+    elif niche_label == "geography":
+        tags_base += ["geography", "countries"]
+    elif niche_label == "science":
+        tags_base += ["science", "facts"]
+    elif niche_label == "brain":
+        tags_base += ["math", "puzzle"]
+    elif niche_label == "history":
+        tags_base += ["history", "facts"]
+    else:
+        tags_base += ["facts", "learn"]
+
+    tags = _dedupe_keep_order(tags_base + niche_tags)
+    tags = [t.strip() for t in tags if t.strip()]
+    tags = tags[:12]
+    if len(tags) < 5:
+        tags = _dedupe_keep_order(tags + ["shorts", "fun facts", "daily trivia"])[:12]
+
+    return title, description, tags, hashtags
 
 
 def _local_bank(rng: random.Random) -> ShortSpec:
@@ -146,7 +254,7 @@ def _local_bank(rng: random.Random) -> ShortSpec:
     ]
 
     planets = [
-        ("largest planet", "Jupiter"),
+        ("largest planet in our solar system", "Jupiter"),
         ("closest planet to the Sun", "Mercury"),
         ("planet known as the Red Planet", "Mars"),
         ("planet with the most famous rings", "Saturn"),
@@ -167,7 +275,7 @@ def _local_bank(rng: random.Random) -> ShortSpec:
         cat = "Science"
     elif mode == "planet":
         prompt, ans = rng.choice(planets)
-        q = f"Which planet is the {prompt}?"
+        q = f"What is the {prompt}?"
         a = ans
         cat = "Space"
     else:
@@ -187,16 +295,13 @@ def _local_bank(rng: random.Random) -> ShortSpec:
             a = str(m1 * m2)
         cat = "Brain Teaser"
 
-    title = f"10-Second Trivia: {cat} Challenge #shorts"
-    desc = "Can you answer in 10 seconds? Write your guess in the comments!\n\n#shorts #trivia #quiz"
-    tags = ["shorts", "trivia", "quiz", "general knowledge", cat.lower()]
-    hashtags = ["#shorts", "#trivia", "#quiz"]
+    title, description, tags, hashtags = _build_seo(q, cat)
     return ShortSpec(
-        question=q,
-        answer=a,
+        question=_ensure_question_mark(q),
+        answer=str(a).strip(),
         category=cat,
         title=title,
-        description=desc,
+        description=description,
         tags=tags,
         hashtags=hashtags,
     )
@@ -206,17 +311,13 @@ def generate_unique_short_spec(llm: LLMOrchestrator, state: StateStore, rng: ran
     prompt_template = (
         "You generate SAFE, non-copyrighted, English-only trivia for a 12-second YouTube Short.\n"
         "Return ONLY valid JSON with these keys exactly:\n"
-        "question, answer, category, title, description, tags, hashtags\n\n"
+        "question, answer, category\n\n"
         "Rules:\n"
         "- Audience: international (English).\n"
         "- No song lyrics, no movie quotes, no copyrighted lines, no brand slogans.\n"
         "- No politics, hate, sex, violence, weapons, drugs.\n"
         "- The question must be answerable in 10 seconds.\n"
-        "- The answer must be short (1-4 words or a number).\n"
-        "- Add #shorts in hashtags.\n"
-        "- Title <= 90 characters.\n"
-        "- tags: 5-12 short tags.\n"
-        "- hashtags: 3-7 hashtags.\n\n"
+        "- The answer must be short (1-4 words or a number).\n\n"
         "Avoid repeating any of these (do not reuse or paraphrase closely):\n"
         "{recent}\n"
     )
@@ -233,28 +334,28 @@ def generate_unique_short_spec(llm: LLMOrchestrator, state: StateStore, rng: ran
 
     for attempt in range(1, 7):
         try:
-            obj = llm.generate_json(prompt, max_tokens=520)
-            q = str(obj.get("question", "")).strip()
+            obj = llm.generate_json(prompt, max_tokens=420)
+            q = _ensure_question_mark(str(obj.get("question", "")).strip())
             a = str(obj.get("answer", "")).strip()
             cat = str(obj.get("category", "General Knowledge")).strip() or "General Knowledge"
-            title = str(obj.get("title", "10-Second Trivia #shorts")).strip() or "10-Second Trivia #shorts"
-            desc = str(obj.get("description", "Can you answer in 10 seconds?\n\n#shorts #trivia #quiz")).strip()
-            tags = clamp_list(_coerce_list(obj.get("tags")), 450)
-            hashtags = _ensure_hashtag_short(_coerce_list(obj.get("hashtags")))
-
-            if len(title) > 90:
-                title = title[:87].rstrip() + "..."
 
             if not _looks_safe(q, a):
                 raise ValueError("unsafe/invalid question")
             if state.is_used(q):
                 raise ValueError("duplicate question")
-            if not tags:
-                tags = ["trivia", "quiz", "shorts", "general knowledge"]
-            if not hashtags:
-                hashtags = ["#shorts", "#trivia", "#quiz"]
 
-            return ShortSpec(question=q, answer=a, category=cat, title=title, description=desc, tags=tags, hashtags=hashtags)
+            title, description, tags, hashtags = _build_seo(q, cat)
+
+            tags = clamp_list(tags, 450)
+            return ShortSpec(
+                question=q,
+                answer=a,
+                category=cat,
+                title=title,
+                description=description,
+                tags=tags,
+                hashtags=hashtags,
+            )
         except Exception as e:
             log.warning("Question generation attempt %d failed: %s", attempt, str(e))
 
