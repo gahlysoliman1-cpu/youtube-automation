@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import math
 from pathlib import Path
 
 from ..utils.ffmpeg import run_ffmpeg
@@ -58,21 +57,46 @@ def render_short(
     padded_wav = out_mp4.with_suffix(".padded.wav")
     _pad_audio(tts_wav, padded_wav, duration_s=total_s)
 
-    bar_w = int(width * 0.72)
-    bar_h = 24
-    bar_y = height - 210
+    bar_w = int(width * 0.78)
+    bar_h = 26
+    bar_y = height - 220
 
-    q_fontsize = int(height * 0.06)
+    q_fontsize = int(height * 0.058)
     a_fontsize = int(height * 0.085)
     timer_fontsize = int(height * 0.075)
 
+    panel_w = int(width * 0.90)
+    panel_h = int(height * 0.36)
+    panel_x = f"(w-{panel_w})/2"
+    panel_y = f"(h-{panel_h})/2-120"
+
+    answer_panel_w = int(width * 0.84)
+    answer_panel_h = int(height * 0.22)
+    answer_panel_x = f"(w-{answer_panel_w})/2"
+    answer_panel_y = f"(h-{answer_panel_h})/2-40"
+
+    bg_zoom = 1.32
+    bg_blur = 30
+    bg_brightness = -0.12
+
+    base_bg = (
+        f"scale={width}:{height}:force_original_aspect_ratio=increase,"
+        f"crop={width}:{height},"
+        f"scale=iw*{bg_zoom}:ih*{bg_zoom},"
+        f"crop={width}:{height},"
+        f"gblur=sigma={bg_blur},"
+        f"eq=brightness={bg_brightness}"
+    )
+
     vf = (
-        f"scale={width}:{height},"
+        f"{base_bg},"
+        f"drawbox=x={panel_x}:y={panel_y}:w={panel_w}:h={panel_h}:color=black@0.28:t=fill:enable='between(t\\,0\\,{countdown_s})',"
+        f"drawbox=x={answer_panel_x}:y={answer_panel_y}:w={answer_panel_w}:h={answer_panel_h}:color=black@0.30:t=fill:enable='between(t\\,{countdown_s}\\,{total_s})',"
         f"drawbox=x=(w-{bar_w})/2:y={bar_y}:w={bar_w}:h={bar_h}:color=white@0.22:t=fill,"
-        f"drawbox=x=(w-{bar_w})/2:y={bar_y}:w='{bar_w}*(1-min(t\\,{countdown_s})/{countdown_s})':h={bar_h}:color=white@0.85:t=fill:enable='lt(t\\,{countdown_s})',"
-        f"drawtext=fontfile='{font_bold_path}':textfile='{q_txt}':reload=1:fontsize={q_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2-80:line_spacing=10:enable='between(t\\,0\\,{countdown_s})',"
-        f"drawtext=fontfile='{font_bold_path}':text='%{{eif\\:trunc({countdown_s}-t)\\:d}}':fontsize={timer_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=h-320:enable='between(t\\,0\\,{countdown_s})',"
-        f"drawtext=fontfile='{font_bold_path}':textfile='{a_txt}':reload=1:fontsize={a_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2-20:line_spacing=10:enable='between(t\\,{countdown_s}\\,{total_s})'"
+        f"drawbox=x=(w-{bar_w})/2:y={bar_y}:w='{bar_w}*(1-min(t\\,{countdown_s})/{countdown_s})':h={bar_h}:color=white@0.88:t=fill:enable='lt(t\\,{countdown_s})',"
+        f"drawtext=fontfile='{font_bold_path}':textfile='{q_txt}':reload=1:fontsize={q_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2-120:line_spacing=10:enable='between(t\\,0\\,{countdown_s})',"
+        f"drawtext=fontfile='{font_bold_path}':text='%{{eif\\:trunc({countdown_s}-t)\\:d}}':fontsize={timer_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=h-340:enable='between(t\\,0\\,{countdown_s})',"
+        f"drawtext=fontfile='{font_bold_path}':textfile='{a_txt}':reload=1:fontsize={a_fontsize}:fontcolor=white:shadowcolor=black:shadowx=4:shadowy=4:x=(w-text_w)/2:y=(h-text_h)/2-60:line_spacing=10:enable='between(t\\,{countdown_s}\\,{total_s})'"
     )
 
     run_ffmpeg(
@@ -108,4 +132,3 @@ def render_short(
             str(out_mp4),
         ]
     )
-
