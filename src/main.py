@@ -3,8 +3,6 @@ from __future__ import annotations
 import logging
 import os
 import random
-import sys
-from datetime import timedelta
 from pathlib import Path
 
 from .config import load_config
@@ -15,7 +13,7 @@ from .generators.thumbnail import generate_thumbnail
 from .state import StateStore
 from .tts.manager import TTSManager
 from .utils.text import clamp_list, sha256_hex
-from .utils.time import in_hours, iso_utc, utc_now, today_utc_ymd
+from .utils.time import today_utc_ymd, utc_now
 from .utils.logging import setup_logging
 from .video.compilation import render_compilation
 from .video.short import render_short
@@ -31,15 +29,14 @@ def _final_description(base: str, hashtags: list[str]) -> str:
     base = (base or "").strip()
     tags_line = " ".join(dict.fromkeys([h.strip() for h in hashtags if h.strip()]))
     extra = "\n\n" + tags_line if tags_line else ""
-    disclaimer = "\n\n(Automated: AI-generated text + synthetic voice.)"
-    out = (base + extra + disclaimer).strip()
+    out = (base + extra).strip()
     return out[:4800]
 
 
 def _safe_title(title: str) -> str:
     t = (title or "").strip()
     if not t:
-        t = "10-Second Trivia #shorts"
+        t = "10-Second Trivia (10s Quiz)"
     if len(t) > 95:
         t = t[:92].rstrip() + "..."
     return t
@@ -63,7 +60,8 @@ def _build_daily_title() -> str:
 
 def _build_daily_description(specs: list[ShortSpec]) -> str:
     lines = [
-        "4 quick trivia questions from today!\n",
+        "4 quick trivia questions from today!",
+        "",
         "Questions included:",
     ]
     for i, s in enumerate(specs, start=1):
@@ -71,8 +69,10 @@ def _build_daily_description(specs: list[ShortSpec]) -> str:
         if len(q) > 140:
             q = q[:137].rstrip() + "..."
         lines.append(f"{i}) {q}")
-    lines.append("\nComment your score!")
-    lines.append("\n#trivia #quiz")
+    lines.append("")
+    lines.append("Comment your score!")
+    lines.append("")
+    lines.append("#trivia #quiz")
     return "\n".join(lines)
 
 
@@ -95,10 +95,7 @@ def main() -> int:
     rng.seed(sha256_hex(today_utc_ymd() + "|" + os.getenv("GITHUB_RUN_ID", "0")))
 
     day = today_utc_ymd()
-    now = utc_now()
-
     out_dir = cfg.out_dir
-    tmp_dir = cfg.tmp_dir
 
     short_specs: list[ShortSpec] = []
     short_paths: list[Path] = []
@@ -151,16 +148,6 @@ def main() -> int:
         tags = _safe_tags(spec.tags)
         desc = _final_description(spec.description, spec.hashtags)
 
-        if idx == 0 and cfg.immediate_first_short_public:
-            privacy = "public"
-            publish_at = None
-        else:
-            privacy = "private"
-            target = in_hours(now, cfg.schedule_gap_hours * idx)
-            if target <= now:
-                target = in_hours(now, 1)
-            publish_at = iso_utc(target)
-
         throttle.wait()
         result = upload_video(
             youtube,
@@ -169,8 +156,8 @@ def main() -> int:
             description=desc,
             tags=tags,
             category_id=cfg.category_id,
-            privacy_status=privacy,
-            publish_at_iso=publish_at,
+            privacy_status="public",
+            publish_at_iso=None,
             notify_subscribers=cfg.notify_subscribers,
             made_for_kids=False,
             contains_synthetic_media=True,
@@ -193,8 +180,8 @@ def main() -> int:
                         "video_id": result.video_id,
                         "qhash": qhash,
                         "title": title,
-                        "privacy": privacy,
-                        "publish_at": publish_at,
+                        "privacy": "public",
+                        "publish_at": None,
                     }
                 ]
             },
@@ -220,17 +207,7 @@ def main() -> int:
 
     comp_title = _safe_title(_build_daily_title())
     comp_desc = _final_description(_build_daily_description(short_specs), ["#trivia", "#quiz"])
-    comp_tags = _safe_tags(["trivia", "quiz", "compilation", "general knowledge", "shorts" ])
-
-    last_short_time = in_hours(now, cfg.schedule_gap_hours * (cfg.shorts_per_run - 1))
-    daily_end = now.replace(hour=23, minute=55, second=0, microsecond=0)
-    if daily_end <= now:
-        daily_end = daily_end + timedelta(days=1)
-    comp_time = in_hours(last_short_time, 2)
-    if comp_time < daily_end:
-        comp_time = daily_end
-    if comp_time <= now:
-        comp_time = in_hours(now, 2)
+    comp_tags = _safe_tags(["trivia", "quiz", "compilation", "general knowledge", "education"])
 
     throttle.wait()
     comp_res = upload_video(
@@ -240,8 +217,8 @@ def main() -> int:
         description=comp_desc,
         tags=comp_tags,
         category_id=cfg.category_id,
-        privacy_status="private",
-        publish_at_iso=iso_utc(comp_time),
+        privacy_status="public",
+        publish_at_iso=None,
         notify_subscribers=False,
         made_for_kids=False,
         contains_synthetic_media=True,
@@ -257,8 +234,8 @@ def main() -> int:
             "compilation": {
                 "video_id": comp_res.video_id,
                 "title": comp_title,
-                "privacy": "private",
-                "publish_at": iso_utc(comp_time),
+                "privacy": "public",
+                "publish_at": None,
             }
         },
     )
