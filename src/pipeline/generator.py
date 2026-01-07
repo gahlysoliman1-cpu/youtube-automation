@@ -29,7 +29,14 @@ def _extract_json(text: str) -> dict[str, Any]:
     if cleaned.startswith("```"):
         cleaned = cleaned.strip("`")
         cleaned = cleaned.replace("json", "", 1).strip()
-    return json.loads(cleaned)
+    data = json.loads(cleaned)
+    if isinstance(data, list):
+        if not data:
+            raise ValueError("Empty JSON list from model")
+        data = data[0]
+    if not isinstance(data, dict):
+        raise ValueError("Model JSON is not an object")
+    return data
 
 
 def _call_gemini() -> QuestionItem:
@@ -89,6 +96,8 @@ def _call_openrouter() -> QuestionItem:
     headers = {
         "Authorization": f"Bearer {KEYS.openrouter_key}",
         "Content-Type": "application/json",
+        "HTTP-Referer": "https://github.com/",
+        "X-Title": "youtube-automation",
     }
     payload: dict[str, Any] = {
         "model": "meta-llama/llama-3.1-8b-instruct:free",
@@ -98,11 +107,26 @@ def _call_openrouter() -> QuestionItem:
         ],
         "temperature": 0.9,
     }
-    response = requests.post(url, headers=headers, json=payload, timeout=30)
-    response.raise_for_status()
-    text = response.json()["choices"][0]["message"]["content"]
-    data = _extract_json(text)
-    return QuestionItem(**data)
+    model_names = [
+        "meta-llama/llama-3.1-8b-instruct:free",
+        "mistralai/mistral-7b-instruct:free",
+        "google/gemma-2-9b-it:free",
+    ]
+    last_error: Exception | None = None
+    for model in model_names:
+        payload["model"] = model
+        try:
+            response = requests.post(url, headers=headers, json=payload, timeout=30)
+            response.raise_for_status()
+        except requests.HTTPError as exc:
+            last_error = exc
+            continue
+        text = response.json()["choices"][0]["message"]["content"]
+        data = _extract_json(text)
+        return QuestionItem(**data)
+    if last_error:
+        raise last_error
+    raise RuntimeError("OpenRouter generation failed")
 
 
 def generate_question() -> QuestionItem:
