@@ -4,6 +4,8 @@ import logging
 from pathlib import Path
 
 from .base import TTSError, TTSResult
+from .edge import EdgeTTS
+from .elevenlabs import ElevenLabs
 from .espeak import Espeak, EspeakNG
 from .festival import Festival
 
@@ -13,6 +15,8 @@ log = logging.getLogger(__name__)
 class TTSManager:
     def __init__(self) -> None:
         self.engines = [
+            ElevenLabs(),
+            EdgeTTS(),
             EspeakNG(),
             Espeak(),
             Festival(),
