@@ -1,6 +1,25 @@
 {
   "version": 1,
-  "bootstrapped": false,
-  "used": [],
-  "publishes": {}
+  "bootstrapped": true,
+  "used": [
+    {
+      "fp": "7b1b47eded20fcc53ac36b8181c3d946eaac15b9828f41fc80ac64c5f5c64409",
+      "q_norm": "what ancient wonder had a statue of the greek god helios",
+      "question": "What ancient wonder had a statue of the Greek god Helios?",
+      "answer": "Colossus of Rhodes",
+      "date_iso": "2026-01-09"
+    }
+  ],
+  "publishes": {
+    "20260109": {
+      "shorts": {
+        "1": {
+          "video_id": "D-e_n9_jc_Q",
+          "artifact": "short-20260109-slot1",
+          "fp": "7b1b47eded20fcc53ac36b8181c3d946eaac15b9828f41fc80ac64c5f5c64409",
+          "ts": "2026-01-09T22:39:17.334611+00:00"
+        }
+      }
+    }
+  }
 }
