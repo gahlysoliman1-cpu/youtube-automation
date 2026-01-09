@@ -1,17 +1,19 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.egg-info/
-.dist-info/
-.venv/
-venv/
+
+# Outputs
+out/
+*.mp4
+*.mp3
+*.wav
+*.jpg
+*.png
 
 # OS
 .DS_Store
 
-# Outputs
-out/
-tmp/
-*.log
+# Temp
+*.tmp
