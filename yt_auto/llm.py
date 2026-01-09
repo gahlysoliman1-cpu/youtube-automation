@@ -5,14 +5,13 @@ import random
 import re
 import time
 from dataclasses import dataclass
-from datetime import datetime, timezone
-from typing import Any, Callable
+from typing import Any
 
 import requests
 
 from yt_auto.config import Config
 from yt_auto.safety import validate_text_is_safe
-from yt_auto.utils import RetryPolicy, backoff_sleep_s, clamp_list_str, normalize_text, utc_date_iso
+from yt_auto.utils import RetryPolicy, backoff_sleep_s, clamp_list_str
 
 
 @dataclass(frozen=True)
@@ -50,7 +49,7 @@ def _call_gemini(api_key: str, model: str, prompt: str) -> str:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
     payload = {
         "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.9, "maxOutputTokens": 512},
+        "generationConfig": {"temperature": 0.95, "maxOutputTokens": 520},
     }
     data = _http_post_json(url, headers={"Content-Type": "application/json"}, payload=payload, timeout_s=45)
     cands = data.get("candidates") or []
@@ -77,8 +76,8 @@ def _call_openai_compat(base_url: str, api_key: str, model: str, prompt: str, ex
             {"role": "system", "content": "You are a strict JSON generator. Output only valid JSON."},
             {"role": "user", "content": prompt},
         ],
-        "temperature": 0.9,
-        "max_tokens": 520,
+        "temperature": 0.95,
+        "max_tokens": 560,
     }
 
     data = _http_post_json(url, headers=headers, payload=payload, timeout_s=45)
@@ -93,47 +92,47 @@ def _call_openai_compat(base_url: str, api_key: str, model: str, prompt: str, ex
 
 
 def _prompt(seed: int) -> str:
-    topics = [
-        "Geography (capitals, countries, landmarks)",
-        "Science (space, physics, biology)",
-        "History (ancient to modern, non-political)",
-        "Animals & nature",
-        "Food & culture",
-        "Logic & riddles (clean, family-friendly)",
-        "Language (common English idioms meaning)",
-        "Sports (general facts, non-controversial)",
-        "Technology (basic computing facts)",
-        "Math (quick mental math)",
+    channel = "Quizzaro"
+
+    formats = [
+        "Geography: capital / country / continent",
+        "Science: space / biology / physics basics",
+        "Logic: clean riddles",
+        "Animals & nature facts",
+        "Food & culture (safe, non-controversial)",
+        "Math: quick mental math",
+        "Language: common English idioms meaning",
+        "Sports: general records (non-controversial, timeless)",
+        "Tech: basic computing facts",
     ]
     r = random.Random(seed)
-    topic = r.choice(topics)
+    chosen = r.choice(formats)
 
     return f"""
-Create ONE original YouTube Shorts quiz item for an English-speaking audience.
+Create ONE original YouTube Shorts quiz item for an English-speaking audience for the channel: {channel}
 
 Hard rules (must follow):
 - NO song lyrics, NO movie quotes, NO copyrighted passages.
-- No hate, harassment, sexual content, or self-harm content.
+- No hate, harassment, sexual content, violence, or self-harm content.
 - Must be family-friendly and safe for monetization.
-- One clear question and one short answer.
-- The viewer should be able to answer within 10 seconds.
-- Keep the question under 150 characters.
-- Keep the answer under 60 characters.
-- Avoid mentioning politics, elections, wars, or controversial current events.
+- The spoken audio (question + CTA) MUST fit within 10 seconds. Keep CTA VERY short.
+- Question under 140 characters. Answer under 50 characters.
+- Avoid politics, elections, wars, or controversial current events.
+- Do NOT mention "AI" in the content.
 
 Return ONLY valid JSON with these keys:
 {{
   "category": "short category label",
   "question": "question text",
   "answer": "answer text",
-  "cta": "one short call-to-action spoken after the question",
-  "title": "a strong SHORTS title (max 90 chars)",
-  "description": "SEO description (max 500 chars) with a quick subscribe line",
-  "tags": ["10-15 simple tags"],
-  "hashtags": ["#shorts", "#quiz", "#trivia", "#challenge", "... up to 8"]
+  "cta": "VERY short call-to-action spoken after the question (max 60 chars)",
+  "title": "a strong SHORTS title (max 90 chars, include 'Quizzaro' if possible)",
+  "description": "SEO description (max 600 chars). Include: 1) one-line hook, 2) 'Comment your answer', 3) 'Subscribe to Quizzaro'.",
+  "tags": ["12-18 simple tags (no hashtags here)"],
+  "hashtags": ["#shorts", "#quizzaro", "#quiz", "#trivia", "#challenge", "... up to 8 total"]
 }}
 
-Topic for this item: {topic}
+Content style for this item: {chosen}
 Seed hint: {seed}
 """.strip()
 
@@ -186,11 +185,11 @@ def _fallback_item(seed: int) -> QuizItem:
         question, answer = r.choice(riddles)
         category = "Riddle"
 
-    cta = "If you know it before the timer ends, comment your answer!"
-    title = f"Can You Answer in 10 Seconds? | {category}"
-    description = "Quick 10-second quiz! Comment your answer and subscribe for daily trivia."
-    tags = ["quiz", "trivia", "challenge", "brain teaser", "shorts", "education", "fun facts", "quick quiz", "knowledge"]
-    hashtags = ["#shorts", "#quiz", "#trivia", "#challenge"]
+    cta = "Comment your answer!"
+    title = f"Quizzaro: Can You Solve This in 10 Seconds? #{category}"
+    description = "10-second quiz challenge!\nComment your answer.\nSubscribe to Quizzaro for daily quizzes."
+    tags = ["quiz", "trivia", "challenge", "brain teaser", "shorts", "quizzaro", "education", "fun facts", "quick quiz"]
+    hashtags = ["#shorts", "#quizzaro", "#quiz", "#trivia", "#challenge"]
 
     return QuizItem(
         category=category,
@@ -198,7 +197,7 @@ def _fallback_item(seed: int) -> QuizItem:
         answer=answer,
         cta=cta,
         title=title[:90],
-        description=description[:500],
+        description=description[:600],
         tags=tags,
         hashtags=hashtags,
         provider="fallback",
@@ -249,10 +248,7 @@ def generate_quiz_item(cfg: Config, seed: int) -> QuizItem:
                 continue
             for attempt in range(1, policy.max_attempts + 1):
                 try:
-                    headers = {
-                        "HTTP-Referer": "https://github.com/",
-                        "X-Title": "yt-auto",
-                    }
+                    headers = {"HTTP-Referer": "https://github.com/", "X-Title": "yt-auto"}
                     txt = _call_openai_compat(
                         "https://openrouter.ai/api/v1",
                         cfg.openrouter_key,
@@ -294,26 +290,42 @@ def _coerce_item(obj: dict[str, Any], provider: str) -> QuizItem:
     category = str(obj.get("category", "")).strip() or "Quiz"
     question = str(obj.get("question", "")).strip()
     answer = str(obj.get("answer", "")).strip()
-    cta = str(obj.get("cta", "")).strip() or "Comment your answer before time runs out!"
-    title = str(obj.get("title", "")).strip() or "Can You Answer in 10 Seconds? #Shorts"
-    description = str(obj.get("description", "")).strip() or "Quick quiz! Comment your answer and subscribe."
+    cta = str(obj.get("cta", "")).strip() or "Comment your answer!"
+    title = str(obj.get("title", "")).strip() or "Quizzaro: Can You Answer in 10 Seconds? #Shorts"
+    description = str(obj.get("description", "")).strip() or "Quick quiz!\nComment your answer.\nSubscribe to Quizzaro."
     tags = obj.get("tags") if isinstance(obj.get("tags"), list) else []
     hashtags = obj.get("hashtags") if isinstance(obj.get("hashtags"), list) else []
 
     tags_list = clamp_list_str([str(x) for x in tags], max_items=18, max_total_chars=450)
-    hashtags_list = clamp_list_str([str(x) for x in hashtags], max_items=8, max_total_chars=120)
+    hashtags_list = clamp_list_str([str(x) for x in hashtags], max_items=8, max_total_chars=140)
 
-    if "#shorts" not in [h.lower() for h in hashtags_list]:
-        hashtags_list = ["#shorts"] + [h for h in hashtags_list if h.lower() != "#shorts"]
-        hashtags_list = hashtags_list[:8]
+    low = [h.lower() for h in hashtags_list]
+    if "#shorts" not in low:
+        hashtags_list = ["#shorts"] + hashtags_list
+    low = [h.lower() for h in hashtags_list]
+    if "#quizzaro" not in low:
+        hashtags_list = ["#quizzaro"] + [h for h in hashtags_list if h.lower() != "#quizzaro"]
+
+    dedup: list[str] = []
+    seen = set()
+    for h in hashtags_list:
+        hh = h.strip()
+        if not hh:
+            continue
+        k = hh.lower()
+        if k in seen:
+            continue
+        seen.add(k)
+        dedup.append(hh)
+    hashtags_list = dedup[:8]
 
     return QuizItem(
         category=category,
         question=question,
         answer=answer,
-        cta=cta,
+        cta=cta[:60],
         title=title[:90],
-        description=description[:500],
+        description=description[:600],
         tags=tags_list,
         hashtags=hashtags_list,
         provider=provider,
