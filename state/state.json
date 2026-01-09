@@ -8,6 +8,27 @@
       "question": "What ancient wonder had a statue of the Greek god Helios?",
       "answer": "Colossus of Rhodes",
       "date_iso": "2026-01-09"
+    },
+    {
+      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+      "q_norm": "what does break a leg mean",
+      "question": "What does 'break a leg' mean?",
+      "answer": "Good luck",
+      "date_iso": "2026-01-09"
+    },
+    {
+      "fp": "bb862b4a3721f4c6360e628576856a73d0c6efe04d8555a250e5a60504bc40d9",
+      "q_norm": "a snail is at the bottom of a 20ft well each day it climbs 3ft but falls back 2ft at night how many days to reach the top",
+      "question": "A snail is at the bottom of a 20ft well. Each day, it climbs 3ft but falls back 2ft at night. How many days to reach the top?",
+      "answer": "18",
+      "date_iso": "2026-01-09"
+    },
+    {
+      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+      "q_norm": "what does cpu stand for",
+      "question": "What does CPU stand for?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-01-09"
     }
   ],
   "publishes": {
@@ -18,6 +39,24 @@
           "artifact": "short-20260109-slot1",
           "fp": "7b1b47eded20fcc53ac36b8181c3d946eaac15b9828f41fc80ac64c5f5c64409",
           "ts": "2026-01-09T22:39:17.334611+00:00"
+        },
+        "2": {
+          "video_id": "R5h8A6kcZ98",
+          "artifact": "short-20260109-slot2",
+          "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+          "ts": "2026-01-09T22:41:41.828936+00:00"
+        },
+        "3": {
+          "video_id": "8RI1WF5H83M",
+          "artifact": "short-20260109-slot3",
+          "fp": "bb862b4a3721f4c6360e628576856a73d0c6efe04d8555a250e5a60504bc40d9",
+          "ts": "2026-01-09T22:42:27.906449+00:00"
+        },
+        "4": {
+          "video_id": "Ms6PbMfb1uM",
+          "artifact": "short-20260109-slot4",
+          "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+          "ts": "2026-01-09T22:43:11.664156+00:00"
         }
       }
     }
