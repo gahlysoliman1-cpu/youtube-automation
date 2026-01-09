@@ -2,9 +2,7 @@ from __future__ import annotations
 
 import argparse
 import os
-import random
 from datetime import datetime, timezone
-from pathlib import Path
 
 from yt_auto.config import load_config
 from yt_auto.github_artifacts import download_shorts_for_date
@@ -14,7 +12,7 @@ from yt_auto.safety import validate_text_is_safe
 from yt_auto.state import StateStore
 from yt_auto.thumbnail import build_long_thumbnail
 from yt_auto.tts import synthesize_tts
-from yt_auto.utils import ensure_dir, utc_date_iso
+from yt_auto.utils import ensure_dir
 from yt_auto.video import build_long_compilation, build_short
 from yt_auto.youtube_uploader import YouTubeUploader
 
@@ -38,7 +36,7 @@ def _compose_spoken_text(quiz_question: str, cta: str) -> str:
     return f"{q} {c}"
 
 
-def _ensure_unique_or_regen(state: StateStore, cfg, seed: int) -> tuple:
+def _ensure_unique_or_regen(state: StateStore, cfg, seed: int):
     for i in range(1, 9):
         item = generate_quiz_item(cfg, seed + i * 17)
         safe = validate_text_is_safe(item.question, item.answer)
@@ -51,7 +49,7 @@ def _ensure_unique_or_regen(state: StateStore, cfg, seed: int) -> tuple:
     return item, (seed + 9991)
 
 
-def _build_short_pipeline(cfg, state: StateStore, slot: int, date_yyyymmdd: str) -> tuple[str, str]:
+def _build_short_pipeline(cfg, state: StateStore, slot: int, date_yyyymmdd: str):
     ensure_dir(cfg.out_dir)
 
     if state.was_short_published(date_yyyymmdd, slot):
@@ -102,19 +100,31 @@ def _build_short_pipeline(cfg, state: StateStore, slot: int, date_yyyymmdd: str)
     return (res.video_id, tts_provider)
 
 
+def _collect_local_shorts(cfg, date_yyyymmdd: str):
+    clips = []
+    for slot in (1, 2, 3, 4):
+        p = cfg.out_dir / f"short-{date_yyyymmdd}-slot{slot}.mp4"
+        if p.exists():
+            clips.append(p)
+    return clips
+
+
 def _build_long_pipeline(cfg, state: StateStore, date_yyyymmdd: str) -> str:
     ensure_dir(cfg.out_dir)
 
     if state.was_long_published(date_yyyymmdd):
         return ""
 
-    token = cfg.github_token.strip()
-    if not token:
-        raise RuntimeError("missing_GITHUB_TOKEN_for_artifact_download")
+    clips = _collect_local_shorts(cfg, date_yyyymmdd)
 
-    owner_repo = _repo_full_name()
+    if len(clips) < 4:
+        token = cfg.github_token.strip()
+        if not token:
+            return ""
 
-    clips = download_shorts_for_date(cfg.out_dir, date_yyyymmdd, token, owner_repo)
+        owner_repo = _repo_full_name()
+        clips = download_shorts_for_date(cfg.out_dir, date_yyyymmdd, token, owner_repo)
+
     if len(clips) < 4:
         return ""
 
@@ -143,7 +153,10 @@ def _build_long_pipeline(cfg, state: StateStore, date_yyyymmdd: str) -> str:
         default_audio_language=cfg.language,
     )
 
-    uploader.set_thumbnail(res.video_id, thumb)
+    try:
+        uploader.set_thumbnail(res.video_id, thumb)
+    except Exception:
+        pass
 
     state.record_long(date_yyyymmdd, res.video_id)
     state.save()
@@ -165,6 +178,9 @@ def main() -> int:
     p_long = sub.add_parser("long")
     p_long.add_argument("--date", required=False, default="")
 
+    p_all = sub.add_parser("run-all")
+    p_all.add_argument("--date", required=False, default="")
+
     args = parser.parse_args()
     cfg = load_config()
     state = StateStore(cfg.state_path)
@@ -175,10 +191,9 @@ def main() -> int:
         date_yyyymmdd = (args.date or "").strip()
         if not date_yyyymmdd:
             date_yyyymmdd = datetime.now(timezone.utc).strftime("%Y%m%d")
-        vid, _tts = _build_short_pipeline(cfg, state, slot=1, date_yyyymmdd=date_yyyymmdd)
+        _vid, _tts = _build_short_pipeline(cfg, state, slot=1, date_yyyymmdd=date_yyyymmdd)
         state.set_bootstrapped(True)
         state.save()
-        _ = vid
         return 0
 
     if args.cmd == "short":
@@ -186,12 +201,30 @@ def main() -> int:
         if not date_yyyymmdd:
             date_yyyymmdd = datetime.now(timezone.utc).strftime("%Y%m%d")
         _vid, _tts = _build_short_pipeline(cfg, state, slot=int(args.slot), date_yyyymmdd=date_yyyymmdd)
+        if not state.is_bootstrapped():
+            state.set_bootstrapped(True)
+            state.save()
         return 0
 
     if args.cmd == "long":
         date_yyyymmdd = (args.date or "").strip()
         if not date_yyyymmdd:
             date_yyyymmdd = datetime.now(timezone.utc).strftime("%Y%m%d")
+        _ = _build_long_pipeline(cfg, state, date_yyyymmdd=date_yyyymmdd)
+        return 0
+
+    if args.cmd == "run-all":
+        date_yyyymmdd = (args.date or "").strip()
+        if not date_yyyymmdd:
+            date_yyyymmdd = datetime.now(timezone.utc).strftime("%Y%m%d")
+
+        for slot in (1, 2, 3, 4):
+            _ = _build_short_pipeline(cfg, state, slot=slot, date_yyyymmdd=date_yyyymmdd)
+
+        if not state.is_bootstrapped():
+            state.set_bootstrapped(True)
+            state.save()
+
         _ = _build_long_pipeline(cfg, state, date_yyyymmdd=date_yyyymmdd)
         return 0
 
