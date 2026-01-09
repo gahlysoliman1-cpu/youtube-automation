@@ -1,4 +1,4 @@
-name: YouTube Automation (One Workflow)
+name: Quizzaro Automation (One Workflow)
 
 on:
   push:
@@ -7,27 +7,27 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "all|short|long|bootstrap"
+        description: "bootstrap|short|long"
         required: false
-        default: "all"
+        default: "bootstrap"
       slot:
         description: "1-4 (only for mode=short)"
         required: false
         default: "1"
       date:
-        description: "YYYYMMDD (optional)"
+        description: "YYYYMMDD (optional, business date in America/New_York if empty)"
         required: false
         default: ""
 
   schedule:
-    - cron: "5 1 * * *"    # slot 1
-    - cron: "5 7 * * *"    # slot 2
-    - cron: "5 13 * * *"   # slot 3
-    - cron: "5 19 * * *"   # slot 4
-    - cron: "35 23 * * *"  # long
+    - cron: "5 14 * * *"   # slot 1  (America/New_York ~ morning)
+    - cron: "5 18 * * *"   # slot 2  (America/New_York ~ afternoon)
+    - cron: "5 22 * * *"   # slot 3  (America/New_York ~ evening)
+    - cron: "5 2 * * *"    # slot 4  (America/New_York ~ night, previous business day)
+    - cron: "20 3 * * *"   # long compilation (after slot 4)
 
 concurrency:
-  group: yt-auto-one
+  group: quizzaro-one
   cancel-in-progress: false
 
 permissions:
@@ -65,7 +65,7 @@ jobs:
           if [ -n "$INPUT_DATE" ]; then
             RUN_DATE="$INPUT_DATE"
           else
-            RUN_DATE="$(date -u +%Y%m%d)"
+            RUN_DATE="$(TZ=America/New_York date +%Y%m%d)"
           fi
 
           ACTION_KIND=""
@@ -76,32 +76,29 @@ jobs:
             ACTION_KIND="bootstrap"
             CMD="python -m yt_auto bootstrap --date $RUN_DATE"
           elif [ "$EVENT_NAME" = "workflow_dispatch" ]; then
-            MODE="${INPUT_MODE:-all}"
+            MODE="${INPUT_MODE:-bootstrap}"
             if [ "$MODE" = "bootstrap" ]; then
               ACTION_KIND="bootstrap"
               CMD="python -m yt_auto bootstrap --date $RUN_DATE"
             elif [ "$MODE" = "long" ]; then
               ACTION_KIND="long"
               CMD="python -m yt_auto long --date $RUN_DATE"
-            elif [ "$MODE" = "short" ]; then
+            else
               ACTION_KIND="short"
               SLOT="${INPUT_SLOT:-1}"
               CMD="python -m yt_auto short --slot $SLOT --date $RUN_DATE"
-            else
-              ACTION_KIND="all"
-              CMD="python -m yt_auto run-all --date $RUN_DATE"
             fi
           else
             case "$SCHEDULE" in
-              "5 1 * * *")
+              "5 14 * * *")
                 ACTION_KIND="short"; SLOT="1"; CMD="python -m yt_auto short --slot 1 --date $RUN_DATE";;
-              "5 7 * * *")
+              "5 18 * * *")
                 ACTION_KIND="short"; SLOT="2"; CMD="python -m yt_auto short --slot 2 --date $RUN_DATE";;
-              "5 13 * * *")
+              "5 22 * * *")
                 ACTION_KIND="short"; SLOT="3"; CMD="python -m yt_auto short --slot 3 --date $RUN_DATE";;
-              "5 19 * * *")
+              "5 2 * * *")
                 ACTION_KIND="short"; SLOT="4"; CMD="python -m yt_auto short --slot 4 --date $RUN_DATE";;
-              "35 23 * * *")
+              "20 3 * * *")
                 ACTION_KIND="long"; CMD="python -m yt_auto long --date $RUN_DATE";;
               *)
                 ACTION_KIND="none"; CMD="echo 'Unknown schedule'; exit 0";;
@@ -150,15 +147,6 @@ jobs:
             out/thumb-${{ env.RUN_DATE }}.jpg
           if-no-files-found: ignore
           retention-days: 10
-
-      - name: Upload run-all artifact
-        if: env.ACTION_KIND == 'all'
-        uses: actions/upload-artifact@v4
-        with:
-          name: runall-${{ env.RUN_DATE }}
-          path: out/
-          if-no-files-found: ignore
-          retention-days: 7
 
       - name: Commit state
         run: |
