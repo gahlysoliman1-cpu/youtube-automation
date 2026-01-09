@@ -17,14 +17,14 @@ def build_long_thumbnail(cfg: Config, bg_image: Path, out_jpg: Path, date_yyyymm
 
     draw = ImageDraw.Draw(base)
 
-    font_big = ImageFont.truetype(cfg.fontfile, 72)
-    font_small = ImageFont.truetype(cfg.fontfile, 44)
+    font_big = ImageFont.truetype(cfg.fontfile, 78)
+    font_small = ImageFont.truetype(cfg.fontfile, 46)
 
-    title = "Daily Quiz Compilation"
+    title = "Quizzaro Compilation"
     subtitle = date_yyyymmdd
 
-    _center_text(draw, (640, 280), title, font_big)
-    _center_text(draw, (640, 380), subtitle, font_small)
+    _center_text(draw, (640, 300), title, font_big)
+    _center_text(draw, (640, 400), subtitle, font_small)
 
     base.save(out_jpg, quality=92)
 
