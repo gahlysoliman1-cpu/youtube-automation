@@ -36,6 +36,13 @@
       "question": "What is the fastest land animal?",
       "answer": "Cheetah",
       "date_iso": "2026-01-10"
+    },
+    {
+      "fp": "6df3093520f64f4e88b8d8a46e4fc9dbb5daa605311fe8bf5feecca091c7d4b5",
+      "q_norm": "what planet in our solar system has the most moons",
+      "question": "What planet in our solar system has the most moons?",
+      "answer": "Jupiter",
+      "date_iso": "2026-01-10"
     }
   ],
   "publishes": {
@@ -74,6 +81,12 @@
           "artifact": "short-20260110-slot1",
           "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
           "ts": "2026-01-10T08:56:51.865183+00:00"
+        },
+        "3": {
+          "video_id": "N_3G6_tNIcE",
+          "artifact": "short-20260110-slot3",
+          "fp": "6df3093520f64f4e88b8d8a46e4fc9dbb5daa605311fe8bf5feecca091c7d4b5",
+          "ts": "2026-01-10T13:55:12.006084+00:00"
         }
       }
     }
