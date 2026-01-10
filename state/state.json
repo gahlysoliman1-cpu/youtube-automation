@@ -43,6 +43,13 @@
       "question": "What planet in our solar system has the most moons?",
       "answer": "Jupiter",
       "date_iso": "2026-01-10"
+    },
+    {
+      "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
+      "q_norm": "who holds the record for most career home runs in baseball",
+      "question": "Who holds the record for most career home runs in baseball?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-01-10"
     }
   ],
   "publishes": {
@@ -87,6 +94,12 @@
           "artifact": "short-20260110-slot3",
           "fp": "6df3093520f64f4e88b8d8a46e4fc9dbb5daa605311fe8bf5feecca091c7d4b5",
           "ts": "2026-01-10T13:55:12.006084+00:00"
+        },
+        "4": {
+          "video_id": "9YeRB1NvYAE",
+          "artifact": "short-20260110-slot4",
+          "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
+          "ts": "2026-01-10T19:32:17.591641+00:00"
         }
       }
     }
