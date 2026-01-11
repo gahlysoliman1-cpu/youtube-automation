@@ -71,6 +71,13 @@
       "question": "What's the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-01-11"
+    },
+    {
+      "fp": "2792e749497e29bd24d9526fa4c882ef83d4a25eab99b4c60a3fece9738572f0",
+      "q_norm": "which popular dessert s name translates to pick me up in italian",
+      "question": "Which popular dessert's name translates to 'pick-me-up' in Italian?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-01-11"
     }
   ],
   "publishes": {
@@ -143,6 +150,12 @@
           "artifact": "short-20260111-slot3",
           "fp": "d14543f9cdfd6961876ea5f6a2a24403e53cb0f12e5ad217cbb731b18d0b9eff",
           "ts": "2026-01-11T13:54:39.916093+00:00"
+        },
+        "4": {
+          "video_id": "5p1QmOErQIU",
+          "artifact": "short-20260111-slot4",
+          "fp": "2792e749497e29bd24d9526fa4c882ef83d4a25eab99b4c60a3fece9738572f0",
+          "ts": "2026-01-11T19:32:54.975180+00:00"
         }
       }
     }
