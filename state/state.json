@@ -57,6 +57,13 @@
       "question": "I am a 5-digit number. Take away my first digit and I still sound the same. What am I?",
       "answer": "Eight thousand",
       "date_iso": "2026-01-11"
+    },
+    {
+      "fp": "dc3a77abd994051d250ee64edfa36a0fa3243f015e9a64e26edafd64604fbc0a",
+      "q_norm": "what is the approximate number of bytes in a gigabyte",
+      "question": "What is the approximate number of bytes in a gigabyte?",
+      "answer": "1,073,741,824",
+      "date_iso": "2026-01-11"
     }
   ],
   "publishes": {
@@ -117,6 +124,12 @@
           "artifact": "short-20260111-slot1",
           "fp": "f7c2ec63e7f1c11bd6911a5c0f9c24412368e338d3b43946af794c67a031db90",
           "ts": "2026-01-11T04:38:22.082415+00:00"
+        },
+        "2": {
+          "video_id": "KcwCQ_gYk1Y",
+          "artifact": "short-20260111-slot2",
+          "fp": "dc3a77abd994051d250ee64edfa36a0fa3243f015e9a64e26edafd64604fbc0a",
+          "ts": "2026-01-11T07:41:26.842928+00:00"
         }
       }
     }
