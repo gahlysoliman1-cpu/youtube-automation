@@ -64,6 +64,13 @@
       "question": "What is the approximate number of bytes in a gigabyte?",
       "answer": "1,073,741,824",
       "date_iso": "2026-01-11"
+    },
+    {
+      "fp": "d14543f9cdfd6961876ea5f6a2a24403e53cb0f12e5ad217cbb731b18d0b9eff",
+      "q_norm": "what s the capital of australia",
+      "question": "What's the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-01-11"
     }
   ],
   "publishes": {
@@ -130,6 +137,12 @@
           "artifact": "short-20260111-slot2",
           "fp": "dc3a77abd994051d250ee64edfa36a0fa3243f015e9a64e26edafd64604fbc0a",
           "ts": "2026-01-11T07:41:26.842928+00:00"
+        },
+        "3": {
+          "video_id": "ALEyGuxNL6M",
+          "artifact": "short-20260111-slot3",
+          "fp": "d14543f9cdfd6961876ea5f6a2a24403e53cb0f12e5ad217cbb731b18d0b9eff",
+          "ts": "2026-01-11T13:54:39.916093+00:00"
         }
       }
     }
