@@ -85,6 +85,13 @@
       "question": "What is the capital of Greenland?",
       "answer": "Nuuk",
       "date_iso": "2026-01-12"
+    },
+    {
+      "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
+      "q_norm": "what does bend over backwards mean",
+      "question": "What does 'bend over backwards' mean?",
+      "answer": "Go out of one's way to help",
+      "date_iso": "2026-01-12"
     }
   ],
   "publishes": {
@@ -177,6 +184,12 @@
           "artifact": "short-20260112-slot1",
           "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
           "ts": "2026-01-12T04:40:10.132248+00:00"
+        },
+        "2": {
+          "video_id": "rcZbyaloOMc",
+          "artifact": "short-20260112-slot2",
+          "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
+          "ts": "2026-01-12T07:50:22.124799+00:00"
         }
       }
     }
