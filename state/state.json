@@ -99,6 +99,13 @@
       "question": "What is the largest planet in our solar system?",
       "answer": "Jupiter",
       "date_iso": "2026-01-12"
+    },
+    {
+      "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
+      "q_norm": "which popular italian dessert translates to pick me up",
+      "question": "Which popular Italian dessert translates to 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-01-12"
     }
   ],
   "publishes": {
@@ -203,6 +210,12 @@
           "artifact": "short-20260112-slot3",
           "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
           "ts": "2026-01-12T14:02:52.265360+00:00"
+        },
+        "4": {
+          "video_id": "mVxTUiiOi-Q",
+          "artifact": "short-20260112-slot4",
+          "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
+          "ts": "2026-01-12T19:38:56.585417+00:00"
         }
       }
     }
