@@ -78,6 +78,13 @@
       "question": "Which popular dessert's name translates to 'pick-me-up' in Italian?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-11"
+    },
+    {
+      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+      "q_norm": "what is the capital of greenland",
+      "question": "What is the capital of Greenland?",
+      "answer": "Nuuk",
+      "date_iso": "2026-01-12"
     }
   ],
   "publishes": {
@@ -161,6 +168,16 @@
       "long": {
         "video_id": "VCK23kJ8tW0",
         "ts": "2026-01-11T23:50:49.292607+00:00"
+      }
+    },
+    "20260112": {
+      "shorts": {
+        "1": {
+          "video_id": "B4_-5_uj83Y",
+          "artifact": "short-20260112-slot1",
+          "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+          "ts": "2026-01-12T04:40:10.132248+00:00"
+        }
       }
     }
   }
