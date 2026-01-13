@@ -127,6 +127,13 @@
       "question": "What does CPU stand for in computers?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-01-13"
+    },
+    {
+      "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
+      "q_norm": "what can be broken but never held",
+      "question": "What can be broken, but never held?",
+      "answer": "A promise",
+      "date_iso": "2026-01-13"
     }
   ],
   "publishes": {
@@ -263,6 +270,12 @@
           "artifact": "short-20260113-slot3",
           "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
           "ts": "2026-01-13T14:02:48.605057+00:00"
+        },
+        "4": {
+          "video_id": "EYMehM6yjkg",
+          "artifact": "short-20260113-slot4",
+          "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
+          "ts": "2026-01-13T19:35:42.398471+00:00"
         }
       }
     }
