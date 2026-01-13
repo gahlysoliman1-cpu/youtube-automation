@@ -120,6 +120,13 @@
       "question": "Who holds the record for the most Olympic gold medals won by an individual?",
       "answer": "Michael Phelps",
       "date_iso": "2026-01-13"
+    },
+    {
+      "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
+      "q_norm": "what does cpu stand for in computers",
+      "question": "What does CPU stand for in computers?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-01-13"
     }
   ],
   "publishes": {
@@ -250,6 +257,12 @@
           "artifact": "short-20260113-slot2",
           "fp": "bc1e2f40b5380069759dab3e8934cb1d3356d2efce269e7f1e0bc587096e1568",
           "ts": "2026-01-13T07:46:57.134792+00:00"
+        },
+        "3": {
+          "video_id": "4E6B8CCLe0s",
+          "artifact": "short-20260113-slot3",
+          "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
+          "ts": "2026-01-13T14:02:48.605057+00:00"
         }
       }
     }
