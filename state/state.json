@@ -113,6 +113,13 @@
       "question": "Which baseball player broke the color barrier in 1947?",
       "answer": "Jackie Robinson",
       "date_iso": "2026-01-13"
+    },
+    {
+      "fp": "bc1e2f40b5380069759dab3e8934cb1d3356d2efce269e7f1e0bc587096e1568",
+      "q_norm": "who holds the record for the most olympic gold medals won by an individual",
+      "question": "Who holds the record for the most Olympic gold medals won by an individual?",
+      "answer": "Michael Phelps",
+      "date_iso": "2026-01-13"
     }
   ],
   "publishes": {
@@ -237,6 +244,12 @@
           "artifact": "short-20260113-slot1",
           "fp": "d1042c8d5426d4b85dd335c679935c149029d547fcb1c224df2904a829ba166f",
           "ts": "2026-01-13T04:14:31.499436+00:00"
+        },
+        "2": {
+          "video_id": "yGSaFG_pY5E",
+          "artifact": "short-20260113-slot2",
+          "fp": "bc1e2f40b5380069759dab3e8934cb1d3356d2efce269e7f1e0bc587096e1568",
+          "ts": "2026-01-13T07:46:57.134792+00:00"
         }
       }
     }
