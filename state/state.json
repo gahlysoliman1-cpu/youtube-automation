@@ -141,6 +141,13 @@
       "question": "Most consecutive baseball games played?",
       "answer": "2,632",
       "date_iso": "2026-01-14"
+    },
+    {
+      "fp": "6c5c5a0c12c6fce5256674c2569bd5545eefc514f35a4406ca5c103cfe4e986e",
+      "q_norm": "what popular italian dessert means pick me up in english",
+      "question": "What popular Italian dessert means 'pick-me-up' in English?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-01-14"
     }
   ],
   "publishes": {
@@ -297,6 +304,12 @@
           "artifact": "short-20260114-slot1",
           "fp": "905a44a04f6fbee572437b763a90af02b47d40107491d8b4c282b0057426b82a",
           "ts": "2026-01-14T04:42:20.393860+00:00"
+        },
+        "2": {
+          "video_id": "3JyWmaFdYR0",
+          "artifact": "short-20260114-slot2",
+          "fp": "6c5c5a0c12c6fce5256674c2569bd5545eefc514f35a4406ca5c103cfe4e986e",
+          "ts": "2026-01-14T07:49:23.157739+00:00"
         }
       }
     }
