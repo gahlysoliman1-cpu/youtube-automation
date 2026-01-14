@@ -155,6 +155,13 @@
       "question": "What popular Italian dessert's name means 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-14"
+    },
+    {
+      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+      "q_norm": "what does cpu stand for in computing",
+      "question": "What does CPU stand for in computing?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-01-14"
     }
   ],
   "publishes": {
@@ -323,6 +330,12 @@
           "artifact": "short-20260114-slot3",
           "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
           "ts": "2026-01-14T14:02:28.128604+00:00"
+        },
+        "4": {
+          "video_id": "7jzom2TF7DE",
+          "artifact": "short-20260114-slot4",
+          "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+          "ts": "2026-01-14T19:39:42.025918+00:00"
         }
       }
     }
