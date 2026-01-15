@@ -162,6 +162,13 @@
       "question": "What does CPU stand for in computing?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-01-14"
+    },
+    {
+      "fp": "19f2035d9784bd99e3e39f091e0bb35ad75764346850ac34f1d84d2afa75efc4",
+      "q_norm": "what continent is home to the country of morocco",
+      "question": "What continent is home to the country of Morocco?",
+      "answer": "Africa",
+      "date_iso": "2026-01-15"
     }
   ],
   "publishes": {
@@ -341,6 +348,16 @@
       "long": {
         "video_id": "kTEbEiUOtjw",
         "ts": "2026-01-14T23:49:59.246006+00:00"
+      }
+    },
+    "20260115": {
+      "shorts": {
+        "1": {
+          "video_id": "myA0kIfAHD8",
+          "artifact": "short-20260115-slot1",
+          "fp": "19f2035d9784bd99e3e39f091e0bb35ad75764346850ac34f1d84d2afa75efc4",
+          "ts": "2026-01-15T04:14:44.433572+00:00"
+        }
       }
     }
   }
