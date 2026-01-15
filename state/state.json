@@ -176,6 +176,13 @@
       "question": "What is 161 x 3 + 192 - 286?",
       "answer": "495",
       "date_iso": "2026-01-15"
+    },
+    {
+      "fp": "c486e5f0dc19dbaf055ab2afb9bf1875e1f88c6dd35ecbe2818a44a506a54924",
+      "q_norm": "what is 354067249 divided by 7",
+      "question": "What is 354067249 divided by 7?",
+      "answer": "50538107",
+      "date_iso": "2026-01-15"
     }
   ],
   "publishes": {
@@ -370,6 +377,12 @@
           "artifact": "short-20260115-slot2",
           "fp": "4012a618b9a1410fc54f08f517c908d0b5fe95d48e299d819d4b83bf44ecf8f7",
           "ts": "2026-01-15T07:47:20.893107+00:00"
+        },
+        "3": {
+          "video_id": "4BgAF3jS5y4",
+          "artifact": "short-20260115-slot3",
+          "fp": "c486e5f0dc19dbaf055ab2afb9bf1875e1f88c6dd35ecbe2818a44a506a54924",
+          "ts": "2026-01-15T14:01:47.032961+00:00"
         }
       }
     }
