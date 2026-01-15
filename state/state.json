@@ -169,6 +169,13 @@
       "question": "What continent is home to the country of Morocco?",
       "answer": "Africa",
       "date_iso": "2026-01-15"
+    },
+    {
+      "fp": "4012a618b9a1410fc54f08f517c908d0b5fe95d48e299d819d4b83bf44ecf8f7",
+      "q_norm": "what is 161 x 3 192 286",
+      "question": "What is 161 x 3 + 192 - 286?",
+      "answer": "495",
+      "date_iso": "2026-01-15"
     }
   ],
   "publishes": {
@@ -357,6 +364,12 @@
           "artifact": "short-20260115-slot1",
           "fp": "19f2035d9784bd99e3e39f091e0bb35ad75764346850ac34f1d84d2afa75efc4",
           "ts": "2026-01-15T04:14:44.433572+00:00"
+        },
+        "2": {
+          "video_id": "bx3j1lUQ7QA",
+          "artifact": "short-20260115-slot2",
+          "fp": "4012a618b9a1410fc54f08f517c908d0b5fe95d48e299d819d4b83bf44ecf8f7",
+          "ts": "2026-01-15T07:47:20.893107+00:00"
         }
       }
     }
