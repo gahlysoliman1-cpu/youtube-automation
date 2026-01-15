@@ -183,6 +183,13 @@
       "question": "What is 354067249 divided by 7?",
       "answer": "50538107",
       "date_iso": "2026-01-15"
+    },
+    {
+      "fp": "4614bbedc8d55eea964dafa250b33e4a9c58f95b989176021f3367b37fde9c41",
+      "q_norm": "what does gb stand for in computer storage",
+      "question": "What does 'GB' stand for in computer storage?",
+      "answer": "Gigabyte",
+      "date_iso": "2026-01-15"
     }
   ],
   "publishes": {
@@ -383,6 +390,12 @@
           "artifact": "short-20260115-slot3",
           "fp": "c486e5f0dc19dbaf055ab2afb9bf1875e1f88c6dd35ecbe2818a44a506a54924",
           "ts": "2026-01-15T14:01:47.032961+00:00"
+        },
+        "4": {
+          "video_id": "yoF2LIoN8YM",
+          "artifact": "short-20260115-slot4",
+          "fp": "4614bbedc8d55eea964dafa250b33e4a9c58f95b989176021f3367b37fde9c41",
+          "ts": "2026-01-15T19:48:31.945771+00:00"
         }
       }
     }
