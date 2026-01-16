@@ -197,6 +197,13 @@
       "question": "What continent is Brunei located on?",
       "answer": "Asia",
       "date_iso": "2026-01-16"
+    },
+    {
+      "fp": "fcc5aee17e01b36d4eac8ec360e2eade8aef1fe6a7ed3ca084d7d23894a3f13a",
+      "q_norm": "what is the longest recorded tennis match in hours and minutes",
+      "question": "What is the longest recorded tennis match in hours and minutes?",
+      "answer": "11 hours 5 minutes",
+      "date_iso": "2026-01-16"
     }
   ],
   "publishes": {
@@ -417,6 +424,12 @@
           "artifact": "short-20260116-slot1",
           "fp": "4de262e1953c85762fcb5286c294c742fa75e4ce0914699c71bd8598cdcc57d8",
           "ts": "2026-01-16T04:13:15.229594+00:00"
+        },
+        "2": {
+          "video_id": "cb2hQn4n2hY",
+          "artifact": "short-20260116-slot2",
+          "fp": "fcc5aee17e01b36d4eac8ec360e2eade8aef1fe6a7ed3ca084d7d23894a3f13a",
+          "ts": "2026-01-16T07:47:17.577803+00:00"
         }
       }
     }
