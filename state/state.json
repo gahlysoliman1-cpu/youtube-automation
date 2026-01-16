@@ -190,6 +190,13 @@
       "question": "What does 'GB' stand for in computer storage?",
       "answer": "Gigabyte",
       "date_iso": "2026-01-15"
+    },
+    {
+      "fp": "4de262e1953c85762fcb5286c294c742fa75e4ce0914699c71bd8598cdcc57d8",
+      "q_norm": "what continent is brunei located on",
+      "question": "What continent is Brunei located on?",
+      "answer": "Asia",
+      "date_iso": "2026-01-16"
     }
   ],
   "publishes": {
@@ -401,6 +408,16 @@
       "long": {
         "video_id": "94TI-9HyPvU",
         "ts": "2026-01-15T23:52:24.785211+00:00"
+      }
+    },
+    "20260116": {
+      "shorts": {
+        "1": {
+          "video_id": "_l-6r9SMWZs",
+          "artifact": "short-20260116-slot1",
+          "fp": "4de262e1953c85762fcb5286c294c742fa75e4ce0914699c71bd8598cdcc57d8",
+          "ts": "2026-01-16T04:13:15.229594+00:00"
+        }
       }
     }
   }
