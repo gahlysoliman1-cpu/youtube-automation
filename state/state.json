@@ -239,6 +239,13 @@
       "question": "What can be broken, but never held? What can be given, but never sold?",
       "answer": "A Promise",
       "date_iso": "2026-01-17"
+    },
+    {
+      "fp": "ed6a6c459919cee1c79b0acb54bf86474f2d7228cdc86615352ef4c3fa8cd366",
+      "q_norm": "which popular dessert s name translates to burnt cream in french",
+      "question": "Which popular dessert's name translates to 'burnt cream' in French?",
+      "answer": "Crème Brûlée",
+      "date_iso": "2026-01-17"
     }
   ],
   "publishes": {
@@ -503,6 +510,12 @@
           "artifact": "short-20260117-slot3",
           "fp": "2dddbb39a042e466e142b91e314374f15b9c65d2390ee90fd546d32e6af66633",
           "ts": "2026-01-17T13:47:27.565412+00:00"
+        },
+        "4": {
+          "video_id": "zN68MeQ3sxc",
+          "artifact": "short-20260117-slot4",
+          "fp": "ed6a6c459919cee1c79b0acb54bf86474f2d7228cdc86615352ef4c3fa8cd366",
+          "ts": "2026-01-17T19:30:26.114798+00:00"
         }
       }
     }
