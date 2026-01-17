@@ -232,6 +232,13 @@
       "question": "Which popular dessert's name comes from the French word for 'burnt cream'?",
       "answer": "Creme Brulee",
       "date_iso": "2026-01-17"
+    },
+    {
+      "fp": "2dddbb39a042e466e142b91e314374f15b9c65d2390ee90fd546d32e6af66633",
+      "q_norm": "what can be broken but never held what can be given but never sold",
+      "question": "What can be broken, but never held? What can be given, but never sold?",
+      "answer": "A Promise",
+      "date_iso": "2026-01-17"
     }
   ],
   "publishes": {
@@ -490,6 +497,12 @@
           "artifact": "short-20260117-slot2",
           "fp": "da09e32b3704ba0b9002b1c088962eb483cb0098a79aa70485b6ddacbf73b11b",
           "ts": "2026-01-17T07:36:19.807735+00:00"
+        },
+        "3": {
+          "video_id": "EwcFmqpJu5Y",
+          "artifact": "short-20260117-slot3",
+          "fp": "2dddbb39a042e466e142b91e314374f15b9c65d2390ee90fd546d32e6af66633",
+          "ts": "2026-01-17T13:47:27.565412+00:00"
         }
       }
     }
