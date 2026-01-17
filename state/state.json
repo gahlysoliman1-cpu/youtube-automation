@@ -218,6 +218,13 @@
       "question": "What is the world's most widely consumed fruit?",
       "answer": "Banana",
       "date_iso": "2026-01-16"
+    },
+    {
+      "fp": "27d80ebd2b5966db7e2ded536c379b9d371097ddf7966987c87ff177316899b1",
+      "q_norm": "which company produced the first affordable personal computer in 1975",
+      "question": "Which company produced the first affordable personal computer in 1975?",
+      "answer": "Apple",
+      "date_iso": "2026-01-17"
     }
   ],
   "publishes": {
@@ -461,6 +468,16 @@
       "long": {
         "video_id": "mKJwd1JgQG0",
         "ts": "2026-01-16T23:51:08.716289+00:00"
+      }
+    },
+    "20260117": {
+      "shorts": {
+        "1": {
+          "video_id": "G0qoWszG-cM",
+          "artifact": "short-20260117-slot1",
+          "fp": "27d80ebd2b5966db7e2ded536c379b9d371097ddf7966987c87ff177316899b1",
+          "ts": "2026-01-17T04:03:17.259771+00:00"
+        }
       }
     }
   }
