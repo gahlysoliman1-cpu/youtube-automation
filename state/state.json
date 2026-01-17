@@ -225,6 +225,13 @@
       "question": "Which company produced the first affordable personal computer in 1975?",
       "answer": "Apple",
       "date_iso": "2026-01-17"
+    },
+    {
+      "fp": "da09e32b3704ba0b9002b1c088962eb483cb0098a79aa70485b6ddacbf73b11b",
+      "q_norm": "which popular dessert s name comes from the french word for burnt cream",
+      "question": "Which popular dessert's name comes from the French word for 'burnt cream'?",
+      "answer": "Creme Brulee",
+      "date_iso": "2026-01-17"
     }
   ],
   "publishes": {
@@ -477,6 +484,12 @@
           "artifact": "short-20260117-slot1",
           "fp": "27d80ebd2b5966db7e2ded536c379b9d371097ddf7966987c87ff177316899b1",
           "ts": "2026-01-17T04:03:17.259771+00:00"
+        },
+        "2": {
+          "video_id": "Astso9g3-io",
+          "artifact": "short-20260117-slot2",
+          "fp": "da09e32b3704ba0b9002b1c088962eb483cb0098a79aa70485b6ddacbf73b11b",
+          "ts": "2026-01-17T07:36:19.807735+00:00"
         }
       }
     }
