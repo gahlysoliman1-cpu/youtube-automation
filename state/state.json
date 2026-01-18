@@ -246,6 +246,13 @@
       "question": "Which popular dessert's name translates to 'burnt cream' in French?",
       "answer": "Crème Brûlée",
       "date_iso": "2026-01-17"
+    },
+    {
+      "fp": "1ffd6cab2e9cf59dfcf97b823230c1779d11e401b16da80ac28c144eb0842c41",
+      "q_norm": "in japan what popular food consists of vinegared rice and raw fish",
+      "question": "In Japan, what popular food consists of vinegared rice and raw fish?",
+      "answer": "Sushi",
+      "date_iso": "2026-01-18"
     }
   ],
   "publishes": {
@@ -521,6 +528,16 @@
       "long": {
         "video_id": "YANpwtn4k4M",
         "ts": "2026-01-17T23:49:29.375131+00:00"
+      }
+    },
+    "20260118": {
+      "shorts": {
+        "1": {
+          "video_id": "K21ws49ygic",
+          "artifact": "short-20260118-slot1",
+          "fp": "1ffd6cab2e9cf59dfcf97b823230c1779d11e401b16da80ac28c144eb0842c41",
+          "ts": "2026-01-18T04:18:17.356483+00:00"
+        }
       }
     }
   }
