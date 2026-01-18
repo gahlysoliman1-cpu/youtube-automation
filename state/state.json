@@ -260,6 +260,13 @@
       "question": "Which popular dessert's name means 'pick-me-up' in Italian?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-18"
+    },
+    {
+      "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
+      "q_norm": "what does bite off more than you can chew mean",
+      "question": "What does 'Bite off more than you can chew' mean?",
+      "answer": "Take on more than you can handle",
+      "date_iso": "2026-01-18"
     }
   ],
   "publishes": {
@@ -550,6 +557,12 @@
           "artifact": "short-20260118-slot2",
           "fp": "c3743d6df108953222e64150ceb9b899a445b14ffd8d3fcd93cc60831b8e7b3d",
           "ts": "2026-01-18T07:38:22.628926+00:00"
+        },
+        "3": {
+          "video_id": "ggEHAXsRT8E",
+          "artifact": "short-20260118-slot3",
+          "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
+          "ts": "2026-01-18T13:47:20.081178+00:00"
         }
       }
     }
