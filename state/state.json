@@ -253,6 +253,13 @@
       "question": "In Japan, what popular food consists of vinegared rice and raw fish?",
       "answer": "Sushi",
       "date_iso": "2026-01-18"
+    },
+    {
+      "fp": "c3743d6df108953222e64150ceb9b899a445b14ffd8d3fcd93cc60831b8e7b3d",
+      "q_norm": "which popular dessert s name means pick me up in italian",
+      "question": "Which popular dessert's name means 'pick-me-up' in Italian?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-01-18"
     }
   ],
   "publishes": {
@@ -537,6 +544,12 @@
           "artifact": "short-20260118-slot1",
           "fp": "1ffd6cab2e9cf59dfcf97b823230c1779d11e401b16da80ac28c144eb0842c41",
           "ts": "2026-01-18T04:18:17.356483+00:00"
+        },
+        "2": {
+          "video_id": "2Glx6QK0odg",
+          "artifact": "short-20260118-slot2",
+          "fp": "c3743d6df108953222e64150ceb9b899a445b14ffd8d3fcd93cc60831b8e7b3d",
+          "ts": "2026-01-18T07:38:22.628926+00:00"
         }
       }
     }
