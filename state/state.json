@@ -274,6 +274,13 @@
       "question": "What country has Lisbon as its capital?",
       "answer": "Portugal",
       "date_iso": "2026-01-18"
+    },
+    {
+      "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
+      "q_norm": "who is the only tennis player to achieve a golden slam",
+      "question": "Who is the only tennis player to achieve a Golden Slam?",
+      "answer": "Steffi Graf",
+      "date_iso": "2026-01-19"
     }
   ],
   "publishes": {
@@ -581,6 +588,16 @@
       "long": {
         "video_id": "3FW-PY7XZig",
         "ts": "2026-01-18T23:51:07.107429+00:00"
+      }
+    },
+    "20260119": {
+      "shorts": {
+        "1": {
+          "video_id": "Ivmr8-Sej6E",
+          "artifact": "short-20260119-slot1",
+          "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
+          "ts": "2026-01-19T04:41:44.204921+00:00"
+        }
       }
     }
   }
