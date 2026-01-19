@@ -288,6 +288,13 @@
       "question": "What is the widely accepted shortcut for 'copy' in computing?",
       "answer": "Ctrl+C",
       "date_iso": "2026-01-19"
+    },
+    {
+      "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
+      "q_norm": "who holds the record for most career home runs in mlb",
+      "question": "Who holds the record for most career home runs in MLB?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-01-19"
     }
   ],
   "publishes": {
@@ -610,6 +617,12 @@
           "artifact": "short-20260119-slot2",
           "fp": "0340d40484c98587d614b556577948e25db85fc8fbde2d2b156274334c7cfce8",
           "ts": "2026-01-19T07:53:03.135212+00:00"
+        },
+        "3": {
+          "video_id": "K0nUgC-2s-M",
+          "artifact": "short-20260119-slot3",
+          "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
+          "ts": "2026-01-19T14:07:11.219689+00:00"
         }
       }
     }
