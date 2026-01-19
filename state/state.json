@@ -281,6 +281,13 @@
       "question": "Who is the only tennis player to achieve a Golden Slam?",
       "answer": "Steffi Graf",
       "date_iso": "2026-01-19"
+    },
+    {
+      "fp": "0340d40484c98587d614b556577948e25db85fc8fbde2d2b156274334c7cfce8",
+      "q_norm": "what is the widely accepted shortcut for copy in computing",
+      "question": "What is the widely accepted shortcut for 'copy' in computing?",
+      "answer": "Ctrl+C",
+      "date_iso": "2026-01-19"
     }
   ],
   "publishes": {
@@ -597,6 +604,12 @@
           "artifact": "short-20260119-slot1",
           "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
           "ts": "2026-01-19T04:41:44.204921+00:00"
+        },
+        "2": {
+          "video_id": "nFwqosJbwYk",
+          "artifact": "short-20260119-slot2",
+          "fp": "0340d40484c98587d614b556577948e25db85fc8fbde2d2b156274334c7cfce8",
+          "ts": "2026-01-19T07:53:03.135212+00:00"
         }
       }
     }
