@@ -316,6 +316,13 @@
       "question": "How many moons does Mars have?",
       "answer": "2",
       "date_iso": "2026-01-20"
+    },
+    {
+      "fp": "9a27c31f2ffe6638720004ef2b09c42ddcf90a1e2c269b4761e6626f9cf18bed",
+      "q_norm": "what does bend over backwards really mean",
+      "question": "What does 'bend over backwards' really mean?",
+      "answer": "go out of one's way to help",
+      "date_iso": "2026-01-20"
     }
   ],
   "publishes": {
@@ -670,6 +677,12 @@
           "artifact": "short-20260120-slot2",
           "fp": "933ddb928bff2beef263751ebf342be0ded7fc9cbae35cba0393398038a3721f",
           "ts": "2026-01-20T07:52:16.052385+00:00"
+        },
+        "3": {
+          "video_id": "0VN6NY98gbs",
+          "artifact": "short-20260120-slot3",
+          "fp": "9a27c31f2ffe6638720004ef2b09c42ddcf90a1e2c269b4761e6626f9cf18bed",
+          "ts": "2026-01-20T14:54:56.840307+00:00"
         }
       }
     }
