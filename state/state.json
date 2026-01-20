@@ -302,6 +302,13 @@
       "question": "Which popular dessert's name means 'pick-me-up' in French?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-19"
+    },
+    {
+      "fp": "818a9b9c3f2af103a0422e6ca12f4b3ee5941a166cc66ca943aae35017a8e270",
+      "q_norm": "what is the capital of peru",
+      "question": "What is the capital of Peru?",
+      "answer": "Lima",
+      "date_iso": "2026-01-20"
     }
   ],
   "publishes": {
@@ -641,6 +648,16 @@
       "long": {
         "video_id": "DWkcxCeULXc",
         "ts": "2026-01-19T23:53:46.235539+00:00"
+      }
+    },
+    "20260120": {
+      "shorts": {
+        "1": {
+          "video_id": "zO6PZciPpKk",
+          "artifact": "short-20260120-slot1",
+          "fp": "818a9b9c3f2af103a0422e6ca12f4b3ee5941a166cc66ca943aae35017a8e270",
+          "ts": "2026-01-20T04:34:32.902478+00:00"
+        }
       }
     }
   }
