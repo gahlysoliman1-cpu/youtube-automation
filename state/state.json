@@ -309,6 +309,13 @@
       "question": "What is the capital of Peru?",
       "answer": "Lima",
       "date_iso": "2026-01-20"
+    },
+    {
+      "fp": "933ddb928bff2beef263751ebf342be0ded7fc9cbae35cba0393398038a3721f",
+      "q_norm": "how many moons does mars have",
+      "question": "How many moons does Mars have?",
+      "answer": "2",
+      "date_iso": "2026-01-20"
     }
   ],
   "publishes": {
@@ -657,6 +664,12 @@
           "artifact": "short-20260120-slot1",
           "fp": "818a9b9c3f2af103a0422e6ca12f4b3ee5941a166cc66ca943aae35017a8e270",
           "ts": "2026-01-20T04:34:32.902478+00:00"
+        },
+        "2": {
+          "video_id": "JxrI4Pucavc",
+          "artifact": "short-20260120-slot2",
+          "fp": "933ddb928bff2beef263751ebf342be0ded7fc9cbae35cba0393398038a3721f",
+          "ts": "2026-01-20T07:52:16.052385+00:00"
         }
       }
     }
