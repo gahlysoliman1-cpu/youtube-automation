@@ -337,6 +337,13 @@
       "question": "If 761538604 is divided by 4, what's the last digit of the result?",
       "answer": "1",
       "date_iso": "2026-01-21"
+    },
+    {
+      "fp": "1a3ef1d7d6ba985bb48045562f3449f58df807f4e28666e7428572ddaf6ff60b",
+      "q_norm": "a bookshelf has 8 shelves and each shelf can hold 5 books if the bookshelf is currently empty how many books can be placed on it in total",
+      "question": "A bookshelf has 8 shelves, and each shelf can hold 5 books. If the bookshelf is currently empty, how many books can be placed on it in total?",
+      "answer": "40",
+      "date_iso": "2026-01-21"
     }
   ],
   "publishes": {
@@ -717,6 +724,12 @@
           "artifact": "short-20260121-slot1",
           "fp": "f77626107aa16dec7b958b7fec576f02b1ed0733dffe637bbe42fe96d49c823a",
           "ts": "2026-01-21T04:20:11.160173+00:00"
+        },
+        "2": {
+          "video_id": "vHT7CWoIf0o",
+          "artifact": "short-20260121-slot2",
+          "fp": "1a3ef1d7d6ba985bb48045562f3449f58df807f4e28666e7428572ddaf6ff60b",
+          "ts": "2026-01-21T07:56:56.814015+00:00"
         }
       }
     }
