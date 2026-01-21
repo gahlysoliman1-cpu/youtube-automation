@@ -330,6 +330,13 @@
       "question": "What has a head, a tail, but no body?",
       "answer": "Coin",
       "date_iso": "2026-01-20"
+    },
+    {
+      "fp": "f77626107aa16dec7b958b7fec576f02b1ed0733dffe637bbe42fe96d49c823a",
+      "q_norm": "if 761538604 is divided by 4 what s the last digit of the result",
+      "question": "If 761538604 is divided by 4, what's the last digit of the result?",
+      "answer": "1",
+      "date_iso": "2026-01-21"
     }
   ],
   "publishes": {
@@ -701,6 +708,16 @@
       "long": {
         "video_id": "vlwZk3Hr6ew",
         "ts": "2026-01-20T23:55:00.574806+00:00"
+      }
+    },
+    "20260121": {
+      "shorts": {
+        "1": {
+          "video_id": "nQLngFcj2GE",
+          "artifact": "short-20260121-slot1",
+          "fp": "f77626107aa16dec7b958b7fec576f02b1ed0733dffe637bbe42fe96d49c823a",
+          "ts": "2026-01-21T04:20:11.160173+00:00"
+        }
       }
     }
   }
