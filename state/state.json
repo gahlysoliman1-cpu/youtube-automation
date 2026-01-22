@@ -372,6 +372,13 @@
       "question": "If 3 friends share 48 cookies, how many cookies does each friend get?",
       "answer": "16",
       "date_iso": "2026-01-22"
+    },
+    {
+      "fp": "d252ac8341e2cbb2caf6a28cedd4dd51c2c88ab63461b2b67cf59095126339bb",
+      "q_norm": "what insect can turn its body into a wheel for defense",
+      "question": "What insect can turn its body into a 'wheel' for defense?",
+      "answer": "Rolling dung beetle",
+      "date_iso": "2026-01-22"
     }
   ],
   "publishes": {
@@ -790,6 +797,12 @@
           "artifact": "short-20260122-slot2",
           "fp": "0afb5c6d96ad149c8c90b36bae549d9b760a11a16883cc07de2ecb81e066929d",
           "ts": "2026-01-22T07:52:41.729705+00:00"
+        },
+        "3": {
+          "video_id": "jTLIJIZbWEw",
+          "artifact": "short-20260122-slot3",
+          "fp": "d252ac8341e2cbb2caf6a28cedd4dd51c2c88ab63461b2b67cf59095126339bb",
+          "ts": "2026-01-22T14:54:28.361737+00:00"
         }
       }
     }
