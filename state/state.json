@@ -365,6 +365,13 @@
       "question": "What's the meaning of 'Bite off more than you can chew'?",
       "answer": "Take on more responsibility than you can handle",
       "date_iso": "2026-01-22"
+    },
+    {
+      "fp": "0afb5c6d96ad149c8c90b36bae549d9b760a11a16883cc07de2ecb81e066929d",
+      "q_norm": "if 3 friends share 48 cookies how many cookies does each friend get",
+      "question": "If 3 friends share 48 cookies, how many cookies does each friend get?",
+      "answer": "16",
+      "date_iso": "2026-01-22"
     }
   ],
   "publishes": {
@@ -777,6 +784,12 @@
           "artifact": "short-20260122-slot1",
           "fp": "49a0c2f4f5516495bfa64990a656fa75caac72bd629e242800a9b28f7ed71a9c",
           "ts": "2026-01-22T04:38:06.251177+00:00"
+        },
+        "2": {
+          "video_id": "Jg286GaUotI",
+          "artifact": "short-20260122-slot2",
+          "fp": "0afb5c6d96ad149c8c90b36bae549d9b760a11a16883cc07de2ecb81e066929d",
+          "ts": "2026-01-22T07:52:41.729705+00:00"
         }
       }
     }
