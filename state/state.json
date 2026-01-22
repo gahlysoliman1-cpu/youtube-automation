@@ -358,6 +358,13 @@
       "question": "What is 1576 ÷ 14?",
       "answer": "112",
       "date_iso": "2026-01-21"
+    },
+    {
+      "fp": "49a0c2f4f5516495bfa64990a656fa75caac72bd629e242800a9b28f7ed71a9c",
+      "q_norm": "what s the meaning of bite off more than you can chew",
+      "question": "What's the meaning of 'Bite off more than you can chew'?",
+      "answer": "Take on more responsibility than you can handle",
+      "date_iso": "2026-01-22"
     }
   ],
   "publishes": {
@@ -761,6 +768,16 @@
       "long": {
         "video_id": "UpnAyjQ2tqk",
         "ts": "2026-01-21T23:59:49.129370+00:00"
+      }
+    },
+    "20260122": {
+      "shorts": {
+        "1": {
+          "video_id": "42qjXDSGXMI",
+          "artifact": "short-20260122-slot1",
+          "fp": "49a0c2f4f5516495bfa64990a656fa75caac72bd629e242800a9b28f7ed71a9c",
+          "ts": "2026-01-22T04:38:06.251177+00:00"
+        }
       }
     }
   }
