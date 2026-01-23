@@ -400,6 +400,13 @@
       "question": "The first computer bug was caused by a real insect in which year?",
       "answer": "1947",
       "date_iso": "2026-01-23"
+    },
+    {
+      "fp": "86e76ea58dbadf9ffe86083b6ca47a96db8f795170fe02443f40465b16aca61a",
+      "q_norm": "what s 338 942 997 divided by 7",
+      "question": "What's 338,942,997 divided by 7?",
+      "answer": "48,492,571",
+      "date_iso": "2026-01-23"
     }
   ],
   "publishes": {
@@ -850,6 +857,12 @@
           "artifact": "short-20260123-slot2",
           "fp": "d03f0e0fa29ca8b0b4d6ac784118eb702c9ca98af2f6cf9e5ae06068451a7321",
           "ts": "2026-01-23T07:48:41.523680+00:00"
+        },
+        "3": {
+          "video_id": "DCoVUtysrOA",
+          "artifact": "short-20260123-slot3",
+          "fp": "86e76ea58dbadf9ffe86083b6ca47a96db8f795170fe02443f40465b16aca61a",
+          "ts": "2026-01-23T14:02:50.390794+00:00"
         }
       }
     }
