@@ -386,6 +386,13 @@
       "question": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
       "answer": "5 cents",
       "date_iso": "2026-01-22"
+    },
+    {
+      "fp": "8ea37fca8025b06c02cb23150ddcba0c79a62fcdca50fe90825254d106c41785",
+      "q_norm": "what has the largest brain to body mass ratio among animals",
+      "question": "What has the largest brain-to-body mass ratio among animals?",
+      "answer": "Sperm whale",
+      "date_iso": "2026-01-23"
     }
   ],
   "publishes": {
@@ -821,6 +828,16 @@
       "long": {
         "video_id": "W0McQHlv0V8",
         "ts": "2026-01-22T23:54:25.101450+00:00"
+      }
+    },
+    "20260123": {
+      "shorts": {
+        "1": {
+          "video_id": "Efc8r4WFk1k",
+          "artifact": "short-20260123-slot1",
+          "fp": "8ea37fca8025b06c02cb23150ddcba0c79a62fcdca50fe90825254d106c41785",
+          "ts": "2026-01-23T04:15:53.090777+00:00"
+        }
       }
     }
   }
