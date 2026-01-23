@@ -393,6 +393,13 @@
       "question": "What has the largest brain-to-body mass ratio among animals?",
       "answer": "Sperm whale",
       "date_iso": "2026-01-23"
+    },
+    {
+      "fp": "d03f0e0fa29ca8b0b4d6ac784118eb702c9ca98af2f6cf9e5ae06068451a7321",
+      "q_norm": "the first computer bug was caused by a real insect in which year",
+      "question": "The first computer bug was caused by a real insect in which year?",
+      "answer": "1947",
+      "date_iso": "2026-01-23"
     }
   ],
   "publishes": {
@@ -837,6 +844,12 @@
           "artifact": "short-20260123-slot1",
           "fp": "8ea37fca8025b06c02cb23150ddcba0c79a62fcdca50fe90825254d106c41785",
           "ts": "2026-01-23T04:15:53.090777+00:00"
+        },
+        "2": {
+          "video_id": "zvg_EXJGEWc",
+          "artifact": "short-20260123-slot2",
+          "fp": "d03f0e0fa29ca8b0b4d6ac784118eb702c9ca98af2f6cf9e5ae06068451a7321",
+          "ts": "2026-01-23T07:48:41.523680+00:00"
         }
       }
     }
