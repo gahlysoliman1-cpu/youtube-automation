@@ -435,6 +435,13 @@
       "question": "What unique feature allows the axolotl to regrow lost limbs?",
       "answer": "Their ability to regenerate cells",
       "date_iso": "2026-01-24"
+    },
+    {
+      "fp": "f0a25d214f3dbe34d38ca5ef33b489d300e5546b41d1520019e84215e5104cd7",
+      "q_norm": "most career home runs in baseball",
+      "question": "Most career home runs in baseball?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-01-24"
     }
   ],
   "publishes": {
@@ -923,6 +930,12 @@
           "artifact": "short-20260124-slot3",
           "fp": "82caf820ab329e6e304153e00f699025ea5e5c493aaf298d1472eb5b3b4e199d",
           "ts": "2026-01-24T13:50:07.727444+00:00"
+        },
+        "4": {
+          "video_id": "MB2Tuc0QCLg",
+          "artifact": "short-20260124-slot4",
+          "fp": "f0a25d214f3dbe34d38ca5ef33b489d300e5546b41d1520019e84215e5104cd7",
+          "ts": "2026-01-24T19:32:33.939447+00:00"
         }
       }
     }
