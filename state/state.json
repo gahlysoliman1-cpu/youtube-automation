@@ -414,6 +414,13 @@
       "question": "I have a 3-digit number. If you reverse my digits, I'm the same. What am I?",
       "answer": "808",
       "date_iso": "2026-01-23"
+    },
+    {
+      "fp": "745d2dbb57a536626a2699814b4686eb7c6e766f499a01973a8b8a99744b2b6a",
+      "q_norm": "which big cat has the longest tail relative to its body",
+      "question": "Which big cat has the longest tail relative to its body?",
+      "answer": "Snow Leopard",
+      "date_iso": "2026-01-24"
     }
   ],
   "publishes": {
@@ -881,6 +888,16 @@
       "long": {
         "video_id": "0SeWih9pUTo",
         "ts": "2026-01-23T23:53:12.302797+00:00"
+      }
+    },
+    "20260124": {
+      "shorts": {
+        "1": {
+          "video_id": "6NYxIO46bX0",
+          "artifact": "short-20260124-slot1",
+          "fp": "745d2dbb57a536626a2699814b4686eb7c6e766f499a01973a8b8a99744b2b6a",
+          "ts": "2026-01-24T04:08:05.148587+00:00"
+        }
       }
     }
   }
