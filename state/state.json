@@ -421,6 +421,13 @@
       "question": "Which big cat has the longest tail relative to its body?",
       "answer": "Snow Leopard",
       "date_iso": "2026-01-24"
+    },
+    {
+      "fp": "9c3fb234c2be00c2f2a3457dbed6becdd6b1a67f46eacf9d43f1840bfb1a1e0a",
+      "q_norm": "what does ram stand for",
+      "question": "What does RAM stand for?",
+      "answer": "Random Access Memory",
+      "date_iso": "2026-01-24"
     }
   ],
   "publishes": {
@@ -897,6 +904,12 @@
           "artifact": "short-20260124-slot1",
           "fp": "745d2dbb57a536626a2699814b4686eb7c6e766f499a01973a8b8a99744b2b6a",
           "ts": "2026-01-24T04:08:05.148587+00:00"
+        },
+        "2": {
+          "video_id": "Zx1huzn4los",
+          "artifact": "short-20260124-slot2",
+          "fp": "9c3fb234c2be00c2f2a3457dbed6becdd6b1a67f46eacf9d43f1840bfb1a1e0a",
+          "ts": "2026-01-24T07:38:49.097824+00:00"
         }
       }
     }
