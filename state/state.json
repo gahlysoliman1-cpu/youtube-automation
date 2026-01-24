@@ -428,6 +428,13 @@
       "question": "What does RAM stand for?",
       "answer": "Random Access Memory",
       "date_iso": "2026-01-24"
+    },
+    {
+      "fp": "82caf820ab329e6e304153e00f699025ea5e5c493aaf298d1472eb5b3b4e199d",
+      "q_norm": "what unique feature allows the axolotl to regrow lost limbs",
+      "question": "What unique feature allows the axolotl to regrow lost limbs?",
+      "answer": "Their ability to regenerate cells",
+      "date_iso": "2026-01-24"
     }
   ],
   "publishes": {
@@ -910,6 +917,12 @@
           "artifact": "short-20260124-slot2",
           "fp": "9c3fb234c2be00c2f2a3457dbed6becdd6b1a67f46eacf9d43f1840bfb1a1e0a",
           "ts": "2026-01-24T07:38:49.097824+00:00"
+        },
+        "3": {
+          "video_id": "gBUM4sg-Vok",
+          "artifact": "short-20260124-slot3",
+          "fp": "82caf820ab329e6e304153e00f699025ea5e5c493aaf298d1472eb5b3b4e199d",
+          "ts": "2026-01-24T13:50:07.727444+00:00"
         }
       }
     }
