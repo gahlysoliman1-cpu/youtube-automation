@@ -442,6 +442,13 @@
       "question": "Most career home runs in baseball?",
       "answer": "Barry Bonds",
       "date_iso": "2026-01-24"
+    },
+    {
+      "fp": "2512d8e0c73605447166ec71fe08ae649f066749a62ce7622053b2a9de29667b",
+      "q_norm": "what s the capital of colombia",
+      "question": "What's the capital of Colombia?",
+      "answer": "Bogotá",
+      "date_iso": "2026-01-25"
     }
   ],
   "publishes": {
@@ -941,6 +948,16 @@
       "long": {
         "video_id": "OjyTNQjjxlU",
         "ts": "2026-01-24T23:50:05.371834+00:00"
+      }
+    },
+    "20260125": {
+      "shorts": {
+        "1": {
+          "video_id": "AaLumttkAO8",
+          "artifact": "short-20260125-slot1",
+          "fp": "2512d8e0c73605447166ec71fe08ae649f066749a62ce7622053b2a9de29667b",
+          "ts": "2026-01-25T04:42:29.746437+00:00"
+        }
       }
     }
   }
