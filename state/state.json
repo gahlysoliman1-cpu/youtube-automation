@@ -463,6 +463,13 @@
       "question": "I am a 9-digit number with the digits 8, 3, 4, 2, 4, 0, 2, 3, 7. What digit appears twice?",
       "answer": "4",
       "date_iso": "2026-01-25"
+    },
+    {
+      "fp": "e4d3866346de1eae89fcb878189245c248386ea9308e105878223eace40ad624",
+      "q_norm": "what is the longest tennis match in history by duration",
+      "question": "What is the longest tennis match in history by duration?",
+      "answer": "11 hours 5 minutes",
+      "date_iso": "2026-01-25"
     }
   ],
   "publishes": {
@@ -983,6 +990,12 @@
           "artifact": "short-20260125-slot3",
           "fp": "6881d4b6fc6b6a97cd99882a517210b492e1cf83a69fd6f2ae5303aec3a18b72",
           "ts": "2026-01-25T13:52:48.401981+00:00"
+        },
+        "4": {
+          "video_id": "23VlNjsSgu0",
+          "artifact": "short-20260125-slot4",
+          "fp": "e4d3866346de1eae89fcb878189245c248386ea9308e105878223eace40ad624",
+          "ts": "2026-01-25T19:32:53.608579+00:00"
         }
       }
     }
