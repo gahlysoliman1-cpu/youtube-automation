@@ -456,6 +456,13 @@
       "question": "I have a head, a tail, but no body. What am I?",
       "answer": "A Coin",
       "date_iso": "2026-01-25"
+    },
+    {
+      "fp": "6881d4b6fc6b6a97cd99882a517210b492e1cf83a69fd6f2ae5303aec3a18b72",
+      "q_norm": "i am a 9 digit number with the digits 8 3 4 2 4 0 2 3 7 what digit appears twice",
+      "question": "I am a 9-digit number with the digits 8, 3, 4, 2, 4, 0, 2, 3, 7. What digit appears twice?",
+      "answer": "4",
+      "date_iso": "2026-01-25"
     }
   ],
   "publishes": {
@@ -970,6 +977,12 @@
           "artifact": "short-20260125-slot2",
           "fp": "ce7c8a8c9a9a5c8c9ab98c2a73baeecc388232515344a22a58fbaaad58c0ff90",
           "ts": "2026-01-25T07:40:45.684237+00:00"
+        },
+        "3": {
+          "video_id": "CQcesrWB4OU",
+          "artifact": "short-20260125-slot3",
+          "fp": "6881d4b6fc6b6a97cd99882a517210b492e1cf83a69fd6f2ae5303aec3a18b72",
+          "ts": "2026-01-25T13:52:48.401981+00:00"
         }
       }
     }
