@@ -470,6 +470,13 @@
       "question": "What is the longest tennis match in history by duration?",
       "answer": "11 hours 5 minutes",
       "date_iso": "2026-01-25"
+    },
+    {
+      "fp": "081b780c7301e582a3e523747582b4ba8fe4ceae386aa06dd7475fb640c3ba9d",
+      "q_norm": "what s the result of 743 280 9 8",
+      "question": "What's the result of 743,280 ÷ 9 × 8?",
+      "answer": "662,176",
+      "date_iso": "2026-01-26"
     }
   ],
   "publishes": {
@@ -1001,6 +1008,16 @@
       "long": {
         "video_id": "WDazNMIG_8Y",
         "ts": "2026-01-25T23:52:39.836636+00:00"
+      }
+    },
+    "20260126": {
+      "shorts": {
+        "1": {
+          "video_id": "O9z5GalG0-c",
+          "artifact": "short-20260126-slot1",
+          "fp": "081b780c7301e582a3e523747582b4ba8fe4ceae386aa06dd7475fb640c3ba9d",
+          "ts": "2026-01-26T04:46:50.292394+00:00"
+        }
       }
     }
   }
