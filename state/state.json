@@ -484,6 +484,13 @@
       "question": "What does CPU stand for?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-01-26"
+    },
+    {
+      "fp": "3f0f28caa3cbb4ee1f302d64355d2d14748c6608eabd5e082b5e2d7a0daa0840",
+      "q_norm": "most career home runs in mlb history",
+      "question": "Most career home runs in MLB history?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-01-26"
     }
   ],
   "publishes": {
@@ -1030,6 +1037,12 @@
           "artifact": "short-20260126-slot2",
           "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
           "ts": "2026-01-26T07:52:15.765784+00:00"
+        },
+        "3": {
+          "video_id": "z6gKlQ67pDY",
+          "artifact": "short-20260126-slot3",
+          "fp": "3f0f28caa3cbb4ee1f302d64355d2d14748c6608eabd5e082b5e2d7a0daa0840",
+          "ts": "2026-01-26T14:05:21.323222+00:00"
         }
       }
     }
