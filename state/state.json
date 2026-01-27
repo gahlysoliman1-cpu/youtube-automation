@@ -519,6 +519,13 @@
       "question": "What's 324117407 divided by 97?",
       "answer": "3,336,063",
       "date_iso": "2026-01-27"
+    },
+    {
+      "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
+      "q_norm": "which popular dessert originated in italy",
+      "question": "Which popular dessert originated in Italy?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-01-27"
     }
   ],
   "publishes": {
@@ -1103,6 +1110,12 @@
           "artifact": "short-20260127-slot3",
           "fp": "01c06d629b136c07db23341e366394bffa6432c2de3d5f91bbf0be83ef8fde5b",
           "ts": "2026-01-27T14:55:10.979651+00:00"
+        },
+        "4": {
+          "video_id": "fEZS76gISuc",
+          "artifact": "short-20260127-slot4",
+          "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
+          "ts": "2026-01-27T19:51:25.187851+00:00"
         }
       }
     }
