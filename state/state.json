@@ -505,6 +505,13 @@
       "question": "What's the longest recorded tennis match duration in hours?",
       "answer": "11 hours 5 minutes",
       "date_iso": "2026-01-27"
+    },
+    {
+      "fp": "16f421e37e25f1f6b53315fcf6ba62cf38558ce6a6c86be37636406a31acb1b4",
+      "q_norm": "what s 879943000 divided by 9",
+      "question": "What's 879943000 divided by 9?",
+      "answer": "97938900",
+      "date_iso": "2026-01-27"
     }
   ],
   "publishes": {
@@ -1077,6 +1084,12 @@
           "artifact": "short-20260127-slot1",
           "fp": "7571631e10e8ec6a599513b2e500973d57cffdd4dc265f200bf35c5db0ce7e02",
           "ts": "2026-01-27T04:36:12.759154+00:00"
+        },
+        "2": {
+          "video_id": "bRSJudjR5sg",
+          "artifact": "short-20260127-slot2",
+          "fp": "16f421e37e25f1f6b53315fcf6ba62cf38558ce6a6c86be37636406a31acb1b4",
+          "ts": "2026-01-27T07:52:03.436974+00:00"
         }
       }
     }
