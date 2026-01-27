@@ -498,6 +498,13 @@
       "question": "Most career MLB home runs by a single player, as of 2023?",
       "answer": "Barry Bonds",
       "date_iso": "2026-01-26"
+    },
+    {
+      "fp": "7571631e10e8ec6a599513b2e500973d57cffdd4dc265f200bf35c5db0ce7e02",
+      "q_norm": "what s the longest recorded tennis match duration in hours",
+      "question": "What's the longest recorded tennis match duration in hours?",
+      "answer": "11 hours 5 minutes",
+      "date_iso": "2026-01-27"
     }
   ],
   "publishes": {
@@ -1061,6 +1068,16 @@
       "long": {
         "video_id": "NZpHnuo0CEk",
         "ts": "2026-01-26T23:55:55.428886+00:00"
+      }
+    },
+    "20260127": {
+      "shorts": {
+        "1": {
+          "video_id": "fTzV_3nF81Y",
+          "artifact": "short-20260127-slot1",
+          "fp": "7571631e10e8ec6a599513b2e500973d57cffdd4dc265f200bf35c5db0ce7e02",
+          "ts": "2026-01-27T04:36:12.759154+00:00"
+        }
       }
     }
   }
