@@ -512,6 +512,13 @@
       "question": "What's 879943000 divided by 9?",
       "answer": "97938900",
       "date_iso": "2026-01-27"
+    },
+    {
+      "fp": "01c06d629b136c07db23341e366394bffa6432c2de3d5f91bbf0be83ef8fde5b",
+      "q_norm": "what s 324117407 divided by 97",
+      "question": "What's 324117407 divided by 97?",
+      "answer": "3,336,063",
+      "date_iso": "2026-01-27"
     }
   ],
   "publishes": {
@@ -1090,6 +1097,12 @@
           "artifact": "short-20260127-slot2",
           "fp": "16f421e37e25f1f6b53315fcf6ba62cf38558ce6a6c86be37636406a31acb1b4",
           "ts": "2026-01-27T07:52:03.436974+00:00"
+        },
+        "3": {
+          "video_id": "7S6Hi-KhXzk",
+          "artifact": "short-20260127-slot3",
+          "fp": "01c06d629b136c07db23341e366394bffa6432c2de3d5f91bbf0be83ef8fde5b",
+          "ts": "2026-01-27T14:55:10.979651+00:00"
         }
       }
     }
