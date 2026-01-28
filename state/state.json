@@ -540,6 +540,13 @@
       "question": "What is the largest planet in our solar system?",
       "answer": "Jupiter",
       "date_iso": "2026-01-28"
+    },
+    {
+      "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
+      "q_norm": "what does bend over backwards mean",
+      "question": "What does 'bend over backwards' mean?",
+      "answer": "Go out of one's way",
+      "date_iso": "2026-01-28"
     }
   ],
   "publishes": {
@@ -1150,6 +1157,12 @@
           "artifact": "short-20260128-slot2",
           "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
           "ts": "2026-01-28T07:51:01.156903+00:00"
+        },
+        "3": {
+          "video_id": "ZLKtudrM-s8",
+          "artifact": "short-20260128-slot3",
+          "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
+          "ts": "2026-01-28T14:20:11.817956+00:00"
         }
       }
     }
