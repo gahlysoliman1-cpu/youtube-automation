@@ -547,6 +547,13 @@
       "question": "What does 'bend over backwards' mean?",
       "answer": "Go out of one's way",
       "date_iso": "2026-01-28"
+    },
+    {
+      "fp": "38eb2717e033edef9ea73cd1053d09a51c56ff1fccb8c53f9ecb3fa4089202a5",
+      "q_norm": "if 5 shirts cost 385 11 how much is each shirt",
+      "question": "If 5 shirts cost $385.11, how much is each shirt?",
+      "answer": "77.022",
+      "date_iso": "2026-01-28"
     }
   ],
   "publishes": {
@@ -1163,6 +1170,12 @@
           "artifact": "short-20260128-slot3",
           "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
           "ts": "2026-01-28T14:20:11.817956+00:00"
+        },
+        "4": {
+          "video_id": "fI8hMZcr2Ys",
+          "artifact": "short-20260128-slot4",
+          "fp": "38eb2717e033edef9ea73cd1053d09a51c56ff1fccb8c53f9ecb3fa4089202a5",
+          "ts": "2026-01-28T19:55:18.778913+00:00"
         }
       }
     }
