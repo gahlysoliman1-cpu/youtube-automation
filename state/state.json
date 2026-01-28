@@ -526,6 +526,13 @@
       "question": "Which popular dessert originated in Italy?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-27"
+    },
+    {
+      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+      "q_norm": "what does break a leg mean",
+      "question": "What does 'break a leg' mean?",
+      "answer": "Good luck",
+      "date_iso": "2026-01-28"
     }
   ],
   "publishes": {
@@ -1121,6 +1128,16 @@
       "long": {
         "video_id": "bVcIASGSFwo",
         "ts": "2026-01-27T23:55:59.378363+00:00"
+      }
+    },
+    "20260128": {
+      "shorts": {
+        "1": {
+          "video_id": "TB54sec2qXY",
+          "artifact": "short-20260128-slot1",
+          "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+          "ts": "2026-01-28T04:17:52.845513+00:00"
+        }
       }
     }
   }
