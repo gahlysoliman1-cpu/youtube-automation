@@ -554,6 +554,13 @@
       "question": "If 5 shirts cost $385.11, how much is each shirt?",
       "answer": "77.022",
       "date_iso": "2026-01-28"
+    },
+    {
+      "fp": "50dc5eaa1ead40bba8733d7e71dee9fdde031ee7d492b3baaed141379f44bb1d",
+      "q_norm": "what s 59409925 divided by 5",
+      "question": "What's 59409925 divided by 5?",
+      "answer": "11881985",
+      "date_iso": "2026-01-29"
     }
   ],
   "publishes": {
@@ -1181,6 +1188,16 @@
       "long": {
         "video_id": "8RBWht_cnjQ",
         "ts": "2026-01-29T00:00:49.558352+00:00"
+      }
+    },
+    "20260129": {
+      "shorts": {
+        "1": {
+          "video_id": "AUx455Nojaw",
+          "artifact": "short-20260129-slot1",
+          "fp": "50dc5eaa1ead40bba8733d7e71dee9fdde031ee7d492b3baaed141379f44bb1d",
+          "ts": "2026-01-29T05:00:29.541540+00:00"
+        }
       }
     }
   }
