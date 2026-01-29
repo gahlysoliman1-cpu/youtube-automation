@@ -568,6 +568,13 @@
       "question": "If 309,837,847 is divided by 11, what's the remainder?",
       "answer": "7",
       "date_iso": "2026-01-29"
+    },
+    {
+      "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
+      "q_norm": "what can be broken but never held",
+      "question": "What can be broken but never held?",
+      "answer": "A promise",
+      "date_iso": "2026-01-29"
     }
   ],
   "publishes": {
@@ -1210,6 +1217,12 @@
           "artifact": "short-20260129-slot2",
           "fp": "59c6af258702806e43d123074c302984c1f17358fe2c73d86fc13c7a5e75481a",
           "ts": "2026-01-29T08:06:12.076179+00:00"
+        },
+        "3": {
+          "video_id": "wOFJRxRAaTk",
+          "artifact": "short-20260129-slot3",
+          "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
+          "ts": "2026-01-29T15:05:49.537490+00:00"
         }
       }
     }
