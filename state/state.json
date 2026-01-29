@@ -575,6 +575,13 @@
       "question": "What can be broken but never held?",
       "answer": "A promise",
       "date_iso": "2026-01-29"
+    },
+    {
+      "fp": "f2ce40ba3aeab708242e6fc6d1fde6451555be79f08cb40d91e39de6701f5ad7",
+      "q_norm": "in japanese cuisine what s often served with sushi",
+      "question": "In Japanese cuisine, what's often served with sushi?",
+      "answer": "Wasabi and ginger",
+      "date_iso": "2026-01-29"
     }
   ],
   "publishes": {
@@ -1223,6 +1230,12 @@
           "artifact": "short-20260129-slot3",
           "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
           "ts": "2026-01-29T15:05:49.537490+00:00"
+        },
+        "4": {
+          "video_id": "5EG_m_mHW_w",
+          "artifact": "short-20260129-slot4",
+          "fp": "f2ce40ba3aeab708242e6fc6d1fde6451555be79f08cb40d91e39de6701f5ad7",
+          "ts": "2026-01-29T20:00:44.252924+00:00"
         }
       }
     }
