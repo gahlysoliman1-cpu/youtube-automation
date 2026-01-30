@@ -589,6 +589,13 @@
       "question": "What is the approximate number of bytes in a megabyte?",
       "answer": "1,048,576",
       "date_iso": "2026-01-30"
+    },
+    {
+      "fp": "75d414fc0dae6d71e74e02a48d1eedd8f5546925b0bd6829f58caa6090699217",
+      "q_norm": "what s the fastest land animal",
+      "question": "What's the fastest land animal?",
+      "answer": "Cheetah",
+      "date_iso": "2026-01-30"
     }
   ],
   "publishes": {
@@ -1253,6 +1260,12 @@
           "artifact": "short-20260130-slot1",
           "fp": "710e50ccb6cd748ec4e227dce41e30b5dc37bcefba2917a649d832efbc591738",
           "ts": "2026-01-30T05:14:22.331652+00:00"
+        },
+        "2": {
+          "video_id": "Hh9egqfhYk8",
+          "artifact": "short-20260130-slot2",
+          "fp": "75d414fc0dae6d71e74e02a48d1eedd8f5546925b0bd6829f58caa6090699217",
+          "ts": "2026-01-30T08:09:52.234596+00:00"
         }
       }
     }
