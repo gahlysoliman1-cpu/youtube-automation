@@ -582,6 +582,13 @@
       "question": "In Japanese cuisine, what's often served with sushi?",
       "answer": "Wasabi and ginger",
       "date_iso": "2026-01-29"
+    },
+    {
+      "fp": "710e50ccb6cd748ec4e227dce41e30b5dc37bcefba2917a649d832efbc591738",
+      "q_norm": "what is the approximate number of bytes in a megabyte",
+      "question": "What is the approximate number of bytes in a megabyte?",
+      "answer": "1,048,576",
+      "date_iso": "2026-01-30"
     }
   ],
   "publishes": {
@@ -1236,6 +1243,16 @@
           "artifact": "short-20260129-slot4",
           "fp": "f2ce40ba3aeab708242e6fc6d1fde6451555be79f08cb40d91e39de6701f5ad7",
           "ts": "2026-01-29T20:00:44.252924+00:00"
+        }
+      }
+    },
+    "20260130": {
+      "shorts": {
+        "1": {
+          "video_id": "xjLqFAlR2r4",
+          "artifact": "short-20260130-slot1",
+          "fp": "710e50ccb6cd748ec4e227dce41e30b5dc37bcefba2917a649d832efbc591738",
+          "ts": "2026-01-30T05:14:22.331652+00:00"
         }
       }
     }
