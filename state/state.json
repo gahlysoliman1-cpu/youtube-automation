@@ -610,6 +610,13 @@
       "question": "What does CPU stand for in computers?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-01-30"
+    },
+    {
+      "fp": "4b38240396c9f5650e7b7b89d04dee3e02653f22ae6d13bc6cf78b63dad41c12",
+      "q_norm": "who holds the record for most career home runs in professional baseball",
+      "question": "Who holds the record for most career home runs in professional baseball?",
+      "answer": "Sadaharu Oh",
+      "date_iso": "2026-01-31"
     }
   ],
   "publishes": {
@@ -1292,6 +1299,16 @@
           "artifact": "short-20260130-slot4",
           "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
           "ts": "2026-01-30T20:00:16.965385+00:00"
+        }
+      }
+    },
+    "20260131": {
+      "shorts": {
+        "1": {
+          "video_id": "JCYIzpIkHD4",
+          "artifact": "short-20260131-slot1",
+          "fp": "4b38240396c9f5650e7b7b89d04dee3e02653f22ae6d13bc6cf78b63dad41c12",
+          "ts": "2026-01-31T04:55:53.972930+00:00"
         }
       }
     }
