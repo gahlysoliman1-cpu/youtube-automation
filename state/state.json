@@ -624,6 +624,13 @@
       "question": "Most Olympic gold medals won by an individual?",
       "answer": "28",
       "date_iso": "2026-01-31"
+    },
+    {
+      "fp": "7f6030f7b7229bb399ef8d9216d374ab7607ef02975d3e196b4edbbed7ec8133",
+      "q_norm": "what is the name of the 1st web browser released in 1990",
+      "question": "What is the name of the 1st web browser released in 1990?",
+      "answer": "WorldWideWeb",
+      "date_iso": "2026-01-31"
     }
   ],
   "publishes": {
@@ -1322,6 +1329,12 @@
           "artifact": "short-20260131-slot2",
           "fp": "38d67e197a6164b71c694099555d06b3b8f9b67893595b251cea185a0f1f37e0",
           "ts": "2026-01-31T07:52:28.577076+00:00"
+        },
+        "3": {
+          "video_id": "tfPcG1a2uGg",
+          "artifact": "short-20260131-slot3",
+          "fp": "7f6030f7b7229bb399ef8d9216d374ab7607ef02975d3e196b4edbbed7ec8133",
+          "ts": "2026-01-31T14:01:32.784820+00:00"
         }
       }
     }
