@@ -617,6 +617,13 @@
       "question": "Who holds the record for most career home runs in professional baseball?",
       "answer": "Sadaharu Oh",
       "date_iso": "2026-01-31"
+    },
+    {
+      "fp": "38d67e197a6164b71c694099555d06b3b8f9b67893595b251cea185a0f1f37e0",
+      "q_norm": "most olympic gold medals won by an individual",
+      "question": "Most Olympic gold medals won by an individual?",
+      "answer": "28",
+      "date_iso": "2026-01-31"
     }
   ],
   "publishes": {
@@ -1309,6 +1316,12 @@
           "artifact": "short-20260131-slot1",
           "fp": "4b38240396c9f5650e7b7b89d04dee3e02653f22ae6d13bc6cf78b63dad41c12",
           "ts": "2026-01-31T04:55:53.972930+00:00"
+        },
+        "2": {
+          "video_id": "QIS83Hf8Lxg",
+          "artifact": "short-20260131-slot2",
+          "fp": "38d67e197a6164b71c694099555d06b3b8f9b67893595b251cea185a0f1f37e0",
+          "ts": "2026-01-31T07:52:28.577076+00:00"
         }
       }
     }
