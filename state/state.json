@@ -645,6 +645,13 @@
       "question": "What country is home to the city of Lusaka?",
       "answer": "Zambia",
       "date_iso": "2026-02-01"
+    },
+    {
+      "fp": "70bf2e69975bbfa370e26f6b30396f50d87e4c7c0866d96426eb0ffa7e9bf3a9",
+      "q_norm": "what is the main ingredient in a traditional hummus recipe",
+      "question": "What is the main ingredient in a traditional hummus recipe?",
+      "answer": "Chickpeas",
+      "date_iso": "2026-02-01"
     }
   ],
   "publishes": {
@@ -1369,6 +1376,12 @@
           "artifact": "short-20260201-slot1",
           "fp": "3ef0ab2cb493e1f6372b6123d28a5f61ec27cafabe6a5e95174b95bfd2e76a60",
           "ts": "2026-02-01T05:42:50.630527+00:00"
+        },
+        "2": {
+          "video_id": "gBP80bBD5Zo",
+          "artifact": "short-20260201-slot2",
+          "fp": "70bf2e69975bbfa370e26f6b30396f50d87e4c7c0866d96426eb0ffa7e9bf3a9",
+          "ts": "2026-02-01T08:01:00.010085+00:00"
         }
       }
     }
