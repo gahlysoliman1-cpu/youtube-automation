@@ -638,6 +638,13 @@
       "question": "Which popular Italian dessert translates to 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-01-31"
+    },
+    {
+      "fp": "3ef0ab2cb493e1f6372b6123d28a5f61ec27cafabe6a5e95174b95bfd2e76a60",
+      "q_norm": "what country is home to the city of lusaka",
+      "question": "What country is home to the city of Lusaka?",
+      "answer": "Zambia",
+      "date_iso": "2026-02-01"
     }
   ],
   "publishes": {
@@ -1353,6 +1360,16 @@
       "long": {
         "video_id": "iaRCZQ4FcH0",
         "ts": "2026-01-31T23:58:15.117457+00:00"
+      }
+    },
+    "20260201": {
+      "shorts": {
+        "1": {
+          "video_id": "g1dMYIHrhpw",
+          "artifact": "short-20260201-slot1",
+          "fp": "3ef0ab2cb493e1f6372b6123d28a5f61ec27cafabe6a5e95174b95bfd2e76a60",
+          "ts": "2026-02-01T05:42:50.630527+00:00"
+        }
       }
     }
   }
