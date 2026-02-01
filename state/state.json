@@ -659,6 +659,13 @@
       "question": "What's 97 x 11?",
       "answer": "1067",
       "date_iso": "2026-02-01"
+    },
+    {
+      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+      "q_norm": "what does cpu stand for in computing",
+      "question": "What does CPU stand for in computing?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-02-01"
     }
   ],
   "publishes": {
@@ -1395,6 +1402,12 @@
           "artifact": "short-20260201-slot3",
           "fp": "5aedf270096ab09e62798af2cadab1ad288fb47b8261ffdf06eb386810dcd5b4",
           "ts": "2026-02-01T14:05:50.354290+00:00"
+        },
+        "4": {
+          "video_id": "99sZRMvL8qU",
+          "artifact": "short-20260201-slot4",
+          "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+          "ts": "2026-02-01T19:47:42.906459+00:00"
         }
       }
     }
