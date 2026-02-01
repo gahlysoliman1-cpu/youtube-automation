@@ -652,6 +652,13 @@
       "question": "What is the main ingredient in a traditional hummus recipe?",
       "answer": "Chickpeas",
       "date_iso": "2026-02-01"
+    },
+    {
+      "fp": "5aedf270096ab09e62798af2cadab1ad288fb47b8261ffdf06eb386810dcd5b4",
+      "q_norm": "what s 97 x 11",
+      "question": "What's 97 x 11?",
+      "answer": "1067",
+      "date_iso": "2026-02-01"
     }
   ],
   "publishes": {
@@ -1382,6 +1389,12 @@
           "artifact": "short-20260201-slot2",
           "fp": "70bf2e69975bbfa370e26f6b30396f50d87e4c7c0866d96426eb0ffa7e9bf3a9",
           "ts": "2026-02-01T08:01:00.010085+00:00"
+        },
+        "3": {
+          "video_id": "ciCM1hhUzRQ",
+          "artifact": "short-20260201-slot3",
+          "fp": "5aedf270096ab09e62798af2cadab1ad288fb47b8261ffdf06eb386810dcd5b4",
+          "ts": "2026-02-01T14:05:50.354290+00:00"
         }
       }
     }
