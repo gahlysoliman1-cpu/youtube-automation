@@ -666,6 +666,13 @@
       "question": "What does CPU stand for in computing?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-02-01"
+    },
+    {
+      "fp": "b20e2c9506729a14c0c4d39e8c783ba19b7df801d1a3aeb310a2037675e642f4",
+      "q_norm": "what s 97 65 32",
+      "question": "What's 97 + 65 + 32?",
+      "answer": "194",
+      "date_iso": "2026-02-02"
     }
   ],
   "publishes": {
@@ -1408,6 +1415,16 @@
           "artifact": "short-20260201-slot4",
           "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
           "ts": "2026-02-01T19:47:42.906459+00:00"
+        }
+      }
+    },
+    "20260202": {
+      "shorts": {
+        "1": {
+          "video_id": "4lJ6ed9vCaI",
+          "artifact": "short-20260202-slot1",
+          "fp": "b20e2c9506729a14c0c4d39e8c783ba19b7df801d1a3aeb310a2037675e642f4",
+          "ts": "2026-02-02T05:47:52.963206+00:00"
         }
       }
     }
