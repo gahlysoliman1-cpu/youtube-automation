@@ -673,6 +673,13 @@
       "question": "What's 97 + 65 + 32?",
       "answer": "194",
       "date_iso": "2026-02-02"
+    },
+    {
+      "fp": "074bac5bf05032e835a79e96393c96758639ba745373099ffe388a516d7e89c4",
+      "q_norm": "how many hearts does an octopus have",
+      "question": "How many hearts does an octopus have?",
+      "answer": "Three",
+      "date_iso": "2026-02-02"
     }
   ],
   "publishes": {
@@ -1425,6 +1432,12 @@
           "artifact": "short-20260202-slot1",
           "fp": "b20e2c9506729a14c0c4d39e8c783ba19b7df801d1a3aeb310a2037675e642f4",
           "ts": "2026-02-02T05:47:52.963206+00:00"
+        },
+        "2": {
+          "video_id": "6lrgXKQCJI4",
+          "artifact": "short-20260202-slot2",
+          "fp": "074bac5bf05032e835a79e96393c96758639ba745373099ffe388a516d7e89c4",
+          "ts": "2026-02-02T09:33:45.985849+00:00"
         }
       }
     }
