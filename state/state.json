@@ -680,6 +680,13 @@
       "question": "How many hearts does an octopus have?",
       "answer": "Three",
       "date_iso": "2026-02-02"
+    },
+    {
+      "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
+      "q_norm": "i have 5 letters take away my first letter and i still sound the same what am i",
+      "question": "I have 5 letters, take away my first letter, and I still sound the same. What am I?",
+      "answer": "Swims",
+      "date_iso": "2026-02-02"
     }
   ],
   "publishes": {
@@ -1438,6 +1445,12 @@
           "artifact": "short-20260202-slot2",
           "fp": "074bac5bf05032e835a79e96393c96758639ba745373099ffe388a516d7e89c4",
           "ts": "2026-02-02T09:33:45.985849+00:00"
+        },
+        "3": {
+          "video_id": "re3fL_YO5ZU",
+          "artifact": "short-20260202-slot3",
+          "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
+          "ts": "2026-02-02T15:14:29.283771+00:00"
         }
       }
     }
