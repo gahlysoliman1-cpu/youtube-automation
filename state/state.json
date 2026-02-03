@@ -701,6 +701,13 @@
       "question": "If a bookshelf has 5 shelves, and each shelf can hold 588 books, how many books can it hold in total?",
       "answer": "2940",
       "date_iso": "2026-02-03"
+    },
+    {
+      "fp": "8357c09cb2cc1e24a422ec2900f3edc26f144706ee20e7da36b36bc892d72aa3",
+      "q_norm": "who ran the fastest marathon time ever recorded",
+      "question": "Who ran the fastest marathon time ever recorded?",
+      "answer": "Eliud Kipchoge",
+      "date_iso": "2026-02-03"
     }
   ],
   "publishes": {
@@ -1481,6 +1488,12 @@
           "artifact": "short-20260203-slot2",
           "fp": "a55be8a127245972a0feeed0a628cad256a99579b8dc38d0bc72bb7a16648fc1",
           "ts": "2026-02-03T07:51:03.837554+00:00"
+        },
+        "3": {
+          "video_id": "C1VZQBjYzBw",
+          "artifact": "short-20260203-slot3",
+          "fp": "8357c09cb2cc1e24a422ec2900f3edc26f144706ee20e7da36b36bc892d72aa3",
+          "ts": "2026-02-03T14:07:46.963248+00:00"
         }
       }
     }
