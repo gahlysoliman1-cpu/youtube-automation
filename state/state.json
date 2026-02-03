@@ -708,6 +708,13 @@
       "question": "Who ran the fastest marathon time ever recorded?",
       "answer": "Eliud Kipchoge",
       "date_iso": "2026-02-03"
+    },
+    {
+      "fp": "49d64400f983b759e73f67d1f894aec012f2182a9a5f799f83002b3ddb824b87",
+      "q_norm": "what is the term for a sequence of 8 binary digits",
+      "question": "What is the term for a sequence of 8 binary digits?",
+      "answer": "Byte",
+      "date_iso": "2026-02-03"
     }
   ],
   "publishes": {
@@ -1494,6 +1501,12 @@
           "artifact": "short-20260203-slot3",
           "fp": "8357c09cb2cc1e24a422ec2900f3edc26f144706ee20e7da36b36bc892d72aa3",
           "ts": "2026-02-03T14:07:46.963248+00:00"
+        },
+        "4": {
+          "video_id": "PVArg5F-wG4",
+          "artifact": "short-20260203-slot4",
+          "fp": "49d64400f983b759e73f67d1f894aec012f2182a9a5f799f83002b3ddb824b87",
+          "ts": "2026-02-03T19:51:45.815221+00:00"
         }
       }
     }
