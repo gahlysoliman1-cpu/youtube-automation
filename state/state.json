@@ -687,6 +687,13 @@
       "question": "I have 5 letters, take away my first letter, and I still sound the same. What am I?",
       "answer": "Swims",
       "date_iso": "2026-02-02"
+    },
+    {
+      "fp": "6849b1e4feb28826de4d4da951c3c5b2d4aeed8b29cfb55b395e20d6ddc53ca2",
+      "q_norm": "which country s capital is funafuti",
+      "question": "Which country's capital is Funafuti?",
+      "answer": "Tuvalu",
+      "date_iso": "2026-02-03"
     }
   ],
   "publishes": {
@@ -1451,6 +1458,16 @@
           "artifact": "short-20260202-slot3",
           "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
           "ts": "2026-02-02T15:14:29.283771+00:00"
+        }
+      }
+    },
+    "20260203": {
+      "shorts": {
+        "1": {
+          "video_id": "f6iz64kHFDc",
+          "artifact": "short-20260203-slot1",
+          "fp": "6849b1e4feb28826de4d4da951c3c5b2d4aeed8b29cfb55b395e20d6ddc53ca2",
+          "ts": "2026-02-03T03:35:58.518644+00:00"
         }
       }
     }
