@@ -694,6 +694,13 @@
       "question": "Which country's capital is Funafuti?",
       "answer": "Tuvalu",
       "date_iso": "2026-02-03"
+    },
+    {
+      "fp": "a55be8a127245972a0feeed0a628cad256a99579b8dc38d0bc72bb7a16648fc1",
+      "q_norm": "if a bookshelf has 5 shelves and each shelf can hold 588 books how many books can it hold in total",
+      "question": "If a bookshelf has 5 shelves, and each shelf can hold 588 books, how many books can it hold in total?",
+      "answer": "2940",
+      "date_iso": "2026-02-03"
     }
   ],
   "publishes": {
@@ -1468,6 +1475,12 @@
           "artifact": "short-20260203-slot1",
           "fp": "6849b1e4feb28826de4d4da951c3c5b2d4aeed8b29cfb55b395e20d6ddc53ca2",
           "ts": "2026-02-03T03:35:58.518644+00:00"
+        },
+        "2": {
+          "video_id": "M3YHYwaGo0Q",
+          "artifact": "short-20260203-slot2",
+          "fp": "a55be8a127245972a0feeed0a628cad256a99579b8dc38d0bc72bb7a16648fc1",
+          "ts": "2026-02-03T07:51:03.837554+00:00"
         }
       }
     }
