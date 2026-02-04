@@ -729,6 +729,13 @@
       "question": "Most career home runs by a baseball player?",
       "answer": "Barry Bonds",
       "date_iso": "2026-02-04"
+    },
+    {
+      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+      "q_norm": "what is the capital of greenland",
+      "question": "What is the capital of Greenland?",
+      "answer": "Nuuk",
+      "date_iso": "2026-02-04"
     }
   ],
   "publishes": {
@@ -1541,6 +1548,12 @@
           "artifact": "short-20260204-slot2",
           "fp": "91281b8a8d1796efa60bf96e8278262d441a114690516ebcdb2643b5f78a7f0c",
           "ts": "2026-02-04T07:53:03.053834+00:00"
+        },
+        "3": {
+          "video_id": "o48u7jHit5w",
+          "artifact": "short-20260204-slot3",
+          "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+          "ts": "2026-02-04T14:06:47.257083+00:00"
         }
       }
     }
