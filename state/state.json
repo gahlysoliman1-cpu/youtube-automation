@@ -722,6 +722,13 @@
       "question": "Which country is home to the dessert 'Tiramisu'?",
       "answer": "Italy",
       "date_iso": "2026-02-04"
+    },
+    {
+      "fp": "91281b8a8d1796efa60bf96e8278262d441a114690516ebcdb2643b5f78a7f0c",
+      "q_norm": "most career home runs by a baseball player",
+      "question": "Most career home runs by a baseball player?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-02-04"
     }
   ],
   "publishes": {
@@ -1528,6 +1535,12 @@
           "artifact": "short-20260204-slot1",
           "fp": "4bed2fe6badf985498ee5c8076e73a45daaa008e316e31d8d37693c216a7049e",
           "ts": "2026-02-04T03:34:14.574831+00:00"
+        },
+        "2": {
+          "video_id": "n9Ms4PlJE40",
+          "artifact": "short-20260204-slot2",
+          "fp": "91281b8a8d1796efa60bf96e8278262d441a114690516ebcdb2643b5f78a7f0c",
+          "ts": "2026-02-04T07:53:03.053834+00:00"
         }
       }
     }
