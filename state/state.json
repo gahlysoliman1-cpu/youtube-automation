@@ -736,6 +736,13 @@
       "question": "What is the capital of Greenland?",
       "answer": "Nuuk",
       "date_iso": "2026-02-04"
+    },
+    {
+      "fp": "ce1a503f8c94047b0bace280f871d9553aa707d35ddccb22a248c631647ed55f",
+      "q_norm": "what has 8 numbers but cannot be called or opened",
+      "question": "What has 8 numbers but cannot be called or opened?",
+      "answer": "A padlock",
+      "date_iso": "2026-02-04"
     }
   ],
   "publishes": {
@@ -1554,6 +1561,12 @@
           "artifact": "short-20260204-slot3",
           "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
           "ts": "2026-02-04T14:06:47.257083+00:00"
+        },
+        "4": {
+          "video_id": "HwPlUDTTwys",
+          "artifact": "short-20260204-slot4",
+          "fp": "ce1a503f8c94047b0bace280f871d9553aa707d35ddccb22a248c631647ed55f",
+          "ts": "2026-02-04T19:47:56.945109+00:00"
         }
       }
     }
