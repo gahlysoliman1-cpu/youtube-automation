@@ -715,6 +715,13 @@
       "question": "What is the term for a sequence of 8 binary digits?",
       "answer": "Byte",
       "date_iso": "2026-02-03"
+    },
+    {
+      "fp": "4bed2fe6badf985498ee5c8076e73a45daaa008e316e31d8d37693c216a7049e",
+      "q_norm": "which country is home to the dessert tiramisu",
+      "question": "Which country is home to the dessert 'Tiramisu'?",
+      "answer": "Italy",
+      "date_iso": "2026-02-04"
     }
   ],
   "publishes": {
@@ -1512,6 +1519,16 @@
       "long": {
         "video_id": "Sy5QqV-fvGY",
         "ts": "2026-02-03T23:56:42.577704+00:00"
+      }
+    },
+    "20260204": {
+      "shorts": {
+        "1": {
+          "video_id": "UJj2RHlYxic",
+          "artifact": "short-20260204-slot1",
+          "fp": "4bed2fe6badf985498ee5c8076e73a45daaa008e316e31d8d37693c216a7049e",
+          "ts": "2026-02-04T03:34:14.574831+00:00"
+        }
       }
     }
   }
