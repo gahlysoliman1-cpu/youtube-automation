@@ -757,6 +757,13 @@
       "question": "What's 9972 ÷ 3 + 5?",
       "answer": "3329",
       "date_iso": "2026-02-05"
+    },
+    {
+      "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
+      "q_norm": "who holds the record for most olympic gold medals",
+      "question": "Who holds the record for most Olympic gold medals?",
+      "answer": "Michael Phelps",
+      "date_iso": "2026-02-05"
     }
   ],
   "publishes": {
@@ -1601,6 +1608,12 @@
           "artifact": "short-20260205-slot2",
           "fp": "9df2387dc802a12884e0f7ca2d4ba203a7ee9f4cadc3f831e84545dac5d71a77",
           "ts": "2026-02-05T07:57:41.794600+00:00"
+        },
+        "3": {
+          "video_id": "56AVk5_HAsA",
+          "artifact": "short-20260205-slot3",
+          "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
+          "ts": "2026-02-05T14:08:40.242288+00:00"
         }
       }
     }
