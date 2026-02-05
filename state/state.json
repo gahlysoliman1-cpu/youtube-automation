@@ -764,6 +764,13 @@
       "question": "Who holds the record for most Olympic gold medals?",
       "answer": "Michael Phelps",
       "date_iso": "2026-02-05"
+    },
+    {
+      "fp": "035c011922ea2a94f035f23c8936798b9c325f68af5e85bf3633210279a2aced",
+      "q_norm": "what popular dessert s name comes from the italian words for pick me up",
+      "question": "What popular dessert's name comes from the Italian words for 'pick me up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-05"
     }
   ],
   "publishes": {
@@ -1614,6 +1621,12 @@
           "artifact": "short-20260205-slot3",
           "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
           "ts": "2026-02-05T14:08:40.242288+00:00"
+        },
+        "4": {
+          "video_id": "TmIzNcxGNO8",
+          "artifact": "short-20260205-slot4",
+          "fp": "035c011922ea2a94f035f23c8936798b9c325f68af5e85bf3633210279a2aced",
+          "ts": "2026-02-05T19:45:26.228758+00:00"
         }
       }
     }
