@@ -743,6 +743,13 @@
       "question": "What has 8 numbers but cannot be called or opened?",
       "answer": "A padlock",
       "date_iso": "2026-02-04"
+    },
+    {
+      "fp": "3cda44a3e17257ed9ec018e497994a1f3f1cfd47a1f93effc5dce5d9a42a9458",
+      "q_norm": "quickly calculate this 928 million 100 thousand 20",
+      "question": "Quickly calculate this: 928 million - 100 thousand - 20",
+      "answer": "927 million 980 thousand",
+      "date_iso": "2026-02-05"
     }
   ],
   "publishes": {
@@ -1572,6 +1579,16 @@
       "long": {
         "video_id": "Uf9UDcyG9Zc",
         "ts": "2026-02-04T23:56:22.605997+00:00"
+      }
+    },
+    "20260205": {
+      "shorts": {
+        "1": {
+          "video_id": "Oz0erPaw_ZM",
+          "artifact": "short-20260205-slot1",
+          "fp": "3cda44a3e17257ed9ec018e497994a1f3f1cfd47a1f93effc5dce5d9a42a9458",
+          "ts": "2026-02-05T03:34:24.137183+00:00"
+        }
       }
     }
   }
