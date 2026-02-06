@@ -785,6 +785,13 @@
       "question": "A bakery sells 588 loaves at $4.05 each. How much does it make in total?",
       "answer": "$2381.40",
       "date_iso": "2026-02-06"
+    },
+    {
+      "fp": "0462ce8d53d9f6b6cb3fb6e671a915c31243cfa28a397882b3a84e4345a55e4e",
+      "q_norm": "who holds the record for the most career home runs in baseball",
+      "question": "Who holds the record for the most career home runs in baseball?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-02-06"
     }
   ],
   "publishes": {
@@ -1661,6 +1668,12 @@
           "artifact": "short-20260206-slot2",
           "fp": "eaf5ae74ed4e6e1eb558f5f7778496ca6e7cca80ae1e2421e293af90df81e014",
           "ts": "2026-02-06T07:54:13.198785+00:00"
+        },
+        "3": {
+          "video_id": "Z1bG_9hSXEY",
+          "artifact": "short-20260206-slot3",
+          "fp": "0462ce8d53d9f6b6cb3fb6e671a915c31243cfa28a397882b3a84e4345a55e4e",
+          "ts": "2026-02-06T14:04:56.889441+00:00"
         }
       }
     }
