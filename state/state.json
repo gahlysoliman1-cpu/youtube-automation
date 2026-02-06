@@ -792,6 +792,13 @@
       "question": "Who holds the record for the most career home runs in baseball?",
       "answer": "Barry Bonds",
       "date_iso": "2026-02-06"
+    },
+    {
+      "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
+      "q_norm": "who holds the record for most career home runs in mlb",
+      "question": "Who holds the record for most career home runs in MLB?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-02-06"
     }
   ],
   "publishes": {
@@ -1674,6 +1681,12 @@
           "artifact": "short-20260206-slot3",
           "fp": "0462ce8d53d9f6b6cb3fb6e671a915c31243cfa28a397882b3a84e4345a55e4e",
           "ts": "2026-02-06T14:04:56.889441+00:00"
+        },
+        "4": {
+          "video_id": "3N2DcihtgrA",
+          "artifact": "short-20260206-slot4",
+          "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
+          "ts": "2026-02-06T19:45:53.171294+00:00"
         }
       }
     }
