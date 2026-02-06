@@ -771,6 +771,13 @@
       "question": "What popular dessert's name comes from the Italian words for 'pick me up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-05"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-02-06"
     }
   ],
   "publishes": {
@@ -1632,6 +1639,16 @@
       "long": {
         "video_id": "7Hw0tO_5SMU",
         "ts": "2026-02-05T23:54:41.135378+00:00"
+      }
+    },
+    "20260206": {
+      "shorts": {
+        "1": {
+          "video_id": "q_IWhBPOAvQ",
+          "artifact": "short-20260206-slot1",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-02-06T03:34:06.664016+00:00"
+        }
       }
     }
   }
