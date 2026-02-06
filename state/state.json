@@ -778,6 +778,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-02-06"
+    },
+    {
+      "fp": "eaf5ae74ed4e6e1eb558f5f7778496ca6e7cca80ae1e2421e293af90df81e014",
+      "q_norm": "a bakery sells 588 loaves at 4 05 each how much does it make in total",
+      "question": "A bakery sells 588 loaves at $4.05 each. How much does it make in total?",
+      "answer": "$2381.40",
+      "date_iso": "2026-02-06"
     }
   ],
   "publishes": {
@@ -1648,6 +1655,12 @@
           "artifact": "short-20260206-slot1",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-02-06T03:34:06.664016+00:00"
+        },
+        "2": {
+          "video_id": "nFgO0BKU51M",
+          "artifact": "short-20260206-slot2",
+          "fp": "eaf5ae74ed4e6e1eb558f5f7778496ca6e7cca80ae1e2421e293af90df81e014",
+          "ts": "2026-02-06T07:54:13.198785+00:00"
         }
       }
     }
