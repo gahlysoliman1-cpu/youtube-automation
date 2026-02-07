@@ -806,6 +806,13 @@
       "question": "What has a head, a tail, but no body?",
       "answer": "A coin",
       "date_iso": "2026-02-07"
+    },
+    {
+      "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
+      "q_norm": "what does bite off more than you can chew mean",
+      "question": "What does 'Bite Off More Than You Can Chew' mean?",
+      "answer": "Take on more responsibility than you can handle",
+      "date_iso": "2026-02-07"
     }
   ],
   "publishes": {
@@ -1708,6 +1715,12 @@
           "artifact": "short-20260207-slot1",
           "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
           "ts": "2026-02-07T03:27:20.179283+00:00"
+        },
+        "2": {
+          "video_id": "RQDVBiD8XHs",
+          "artifact": "short-20260207-slot2",
+          "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
+          "ts": "2026-02-07T07:42:17.239918+00:00"
         }
       }
     }
