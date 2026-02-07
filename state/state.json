@@ -813,6 +813,13 @@
       "question": "What does 'Bite Off More Than You Can Chew' mean?",
       "answer": "Take on more responsibility than you can handle",
       "date_iso": "2026-02-07"
+    },
+    {
+      "fp": "b04ea35085b8e5e89cc8c9fefeed131684e49376fce344f778a4565b6f5b1a9c",
+      "q_norm": "a bookshelf has 5 shelves each shelf can hold 8 books how many books can the bookshelf hold in total",
+      "question": "A bookshelf has 5 shelves. Each shelf can hold 8 books. How many books can the bookshelf hold in total?",
+      "answer": "40",
+      "date_iso": "2026-02-07"
     }
   ],
   "publishes": {
@@ -1721,6 +1728,12 @@
           "artifact": "short-20260207-slot2",
           "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
           "ts": "2026-02-07T07:42:17.239918+00:00"
+        },
+        "3": {
+          "video_id": "s2sFGwPZcUk",
+          "artifact": "short-20260207-slot3",
+          "fp": "b04ea35085b8e5e89cc8c9fefeed131684e49376fce344f778a4565b6f5b1a9c",
+          "ts": "2026-02-07T13:48:23.003450+00:00"
         }
       }
     }
