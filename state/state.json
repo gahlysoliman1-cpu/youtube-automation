@@ -799,6 +799,13 @@
       "question": "Who holds the record for most career home runs in MLB?",
       "answer": "Barry Bonds",
       "date_iso": "2026-02-06"
+    },
+    {
+      "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
+      "q_norm": "what has a head a tail but no body",
+      "question": "What has a head, a tail, but no body?",
+      "answer": "A coin",
+      "date_iso": "2026-02-07"
     }
   ],
   "publishes": {
@@ -1692,6 +1699,16 @@
       "long": {
         "video_id": "gbyFRE0aimI",
         "ts": "2026-02-06T23:55:48.143092+00:00"
+      }
+    },
+    "20260207": {
+      "shorts": {
+        "1": {
+          "video_id": "XnIAl67AiK0",
+          "artifact": "short-20260207-slot1",
+          "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
+          "ts": "2026-02-07T03:27:20.179283+00:00"
+        }
       }
     }
   }
