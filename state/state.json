@@ -820,6 +820,13 @@
       "question": "A bookshelf has 5 shelves. Each shelf can hold 8 books. How many books can the bookshelf hold in total?",
       "answer": "40",
       "date_iso": "2026-02-07"
+    },
+    {
+      "fp": "573b430ae44a646634ba64b6a2a69dfc584fb6bfe9992a95b975d29fb82fbe02",
+      "q_norm": "most career home runs in baseball history",
+      "question": "Most career home runs in baseball history?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-02-07"
     }
   ],
   "publishes": {
@@ -1734,6 +1741,12 @@
           "artifact": "short-20260207-slot3",
           "fp": "b04ea35085b8e5e89cc8c9fefeed131684e49376fce344f778a4565b6f5b1a9c",
           "ts": "2026-02-07T13:48:23.003450+00:00"
+        },
+        "4": {
+          "video_id": "aa0nLJhfkBw",
+          "artifact": "short-20260207-slot4",
+          "fp": "573b430ae44a646634ba64b6a2a69dfc584fb6bfe9992a95b975d29fb82fbe02",
+          "ts": "2026-02-07T19:38:03.644023+00:00"
         }
       }
     }
