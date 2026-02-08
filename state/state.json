@@ -827,6 +827,13 @@
       "question": "Most career home runs in baseball history?",
       "answer": "Barry Bonds",
       "date_iso": "2026-02-07"
+    },
+    {
+      "fp": "50edbf86c9fd47c18590fd094c519d40970a6221d999744b581bcb154a4628c2",
+      "q_norm": "a bat and a ball together cost 1 10 the bat costs 1 00 more than the ball how much does the ball cost",
+      "question": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
+      "answer": "5 cents",
+      "date_iso": "2026-02-08"
     }
   ],
   "publishes": {
@@ -1747,6 +1754,16 @@
           "artifact": "short-20260207-slot4",
           "fp": "573b430ae44a646634ba64b6a2a69dfc584fb6bfe9992a95b975d29fb82fbe02",
           "ts": "2026-02-07T19:38:03.644023+00:00"
+        }
+      }
+    },
+    "20260208": {
+      "shorts": {
+        "1": {
+          "video_id": "gDwqsCiv1Hs",
+          "artifact": "short-20260208-slot1",
+          "fp": "50edbf86c9fd47c18590fd094c519d40970a6221d999744b581bcb154a4628c2",
+          "ts": "2026-02-08T03:55:49.443734+00:00"
         }
       }
     }
