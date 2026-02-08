@@ -848,6 +848,13 @@
       "question": "Which popular dessert's name translates to 'burnt cream'?",
       "answer": "Creme Brûlée",
       "date_iso": "2026-02-08"
+    },
+    {
+      "fp": "374dc573424cbe24abb0b46fb62fc797324c4355be3cf8f3e4c52b1430c29867",
+      "q_norm": "which popular dessert s name translates to pick me up in french",
+      "question": "Which popular dessert's name translates to 'pick-me-up' in French?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-08"
     }
   ],
   "publishes": {
@@ -1790,6 +1797,12 @@
           "artifact": "short-20260208-slot3",
           "fp": "e045fd1d813e6c64817e716368983d0329c26062950729588f7074ca7f01f557",
           "ts": "2026-02-08T13:51:58.060900+00:00"
+        },
+        "4": {
+          "video_id": "7AvB31hjuS4",
+          "artifact": "short-20260208-slot4",
+          "fp": "374dc573424cbe24abb0b46fb62fc797324c4355be3cf8f3e4c52b1430c29867",
+          "ts": "2026-02-08T19:35:51.634746+00:00"
         }
       }
     }
