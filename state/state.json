@@ -841,6 +841,13 @@
       "question": "Who won the most Formula 1 World Championships?",
       "answer": "Michael Schumacher",
       "date_iso": "2026-02-08"
+    },
+    {
+      "fp": "e045fd1d813e6c64817e716368983d0329c26062950729588f7074ca7f01f557",
+      "q_norm": "which popular dessert s name translates to burnt cream",
+      "question": "Which popular dessert's name translates to 'burnt cream'?",
+      "answer": "Creme Brûlée",
+      "date_iso": "2026-02-08"
     }
   ],
   "publishes": {
@@ -1777,6 +1784,12 @@
           "artifact": "short-20260208-slot2",
           "fp": "97d0a4ec20bb0ee3a2904f8a9d7494f717b87243aec10e50f3275e016c40c80d",
           "ts": "2026-02-08T07:44:53.496239+00:00"
+        },
+        "3": {
+          "video_id": "AaRk4oHBWrI",
+          "artifact": "short-20260208-slot3",
+          "fp": "e045fd1d813e6c64817e716368983d0329c26062950729588f7074ca7f01f557",
+          "ts": "2026-02-08T13:51:58.060900+00:00"
         }
       }
     }
