@@ -876,6 +876,13 @@
       "question": "Who is the only tennis player to achieve a 'Golden Slam'?",
       "answer": "Steffi Graf",
       "date_iso": "2026-02-09"
+    },
+    {
+      "fp": "470163ce4beed7d4634e1a255afedbb9fea18403538b57ac662b9221b49f8d2b",
+      "q_norm": "using 5 lines i can make 4 triangles what am i",
+      "question": "Using 5 lines, I can make 4 triangles. What am I?",
+      "answer": "A triforce",
+      "date_iso": "2026-02-09"
     }
   ],
   "publishes": {
@@ -1850,6 +1857,12 @@
           "artifact": "short-20260209-slot3",
           "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
           "ts": "2026-02-09T14:16:57.906507+00:00"
+        },
+        "4": {
+          "video_id": "dVP0eIGcChI",
+          "artifact": "short-20260209-slot4",
+          "fp": "470163ce4beed7d4634e1a255afedbb9fea18403538b57ac662b9221b49f8d2b",
+          "ts": "2026-02-09T20:05:41.489166+00:00"
         }
       }
     }
