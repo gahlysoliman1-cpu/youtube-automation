@@ -862,6 +862,13 @@
       "question": "Which city is the capital of Greenland?",
       "answer": "Nuuk",
       "date_iso": "2026-02-09"
+    },
+    {
+      "fp": "22e91e90a9bc031c68e50e88c2c39e630b7bac6304a82354d3b4fd984219dfcf",
+      "q_norm": "what does cut to the chase mean",
+      "question": "What does 'cut to the chase' mean?",
+      "answer": "Get to the point",
+      "date_iso": "2026-02-09"
     }
   ],
   "publishes": {
@@ -1824,6 +1831,12 @@
           "artifact": "short-20260209-slot1",
           "fp": "6467a4f9ce5d6d177e29e0660fccc0a050401de0a38c8c905bf73a21c2bf5f89",
           "ts": "2026-02-09T03:44:45.544914+00:00"
+        },
+        "2": {
+          "video_id": "Kzf95UulbXc",
+          "artifact": "short-20260209-slot2",
+          "fp": "22e91e90a9bc031c68e50e88c2c39e630b7bac6304a82354d3b4fd984219dfcf",
+          "ts": "2026-02-09T08:02:21.529250+00:00"
         }
       }
     }
