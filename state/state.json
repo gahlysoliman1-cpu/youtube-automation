@@ -869,6 +869,13 @@
       "question": "What does 'cut to the chase' mean?",
       "answer": "Get to the point",
       "date_iso": "2026-02-09"
+    },
+    {
+      "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
+      "q_norm": "who is the only tennis player to achieve a golden slam",
+      "question": "Who is the only tennis player to achieve a 'Golden Slam'?",
+      "answer": "Steffi Graf",
+      "date_iso": "2026-02-09"
     }
   ],
   "publishes": {
@@ -1837,6 +1844,12 @@
           "artifact": "short-20260209-slot2",
           "fp": "22e91e90a9bc031c68e50e88c2c39e630b7bac6304a82354d3b4fd984219dfcf",
           "ts": "2026-02-09T08:02:21.529250+00:00"
+        },
+        "3": {
+          "video_id": "wjiyg1ib-j0",
+          "artifact": "short-20260209-slot3",
+          "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
+          "ts": "2026-02-09T14:16:57.906507+00:00"
         }
       }
     }
