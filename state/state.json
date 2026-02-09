@@ -855,6 +855,13 @@
       "question": "Which popular dessert's name translates to 'pick-me-up' in French?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-08"
+    },
+    {
+      "fp": "6467a4f9ce5d6d177e29e0660fccc0a050401de0a38c8c905bf73a21c2bf5f89",
+      "q_norm": "which city is the capital of greenland",
+      "question": "Which city is the capital of Greenland?",
+      "answer": "Nuuk",
+      "date_iso": "2026-02-09"
     }
   ],
   "publishes": {
@@ -1808,6 +1815,16 @@
       "long": {
         "video_id": "9xNlrLh_Tew",
         "ts": "2026-02-08T23:57:35.377218+00:00"
+      }
+    },
+    "20260209": {
+      "shorts": {
+        "1": {
+          "video_id": "OBZDR3ToRsk",
+          "artifact": "short-20260209-slot1",
+          "fp": "6467a4f9ce5d6d177e29e0660fccc0a050401de0a38c8c905bf73a21c2bf5f89",
+          "ts": "2026-02-09T03:44:45.544914+00:00"
+        }
       }
     }
   }
