@@ -883,6 +883,13 @@
       "question": "Using 5 lines, I can make 4 triangles. What am I?",
       "answer": "A triforce",
       "date_iso": "2026-02-09"
+    },
+    {
+      "fp": "284fe5c089249b841728aa8af3b4c4e10f6d1765dc0ca3eaadc8d147cf690d91",
+      "q_norm": "who holds the longest perfect game streak in baseball",
+      "question": "Who holds the longest perfect game streak in baseball?",
+      "answer": "Cy Young",
+      "date_iso": "2026-02-10"
     }
   ],
   "publishes": {
@@ -1863,6 +1870,16 @@
           "artifact": "short-20260209-slot4",
           "fp": "470163ce4beed7d4634e1a255afedbb9fea18403538b57ac662b9221b49f8d2b",
           "ts": "2026-02-09T20:05:41.489166+00:00"
+        }
+      }
+    },
+    "20260210": {
+      "shorts": {
+        "1": {
+          "video_id": "bsGrOJDwjF8",
+          "artifact": "short-20260210-slot1",
+          "fp": "284fe5c089249b841728aa8af3b4c4e10f6d1765dc0ca3eaadc8d147cf690d91",
+          "ts": "2026-02-10T03:53:41.974362+00:00"
         }
       }
     }
