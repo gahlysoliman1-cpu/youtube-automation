@@ -890,6 +890,13 @@
       "question": "Who holds the longest perfect game streak in baseball?",
       "answer": "Cy Young",
       "date_iso": "2026-02-10"
+    },
+    {
+      "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
+      "q_norm": "what popular dessert s name means pick me up in italian",
+      "question": "What popular dessert's name means 'pick-me-up' in Italian?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-10"
     }
   ],
   "publishes": {
@@ -1880,6 +1887,12 @@
           "artifact": "short-20260210-slot1",
           "fp": "284fe5c089249b841728aa8af3b4c4e10f6d1765dc0ca3eaadc8d147cf690d91",
           "ts": "2026-02-10T03:53:41.974362+00:00"
+        },
+        "2": {
+          "video_id": "t_QW9Q1L83U",
+          "artifact": "short-20260210-slot2",
+          "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
+          "ts": "2026-02-10T08:03:57.410335+00:00"
         }
       }
     }
