@@ -932,6 +932,13 @@
       "question": "What is Japan's popular noodle soup dish?",
       "answer": "Ramen",
       "date_iso": "2026-02-11"
+    },
+    {
+      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+      "q_norm": "what does cpu stand for",
+      "question": "What does CPU stand for?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-02-11"
     }
   ],
   "publishes": {
@@ -1962,6 +1969,12 @@
           "artifact": "short-20260211-slot3",
           "fp": "175fa563c183972acd7f6aac4984e85f414c901d5d1b68273cb224e201312153",
           "ts": "2026-02-11T14:18:14.531978+00:00"
+        },
+        "4": {
+          "video_id": "pT9dCNPKNZ8",
+          "artifact": "short-20260211-slot4",
+          "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+          "ts": "2026-02-11T19:58:59.474799+00:00"
         }
       }
     }
