@@ -925,6 +925,13 @@
       "question": "If I have 5 boxes of 8 crayons each, how many crayons do I have if I remove 2 boxes?",
       "answer": "24",
       "date_iso": "2026-02-11"
+    },
+    {
+      "fp": "175fa563c183972acd7f6aac4984e85f414c901d5d1b68273cb224e201312153",
+      "q_norm": "what is japan s popular noodle soup dish",
+      "question": "What is Japan's popular noodle soup dish?",
+      "answer": "Ramen",
+      "date_iso": "2026-02-11"
     }
   ],
   "publishes": {
@@ -1949,6 +1956,12 @@
           "artifact": "short-20260211-slot2",
           "fp": "4fe55c3602dedcd9e13bb494eae1e52763104d66d5cb47610483a6170a109e8d",
           "ts": "2026-02-11T08:01:27.064324+00:00"
+        },
+        "3": {
+          "video_id": "6j8lqBxrqqc",
+          "artifact": "short-20260211-slot3",
+          "fp": "175fa563c183972acd7f6aac4984e85f414c901d5d1b68273cb224e201312153",
+          "ts": "2026-02-11T14:18:14.531978+00:00"
         }
       }
     }
