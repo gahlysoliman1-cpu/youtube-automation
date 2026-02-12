@@ -953,6 +953,13 @@
       "question": "Which African country has Accra as its capital?",
       "answer": "Ghana",
       "date_iso": "2026-02-12"
+    },
+    {
+      "fp": "83643022787e253362f7bb9c0cf0f243551be9ab945f982eb050f01ac918d446",
+      "q_norm": "493 544 436 divided by 7 is closest to",
+      "question": "493,544,436 divided by 7 is closest to?",
+      "answer": "70,635,634",
+      "date_iso": "2026-02-12"
     }
   ],
   "publishes": {
@@ -2009,6 +2016,12 @@
           "artifact": "short-20260212-slot2",
           "fp": "651327bc7eb0f761ca5ffe0b67052f0b9e21ce9d56ffa0f938b412b459d10cce",
           "ts": "2026-02-12T07:59:28.277031+00:00"
+        },
+        "3": {
+          "video_id": "tnHVJNyG8HQ",
+          "artifact": "short-20260212-slot3",
+          "fp": "83643022787e253362f7bb9c0cf0f243551be9ab945f982eb050f01ac918d446",
+          "ts": "2026-02-12T14:14:59.404812+00:00"
         }
       }
     }
