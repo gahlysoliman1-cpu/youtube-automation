@@ -960,6 +960,13 @@
       "question": "493,544,436 divided by 7 is closest to?",
       "answer": "70,635,634",
       "date_iso": "2026-02-12"
+    },
+    {
+      "fp": "dd08d90fd5f978e4a47a7ef5e93b910257920fb29bee78e7ae07570f311e72c4",
+      "q_norm": "what is the decimal equivalent of the binary number 101000111",
+      "question": "What is the decimal equivalent of the binary number 101000111?",
+      "answer": "415",
+      "date_iso": "2026-02-12"
     }
   ],
   "publishes": {
@@ -2022,6 +2029,12 @@
           "artifact": "short-20260212-slot3",
           "fp": "83643022787e253362f7bb9c0cf0f243551be9ab945f982eb050f01ac918d446",
           "ts": "2026-02-12T14:14:59.404812+00:00"
+        },
+        "4": {
+          "video_id": "kMTxlclgDwA",
+          "artifact": "short-20260212-slot4",
+          "fp": "dd08d90fd5f978e4a47a7ef5e93b910257920fb29bee78e7ae07570f311e72c4",
+          "ts": "2026-02-12T19:53:45.798847+00:00"
         }
       }
     }
