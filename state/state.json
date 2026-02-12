@@ -939,6 +939,13 @@
       "question": "What does CPU stand for?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-02-11"
+    },
+    {
+      "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
+      "q_norm": "which city is the capital of australia",
+      "question": "Which city is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-02-12"
     }
   ],
   "publishes": {
@@ -1980,6 +1987,16 @@
       "long": {
         "video_id": "QCOAD9C2-ug",
         "ts": "2026-02-11T23:57:22.326024+00:00"
+      }
+    },
+    "20260212": {
+      "shorts": {
+        "1": {
+          "video_id": "OL96XtQ4EI8",
+          "artifact": "short-20260212-slot1",
+          "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
+          "ts": "2026-02-12T03:45:11.595643+00:00"
+        }
       }
     }
   }
