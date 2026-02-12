@@ -946,6 +946,13 @@
       "question": "Which city is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-02-12"
+    },
+    {
+      "fp": "651327bc7eb0f761ca5ffe0b67052f0b9e21ce9d56ffa0f938b412b459d10cce",
+      "q_norm": "which african country has accra as its capital",
+      "question": "Which African country has Accra as its capital?",
+      "answer": "Ghana",
+      "date_iso": "2026-02-12"
     }
   ],
   "publishes": {
@@ -1996,6 +2003,12 @@
           "artifact": "short-20260212-slot1",
           "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
           "ts": "2026-02-12T03:45:11.595643+00:00"
+        },
+        "2": {
+          "video_id": "aaagWg3ma1A",
+          "artifact": "short-20260212-slot2",
+          "fp": "651327bc7eb0f761ca5ffe0b67052f0b9e21ce9d56ffa0f938b412b459d10cce",
+          "ts": "2026-02-12T07:59:28.277031+00:00"
         }
       }
     }
