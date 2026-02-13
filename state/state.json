@@ -974,6 +974,13 @@
       "question": "What's 384803922 divided by 4?",
       "answer": "96200981",
       "date_iso": "2026-02-13"
+    },
+    {
+      "fp": "99e22d9515f2b9d841764fbc2d86f83b044816fcf56183cdad0e6f6de0ca5d63",
+      "q_norm": "which popular italian dessert means pick me up",
+      "question": "Which popular Italian dessert means 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-13"
     }
   ],
   "publishes": {
@@ -2056,6 +2063,12 @@
           "artifact": "short-20260213-slot1",
           "fp": "423468cbcc2cca2c381e1c07f5a059c356a0bdf4e317960e4e75613d0c5ec6ed",
           "ts": "2026-02-13T03:42:07.500511+00:00"
+        },
+        "2": {
+          "video_id": "gc5ryfWgBqk",
+          "artifact": "short-20260213-slot2",
+          "fp": "99e22d9515f2b9d841764fbc2d86f83b044816fcf56183cdad0e6f6de0ca5d63",
+          "ts": "2026-02-13T07:58:06.580360+00:00"
         }
       }
     }
