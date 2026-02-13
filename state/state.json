@@ -988,6 +988,13 @@
       "question": "Which country has the capital, Quito?",
       "answer": "Ecuador",
       "date_iso": "2026-02-13"
+    },
+    {
+      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+      "q_norm": "what does break a leg mean",
+      "question": "What does 'break a leg' mean?",
+      "answer": "Good luck",
+      "date_iso": "2026-02-13"
     }
   ],
   "publishes": {
@@ -2082,6 +2089,12 @@
           "artifact": "short-20260213-slot3",
           "fp": "75be541fa2aacb6db4454d2b9474d39348b725cb79ac45a522b0b1f68aa147c2",
           "ts": "2026-02-13T14:04:36.852257+00:00"
+        },
+        "4": {
+          "video_id": "bQHU9pyQhRY",
+          "artifact": "short-20260213-slot4",
+          "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+          "ts": "2026-02-13T19:51:15.842611+00:00"
         }
       }
     }
