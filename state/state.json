@@ -981,6 +981,13 @@
       "question": "Which popular Italian dessert means 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-13"
+    },
+    {
+      "fp": "75be541fa2aacb6db4454d2b9474d39348b725cb79ac45a522b0b1f68aa147c2",
+      "q_norm": "which country has the capital quito",
+      "question": "Which country has the capital, Quito?",
+      "answer": "Ecuador",
+      "date_iso": "2026-02-13"
     }
   ],
   "publishes": {
@@ -2069,6 +2076,12 @@
           "artifact": "short-20260213-slot2",
           "fp": "99e22d9515f2b9d841764fbc2d86f83b044816fcf56183cdad0e6f6de0ca5d63",
           "ts": "2026-02-13T07:58:06.580360+00:00"
+        },
+        "3": {
+          "video_id": "xLcziykh0NI",
+          "artifact": "short-20260213-slot3",
+          "fp": "75be541fa2aacb6db4454d2b9474d39348b725cb79ac45a522b0b1f68aa147c2",
+          "ts": "2026-02-13T14:04:36.852257+00:00"
         }
       }
     }
