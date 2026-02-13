@@ -967,6 +967,13 @@
       "question": "What is the decimal equivalent of the binary number 101000111?",
       "answer": "415",
       "date_iso": "2026-02-12"
+    },
+    {
+      "fp": "423468cbcc2cca2c381e1c07f5a059c356a0bdf4e317960e4e75613d0c5ec6ed",
+      "q_norm": "what s 384803922 divided by 4",
+      "question": "What's 384803922 divided by 4?",
+      "answer": "96200981",
+      "date_iso": "2026-02-13"
     }
   ],
   "publishes": {
@@ -2040,6 +2047,16 @@
       "long": {
         "video_id": "IG8u_-lRPRw",
         "ts": "2026-02-12T23:58:34.285414+00:00"
+      }
+    },
+    "20260213": {
+      "shorts": {
+        "1": {
+          "video_id": "Djmrau-aYE0",
+          "artifact": "short-20260213-slot1",
+          "fp": "423468cbcc2cca2c381e1c07f5a059c356a0bdf4e317960e4e75613d0c5ec6ed",
+          "ts": "2026-02-13T03:42:07.500511+00:00"
+        }
       }
     }
   }
