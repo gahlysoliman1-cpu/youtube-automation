@@ -1016,6 +1016,13 @@
       "question": "What's the highest score ever achieved in a single bowling game?",
       "answer": "300",
       "date_iso": "2026-02-14"
+    },
+    {
+      "fp": "66d452d2f3127be8c80e981653d8b8bb91b96bb142a4ad4dafb774ee3d94db04",
+      "q_norm": "what is 697730708 divided by 7",
+      "question": "What is 697730708 divided by 7?",
+      "answer": "99759287",
+      "date_iso": "2026-02-14"
     }
   ],
   "publishes": {
@@ -2142,6 +2149,12 @@
           "artifact": "short-20260214-slot3",
           "fp": "92d1bc1e97b3990c0b809d18fa6cb6ac00d4df9eedd11b5db5aac4d42dcb0d26",
           "ts": "2026-02-14T13:49:38.481422+00:00"
+        },
+        "4": {
+          "video_id": "P71QT9bYBI4",
+          "artifact": "short-20260214-slot4",
+          "fp": "66d452d2f3127be8c80e981653d8b8bb91b96bb142a4ad4dafb774ee3d94db04",
+          "ts": "2026-02-14T19:34:16.195477+00:00"
         }
       }
     }
