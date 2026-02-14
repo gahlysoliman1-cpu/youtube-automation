@@ -1009,6 +1009,13 @@
       "question": "What does 'bend over backwards' mean?",
       "answer": "Go out of one's way to help",
       "date_iso": "2026-02-14"
+    },
+    {
+      "fp": "92d1bc1e97b3990c0b809d18fa6cb6ac00d4df9eedd11b5db5aac4d42dcb0d26",
+      "q_norm": "what s the highest score ever achieved in a single bowling game",
+      "question": "What's the highest score ever achieved in a single bowling game?",
+      "answer": "300",
+      "date_iso": "2026-02-14"
     }
   ],
   "publishes": {
@@ -2129,6 +2136,12 @@
           "artifact": "short-20260214-slot2",
           "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
           "ts": "2026-02-14T07:45:19.043098+00:00"
+        },
+        "3": {
+          "video_id": "AXbioEk1Jpk",
+          "artifact": "short-20260214-slot3",
+          "fp": "92d1bc1e97b3990c0b809d18fa6cb6ac00d4df9eedd11b5db5aac4d42dcb0d26",
+          "ts": "2026-02-14T13:49:38.481422+00:00"
         }
       }
     }
