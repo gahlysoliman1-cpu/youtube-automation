@@ -995,6 +995,13 @@
       "question": "What does 'break a leg' mean?",
       "answer": "Good luck",
       "date_iso": "2026-02-13"
+    },
+    {
+      "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
+      "q_norm": "what is the largest planet in our solar system",
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter",
+      "date_iso": "2026-02-14"
     }
   ],
   "publishes": {
@@ -2100,6 +2107,16 @@
       "long": {
         "video_id": "yxx61l5e0EE",
         "ts": "2026-02-13T23:58:23.910478+00:00"
+      }
+    },
+    "20260214": {
+      "shorts": {
+        "1": {
+          "video_id": "Q7IkxN9grc8",
+          "artifact": "short-20260214-slot1",
+          "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
+          "ts": "2026-02-14T03:30:14.570497+00:00"
+        }
       }
     }
   }
