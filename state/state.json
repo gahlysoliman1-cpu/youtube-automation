@@ -1044,6 +1044,13 @@
       "question": "Which country's capital is built on more than 100 small islands?",
       "answer": "Sweden (Stockholm)",
       "date_iso": "2026-02-15"
+    },
+    {
+      "fp": "b24c38b0fc449e62ed7d7cc8a04e3491d9fc7acff756b2fb8256a2d7d3eb4091",
+      "q_norm": "what popular dessert s name comes from the french word for burnt cream",
+      "question": "What popular dessert's name comes from the French word for 'burnt cream'?",
+      "answer": "Crème Brûlée",
+      "date_iso": "2026-02-15"
     }
   ],
   "publishes": {
@@ -2202,6 +2209,12 @@
           "artifact": "short-20260215-slot3",
           "fp": "b3fff87e6b09b064ca100055888036c642ff2ff4506b9d9e2fceff00d63d2397",
           "ts": "2026-02-15T13:52:14.050236+00:00"
+        },
+        "4": {
+          "video_id": "p0xxajD8giE",
+          "artifact": "short-20260215-slot4",
+          "fp": "b24c38b0fc449e62ed7d7cc8a04e3491d9fc7acff756b2fb8256a2d7d3eb4091",
+          "ts": "2026-02-15T19:36:08.672953+00:00"
         }
       }
     }
