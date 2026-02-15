@@ -1030,6 +1030,13 @@
       "question": "What's 12 x 11?",
       "answer": "132",
       "date_iso": "2026-02-15"
+    },
+    {
+      "fp": "c186af9928a703974efd041904b1ad127ca06f663626577f48942da0b2067885",
+      "q_norm": "a bakery sells 408 loaves of bread at 2 99 each and 429 loaves at 3 19 each what s the total revenue",
+      "question": "A bakery sells 408 loaves of bread at $2.99 each and 429 loaves at $3.19 each. What's the total revenue?",
+      "answer": "$2,755.92",
+      "date_iso": "2026-02-15"
     }
   ],
   "publishes": {
@@ -2176,6 +2183,12 @@
           "artifact": "short-20260215-slot1",
           "fp": "72d22dbd27cf67ee8905ea940a193f86c450d57826fa79767e0d23181687c790",
           "ts": "2026-02-15T03:44:27.199147+00:00"
+        },
+        "2": {
+          "video_id": "fzxjCqBD0DA",
+          "artifact": "short-20260215-slot2",
+          "fp": "c186af9928a703974efd041904b1ad127ca06f663626577f48942da0b2067885",
+          "ts": "2026-02-15T07:45:15.049919+00:00"
         }
       }
     }
