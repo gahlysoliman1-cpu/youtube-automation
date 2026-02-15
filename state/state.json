@@ -1037,6 +1037,13 @@
       "question": "A bakery sells 408 loaves of bread at $2.99 each and 429 loaves at $3.19 each. What's the total revenue?",
       "answer": "$2,755.92",
       "date_iso": "2026-02-15"
+    },
+    {
+      "fp": "b3fff87e6b09b064ca100055888036c642ff2ff4506b9d9e2fceff00d63d2397",
+      "q_norm": "which country s capital is built on more than 100 small islands",
+      "question": "Which country's capital is built on more than 100 small islands?",
+      "answer": "Sweden (Stockholm)",
+      "date_iso": "2026-02-15"
     }
   ],
   "publishes": {
@@ -2189,6 +2196,12 @@
           "artifact": "short-20260215-slot2",
           "fp": "c186af9928a703974efd041904b1ad127ca06f663626577f48942da0b2067885",
           "ts": "2026-02-15T07:45:15.049919+00:00"
+        },
+        "3": {
+          "video_id": "H2p_0sI4oBk",
+          "artifact": "short-20260215-slot3",
+          "fp": "b3fff87e6b09b064ca100055888036c642ff2ff4506b9d9e2fceff00d63d2397",
+          "ts": "2026-02-15T13:52:14.050236+00:00"
         }
       }
     }
