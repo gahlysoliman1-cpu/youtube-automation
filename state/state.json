@@ -1023,6 +1023,13 @@
       "question": "What is 697730708 divided by 7?",
       "answer": "99759287",
       "date_iso": "2026-02-14"
+    },
+    {
+      "fp": "72d22dbd27cf67ee8905ea940a193f86c450d57826fa79767e0d23181687c790",
+      "q_norm": "what s 12 x 11",
+      "question": "What's 12 x 11?",
+      "answer": "132",
+      "date_iso": "2026-02-15"
     }
   ],
   "publishes": {
@@ -2160,6 +2167,16 @@
       "long": {
         "video_id": "XRNR_zS32is",
         "ts": "2026-02-14T23:54:18.160388+00:00"
+      }
+    },
+    "20260215": {
+      "shorts": {
+        "1": {
+          "video_id": "9dHKC7OkbVE",
+          "artifact": "short-20260215-slot1",
+          "fp": "72d22dbd27cf67ee8905ea940a193f86c450d57826fa79767e0d23181687c790",
+          "ts": "2026-02-15T03:44:27.199147+00:00"
+        }
       }
     }
   }
