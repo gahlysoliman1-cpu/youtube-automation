@@ -1058,6 +1058,13 @@
       "question": "How many planets in our solar system have rings?",
       "answer": "4",
       "date_iso": "2026-02-16"
+    },
+    {
+      "fp": "ff4249711708e44fbeb3566f90091aaa50552c6a9151ebe3a95b8bb323a02aea",
+      "q_norm": "if 142 2 3 is written as 1 4 2 2 3 what is 262902142",
+      "question": "If 142 + 2 * 3 is written as 1 4 2 2 3, what is 262902142?",
+      "answer": "1 4 13 2 2 3",
+      "date_iso": "2026-02-16"
     }
   ],
   "publishes": {
@@ -2236,6 +2243,12 @@
           "artifact": "short-20260216-slot1",
           "fp": "56b58ff1f865d73d22971dc3ea1911c874f308b35eb223ab4c0b8c0a33fce787",
           "ts": "2026-02-16T03:43:05.331974+00:00"
+        },
+        "2": {
+          "video_id": "1vNjeFAc6xs",
+          "artifact": "short-20260216-slot2",
+          "fp": "ff4249711708e44fbeb3566f90091aaa50552c6a9151ebe3a95b8bb323a02aea",
+          "ts": "2026-02-16T08:00:27.589841+00:00"
         }
       }
     }
