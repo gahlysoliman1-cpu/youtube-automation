@@ -1051,6 +1051,13 @@
       "question": "What popular dessert's name comes from the French word for 'burnt cream'?",
       "answer": "Crème Brûlée",
       "date_iso": "2026-02-15"
+    },
+    {
+      "fp": "56b58ff1f865d73d22971dc3ea1911c874f308b35eb223ab4c0b8c0a33fce787",
+      "q_norm": "how many planets in our solar system have rings",
+      "question": "How many planets in our solar system have rings?",
+      "answer": "4",
+      "date_iso": "2026-02-16"
     }
   ],
   "publishes": {
@@ -2220,6 +2227,16 @@
       "long": {
         "video_id": "YzapXB6nvoM",
         "ts": "2026-02-15T23:56:52.666010+00:00"
+      }
+    },
+    "20260216": {
+      "shorts": {
+        "1": {
+          "video_id": "OmFtv4jfgl0",
+          "artifact": "short-20260216-slot1",
+          "fp": "56b58ff1f865d73d22971dc3ea1911c874f308b35eb223ab4c0b8c0a33fce787",
+          "ts": "2026-02-16T03:43:05.331974+00:00"
+        }
       }
     }
   }
