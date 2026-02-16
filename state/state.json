@@ -1065,6 +1065,13 @@
       "question": "If 142 + 2 * 3 is written as 1 4 2 2 3, what is 262902142?",
       "answer": "1 4 13 2 2 3",
       "date_iso": "2026-02-16"
+    },
+    {
+      "fp": "6fea7e8d4222f8defbed7829832384cf22118f41692dc333ed21286565d0d148",
+      "q_norm": "what is the world s largest living structure according to the guinness world records",
+      "question": "What is the world's largest living structure, according to the Guinness World Records?",
+      "answer": "The Great Barrier Reef",
+      "date_iso": "2026-02-16"
     }
   ],
   "publishes": {
@@ -2249,6 +2256,12 @@
           "artifact": "short-20260216-slot2",
           "fp": "ff4249711708e44fbeb3566f90091aaa50552c6a9151ebe3a95b8bb323a02aea",
           "ts": "2026-02-16T08:00:27.589841+00:00"
+        },
+        "3": {
+          "video_id": "UnVVceV1S1M",
+          "artifact": "short-20260216-slot3",
+          "fp": "6fea7e8d4222f8defbed7829832384cf22118f41692dc333ed21286565d0d148",
+          "ts": "2026-02-16T14:08:00.703908+00:00"
         }
       }
     }
