@@ -1072,6 +1072,13 @@
       "question": "What is the world's largest living structure, according to the Guinness World Records?",
       "answer": "The Great Barrier Reef",
       "date_iso": "2026-02-16"
+    },
+    {
+      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
+      "q_norm": "what popular italian dessert s name means pick me up",
+      "question": "What popular Italian dessert's name means 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-16"
     }
   ],
   "publishes": {
@@ -2262,6 +2269,12 @@
           "artifact": "short-20260216-slot3",
           "fp": "6fea7e8d4222f8defbed7829832384cf22118f41692dc333ed21286565d0d148",
           "ts": "2026-02-16T14:08:00.703908+00:00"
+        },
+        "4": {
+          "video_id": "e5DpCLvWuOc",
+          "artifact": "short-20260216-slot4",
+          "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
+          "ts": "2026-02-16T19:41:47.370876+00:00"
         }
       }
     }
