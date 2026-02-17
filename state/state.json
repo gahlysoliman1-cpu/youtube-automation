@@ -1100,6 +1100,13 @@
       "question": "A book costs $983.12. If a 20% discount is applied, how much will you pay?",
       "answer": "$785.00",
       "date_iso": "2026-02-17"
+    },
+    {
+      "fp": "b940ad8a0e937569c36466b9a0a75deb8bf9a9080c7c04616471f047fe101159",
+      "q_norm": "who holds the record for most career home runs in major league baseball",
+      "question": "Who holds the record for most career home runs in Major League Baseball?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-02-17"
     }
   ],
   "publishes": {
@@ -2322,6 +2329,12 @@
           "artifact": "short-20260217-slot3",
           "fp": "d95d7e8a023309197cfd6165fabd4220849b50dd3ca7cdbd58a9fb608191f4e4",
           "ts": "2026-02-17T14:12:45.787547+00:00"
+        },
+        "4": {
+          "video_id": "U_uQbu7Pz4k",
+          "artifact": "short-20260217-slot4",
+          "fp": "b940ad8a0e937569c36466b9a0a75deb8bf9a9080c7c04616471f047fe101159",
+          "ts": "2026-02-17T19:56:02.320027+00:00"
         }
       }
     }
