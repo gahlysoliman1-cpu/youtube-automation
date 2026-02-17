@@ -1079,6 +1079,13 @@
       "question": "What popular Italian dessert's name means 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-16"
+    },
+    {
+      "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
+      "q_norm": "what is the fastest land animal",
+      "question": "What is the fastest land animal?",
+      "answer": "Cheetah",
+      "date_iso": "2026-02-17"
     }
   ],
   "publishes": {
@@ -2280,6 +2287,16 @@
       "long": {
         "video_id": "ywGp09cYMQE",
         "ts": "2026-02-16T23:57:33.805363+00:00"
+      }
+    },
+    "20260217": {
+      "shorts": {
+        "1": {
+          "video_id": "pO9jMYFAHp0",
+          "artifact": "short-20260217-slot1",
+          "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
+          "ts": "2026-02-17T03:37:49.867697+00:00"
+        }
       }
     }
   }
