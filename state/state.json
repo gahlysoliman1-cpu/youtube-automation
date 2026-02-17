@@ -1086,6 +1086,13 @@
       "question": "What is the fastest land animal?",
       "answer": "Cheetah",
       "date_iso": "2026-02-17"
+    },
+    {
+      "fp": "85eb1ddbfe57be81b774d81c1c8f82ae4e02a41bf1f06391522af426b65107ba",
+      "q_norm": "which planet in our solar system is closest to the sun",
+      "question": "Which planet in our solar system is closest to the sun?",
+      "answer": "Mercury",
+      "date_iso": "2026-02-17"
     }
   ],
   "publishes": {
@@ -2296,6 +2303,12 @@
           "artifact": "short-20260217-slot1",
           "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
           "ts": "2026-02-17T03:37:49.867697+00:00"
+        },
+        "2": {
+          "video_id": "64by6glxU2k",
+          "artifact": "short-20260217-slot2",
+          "fp": "85eb1ddbfe57be81b774d81c1c8f82ae4e02a41bf1f06391522af426b65107ba",
+          "ts": "2026-02-17T07:57:42.345191+00:00"
         }
       }
     }
