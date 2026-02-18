@@ -1114,6 +1114,13 @@
       "question": "What does 'burn the midnight oil' mean?",
       "answer": "Work late into the night",
       "date_iso": "2026-02-18"
+    },
+    {
+      "fp": "19706780e5f900e6f35b3c7416b93c902bbfe0014359529d1a477222171e83e6",
+      "q_norm": "i have a 3 digit number with no repeating digits if you remove my first digit i m 294 times smaller what am i",
+      "question": "I have a 3-digit number with no repeating digits. If you remove my first digit, I'm 294 times smaller. What am I?",
+      "answer": "102",
+      "date_iso": "2026-02-18"
     }
   ],
   "publishes": {
@@ -2356,6 +2363,12 @@
           "artifact": "short-20260218-slot1",
           "fp": "6dbc68ba936de264ac88428db996065c3cbe2bcbb8fcc549437965bf632b86e7",
           "ts": "2026-02-18T03:41:26.453553+00:00"
+        },
+        "2": {
+          "video_id": "wdUlcfmyoX4",
+          "artifact": "short-20260218-slot2",
+          "fp": "19706780e5f900e6f35b3c7416b93c902bbfe0014359529d1a477222171e83e6",
+          "ts": "2026-02-18T07:58:20.002817+00:00"
         }
       }
     }
