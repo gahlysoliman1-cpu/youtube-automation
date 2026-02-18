@@ -1121,6 +1121,13 @@
       "question": "I have a 3-digit number with no repeating digits. If you remove my first digit, I'm 294 times smaller. What am I?",
       "answer": "102",
       "date_iso": "2026-02-18"
+    },
+    {
+      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+      "q_norm": "what does cpu stand for in computing",
+      "question": "What does CPU stand for in computing?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-02-18"
     }
   ],
   "publishes": {
@@ -2369,6 +2376,12 @@
           "artifact": "short-20260218-slot2",
           "fp": "19706780e5f900e6f35b3c7416b93c902bbfe0014359529d1a477222171e83e6",
           "ts": "2026-02-18T07:58:20.002817+00:00"
+        },
+        "3": {
+          "video_id": "F3_RSXa1FXY",
+          "artifact": "short-20260218-slot3",
+          "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
+          "ts": "2026-02-18T14:09:08.133406+00:00"
         }
       }
     }
