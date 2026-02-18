@@ -1128,6 +1128,13 @@
       "question": "What does CPU stand for in computing?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-02-18"
+    },
+    {
+      "fp": "de0c7641a88acc5660c0cbcbdc45a2dd168cb439eaf2cf6e606bc8937f9323df",
+      "q_norm": "which country has ouagadougou as its capital",
+      "question": "Which country has Ouagadougou as its capital?",
+      "answer": "Burkina Faso",
+      "date_iso": "2026-02-18"
     }
   ],
   "publishes": {
@@ -2382,6 +2389,12 @@
           "artifact": "short-20260218-slot3",
           "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
           "ts": "2026-02-18T14:09:08.133406+00:00"
+        },
+        "4": {
+          "video_id": "-TOFa4SR5J4",
+          "artifact": "short-20260218-slot4",
+          "fp": "de0c7641a88acc5660c0cbcbdc45a2dd168cb439eaf2cf6e606bc8937f9323df",
+          "ts": "2026-02-18T19:53:54.992117+00:00"
         }
       }
     }
