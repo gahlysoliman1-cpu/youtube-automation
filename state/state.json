@@ -1142,6 +1142,13 @@
       "question": "Which continent is home to the country of Madagascar?",
       "answer": "Africa",
       "date_iso": "2026-02-19"
+    },
+    {
+      "fp": "36738281dfabf811a813ae222f9c7fdd1705350d5c81fddbbb7a4aeed81f9631",
+      "q_norm": "what is 43 9 38",
+      "question": "What is 43 × 9 + 38?",
+      "answer": "425",
+      "date_iso": "2026-02-19"
     }
   ],
   "publishes": {
@@ -2412,6 +2419,12 @@
           "artifact": "short-20260219-slot1",
           "fp": "5ea30fbcb2655a360ae12e1d5861136edf9a81875c7d8b19809ef2e175722758",
           "ts": "2026-02-19T03:38:53.723566+00:00"
+        },
+        "2": {
+          "video_id": "vhxbPvs4v0U",
+          "artifact": "short-20260219-slot2",
+          "fp": "36738281dfabf811a813ae222f9c7fdd1705350d5c81fddbbb7a4aeed81f9631",
+          "ts": "2026-02-19T07:56:47.667885+00:00"
         }
       }
     }
