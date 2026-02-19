@@ -1135,6 +1135,13 @@
       "question": "Which country has Ouagadougou as its capital?",
       "answer": "Burkina Faso",
       "date_iso": "2026-02-18"
+    },
+    {
+      "fp": "5ea30fbcb2655a360ae12e1d5861136edf9a81875c7d8b19809ef2e175722758",
+      "q_norm": "which continent is home to the country of madagascar",
+      "question": "Which continent is home to the country of Madagascar?",
+      "answer": "Africa",
+      "date_iso": "2026-02-19"
     }
   ],
   "publishes": {
@@ -2395,6 +2402,16 @@
           "artifact": "short-20260218-slot4",
           "fp": "de0c7641a88acc5660c0cbcbdc45a2dd168cb439eaf2cf6e606bc8937f9323df",
           "ts": "2026-02-18T19:53:54.992117+00:00"
+        }
+      }
+    },
+    "20260219": {
+      "shorts": {
+        "1": {
+          "video_id": "m78CuUHimBk",
+          "artifact": "short-20260219-slot1",
+          "fp": "5ea30fbcb2655a360ae12e1d5861136edf9a81875c7d8b19809ef2e175722758",
+          "ts": "2026-02-19T03:38:53.723566+00:00"
         }
       }
     }
