@@ -1149,6 +1149,13 @@
       "question": "What is 43 × 9 + 38?",
       "answer": "425",
       "date_iso": "2026-02-19"
+    },
+    {
+      "fp": "2c65332318be30b25d0141200a550fac6295b66115b4f182d925c40146ad92b3",
+      "q_norm": "a bookshelf has 13 shelves each with 7 books how many books are there in total",
+      "question": "A bookshelf has 13 shelves, each with 7 books. How many books are there in total?",
+      "answer": "91",
+      "date_iso": "2026-02-19"
     }
   ],
   "publishes": {
@@ -2425,6 +2432,12 @@
           "artifact": "short-20260219-slot2",
           "fp": "36738281dfabf811a813ae222f9c7fdd1705350d5c81fddbbb7a4aeed81f9631",
           "ts": "2026-02-19T07:56:47.667885+00:00"
+        },
+        "3": {
+          "video_id": "MnoT7imE87w",
+          "artifact": "short-20260219-slot3",
+          "fp": "2c65332318be30b25d0141200a550fac6295b66115b4f182d925c40146ad92b3",
+          "ts": "2026-02-19T14:11:41.527684+00:00"
         }
       }
     }
