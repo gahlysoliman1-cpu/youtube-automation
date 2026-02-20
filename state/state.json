@@ -1163,6 +1163,13 @@
       "question": "I have 8 numbers, but add 1 and I become odd. What am I?",
       "answer": "Nine",
       "date_iso": "2026-02-19"
+    },
+    {
+      "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
+      "q_norm": "which popular italian dessert translates to pick me up",
+      "question": "Which popular Italian dessert translates to 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-20"
     }
   ],
   "publishes": {
@@ -2456,6 +2463,16 @@
       "long": {
         "video_id": "_CuOa-s7WZY",
         "ts": "2026-02-19T23:58:27.934643+00:00"
+      }
+    },
+    "20260220": {
+      "shorts": {
+        "1": {
+          "video_id": "ExqpHM_feUM",
+          "artifact": "short-20260220-slot1",
+          "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
+          "ts": "2026-02-20T03:44:42.170443+00:00"
+        }
       }
     }
   }
