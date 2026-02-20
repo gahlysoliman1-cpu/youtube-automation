@@ -1177,6 +1177,13 @@
       "question": "Who holds the record for most Super Bowl wins by a player?",
       "answer": "Tom Brady",
       "date_iso": "2026-02-20"
+    },
+    {
+      "fp": "c9f3dda709b5fcdba0b85f55592cca9201228fc1d2971e20fc8531a4fcfc6b4c",
+      "q_norm": "if a bookshelf has 5 shelves and each shelf can hold 319 books how many books can it hold in total",
+      "question": "If a bookshelf has 5 shelves, and each shelf can hold 319 books, how many books can it hold in total?",
+      "answer": "1595",
+      "date_iso": "2026-02-20"
     }
   ],
   "publishes": {
@@ -2485,6 +2492,12 @@
           "artifact": "short-20260220-slot2",
           "fp": "745564f7cfef630ba52aa8f297f56fbb3a3b7b67e234e29d32cd56b5f197b72a",
           "ts": "2026-02-20T07:53:55.339642+00:00"
+        },
+        "3": {
+          "video_id": "f8oTkwa2XcQ",
+          "artifact": "short-20260220-slot3",
+          "fp": "c9f3dda709b5fcdba0b85f55592cca9201228fc1d2971e20fc8531a4fcfc6b4c",
+          "ts": "2026-02-20T14:04:44.970588+00:00"
         }
       }
     }
