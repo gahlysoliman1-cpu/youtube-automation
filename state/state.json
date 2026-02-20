@@ -1170,6 +1170,13 @@
       "question": "Which popular Italian dessert translates to 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-20"
+    },
+    {
+      "fp": "745564f7cfef630ba52aa8f297f56fbb3a3b7b67e234e29d32cd56b5f197b72a",
+      "q_norm": "who holds the record for most super bowl wins by a player",
+      "question": "Who holds the record for most Super Bowl wins by a player?",
+      "answer": "Tom Brady",
+      "date_iso": "2026-02-20"
     }
   ],
   "publishes": {
@@ -2472,6 +2479,12 @@
           "artifact": "short-20260220-slot1",
           "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
           "ts": "2026-02-20T03:44:42.170443+00:00"
+        },
+        "2": {
+          "video_id": "Hx3Z-8qejCE",
+          "artifact": "short-20260220-slot2",
+          "fp": "745564f7cfef630ba52aa8f297f56fbb3a3b7b67e234e29d32cd56b5f197b72a",
+          "ts": "2026-02-20T07:53:55.339642+00:00"
         }
       }
     }
