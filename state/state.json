@@ -1184,6 +1184,13 @@
       "question": "If a bookshelf has 5 shelves, and each shelf can hold 319 books, how many books can it hold in total?",
       "answer": "1595",
       "date_iso": "2026-02-20"
+    },
+    {
+      "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
+      "q_norm": "i have 5 letters take away my first letter and i still sound the same what am i",
+      "question": "I have 5 letters, take away my first letter, and I still sound the same. What am I?",
+      "answer": "Swims",
+      "date_iso": "2026-02-20"
     }
   ],
   "publishes": {
@@ -2498,6 +2505,12 @@
           "artifact": "short-20260220-slot3",
           "fp": "c9f3dda709b5fcdba0b85f55592cca9201228fc1d2971e20fc8531a4fcfc6b4c",
           "ts": "2026-02-20T14:04:44.970588+00:00"
+        },
+        "4": {
+          "video_id": "UkVIyZQntZ4",
+          "artifact": "short-20260220-slot4",
+          "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
+          "ts": "2026-02-20T19:49:41.605785+00:00"
         }
       }
     }
