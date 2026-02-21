@@ -1205,6 +1205,13 @@
       "question": "Which popular dessert originated in Italy?",
       "answer": "Tiramisu",
       "date_iso": "2026-02-21"
+    },
+    {
+      "fp": "f7b4fd589917d5cbfb00d6370b29a534b4887c4d2e1bf8f648aa9450d960c219",
+      "q_norm": "who holds the record for most olympic gold medals won by an individual",
+      "question": "Who holds the record for most Olympic gold medals won by an individual?",
+      "answer": "Michael Phelps",
+      "date_iso": "2026-02-21"
     }
   ],
   "publishes": {
@@ -2545,6 +2552,12 @@
           "artifact": "short-20260221-slot2",
           "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
           "ts": "2026-02-21T07:41:25.492258+00:00"
+        },
+        "3": {
+          "video_id": "d8qxdIECFJc",
+          "artifact": "short-20260221-slot3",
+          "fp": "f7b4fd589917d5cbfb00d6370b29a534b4887c4d2e1bf8f648aa9450d960c219",
+          "ts": "2026-02-21T13:46:10.129784+00:00"
         }
       }
     }
