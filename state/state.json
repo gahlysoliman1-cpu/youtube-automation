@@ -1191,6 +1191,13 @@
       "question": "I have 5 letters, take away my first letter, and I still sound the same. What am I?",
       "answer": "Swims",
       "date_iso": "2026-02-20"
+    },
+    {
+      "fp": "4a33a5884c9cbb8faf1e30a494723d0902efb70ae4f54bfa8f959813c70598aa",
+      "q_norm": "what s the farthest human made object from earth",
+      "question": "What's the farthest human-made object from Earth?",
+      "answer": "Voyager 1",
+      "date_iso": "2026-02-21"
     }
   ],
   "publishes": {
@@ -2516,6 +2523,16 @@
       "long": {
         "video_id": "b4DgTGtv6Eo",
         "ts": "2026-02-20T23:56:51.271980+00:00"
+      }
+    },
+    "20260221": {
+      "shorts": {
+        "1": {
+          "video_id": "3IEgK3BbuL4",
+          "artifact": "short-20260221-slot1",
+          "fp": "4a33a5884c9cbb8faf1e30a494723d0902efb70ae4f54bfa8f959813c70598aa",
+          "ts": "2026-02-21T03:25:44.092268+00:00"
+        }
       }
     }
   }
