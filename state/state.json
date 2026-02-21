@@ -1212,6 +1212,13 @@
       "question": "Who holds the record for most Olympic gold medals won by an individual?",
       "answer": "Michael Phelps",
       "date_iso": "2026-02-21"
+    },
+    {
+      "fp": "6da8017e94a5a2dca0084172ea9c66c71124b98b6b5e1dbdcdabfe84dc47f447",
+      "q_norm": "what is the most widely used web browser",
+      "question": "What is the most widely used web browser?",
+      "answer": "Google Chrome",
+      "date_iso": "2026-02-21"
     }
   ],
   "publishes": {
@@ -2558,6 +2565,12 @@
           "artifact": "short-20260221-slot3",
           "fp": "f7b4fd589917d5cbfb00d6370b29a534b4887c4d2e1bf8f648aa9450d960c219",
           "ts": "2026-02-21T13:46:10.129784+00:00"
+        },
+        "4": {
+          "video_id": "RMDlFJcIQ_c",
+          "artifact": "short-20260221-slot4",
+          "fp": "6da8017e94a5a2dca0084172ea9c66c71124b98b6b5e1dbdcdabfe84dc47f447",
+          "ts": "2026-02-21T19:35:44.371438+00:00"
         }
       }
     }
