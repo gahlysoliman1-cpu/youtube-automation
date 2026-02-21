@@ -1198,6 +1198,13 @@
       "question": "What's the farthest human-made object from Earth?",
       "answer": "Voyager 1",
       "date_iso": "2026-02-21"
+    },
+    {
+      "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
+      "q_norm": "which popular dessert originated in italy",
+      "question": "Which popular dessert originated in Italy?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-21"
     }
   ],
   "publishes": {
@@ -2532,6 +2539,12 @@
           "artifact": "short-20260221-slot1",
           "fp": "4a33a5884c9cbb8faf1e30a494723d0902efb70ae4f54bfa8f959813c70598aa",
           "ts": "2026-02-21T03:25:44.092268+00:00"
+        },
+        "2": {
+          "video_id": "5gvslkbYCy8",
+          "artifact": "short-20260221-slot2",
+          "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
+          "ts": "2026-02-21T07:41:25.492258+00:00"
         }
       }
     }
