@@ -1233,6 +1233,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-02-22"
+    },
+    {
+      "fp": "5e7315458540057937cb8c2981bbdcc13121477e4b88a0e357929eb1a9693c44",
+      "q_norm": "what s the fastest land animal reaching speeds of 70 mph",
+      "question": "What's the fastest land animal, reaching speeds of 70 mph?",
+      "answer": "Cheetah",
+      "date_iso": "2026-02-22"
     }
   ],
   "publishes": {
@@ -2605,6 +2612,12 @@
           "artifact": "short-20260222-slot2",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-02-22T07:42:38.948348+00:00"
+        },
+        "3": {
+          "video_id": "bZF6XRVSLzY",
+          "artifact": "short-20260222-slot3",
+          "fp": "5e7315458540057937cb8c2981bbdcc13121477e4b88a0e357929eb1a9693c44",
+          "ts": "2026-02-22T13:47:53.322406+00:00"
         }
       }
     }
