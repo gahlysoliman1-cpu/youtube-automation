@@ -1219,6 +1219,13 @@
       "question": "What is the most widely used web browser?",
       "answer": "Google Chrome",
       "date_iso": "2026-02-21"
+    },
+    {
+      "fp": "943da5acef6f8e86ade5b4eee9bf3f6a81ad535f6e954a1c3dadea251628b2c5",
+      "q_norm": "what popular italian dessert s name translates to pick me up",
+      "question": "What popular Italian dessert's name translates to 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-02-22"
     }
   ],
   "publishes": {
@@ -2576,6 +2583,16 @@
       "long": {
         "video_id": "z45DWdEkeLk",
         "ts": "2026-02-21T23:52:30.734407+00:00"
+      }
+    },
+    "20260222": {
+      "shorts": {
+        "1": {
+          "video_id": "Rp2tjd7zORI",
+          "artifact": "short-20260222-slot1",
+          "fp": "943da5acef6f8e86ade5b4eee9bf3f6a81ad535f6e954a1c3dadea251628b2c5",
+          "ts": "2026-02-22T03:37:36.999519+00:00"
+        }
       }
     }
   }
