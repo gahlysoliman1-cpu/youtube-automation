@@ -1247,6 +1247,13 @@
       "question": "Who holds the record for the fastest 100m dash time?",
       "answer": "Usain Bolt",
       "date_iso": "2026-02-22"
+    },
+    {
+      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+      "q_norm": "what is the capital of greenland",
+      "question": "What is the capital of Greenland?",
+      "answer": "Nuuk",
+      "date_iso": "2026-02-23"
     }
   ],
   "publishes": {
@@ -2636,6 +2643,16 @@
       "long": {
         "video_id": "z_N3nepB1yc",
         "ts": "2026-02-22T23:55:19.226762+00:00"
+      }
+    },
+    "20260223": {
+      "shorts": {
+        "1": {
+          "video_id": "ZBwAsodDnRk",
+          "artifact": "short-20260223-slot1",
+          "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
+          "ts": "2026-02-23T03:42:41.748355+00:00"
+        }
       }
     }
   }
