@@ -1254,6 +1254,13 @@
       "question": "What is the capital of Greenland?",
       "answer": "Nuuk",
       "date_iso": "2026-02-23"
+    },
+    {
+      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+      "q_norm": "what does cpu stand for",
+      "question": "What does CPU stand for?",
+      "answer": "Central Processing Unit",
+      "date_iso": "2026-02-28"
     }
   ],
   "publishes": {
@@ -2652,6 +2659,16 @@
           "artifact": "short-20260223-slot1",
           "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
           "ts": "2026-02-23T03:42:41.748355+00:00"
+        }
+      }
+    },
+    "20260228": {
+      "shorts": {
+        "1": {
+          "video_id": "co3IWXWDDfc",
+          "artifact": "short-20260228-slot1",
+          "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
+          "ts": "2026-02-28T03:12:17.210955+00:00"
         }
       }
     }
