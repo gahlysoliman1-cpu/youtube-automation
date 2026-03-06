@@ -1261,6 +1261,13 @@
       "question": "What does CPU stand for?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-02-28"
+    },
+    {
+      "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
+      "q_norm": "what is the fastest land animal",
+      "question": "What is the fastest land animal?",
+      "answer": "Cheetah",
+      "date_iso": "2026-03-06"
     }
   ],
   "publishes": {
@@ -2669,6 +2676,16 @@
           "artifact": "short-20260228-slot1",
           "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
           "ts": "2026-02-28T03:12:17.210955+00:00"
+        }
+      }
+    },
+    "20260306": {
+      "shorts": {
+        "2": {
+          "video_id": "a11NgmUNBE4",
+          "artifact": "short-20260306-slot2",
+          "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
+          "ts": "2026-03-06T07:46:47.660012+00:00"
         }
       }
     }
