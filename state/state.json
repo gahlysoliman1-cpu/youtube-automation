@@ -1275,6 +1275,13 @@
       "question": "A bakery sells 312 loaves of bread at $2.90 each. How much money does it make?",
       "answer": "$906.80",
       "date_iso": "2026-03-06"
+    },
+    {
+      "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
+      "q_norm": "what is the largest planet in our solar system",
+      "question": "What is the largest planet in our solar system?",
+      "answer": "Jupiter",
+      "date_iso": "2026-03-06"
     }
   ],
   "publishes": {
@@ -2699,6 +2706,12 @@
           "artifact": "short-20260306-slot3",
           "fp": "133127a647c40349f640b22f12f9810c2633876021f3c8f4fb8e1f504800587a",
           "ts": "2026-03-06T13:57:55.425926+00:00"
+        },
+        "4": {
+          "video_id": "Iwcrd4NSNAE",
+          "artifact": "short-20260306-slot4",
+          "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
+          "ts": "2026-03-06T19:43:57.178243+00:00"
         }
       }
     }
