@@ -1268,6 +1268,13 @@
       "question": "What is the fastest land animal?",
       "answer": "Cheetah",
       "date_iso": "2026-03-06"
+    },
+    {
+      "fp": "133127a647c40349f640b22f12f9810c2633876021f3c8f4fb8e1f504800587a",
+      "q_norm": "a bakery sells 312 loaves of bread at 2 90 each how much money does it make",
+      "question": "A bakery sells 312 loaves of bread at $2.90 each. How much money does it make?",
+      "answer": "$906.80",
+      "date_iso": "2026-03-06"
     }
   ],
   "publishes": {
@@ -2686,6 +2693,12 @@
           "artifact": "short-20260306-slot2",
           "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
           "ts": "2026-03-06T07:46:47.660012+00:00"
+        },
+        "3": {
+          "video_id": "lilqgB6TiRU",
+          "artifact": "short-20260306-slot3",
+          "fp": "133127a647c40349f640b22f12f9810c2633876021f3c8f4fb8e1f504800587a",
+          "ts": "2026-03-06T13:57:55.425926+00:00"
         }
       }
     }
