@@ -1282,6 +1282,13 @@
       "question": "What is the largest planet in our solar system?",
       "answer": "Jupiter",
       "date_iso": "2026-03-06"
+    },
+    {
+      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+      "q_norm": "what does break a leg mean",
+      "question": "What does 'break a leg' mean?",
+      "answer": "Good luck",
+      "date_iso": "2026-03-07"
     }
   ],
   "publishes": {
@@ -2712,6 +2719,16 @@
           "artifact": "short-20260306-slot4",
           "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
           "ts": "2026-03-06T19:43:57.178243+00:00"
+        }
+      }
+    },
+    "20260307": {
+      "shorts": {
+        "1": {
+          "video_id": "aPPbE3u9quw",
+          "artifact": "short-20260307-slot1",
+          "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
+          "ts": "2026-03-07T03:21:53.133909+00:00"
         }
       }
     }
