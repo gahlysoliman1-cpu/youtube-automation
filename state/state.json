@@ -1289,6 +1289,13 @@
       "question": "What does 'break a leg' mean?",
       "answer": "Good luck",
       "date_iso": "2026-03-07"
+    },
+    {
+      "fp": "d583e2bf411f5e0ef4f4224ed63b7999f35e8ea247c085fc5aa6da7ce123550e",
+      "q_norm": "what s 717 774 806 divided by 2",
+      "question": "What's 717,774,806 divided by 2?",
+      "answer": "358,887,403",
+      "date_iso": "2026-03-07"
     }
   ],
   "publishes": {
@@ -2729,6 +2736,12 @@
           "artifact": "short-20260307-slot1",
           "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
           "ts": "2026-03-07T03:21:53.133909+00:00"
+        },
+        "2": {
+          "video_id": "vEkf4fikvuY",
+          "artifact": "short-20260307-slot2",
+          "fp": "d583e2bf411f5e0ef4f4224ed63b7999f35e8ea247c085fc5aa6da7ce123550e",
+          "ts": "2026-03-07T07:38:39.488664+00:00"
         }
       }
     }
