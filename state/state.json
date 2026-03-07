@@ -1303,6 +1303,13 @@
       "question": "Who holds the record for most career home runs in baseball?",
       "answer": "Barry Bonds",
       "date_iso": "2026-03-07"
+    },
+    {
+      "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
+      "q_norm": "which city is the capital of australia",
+      "question": "Which city is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-03-07"
     }
   ],
   "publishes": {
@@ -2755,6 +2762,12 @@
           "artifact": "short-20260307-slot3",
           "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
           "ts": "2026-03-07T13:42:08.364560+00:00"
+        },
+        "4": {
+          "video_id": "2Ruuknouo4E",
+          "artifact": "short-20260307-slot4",
+          "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
+          "ts": "2026-03-07T19:32:41.996686+00:00"
         }
       }
     }
