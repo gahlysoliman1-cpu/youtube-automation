@@ -1296,6 +1296,13 @@
       "question": "What's 717,774,806 divided by 2?",
       "answer": "358,887,403",
       "date_iso": "2026-03-07"
+    },
+    {
+      "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
+      "q_norm": "who holds the record for most career home runs in baseball",
+      "question": "Who holds the record for most career home runs in baseball?",
+      "answer": "Barry Bonds",
+      "date_iso": "2026-03-07"
     }
   ],
   "publishes": {
@@ -2742,6 +2749,12 @@
           "artifact": "short-20260307-slot2",
           "fp": "d583e2bf411f5e0ef4f4224ed63b7999f35e8ea247c085fc5aa6da7ce123550e",
           "ts": "2026-03-07T07:38:39.488664+00:00"
+        },
+        "3": {
+          "video_id": "SNqPEgYRtpA",
+          "artifact": "short-20260307-slot3",
+          "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
+          "ts": "2026-03-07T13:42:08.364560+00:00"
         }
       }
     }
