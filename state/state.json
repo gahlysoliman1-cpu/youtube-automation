@@ -1331,6 +1331,13 @@
       "question": "What popular dessert's name means 'pick-me-up' in Italian?",
       "answer": "Tiramisu",
       "date_iso": "2026-03-08"
+    },
+    {
+      "fp": "e66888ab04e57d6cd8f53c7298ce7b6ef70e29791f7e764c5ba9999a3b9c4863",
+      "q_norm": "if a pizza parlor sells 3 large pizzas for 24 how much does one large pizza cost",
+      "question": "If a pizza parlor sells 3 large pizzas for $24, how much does one large pizza cost?",
+      "answer": "$8",
+      "date_iso": "2026-03-08"
     }
   ],
   "publishes": {
@@ -2815,6 +2822,12 @@
           "artifact": "short-20260308-slot3",
           "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
           "ts": "2026-03-08T13:43:16.515745+00:00"
+        },
+        "4": {
+          "video_id": "GA3KbMi0HiE",
+          "artifact": "short-20260308-slot4",
+          "fp": "e66888ab04e57d6cd8f53c7298ce7b6ef70e29791f7e764c5ba9999a3b9c4863",
+          "ts": "2026-03-08T19:37:57.818587+00:00"
         }
       }
     }
