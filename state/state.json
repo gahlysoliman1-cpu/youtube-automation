@@ -1324,6 +1324,13 @@
       "question": "What popular Italian dessert's name means 'pick-me-up'?",
       "answer": "Tiramisu",
       "date_iso": "2026-03-08"
+    },
+    {
+      "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
+      "q_norm": "what popular dessert s name means pick me up in italian",
+      "question": "What popular dessert's name means 'pick-me-up' in Italian?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-03-08"
     }
   ],
   "publishes": {
@@ -2802,6 +2809,12 @@
           "artifact": "short-20260308-slot2",
           "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
           "ts": "2026-03-08T07:42:19.566300+00:00"
+        },
+        "3": {
+          "video_id": "fQRZafamoj4",
+          "artifact": "short-20260308-slot3",
+          "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
+          "ts": "2026-03-08T13:43:16.515745+00:00"
         }
       }
     }
