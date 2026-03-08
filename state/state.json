@@ -1317,6 +1317,13 @@
       "question": "What does CPU stand for in computing?",
       "answer": "Central Processing Unit",
       "date_iso": "2026-03-08"
+    },
+    {
+      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
+      "q_norm": "what popular italian dessert s name means pick me up",
+      "question": "What popular Italian dessert's name means 'pick-me-up'?",
+      "answer": "Tiramisu",
+      "date_iso": "2026-03-08"
     }
   ],
   "publishes": {
@@ -2789,6 +2796,12 @@
           "artifact": "short-20260308-slot1",
           "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
           "ts": "2026-03-08T03:32:20.184710+00:00"
+        },
+        "2": {
+          "video_id": "Anplq_Tuhug",
+          "artifact": "short-20260308-slot2",
+          "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
+          "ts": "2026-03-08T07:42:19.566300+00:00"
         }
       }
     }
