@@ -1338,6 +1338,13 @@
       "question": "If a pizza parlor sells 3 large pizzas for $24, how much does one large pizza cost?",
       "answer": "$8",
       "date_iso": "2026-03-08"
+    },
+    {
+      "fp": "b4a38d41b63f44b02b5c2032a150638e34cff05db223d2bcbd10f67a6edfa40e",
+      "q_norm": "what is the farthest planet from the sun",
+      "question": "What is the farthest planet from the Sun?",
+      "answer": "Neptune",
+      "date_iso": "2026-03-09"
     }
   ],
   "publishes": {
@@ -2833,6 +2840,16 @@
       "long": {
         "video_id": "fZtcE1OvgCE",
         "ts": "2026-03-08T23:53:58.904703+00:00"
+      }
+    },
+    "20260309": {
+      "shorts": {
+        "1": {
+          "video_id": "qEdfHm3QIH4",
+          "artifact": "short-20260309-slot1",
+          "fp": "b4a38d41b63f44b02b5c2032a150638e34cff05db223d2bcbd10f67a6edfa40e",
+          "ts": "2026-03-09T03:38:17.185737+00:00"
+        }
       }
     }
   }
