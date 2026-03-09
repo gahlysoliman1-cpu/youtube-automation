@@ -1352,6 +1352,13 @@
       "question": "What is 221,396,680 divided by 4?",
       "answer": "553,49170",
       "date_iso": "2026-03-09"
+    },
+    {
+      "fp": "21c36d08d9df4153b0e99f23e973a5e35acd6148cfb88e79d8953b131261cb49",
+      "q_norm": "what is the main ingredient in a traditional hummus dip",
+      "question": "What is the main ingredient in a traditional Hummus dip?",
+      "answer": "Chickpeas",
+      "date_iso": "2026-03-09"
     }
   ],
   "publishes": {
@@ -2862,6 +2869,12 @@
           "artifact": "short-20260309-slot2",
           "fp": "c190a3cda1165c018a97e8103375b12eda3531583c20dc0f325fe9dc0097555b",
           "ts": "2026-03-09T07:58:29.976416+00:00"
+        },
+        "3": {
+          "video_id": "TkIkL-Uf5BE",
+          "artifact": "short-20260309-slot3",
+          "fp": "21c36d08d9df4153b0e99f23e973a5e35acd6148cfb88e79d8953b131261cb49",
+          "ts": "2026-03-09T14:08:48.757083+00:00"
         }
       }
     }
