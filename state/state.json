@@ -1359,6 +1359,13 @@
       "question": "What is the main ingredient in a traditional Hummus dip?",
       "answer": "Chickpeas",
       "date_iso": "2026-03-09"
+    },
+    {
+      "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
+      "q_norm": "who holds the record for most olympic gold medals",
+      "question": "Who holds the record for most Olympic gold medals?",
+      "answer": "Michael Phelps",
+      "date_iso": "2026-03-09"
     }
   ],
   "publishes": {
@@ -2875,6 +2882,12 @@
           "artifact": "short-20260309-slot3",
           "fp": "21c36d08d9df4153b0e99f23e973a5e35acd6148cfb88e79d8953b131261cb49",
           "ts": "2026-03-09T14:08:48.757083+00:00"
+        },
+        "4": {
+          "video_id": "R0lp96pRrMI",
+          "artifact": "short-20260309-slot4",
+          "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
+          "ts": "2026-03-09T19:48:36.643030+00:00"
         }
       }
     }
