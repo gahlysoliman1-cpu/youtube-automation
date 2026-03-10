@@ -1373,6 +1373,13 @@
       "question": "What is 97 × 2 + 5?",
       "answer": "199",
       "date_iso": "2026-03-10"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-03-10"
     }
   ],
   "publishes": {
@@ -2909,6 +2916,12 @@
           "artifact": "short-20260310-slot1",
           "fp": "d94a2fbf203aaa70d9956f982d7cf1317359d580831145d9e5989fd09e480b4a",
           "ts": "2026-03-10T03:28:43.198998+00:00"
+        },
+        "2": {
+          "video_id": "AzPt35zGPWg",
+          "artifact": "short-20260310-slot2",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-03-10T07:50:43.665037+00:00"
         }
       }
     }
