@@ -1380,6 +1380,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-03-10"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-03-10"
     }
   ],
   "publishes": {
@@ -2922,6 +2929,12 @@
           "artifact": "short-20260310-slot2",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-03-10T07:50:43.665037+00:00"
+        },
+        "3": {
+          "video_id": "kzF6K54DQpw",
+          "artifact": "short-20260310-slot3",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-03-10T14:04:49.402029+00:00"
         }
       }
     }
