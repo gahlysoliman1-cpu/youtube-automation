@@ -1366,6 +1366,13 @@
       "question": "Who holds the record for most Olympic gold medals?",
       "answer": "Michael Phelps",
       "date_iso": "2026-03-09"
+    },
+    {
+      "fp": "d94a2fbf203aaa70d9956f982d7cf1317359d580831145d9e5989fd09e480b4a",
+      "q_norm": "what is 97 2 5",
+      "question": "What is 97 × 2 + 5?",
+      "answer": "199",
+      "date_iso": "2026-03-10"
     }
   ],
   "publishes": {
@@ -2893,6 +2900,16 @@
       "long": {
         "video_id": "GReBDQdxlUE",
         "ts": "2026-03-09T23:54:54.728884+00:00"
+      }
+    },
+    "20260310": {
+      "shorts": {
+        "1": {
+          "video_id": "XOsm_BeJmCc",
+          "artifact": "short-20260310-slot1",
+          "fp": "d94a2fbf203aaa70d9956f982d7cf1317359d580831145d9e5989fd09e480b4a",
+          "ts": "2026-03-10T03:28:43.198998+00:00"
+        }
       }
     }
   }
