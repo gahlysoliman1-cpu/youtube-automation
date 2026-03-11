@@ -1401,6 +1401,13 @@
       "question": "What is the capital of Japan?",
       "answer": "Tokyo",
       "date_iso": "2026-03-11"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-03-11"
     }
   ],
   "publishes": {
@@ -2969,6 +2976,12 @@
           "artifact": "short-20260311-slot1",
           "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
           "ts": "2026-03-11T03:29:26.341183+00:00"
+        },
+        "2": {
+          "video_id": "OXC5EzmftW8",
+          "artifact": "short-20260311-slot2",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-03-11T07:51:06.097219+00:00"
         }
       }
     }
