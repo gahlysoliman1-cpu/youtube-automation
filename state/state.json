@@ -1394,6 +1394,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-03-10"
+    },
+    {
+      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+      "q_norm": "what is the capital of japan",
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "date_iso": "2026-03-11"
     }
   ],
   "publishes": {
@@ -2953,6 +2960,16 @@
       "long": {
         "video_id": "tvXi_jxQr5w",
         "ts": "2026-03-10T23:55:20.386391+00:00"
+      }
+    },
+    "20260311": {
+      "shorts": {
+        "1": {
+          "video_id": "QMMeTLlynG4",
+          "artifact": "short-20260311-slot1",
+          "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+          "ts": "2026-03-11T03:29:26.341183+00:00"
+        }
       }
     }
   }
