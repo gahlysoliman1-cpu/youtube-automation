@@ -1415,6 +1415,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-03-11"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-03-11"
     }
   ],
   "publishes": {
@@ -2995,6 +3002,12 @@
           "artifact": "short-20260311-slot3",
           "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
           "ts": "2026-03-11T14:09:29.456153+00:00"
+        },
+        "4": {
+          "video_id": "lo9fWgPKNds",
+          "artifact": "short-20260311-slot4",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-03-11T19:49:12.556045+00:00"
         }
       }
     }
