@@ -1408,6 +1408,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-03-11"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-03-11"
     }
   ],
   "publishes": {
@@ -2982,6 +2989,12 @@
           "artifact": "short-20260311-slot2",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-03-11T07:51:06.097219+00:00"
+        },
+        "3": {
+          "video_id": "LDDt3V2wUfk",
+          "artifact": "short-20260311-slot3",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-03-11T14:09:29.456153+00:00"
         }
       }
     }
