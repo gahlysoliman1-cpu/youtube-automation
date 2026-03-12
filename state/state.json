@@ -1429,6 +1429,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-03-12"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-03-12"
     }
   ],
   "publishes": {
@@ -3029,6 +3036,12 @@
           "artifact": "short-20260312-slot1",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-03-12T03:35:14.969050+00:00"
+        },
+        "2": {
+          "video_id": "eu5ILiB74xg",
+          "artifact": "short-20260312-slot2",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-03-12T07:53:33.603315+00:00"
         }
       }
     }
