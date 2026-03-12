@@ -1436,6 +1436,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-03-12"
+    },
+    {
+      "fp": "b7471820159c6e663d520f5733ad5fb363b2b6d9eed3e97d8c0a2b062a3abb05",
+      "q_norm": "what is 20 2 23",
+      "question": "What is 20 × 2 + 23?",
+      "answer": "63",
+      "date_iso": "2026-03-12"
     }
   ],
   "publishes": {
@@ -3042,6 +3049,12 @@
           "artifact": "short-20260312-slot2",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-03-12T07:53:33.603315+00:00"
+        },
+        "3": {
+          "video_id": "HWI6CFkkG84",
+          "artifact": "short-20260312-slot3",
+          "fp": "b7471820159c6e663d520f5733ad5fb363b2b6d9eed3e97d8c0a2b062a3abb05",
+          "ts": "2026-03-12T14:05:58.259241+00:00"
         }
       }
     }
