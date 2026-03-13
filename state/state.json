@@ -1464,6 +1464,13 @@
       "question": "What is 88 × 5 + 13?",
       "answer": "453",
       "date_iso": "2026-03-13"
+    },
+    {
+      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+      "q_norm": "what gets wetter the more it dries",
+      "question": "What gets wetter the more it dries?",
+      "answer": "A towel",
+      "date_iso": "2026-03-13"
     }
   ],
   "publishes": {
@@ -3102,6 +3109,12 @@
           "artifact": "short-20260313-slot2",
           "fp": "5020b2acbec0a3b3b54f4f77bbc7009276d2ca27555288f694f3fa1df1301797",
           "ts": "2026-03-13T07:52:10.776029+00:00"
+        },
+        "3": {
+          "video_id": "HibmzwtRKC4",
+          "artifact": "short-20260313-slot3",
+          "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+          "ts": "2026-03-13T14:02:42.474427+00:00"
         }
       }
     }
