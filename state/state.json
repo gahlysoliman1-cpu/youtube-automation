@@ -1450,6 +1450,13 @@
       "question": "What is 41 × 11 + 7?",
       "answer": "458",
       "date_iso": "2026-03-12"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-03-13"
     }
   ],
   "publishes": {
@@ -3073,6 +3080,16 @@
       "long": {
         "video_id": "QPVO6HdCyhQ",
         "ts": "2026-03-12T23:55:43.070121+00:00"
+      }
+    },
+    "20260313": {
+      "shorts": {
+        "1": {
+          "video_id": "JcFIRHkEU3U",
+          "artifact": "short-20260313-slot1",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-03-13T03:30:52.290287+00:00"
+        }
       }
     }
   }
