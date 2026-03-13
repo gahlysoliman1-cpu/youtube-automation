@@ -1457,6 +1457,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-03-13"
+    },
+    {
+      "fp": "5020b2acbec0a3b3b54f4f77bbc7009276d2ca27555288f694f3fa1df1301797",
+      "q_norm": "what is 88 5 13",
+      "question": "What is 88 × 5 + 13?",
+      "answer": "453",
+      "date_iso": "2026-03-13"
     }
   ],
   "publishes": {
@@ -3089,6 +3096,12 @@
           "artifact": "short-20260313-slot1",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-03-13T03:30:52.290287+00:00"
+        },
+        "2": {
+          "video_id": "F8iQQFdzkaA",
+          "artifact": "short-20260313-slot2",
+          "fp": "5020b2acbec0a3b3b54f4f77bbc7009276d2ca27555288f694f3fa1df1301797",
+          "ts": "2026-03-13T07:52:10.776029+00:00"
         }
       }
     }
