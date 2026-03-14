@@ -1485,6 +1485,13 @@
       "question": "What is 12 × 4 + 37?",
       "answer": "85",
       "date_iso": "2026-03-14"
+    },
+    {
+      "fp": "1c5a3d83feaf23eb8fda18f622c87327149a741a479d59c9704161a93cabcc56",
+      "q_norm": "what is 84 11 17",
+      "question": "What is 84 × 11 + 17?",
+      "answer": "941",
+      "date_iso": "2026-03-14"
     }
   ],
   "publishes": {
@@ -3149,6 +3156,12 @@
           "artifact": "short-20260314-slot1",
           "fp": "b77d7e0fdbea6ea7835c1c4c964459c69f2e9c7b07113e20b20f813743afc55b",
           "ts": "2026-03-14T03:28:41.467948+00:00"
+        },
+        "2": {
+          "video_id": "GG0eJ4-tosc",
+          "artifact": "short-20260314-slot2",
+          "fp": "1c5a3d83feaf23eb8fda18f622c87327149a741a479d59c9704161a93cabcc56",
+          "ts": "2026-03-14T07:46:32.366230+00:00"
         }
       }
     }
