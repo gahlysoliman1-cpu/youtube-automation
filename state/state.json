@@ -1492,6 +1492,13 @@
       "question": "What is 84 × 11 + 17?",
       "answer": "941",
       "date_iso": "2026-03-14"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-03-14"
     }
   ],
   "publishes": {
@@ -3162,6 +3169,12 @@
           "artifact": "short-20260314-slot2",
           "fp": "1c5a3d83feaf23eb8fda18f622c87327149a741a479d59c9704161a93cabcc56",
           "ts": "2026-03-14T07:46:32.366230+00:00"
+        },
+        "3": {
+          "video_id": "VFgQHOwlLWg",
+          "artifact": "short-20260314-slot3",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-03-14T13:51:25.778517+00:00"
         }
       }
     }
