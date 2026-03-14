@@ -1478,6 +1478,13 @@
       "question": "What is 75 × 7 + 21?",
       "answer": "546",
       "date_iso": "2026-03-13"
+    },
+    {
+      "fp": "b77d7e0fdbea6ea7835c1c4c964459c69f2e9c7b07113e20b20f813743afc55b",
+      "q_norm": "what is 12 4 37",
+      "question": "What is 12 × 4 + 37?",
+      "answer": "85",
+      "date_iso": "2026-03-14"
     }
   ],
   "publishes": {
@@ -3133,6 +3140,16 @@
       "long": {
         "video_id": "fLK4w8dRSM4",
         "ts": "2026-03-13T23:56:44.544963+00:00"
+      }
+    },
+    "20260314": {
+      "shorts": {
+        "1": {
+          "video_id": "-SU_nEaer9o",
+          "artifact": "short-20260314-slot1",
+          "fp": "b77d7e0fdbea6ea7835c1c4c964459c69f2e9c7b07113e20b20f813743afc55b",
+          "ts": "2026-03-14T03:28:41.467948+00:00"
+        }
       }
     }
   }
