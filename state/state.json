@@ -1520,6 +1520,13 @@
       "question": "What is 71 × 11 + 19?",
       "answer": "800",
       "date_iso": "2026-03-15"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-03-15"
     }
   ],
   "publishes": {
@@ -3222,6 +3229,12 @@
           "artifact": "short-20260315-slot2",
           "fp": "72eb9a66f9cc1f59afe30218cbee4799434fffc0aecaac2ef9c9e3b234bed009",
           "ts": "2026-03-15T07:52:42.033852+00:00"
+        },
+        "3": {
+          "video_id": "ut3I2q9zabg",
+          "artifact": "short-20260315-slot3",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-03-15T13:51:54.441536+00:00"
         }
       }
     }
