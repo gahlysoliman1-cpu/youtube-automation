@@ -1513,6 +1513,13 @@
       "question": "What is 33 × 3 + 22?",
       "answer": "121",
       "date_iso": "2026-03-15"
+    },
+    {
+      "fp": "72eb9a66f9cc1f59afe30218cbee4799434fffc0aecaac2ef9c9e3b234bed009",
+      "q_norm": "what is 71 11 19",
+      "question": "What is 71 × 11 + 19?",
+      "answer": "800",
+      "date_iso": "2026-03-15"
     }
   ],
   "publishes": {
@@ -3209,6 +3216,12 @@
           "artifact": "short-20260315-slot1",
           "fp": "5c57347942c11a393ffd00e2f9be09759732ec4e79028f07f989cd596d2d636b",
           "ts": "2026-03-15T03:57:30.457509+00:00"
+        },
+        "2": {
+          "video_id": "g4cEdVsaILk",
+          "artifact": "short-20260315-slot2",
+          "fp": "72eb9a66f9cc1f59afe30218cbee4799434fffc0aecaac2ef9c9e3b234bed009",
+          "ts": "2026-03-15T07:52:42.033852+00:00"
         }
       }
     }
