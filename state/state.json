@@ -1506,6 +1506,13 @@
       "question": "What is the capital of Mexico?",
       "answer": "Mexico City",
       "date_iso": "2026-03-14"
+    },
+    {
+      "fp": "5c57347942c11a393ffd00e2f9be09759732ec4e79028f07f989cd596d2d636b",
+      "q_norm": "what is 33 3 22",
+      "question": "What is 33 × 3 + 22?",
+      "answer": "121",
+      "date_iso": "2026-03-15"
     }
   ],
   "publishes": {
@@ -3193,6 +3200,16 @@
       "long": {
         "video_id": "5zFOB2HqCyU",
         "ts": "2026-03-14T23:56:30.839606+00:00"
+      }
+    },
+    "20260315": {
+      "shorts": {
+        "1": {
+          "video_id": "AdwUXm35eK8",
+          "artifact": "short-20260315-slot1",
+          "fp": "5c57347942c11a393ffd00e2f9be09759732ec4e79028f07f989cd596d2d636b",
+          "ts": "2026-03-15T03:57:30.457509+00:00"
+        }
       }
     }
   }
