@@ -1527,6 +1527,13 @@
       "question": "What gas do plants absorb from the air?",
       "answer": "Carbon dioxide",
       "date_iso": "2026-03-15"
+    },
+    {
+      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+      "q_norm": "what is the capital of germany",
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "date_iso": "2026-03-15"
     }
   ],
   "publishes": {
@@ -3235,6 +3242,12 @@
           "artifact": "short-20260315-slot3",
           "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
           "ts": "2026-03-15T13:51:54.441536+00:00"
+        },
+        "4": {
+          "video_id": "ioqkLIemyS0",
+          "artifact": "short-20260315-slot4",
+          "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+          "ts": "2026-03-15T19:38:26.949833+00:00"
         }
       }
     }
