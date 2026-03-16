@@ -1555,6 +1555,13 @@
       "question": "What is 87 × 11 + 35?",
       "answer": "992",
       "date_iso": "2026-03-16"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-03-16"
     }
   ],
   "publishes": {
@@ -3295,6 +3302,12 @@
           "artifact": "short-20260316-slot3",
           "fp": "69ce9ccd8ccc7dd4e8914b136ed1ca81c3f68ce65598561a45d512325a8afde4",
           "ts": "2026-03-16T14:23:06.293741+00:00"
+        },
+        "4": {
+          "video_id": "ge6TyyzBL6s",
+          "artifact": "short-20260316-slot4",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-03-16T20:01:02.234530+00:00"
         }
       }
     }
