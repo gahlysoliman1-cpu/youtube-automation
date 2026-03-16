@@ -1541,6 +1541,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-03-16"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-03-16"
     }
   ],
   "publishes": {
@@ -3269,6 +3276,12 @@
           "artifact": "short-20260316-slot1",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-03-16T03:56:55.106871+00:00"
+        },
+        "2": {
+          "video_id": "SwQ5rSATi-c",
+          "artifact": "short-20260316-slot2",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-03-16T08:14:40.605867+00:00"
         }
       }
     }
