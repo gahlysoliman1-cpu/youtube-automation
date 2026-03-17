@@ -1562,6 +1562,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-03-16"
+    },
+    {
+      "fp": "245141258dcd64f4cb2451ed51f6ef68e2c8dbafab586fcae2bc15417bd38284",
+      "q_norm": "what is 96 3 5",
+      "question": "What is 96 × 3 + 5?",
+      "answer": "293",
+      "date_iso": "2026-03-17"
     }
   ],
   "publishes": {
@@ -3313,6 +3320,16 @@
       "long": {
         "video_id": "JqLfFM--u18",
         "ts": "2026-03-16T23:57:04.679069+00:00"
+      }
+    },
+    "20260317": {
+      "shorts": {
+        "1": {
+          "video_id": "3VTeR_Bc3g0",
+          "artifact": "short-20260317-slot1",
+          "fp": "245141258dcd64f4cb2451ed51f6ef68e2c8dbafab586fcae2bc15417bd38284",
+          "ts": "2026-03-17T03:35:23.442987+00:00"
+        }
       }
     }
   }
