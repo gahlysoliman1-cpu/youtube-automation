@@ -1576,6 +1576,13 @@
       "question": "What is 25 × 4 + 26?",
       "answer": "126",
       "date_iso": "2026-03-17"
+    },
+    {
+      "fp": "b7e46161646d0b5d7c20ca55c4182b68d6971a5706263d863b12f4be3c2f8966",
+      "q_norm": "what is 41 4 35",
+      "question": "What is 41 × 4 + 35?",
+      "answer": "199",
+      "date_iso": "2026-03-17"
     }
   ],
   "publishes": {
@@ -3342,6 +3349,12 @@
           "artifact": "short-20260317-slot2",
           "fp": "661de7cbd3d44a7f9f0749cc183a7fe4f5a2e0b6b51a469a1813b18625e7f4a5",
           "ts": "2026-03-17T08:00:22.868528+00:00"
+        },
+        "3": {
+          "video_id": "bpYr1Ou7F-8",
+          "artifact": "short-20260317-slot3",
+          "fp": "b7e46161646d0b5d7c20ca55c4182b68d6971a5706263d863b12f4be3c2f8966",
+          "ts": "2026-03-17T14:29:06.957301+00:00"
         }
       }
     }
