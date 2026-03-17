@@ -1583,6 +1583,13 @@
       "question": "What is 41 × 4 + 35?",
       "answer": "199",
       "date_iso": "2026-03-17"
+    },
+    {
+      "fp": "978da734c877192b924ead3150af5a57c4a3c63587159f6d66da03ff378ebe6d",
+      "q_norm": "what is 92 5 30",
+      "question": "What is 92 × 5 + 30?",
+      "answer": "490",
+      "date_iso": "2026-03-17"
     }
   ],
   "publishes": {
@@ -3355,6 +3362,12 @@
           "artifact": "short-20260317-slot3",
           "fp": "b7e46161646d0b5d7c20ca55c4182b68d6971a5706263d863b12f4be3c2f8966",
           "ts": "2026-03-17T14:29:06.957301+00:00"
+        },
+        "4": {
+          "video_id": "TNABpTmQllI",
+          "artifact": "short-20260317-slot4",
+          "fp": "978da734c877192b924ead3150af5a57c4a3c63587159f6d66da03ff378ebe6d",
+          "ts": "2026-03-17T19:59:37.665393+00:00"
         }
       }
     }
