@@ -1569,6 +1569,13 @@
       "question": "What is 96 × 3 + 5?",
       "answer": "293",
       "date_iso": "2026-03-17"
+    },
+    {
+      "fp": "661de7cbd3d44a7f9f0749cc183a7fe4f5a2e0b6b51a469a1813b18625e7f4a5",
+      "q_norm": "what is 25 4 26",
+      "question": "What is 25 × 4 + 26?",
+      "answer": "126",
+      "date_iso": "2026-03-17"
     }
   ],
   "publishes": {
@@ -3329,6 +3336,12 @@
           "artifact": "short-20260317-slot1",
           "fp": "245141258dcd64f4cb2451ed51f6ef68e2c8dbafab586fcae2bc15417bd38284",
           "ts": "2026-03-17T03:35:23.442987+00:00"
+        },
+        "2": {
+          "video_id": "Reb3F0N5c9E",
+          "artifact": "short-20260317-slot2",
+          "fp": "661de7cbd3d44a7f9f0749cc183a7fe4f5a2e0b6b51a469a1813b18625e7f4a5",
+          "ts": "2026-03-17T08:00:22.868528+00:00"
         }
       }
     }
