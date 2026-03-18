@@ -1604,6 +1604,13 @@
       "question": "What is 42 × 7 + 14?",
       "answer": "308",
       "date_iso": "2026-03-18"
+    },
+    {
+      "fp": "1ecd9f35b4c942351f7de126b43f831468b11339f3c1007babc254d3b216cebd",
+      "q_norm": "what is 23 11 33",
+      "question": "What is 23 × 11 + 33?",
+      "answer": "286",
+      "date_iso": "2026-03-18"
     }
   ],
   "publishes": {
@@ -3402,6 +3409,12 @@
           "artifact": "short-20260318-slot2",
           "fp": "8676f5d9351ce402efa641cea5d4f384b9671ea35290eda399e7ce5a4b7a497f",
           "ts": "2026-03-18T08:01:04.757748+00:00"
+        },
+        "3": {
+          "video_id": "zJ8QS7UlS3M",
+          "artifact": "short-20260318-slot3",
+          "fp": "1ecd9f35b4c942351f7de126b43f831468b11339f3c1007babc254d3b216cebd",
+          "ts": "2026-03-18T14:23:52.899115+00:00"
         }
       }
     }
