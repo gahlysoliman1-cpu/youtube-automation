@@ -1597,6 +1597,13 @@
       "question": "What is 12 × 9 + 25?",
       "answer": "133",
       "date_iso": "2026-03-18"
+    },
+    {
+      "fp": "8676f5d9351ce402efa641cea5d4f384b9671ea35290eda399e7ce5a4b7a497f",
+      "q_norm": "what is 42 7 14",
+      "question": "What is 42 × 7 + 14?",
+      "answer": "308",
+      "date_iso": "2026-03-18"
     }
   ],
   "publishes": {
@@ -3389,6 +3396,12 @@
           "artifact": "short-20260318-slot1",
           "fp": "a8e239594271941eaa32288efc87485cac84402deabd134f6c0082e02d90e064",
           "ts": "2026-03-18T03:42:33.549439+00:00"
+        },
+        "2": {
+          "video_id": "NsAFTzQxZ4A",
+          "artifact": "short-20260318-slot2",
+          "fp": "8676f5d9351ce402efa641cea5d4f384b9671ea35290eda399e7ce5a4b7a497f",
+          "ts": "2026-03-18T08:01:04.757748+00:00"
         }
       }
     }
