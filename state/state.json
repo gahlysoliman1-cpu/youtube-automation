@@ -1590,6 +1590,13 @@
       "question": "What is 92 × 5 + 30?",
       "answer": "490",
       "date_iso": "2026-03-17"
+    },
+    {
+      "fp": "a8e239594271941eaa32288efc87485cac84402deabd134f6c0082e02d90e064",
+      "q_norm": "what is 12 9 25",
+      "question": "What is 12 × 9 + 25?",
+      "answer": "133",
+      "date_iso": "2026-03-18"
     }
   ],
   "publishes": {
@@ -3373,6 +3380,16 @@
       "long": {
         "video_id": "eY4hs5Mo81Y",
         "ts": "2026-03-18T00:00:46.609775+00:00"
+      }
+    },
+    "20260318": {
+      "shorts": {
+        "1": {
+          "video_id": "mbeDynXDAXU",
+          "artifact": "short-20260318-slot1",
+          "fp": "a8e239594271941eaa32288efc87485cac84402deabd134f6c0082e02d90e064",
+          "ts": "2026-03-18T03:42:33.549439+00:00"
+        }
       }
     }
   }
