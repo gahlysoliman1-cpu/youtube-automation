@@ -1611,6 +1611,13 @@
       "question": "What is 23 × 11 + 33?",
       "answer": "286",
       "date_iso": "2026-03-18"
+    },
+    {
+      "fp": "8e0ecfcbe6e21fe06fd03b566251d92a035d749bbb71882b27ead4693d6e808d",
+      "q_norm": "what is 95 2 9",
+      "question": "What is 95 × 2 + 9?",
+      "answer": "199",
+      "date_iso": "2026-03-18"
     }
   ],
   "publishes": {
@@ -3415,6 +3422,12 @@
           "artifact": "short-20260318-slot3",
           "fp": "1ecd9f35b4c942351f7de126b43f831468b11339f3c1007babc254d3b216cebd",
           "ts": "2026-03-18T14:23:52.899115+00:00"
+        },
+        "4": {
+          "video_id": "Uq9gbbEUTLA",
+          "artifact": "short-20260318-slot4",
+          "fp": "8e0ecfcbe6e21fe06fd03b566251d92a035d749bbb71882b27ead4693d6e808d",
+          "ts": "2026-03-18T19:55:34.723584+00:00"
         }
       }
     }
