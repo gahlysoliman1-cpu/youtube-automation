@@ -1618,6 +1618,13 @@
       "question": "What is 95 × 2 + 9?",
       "answer": "199",
       "date_iso": "2026-03-18"
+    },
+    {
+      "fp": "f9527d88f6d67080aa372cc812a04ba85382e9d37d431b78452da0890d3b6533",
+      "q_norm": "what is 24 5 10",
+      "question": "What is 24 × 5 + 10?",
+      "answer": "130",
+      "date_iso": "2026-03-19"
     }
   ],
   "publishes": {
@@ -3428,6 +3435,16 @@
           "artifact": "short-20260318-slot4",
           "fp": "8e0ecfcbe6e21fe06fd03b566251d92a035d749bbb71882b27ead4693d6e808d",
           "ts": "2026-03-18T19:55:34.723584+00:00"
+        }
+      }
+    },
+    "20260319": {
+      "shorts": {
+        "1": {
+          "video_id": "86gM1FwFsWs",
+          "artifact": "short-20260319-slot1",
+          "fp": "f9527d88f6d67080aa372cc812a04ba85382e9d37d431b78452da0890d3b6533",
+          "ts": "2026-03-19T03:45:09.235271+00:00"
         }
       }
     }
