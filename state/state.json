@@ -1632,6 +1632,13 @@
       "question": "What is the capital of Spain?",
       "answer": "Madrid",
       "date_iso": "2026-03-19"
+    },
+    {
+      "fp": "8519166616f9d9d0e9eb5dd153543bb67bf96c383d0c6474543403aa9fe01397",
+      "q_norm": "what is 19 10 19",
+      "question": "What is 19 × 10 + 19?",
+      "answer": "209",
+      "date_iso": "2026-03-19"
     }
   ],
   "publishes": {
@@ -3458,6 +3465,12 @@
           "artifact": "short-20260319-slot2",
           "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
           "ts": "2026-03-19T07:59:43.477971+00:00"
+        },
+        "3": {
+          "video_id": "q0wlW6YK8tA",
+          "artifact": "short-20260319-slot3",
+          "fp": "8519166616f9d9d0e9eb5dd153543bb67bf96c383d0c6474543403aa9fe01397",
+          "ts": "2026-03-19T14:10:48.156850+00:00"
         }
       }
     }
