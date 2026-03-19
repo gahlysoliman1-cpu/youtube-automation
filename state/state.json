@@ -1639,6 +1639,13 @@
       "question": "What is 19 × 10 + 19?",
       "answer": "209",
       "date_iso": "2026-03-19"
+    },
+    {
+      "fp": "6ff24ebf34e5ce6e2c8b1b185486c68d6b2bd1a34438998dbdad5bab097858fe",
+      "q_norm": "what is 87 5 8",
+      "question": "What is 87 × 5 + 8?",
+      "answer": "443",
+      "date_iso": "2026-03-19"
     }
   ],
   "publishes": {
@@ -3471,6 +3478,12 @@
           "artifact": "short-20260319-slot3",
           "fp": "8519166616f9d9d0e9eb5dd153543bb67bf96c383d0c6474543403aa9fe01397",
           "ts": "2026-03-19T14:10:48.156850+00:00"
+        },
+        "4": {
+          "video_id": "H-SUoqVmkgQ",
+          "artifact": "short-20260319-slot4",
+          "fp": "6ff24ebf34e5ce6e2c8b1b185486c68d6b2bd1a34438998dbdad5bab097858fe",
+          "ts": "2026-03-19T20:12:00.757177+00:00"
         }
       }
     }
