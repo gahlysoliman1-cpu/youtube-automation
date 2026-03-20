@@ -1653,6 +1653,13 @@
       "question": "What is 75 × 10 + 17?",
       "answer": "767",
       "date_iso": "2026-03-20"
+    },
+    {
+      "fp": "ec3098f63c17328458b71494bec171dec207c9c7dc22f1f6578d76653ed3b13a",
+      "q_norm": "what is 36 7 13",
+      "question": "What is 36 × 7 + 13?",
+      "answer": "265",
+      "date_iso": "2026-03-20"
     }
   ],
   "publishes": {
@@ -3505,6 +3512,12 @@
           "artifact": "short-20260320-slot1",
           "fp": "3126542021d882ab987816aca16f6990505081096141974178e5c65e80da53f9",
           "ts": "2026-03-20T03:32:07.313733+00:00"
+        },
+        "2": {
+          "video_id": "SvC842peJ5U",
+          "artifact": "short-20260320-slot2",
+          "fp": "ec3098f63c17328458b71494bec171dec207c9c7dc22f1f6578d76653ed3b13a",
+          "ts": "2026-03-20T07:53:05.927591+00:00"
         }
       }
     }
