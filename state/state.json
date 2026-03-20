@@ -1660,6 +1660,13 @@
       "question": "What is 36 × 7 + 13?",
       "answer": "265",
       "date_iso": "2026-03-20"
+    },
+    {
+      "fp": "a7fff2d02f8353a0cae2f10134f85bcaff53ceb2ba8524e33c5232b370b98e34",
+      "q_norm": "what is 27 7 33",
+      "question": "What is 27 × 7 + 33?",
+      "answer": "222",
+      "date_iso": "2026-03-20"
     }
   ],
   "publishes": {
@@ -3518,6 +3525,12 @@
           "artifact": "short-20260320-slot2",
           "fp": "ec3098f63c17328458b71494bec171dec207c9c7dc22f1f6578d76653ed3b13a",
           "ts": "2026-03-20T07:53:05.927591+00:00"
+        },
+        "3": {
+          "video_id": "ruhbcWjcsXE",
+          "artifact": "short-20260320-slot3",
+          "fp": "a7fff2d02f8353a0cae2f10134f85bcaff53ceb2ba8524e33c5232b370b98e34",
+          "ts": "2026-03-20T14:03:34.850505+00:00"
         }
       }
     }
