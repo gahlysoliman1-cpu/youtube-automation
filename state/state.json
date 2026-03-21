@@ -1674,6 +1674,13 @@
       "question": "What is 52 × 7 + 36?",
       "answer": "400",
       "date_iso": "2026-03-20"
+    },
+    {
+      "fp": "0c57edb791fa8e2f0707894f456008fb59b271acbcf18a708c168cd306da6b15",
+      "q_norm": "what is 89 9 26",
+      "question": "What is 89 × 9 + 26?",
+      "answer": "827",
+      "date_iso": "2026-03-21"
     }
   ],
   "publishes": {
@@ -3549,6 +3556,16 @@
       "long": {
         "video_id": "LEEEZubEgxk",
         "ts": "2026-03-20T23:56:08.350449+00:00"
+      }
+    },
+    "20260321": {
+      "shorts": {
+        "1": {
+          "video_id": "3GA2e4uHeCw",
+          "artifact": "short-20260321-slot1",
+          "fp": "0c57edb791fa8e2f0707894f456008fb59b271acbcf18a708c168cd306da6b15",
+          "ts": "2026-03-21T03:25:11.924321+00:00"
+        }
       }
     }
   }
