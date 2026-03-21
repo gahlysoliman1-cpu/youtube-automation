@@ -1681,6 +1681,13 @@
       "question": "What is 89 × 9 + 26?",
       "answer": "827",
       "date_iso": "2026-03-21"
+    },
+    {
+      "fp": "e92947ae302107b525c11d1c062eee9a97266ef1183cc175a749cbe99a1f1f2e",
+      "q_norm": "what is 97 11 10",
+      "question": "What is 97 × 11 + 10?",
+      "answer": "1077",
+      "date_iso": "2026-03-21"
     }
   ],
   "publishes": {
@@ -3565,6 +3572,12 @@
           "artifact": "short-20260321-slot1",
           "fp": "0c57edb791fa8e2f0707894f456008fb59b271acbcf18a708c168cd306da6b15",
           "ts": "2026-03-21T03:25:11.924321+00:00"
+        },
+        "2": {
+          "video_id": "Hr1lLOPzTzE",
+          "artifact": "short-20260321-slot2",
+          "fp": "e92947ae302107b525c11d1c062eee9a97266ef1183cc175a749cbe99a1f1f2e",
+          "ts": "2026-03-21T07:43:37.930473+00:00"
         }
       }
     }
