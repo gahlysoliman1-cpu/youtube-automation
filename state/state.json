@@ -1709,6 +1709,13 @@
       "question": "What is 28 × 5 + 24?",
       "answer": "164",
       "date_iso": "2026-03-22"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-03-22"
     }
   ],
   "publishes": {
@@ -3625,6 +3632,12 @@
           "artifact": "short-20260322-slot1",
           "fp": "6ceaddb3bd60b8e4a9a237b34139aedc44239e5c0e31b8fdba1b561424ef42ab",
           "ts": "2026-03-22T03:41:03.506516+00:00"
+        },
+        "2": {
+          "video_id": "fensMvYLE38",
+          "artifact": "short-20260322-slot2",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-03-22T07:51:47.739294+00:00"
         }
       }
     }
