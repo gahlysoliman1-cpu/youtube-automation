@@ -1716,6 +1716,13 @@
       "question": "Which star is closest to Earth?",
       "answer": "The Sun",
       "date_iso": "2026-03-22"
+    },
+    {
+      "fp": "9906782f84bca1a753ee051e099bd95e05c89324f41624afa7af701da1b4003f",
+      "q_norm": "what is 66 2 26",
+      "question": "What is 66 × 2 + 26?",
+      "answer": "158",
+      "date_iso": "2026-03-22"
     }
   ],
   "publishes": {
@@ -3638,6 +3645,12 @@
           "artifact": "short-20260322-slot2",
           "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
           "ts": "2026-03-22T07:51:47.739294+00:00"
+        },
+        "3": {
+          "video_id": "jyZIKZNChOk",
+          "artifact": "short-20260322-slot3",
+          "fp": "9906782f84bca1a753ee051e099bd95e05c89324f41624afa7af701da1b4003f",
+          "ts": "2026-03-22T13:49:08.932291+00:00"
         }
       }
     }
