@@ -1702,6 +1702,13 @@
       "question": "What is 25 × 6 + 8?",
       "answer": "158",
       "date_iso": "2026-03-21"
+    },
+    {
+      "fp": "6ceaddb3bd60b8e4a9a237b34139aedc44239e5c0e31b8fdba1b561424ef42ab",
+      "q_norm": "what is 28 5 24",
+      "question": "What is 28 × 5 + 24?",
+      "answer": "164",
+      "date_iso": "2026-03-22"
     }
   ],
   "publishes": {
@@ -3609,6 +3616,16 @@
       "long": {
         "video_id": "e7IN4NdWC9c",
         "ts": "2026-03-21T23:54:23.673648+00:00"
+      }
+    },
+    "20260322": {
+      "shorts": {
+        "1": {
+          "video_id": "1xb5n7AyPvQ",
+          "artifact": "short-20260322-slot1",
+          "fp": "6ceaddb3bd60b8e4a9a237b34139aedc44239e5c0e31b8fdba1b561424ef42ab",
+          "ts": "2026-03-22T03:41:03.506516+00:00"
+        }
       }
     }
   }
