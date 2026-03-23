@@ -1737,6 +1737,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-03-23"
+    },
+    {
+      "fp": "847a66c97b5f3380a06375c090efa0ddfc473d0a8e07e8fe488079902c8f27cd",
+      "q_norm": "what is 63 3 38",
+      "question": "What is 63 × 3 + 38?",
+      "answer": "227",
+      "date_iso": "2026-03-23"
     }
   ],
   "publishes": {
@@ -3685,6 +3692,12 @@
           "artifact": "short-20260323-slot1",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-03-23T03:51:02.080255+00:00"
+        },
+        "2": {
+          "video_id": "JuHHTKZQt0o",
+          "artifact": "short-20260323-slot2",
+          "fp": "847a66c97b5f3380a06375c090efa0ddfc473d0a8e07e8fe488079902c8f27cd",
+          "ts": "2026-03-23T08:13:10.702141+00:00"
         }
       }
     }
