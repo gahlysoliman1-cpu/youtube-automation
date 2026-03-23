@@ -1751,6 +1751,13 @@
       "question": "What is 62 × 9 + 14?",
       "answer": "572",
       "date_iso": "2026-03-23"
+    },
+    {
+      "fp": "2e00b6bd6b1fbfcbb6c5d50b8dbf365c35beab76915f2e88074324cb1e49600a",
+      "q_norm": "what is 61 6 17",
+      "question": "What is 61 × 6 + 17?",
+      "answer": "383",
+      "date_iso": "2026-03-23"
     }
   ],
   "publishes": {
@@ -3711,6 +3718,12 @@
           "artifact": "short-20260323-slot3",
           "fp": "be13823d9d229f94b1b17457cc6c45f8ac4f5e35e2d1ee8db3aced0ea22fbf5b",
           "ts": "2026-03-23T14:18:39.984021+00:00"
+        },
+        "4": {
+          "video_id": "cPMnG956DXA",
+          "artifact": "short-20260323-slot4",
+          "fp": "2e00b6bd6b1fbfcbb6c5d50b8dbf365c35beab76915f2e88074324cb1e49600a",
+          "ts": "2026-03-23T19:57:24.609085+00:00"
         }
       }
     }
