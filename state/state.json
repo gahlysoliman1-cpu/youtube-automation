@@ -1730,6 +1730,13 @@
       "question": "What is 23 × 3 + 24?",
       "answer": "93",
       "date_iso": "2026-03-22"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-03-23"
     }
   ],
   "publishes": {
@@ -3669,6 +3676,16 @@
       "long": {
         "video_id": "pDZKqOgvr1I",
         "ts": "2026-03-22T23:56:51.035022+00:00"
+      }
+    },
+    "20260323": {
+      "shorts": {
+        "1": {
+          "video_id": "yOrOPMMB-X0",
+          "artifact": "short-20260323-slot1",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-03-23T03:51:02.080255+00:00"
+        }
       }
     }
   }
