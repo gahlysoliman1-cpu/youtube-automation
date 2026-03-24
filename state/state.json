@@ -1758,6 +1758,13 @@
       "question": "What is 61 × 6 + 17?",
       "answer": "383",
       "date_iso": "2026-03-23"
+    },
+    {
+      "fp": "cdac514983cdeeaf2db9a75dc71b36911a70a1f26764bd190f73636f6c61229c",
+      "q_norm": "what is 27 10 29",
+      "question": "What is 27 × 10 + 29?",
+      "answer": "299",
+      "date_iso": "2026-03-24"
     }
   ],
   "publishes": {
@@ -3729,6 +3736,16 @@
       "long": {
         "video_id": "eEvf1I3MUPI",
         "ts": "2026-03-23T23:59:34.869607+00:00"
+      }
+    },
+    "20260324": {
+      "shorts": {
+        "1": {
+          "video_id": "r9zI9vAwmmw",
+          "artifact": "short-20260324-slot1",
+          "fp": "cdac514983cdeeaf2db9a75dc71b36911a70a1f26764bd190f73636f6c61229c",
+          "ts": "2026-03-24T03:38:52.319683+00:00"
+        }
       }
     }
   }
