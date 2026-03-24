@@ -1779,6 +1779,13 @@
       "question": "What is 70 × 4 + 39?",
       "answer": "319",
       "date_iso": "2026-03-24"
+    },
+    {
+      "fp": "dc333dc682584cd745983651835b698af9e3166396c4437e52867e6bf1a12c8f",
+      "q_norm": "what is 24 8 28",
+      "question": "What is 24 × 8 + 28?",
+      "answer": "220",
+      "date_iso": "2026-03-24"
     }
   ],
   "publishes": {
@@ -3771,6 +3778,12 @@
           "artifact": "short-20260324-slot3",
           "fp": "7c5f4f6a1a3bfca04d02ac25b8a9b4abe11185f01d2385346f457356f5aaa71e",
           "ts": "2026-03-24T14:40:49.476423+00:00"
+        },
+        "4": {
+          "video_id": "OgrrYB7C6aE",
+          "artifact": "short-20260324-slot4",
+          "fp": "dc333dc682584cd745983651835b698af9e3166396c4437e52867e6bf1a12c8f",
+          "ts": "2026-03-24T19:58:07.909548+00:00"
         }
       }
     }
