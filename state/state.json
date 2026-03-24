@@ -1765,6 +1765,13 @@
       "question": "What is 27 × 10 + 29?",
       "answer": "299",
       "date_iso": "2026-03-24"
+    },
+    {
+      "fp": "bf8982ad9a908dcee78e0ac1e03729aaee66687f0cc25db343e5b5db896393d9",
+      "q_norm": "what is 46 11 36",
+      "question": "What is 46 × 11 + 36?",
+      "answer": "542",
+      "date_iso": "2026-03-24"
     }
   ],
   "publishes": {
@@ -3745,6 +3752,12 @@
           "artifact": "short-20260324-slot1",
           "fp": "cdac514983cdeeaf2db9a75dc71b36911a70a1f26764bd190f73636f6c61229c",
           "ts": "2026-03-24T03:38:52.319683+00:00"
+        },
+        "2": {
+          "video_id": "3LnddFvehI8",
+          "artifact": "short-20260324-slot2",
+          "fp": "bf8982ad9a908dcee78e0ac1e03729aaee66687f0cc25db343e5b5db896393d9",
+          "ts": "2026-03-24T08:04:29.842221+00:00"
         }
       }
     }
