@@ -1807,6 +1807,13 @@
       "question": "What is 89 × 11 + 22?",
       "answer": "1001",
       "date_iso": "2026-03-25"
+    },
+    {
+      "fp": "ab6bd89bab42968c7a5b06c2e5a26f64dc2623f4b91d368cbb6fe25a000206ef",
+      "q_norm": "what is 58 10 25",
+      "question": "What is 58 × 10 + 25?",
+      "answer": "605",
+      "date_iso": "2026-03-25"
     }
   ],
   "publishes": {
@@ -3831,6 +3838,12 @@
           "artifact": "short-20260325-slot3",
           "fp": "9f74e58ce7eb85f50efa5c6e93dfaa7b883561c7b2b4ec88376465b40d119735",
           "ts": "2026-03-25T15:05:42.330263+00:00"
+        },
+        "4": {
+          "video_id": "_M-hZKbvR0E",
+          "artifact": "short-20260325-slot4",
+          "fp": "ab6bd89bab42968c7a5b06c2e5a26f64dc2623f4b91d368cbb6fe25a000206ef",
+          "ts": "2026-03-25T19:56:49.901552+00:00"
         }
       }
     }
