@@ -1793,6 +1793,13 @@
       "question": "What is 89 × 2 + 37?",
       "answer": "215",
       "date_iso": "2026-03-25"
+    },
+    {
+      "fp": "6601f86a9842b5e0d6c27c5f35e33684d0ddced5b4ac1935c895a823a25082eb",
+      "q_norm": "what is 44 4 13",
+      "question": "What is 44 × 4 + 13?",
+      "answer": "189",
+      "date_iso": "2026-03-25"
     }
   ],
   "publishes": {
@@ -3805,6 +3812,12 @@
           "artifact": "short-20260325-slot1",
           "fp": "d22cdb6feac905c60996b8195ce6296266f1e3bea78774325478e946e809000a",
           "ts": "2026-03-25T03:40:38.924023+00:00"
+        },
+        "2": {
+          "video_id": "Q-3N6UtR-0Y",
+          "artifact": "short-20260325-slot2",
+          "fp": "6601f86a9842b5e0d6c27c5f35e33684d0ddced5b4ac1935c895a823a25082eb",
+          "ts": "2026-03-25T08:01:46.008555+00:00"
         }
       }
     }
