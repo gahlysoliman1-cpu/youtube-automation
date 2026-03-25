@@ -1800,6 +1800,13 @@
       "question": "What is 44 × 4 + 13?",
       "answer": "189",
       "date_iso": "2026-03-25"
+    },
+    {
+      "fp": "9f74e58ce7eb85f50efa5c6e93dfaa7b883561c7b2b4ec88376465b40d119735",
+      "q_norm": "what is 89 11 22",
+      "question": "What is 89 × 11 + 22?",
+      "answer": "1001",
+      "date_iso": "2026-03-25"
     }
   ],
   "publishes": {
@@ -3818,6 +3825,12 @@
           "artifact": "short-20260325-slot2",
           "fp": "6601f86a9842b5e0d6c27c5f35e33684d0ddced5b4ac1935c895a823a25082eb",
           "ts": "2026-03-25T08:01:46.008555+00:00"
+        },
+        "3": {
+          "video_id": "SC9qn7iLl7Q",
+          "artifact": "short-20260325-slot3",
+          "fp": "9f74e58ce7eb85f50efa5c6e93dfaa7b883561c7b2b4ec88376465b40d119735",
+          "ts": "2026-03-25T15:05:42.330263+00:00"
         }
       }
     }
