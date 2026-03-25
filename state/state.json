@@ -1786,6 +1786,13 @@
       "question": "What is 24 × 8 + 28?",
       "answer": "220",
       "date_iso": "2026-03-24"
+    },
+    {
+      "fp": "d22cdb6feac905c60996b8195ce6296266f1e3bea78774325478e946e809000a",
+      "q_norm": "what is 89 2 37",
+      "question": "What is 89 × 2 + 37?",
+      "answer": "215",
+      "date_iso": "2026-03-25"
     }
   ],
   "publishes": {
@@ -3789,6 +3796,16 @@
       "long": {
         "video_id": "uRWkFcKzy6U",
         "ts": "2026-03-24T23:59:28.786939+00:00"
+      }
+    },
+    "20260325": {
+      "shorts": {
+        "1": {
+          "video_id": "akiSylzRcqk",
+          "artifact": "short-20260325-slot1",
+          "fp": "d22cdb6feac905c60996b8195ce6296266f1e3bea78774325478e946e809000a",
+          "ts": "2026-03-25T03:40:38.924023+00:00"
+        }
       }
     }
   }
