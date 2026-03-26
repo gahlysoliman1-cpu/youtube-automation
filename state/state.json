@@ -1835,6 +1835,13 @@
       "question": "What is 35 × 2 + 24?",
       "answer": "94",
       "date_iso": "2026-03-26"
+    },
+    {
+      "fp": "1ec2b1a4629ea206e0fd76428db78ae50c17524a9d570f509b23d3546102635e",
+      "q_norm": "what is 54 9 32",
+      "question": "What is 54 × 9 + 32?",
+      "answer": "518",
+      "date_iso": "2026-03-26"
     }
   ],
   "publishes": {
@@ -3887,6 +3894,12 @@
           "artifact": "short-20260326-slot3",
           "fp": "40b4a57b219cd4e4ddce8edabb7c0356734e2d848bef9da313b90ccd1d1df3de",
           "ts": "2026-03-26T14:28:26.270898+00:00"
+        },
+        "4": {
+          "video_id": "g4qGS8ep5_Y",
+          "artifact": "short-20260326-slot4",
+          "fp": "1ec2b1a4629ea206e0fd76428db78ae50c17524a9d570f509b23d3546102635e",
+          "ts": "2026-03-26T19:59:53.850786+00:00"
         }
       }
     }
