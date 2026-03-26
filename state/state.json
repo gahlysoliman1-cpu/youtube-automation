@@ -1828,6 +1828,13 @@
       "question": "What is 80 × 6 + 15?",
       "answer": "495",
       "date_iso": "2026-03-26"
+    },
+    {
+      "fp": "40b4a57b219cd4e4ddce8edabb7c0356734e2d848bef9da313b90ccd1d1df3de",
+      "q_norm": "what is 35 2 24",
+      "question": "What is 35 × 2 + 24?",
+      "answer": "94",
+      "date_iso": "2026-03-26"
     }
   ],
   "publishes": {
@@ -3874,6 +3881,12 @@
           "artifact": "short-20260326-slot2",
           "fp": "9b7c0e823502104c136edf2652dc156b54d186508018c446715aed579e7bfc03",
           "ts": "2026-03-26T08:09:25.710304+00:00"
+        },
+        "3": {
+          "video_id": "Chts8Twqt6k",
+          "artifact": "short-20260326-slot3",
+          "fp": "40b4a57b219cd4e4ddce8edabb7c0356734e2d848bef9da313b90ccd1d1df3de",
+          "ts": "2026-03-26T14:28:26.270898+00:00"
         }
       }
     }
