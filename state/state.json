@@ -1814,6 +1814,13 @@
       "question": "What is 58 × 10 + 25?",
       "answer": "605",
       "date_iso": "2026-03-25"
+    },
+    {
+      "fp": "8d25e081bf255d04f4a1352cbf1b048107658bfaed479f4a6f0a8d2fa92f7647",
+      "q_norm": "what is 49 3 8",
+      "question": "What is 49 × 3 + 8?",
+      "answer": "155",
+      "date_iso": "2026-03-26"
     }
   ],
   "publishes": {
@@ -3844,6 +3851,16 @@
           "artifact": "short-20260325-slot4",
           "fp": "ab6bd89bab42968c7a5b06c2e5a26f64dc2623f4b91d368cbb6fe25a000206ef",
           "ts": "2026-03-25T19:56:49.901552+00:00"
+        }
+      }
+    },
+    "20260326": {
+      "shorts": {
+        "1": {
+          "video_id": "f_eEyHQHsaA",
+          "artifact": "short-20260326-slot1",
+          "fp": "8d25e081bf255d04f4a1352cbf1b048107658bfaed479f4a6f0a8d2fa92f7647",
+          "ts": "2026-03-26T03:49:25.473570+00:00"
         }
       }
     }
