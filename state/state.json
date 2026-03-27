@@ -1863,6 +1863,13 @@
       "question": "What is 34 × 6 + 35?",
       "answer": "239",
       "date_iso": "2026-03-27"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-03-27"
     }
   ],
   "publishes": {
@@ -3943,6 +3950,12 @@
           "artifact": "short-20260327-slot3",
           "fp": "2fbd24f50c86cfbcacc6bb7d6bee96acf036a58f251cc60a51f30966dba04a06",
           "ts": "2026-03-27T14:15:04.982665+00:00"
+        },
+        "4": {
+          "video_id": "g4O-zu8xyt8",
+          "artifact": "short-20260327-slot4",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-03-27T19:48:17.362892+00:00"
         }
       }
     }
