@@ -1856,6 +1856,13 @@
       "question": "What is 92 × 8 + 14?",
       "answer": "750",
       "date_iso": "2026-03-27"
+    },
+    {
+      "fp": "2fbd24f50c86cfbcacc6bb7d6bee96acf036a58f251cc60a51f30966dba04a06",
+      "q_norm": "what is 34 6 35",
+      "question": "What is 34 × 6 + 35?",
+      "answer": "239",
+      "date_iso": "2026-03-27"
     }
   ],
   "publishes": {
@@ -3930,6 +3937,12 @@
           "artifact": "short-20260327-slot2",
           "fp": "ef9c8b88d39df331fb29b42ea2da67701f29902cb48466594669a3a907b1be0a",
           "ts": "2026-03-27T08:05:13.504786+00:00"
+        },
+        "3": {
+          "video_id": "up27FZX5crQ",
+          "artifact": "short-20260327-slot3",
+          "fp": "2fbd24f50c86cfbcacc6bb7d6bee96acf036a58f251cc60a51f30966dba04a06",
+          "ts": "2026-03-27T14:15:04.982665+00:00"
         }
       }
     }
