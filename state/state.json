@@ -1849,6 +1849,13 @@
       "question": "What is 68 × 9 + 32?",
       "answer": "644",
       "date_iso": "2026-03-27"
+    },
+    {
+      "fp": "ef9c8b88d39df331fb29b42ea2da67701f29902cb48466594669a3a907b1be0a",
+      "q_norm": "what is 92 8 14",
+      "question": "What is 92 × 8 + 14?",
+      "answer": "750",
+      "date_iso": "2026-03-27"
     }
   ],
   "publishes": {
@@ -3917,6 +3924,12 @@
           "artifact": "short-20260327-slot1",
           "fp": "bd57851a01244ca10032675c067592670587177add75366d1aaa3a04f9870823",
           "ts": "2026-03-27T03:51:27.086465+00:00"
+        },
+        "2": {
+          "video_id": "eX_H1yGZ-80",
+          "artifact": "short-20260327-slot2",
+          "fp": "ef9c8b88d39df331fb29b42ea2da67701f29902cb48466594669a3a907b1be0a",
+          "ts": "2026-03-27T08:05:13.504786+00:00"
         }
       }
     }
