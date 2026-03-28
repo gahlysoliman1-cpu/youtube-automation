@@ -1884,6 +1884,13 @@
       "question": "What is 19 × 2 + 30?",
       "answer": "68",
       "date_iso": "2026-03-28"
+    },
+    {
+      "fp": "7f90a87f298d0c4025ccdde5415c30cb7eff08d69dadf9c919da66e4badd8db6",
+      "q_norm": "what is 90 10 18",
+      "question": "What is 90 × 10 + 18?",
+      "answer": "918",
+      "date_iso": "2026-03-28"
     }
   ],
   "publishes": {
@@ -3990,6 +3997,12 @@
           "artifact": "short-20260328-slot2",
           "fp": "f9dc905cf95f696be0345de4c7dc9a70421a28bab7e1d89685a46c6b2265e217",
           "ts": "2026-03-28T07:54:26.512882+00:00"
+        },
+        "3": {
+          "video_id": "GxFWyHdOEms",
+          "artifact": "short-20260328-slot3",
+          "fp": "7f90a87f298d0c4025ccdde5415c30cb7eff08d69dadf9c919da66e4badd8db6",
+          "ts": "2026-03-28T13:54:09.891906+00:00"
         }
       }
     }
