@@ -1870,6 +1870,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-03-27"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-03-28"
     }
   ],
   "publishes": {
@@ -3961,6 +3968,16 @@
       "long": {
         "video_id": "uiWJa3lsygk",
         "ts": "2026-03-27T23:57:08.370385+00:00"
+      }
+    },
+    "20260328": {
+      "shorts": {
+        "1": {
+          "video_id": "S7mQRSVHxuY",
+          "artifact": "short-20260328-slot1",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-03-28T03:44:07.768927+00:00"
+        }
       }
     }
   }
