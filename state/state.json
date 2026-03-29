@@ -1905,6 +1905,13 @@
       "question": "What is 40 × 8 + 23?",
       "answer": "343",
       "date_iso": "2026-03-29"
+    },
+    {
+      "fp": "a98ed82fef54e07dc4cf7b4679caa08724b5af603c0dd93bf6a86c475713ebaa",
+      "q_norm": "what is 51 3 26",
+      "question": "What is 51 × 3 + 26?",
+      "answer": "179",
+      "date_iso": "2026-03-29"
     }
   ],
   "publishes": {
@@ -4037,6 +4044,12 @@
           "artifact": "short-20260329-slot1",
           "fp": "b938ef52172c8ea8d2996a56dfdf6248d386f3c5e646a7a4dad2259a2afec9a6",
           "ts": "2026-03-29T03:57:59.281622+00:00"
+        },
+        "2": {
+          "video_id": "o_LP74XcyPA",
+          "artifact": "short-20260329-slot2",
+          "fp": "a98ed82fef54e07dc4cf7b4679caa08724b5af603c0dd93bf6a86c475713ebaa",
+          "ts": "2026-03-29T07:58:53.225129+00:00"
         }
       }
     }
