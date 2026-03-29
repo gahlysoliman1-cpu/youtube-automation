@@ -1898,6 +1898,13 @@
       "question": "What is 56 × 4 + 7?",
       "answer": "231",
       "date_iso": "2026-03-28"
+    },
+    {
+      "fp": "b938ef52172c8ea8d2996a56dfdf6248d386f3c5e646a7a4dad2259a2afec9a6",
+      "q_norm": "what is 40 8 23",
+      "question": "What is 40 × 8 + 23?",
+      "answer": "343",
+      "date_iso": "2026-03-29"
     }
   ],
   "publishes": {
@@ -4021,6 +4028,16 @@
       "long": {
         "video_id": "tGIGEu0EQj4",
         "ts": "2026-03-28T23:59:38.908338+00:00"
+      }
+    },
+    "20260329": {
+      "shorts": {
+        "1": {
+          "video_id": "-6triwNaxWQ",
+          "artifact": "short-20260329-slot1",
+          "fp": "b938ef52172c8ea8d2996a56dfdf6248d386f3c5e646a7a4dad2259a2afec9a6",
+          "ts": "2026-03-29T03:57:59.281622+00:00"
+        }
       }
     }
   }
