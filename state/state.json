@@ -1919,6 +1919,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-03-29"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-03-29"
     }
   ],
   "publishes": {
@@ -4063,6 +4070,12 @@
           "artifact": "short-20260329-slot3",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-03-29T14:00:02.268606+00:00"
+        },
+        "4": {
+          "video_id": "vJpVb3S6984",
+          "artifact": "short-20260329-slot4",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-03-29T19:45:27.501427+00:00"
         }
       }
     }
