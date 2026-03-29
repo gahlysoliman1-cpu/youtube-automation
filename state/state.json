@@ -1912,6 +1912,13 @@
       "question": "What is 51 × 3 + 26?",
       "answer": "179",
       "date_iso": "2026-03-29"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-03-29"
     }
   ],
   "publishes": {
@@ -4050,6 +4057,12 @@
           "artifact": "short-20260329-slot2",
           "fp": "a98ed82fef54e07dc4cf7b4679caa08724b5af603c0dd93bf6a86c475713ebaa",
           "ts": "2026-03-29T07:58:53.225129+00:00"
+        },
+        "3": {
+          "video_id": "0IrF2V9l1io",
+          "artifact": "short-20260329-slot3",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-03-29T14:00:02.268606+00:00"
         }
       }
     }
