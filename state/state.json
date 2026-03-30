@@ -1940,6 +1940,13 @@
       "question": "What is 31 × 11 + 5?",
       "answer": "346",
       "date_iso": "2026-03-30"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-03-30"
     }
   ],
   "publishes": {
@@ -4106,6 +4113,12 @@
           "artifact": "short-20260330-slot2",
           "fp": "9a65ef9f8edcd4f7076617d393a16b07c928b4d6e374fee63e23d4dcaedb7738",
           "ts": "2026-03-30T08:26:57.735319+00:00"
+        },
+        "3": {
+          "video_id": "nDQvYWtlLr8",
+          "artifact": "short-20260330-slot3",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-03-30T14:29:41.611603+00:00"
         }
       }
     }
