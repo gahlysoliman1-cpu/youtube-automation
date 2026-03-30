@@ -1947,6 +1947,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-03-30"
+    },
+    {
+      "fp": "c236c3d620d7132051e5ed4e7528817618445dde6d30dc3a816bfc5990200771",
+      "q_norm": "what is 37 6 19",
+      "question": "What is 37 × 6 + 19?",
+      "answer": "241",
+      "date_iso": "2026-03-30"
     }
   ],
   "publishes": {
@@ -4119,6 +4126,12 @@
           "artifact": "short-20260330-slot3",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-03-30T14:29:41.611603+00:00"
+        },
+        "4": {
+          "video_id": "rfC_pCa5TtE",
+          "artifact": "short-20260330-slot4",
+          "fp": "c236c3d620d7132051e5ed4e7528817618445dde6d30dc3a816bfc5990200771",
+          "ts": "2026-03-30T20:03:04.368108+00:00"
         }
       }
     }
