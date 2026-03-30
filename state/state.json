@@ -1933,6 +1933,13 @@
       "question": "What gets wetter the more it dries?",
       "answer": "A towel",
       "date_iso": "2026-03-30"
+    },
+    {
+      "fp": "9a65ef9f8edcd4f7076617d393a16b07c928b4d6e374fee63e23d4dcaedb7738",
+      "q_norm": "what is 31 11 5",
+      "question": "What is 31 × 11 + 5?",
+      "answer": "346",
+      "date_iso": "2026-03-30"
     }
   ],
   "publishes": {
@@ -4093,6 +4100,12 @@
           "artifact": "short-20260330-slot1",
           "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
           "ts": "2026-03-30T04:10:45.128051+00:00"
+        },
+        "2": {
+          "video_id": "dimJyInFGxA",
+          "artifact": "short-20260330-slot2",
+          "fp": "9a65ef9f8edcd4f7076617d393a16b07c928b4d6e374fee63e23d4dcaedb7738",
+          "ts": "2026-03-30T08:26:57.735319+00:00"
         }
       }
     }
