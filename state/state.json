@@ -1961,6 +1961,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-03-31"
+    },
+    {
+      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+      "q_norm": "what is the capital of germany",
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "date_iso": "2026-03-31"
     }
   ],
   "publishes": {
@@ -4149,6 +4156,12 @@
           "artifact": "short-20260331-slot1",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-03-31T03:52:55.149008+00:00"
+        },
+        "2": {
+          "video_id": "K388mNo5Slk",
+          "artifact": "short-20260331-slot2",
+          "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+          "ts": "2026-03-31T08:58:21.495154+00:00"
         }
       }
     }
