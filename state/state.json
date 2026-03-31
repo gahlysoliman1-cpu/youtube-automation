@@ -1968,6 +1968,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-03-31"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-03-31"
     }
   ],
   "publishes": {
@@ -4162,6 +4169,12 @@
           "artifact": "short-20260331-slot2",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-03-31T08:58:21.495154+00:00"
+        },
+        "3": {
+          "video_id": "a111mPvR_iE",
+          "artifact": "short-20260331-slot3",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-03-31T14:30:38.337236+00:00"
         }
       }
     }
