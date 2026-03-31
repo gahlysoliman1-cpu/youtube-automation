@@ -1975,6 +1975,13 @@
       "question": "What force pulls objects toward Earth?",
       "answer": "Gravity",
       "date_iso": "2026-03-31"
+    },
+    {
+      "fp": "ecf5cfbc585fb951d0f285c4d2a9ff0a0aadef35a3e2d8f12bda88882e05d744",
+      "q_norm": "what is 48 7 34",
+      "question": "What is 48 × 7 + 34?",
+      "answer": "370",
+      "date_iso": "2026-03-31"
     }
   ],
   "publishes": {
@@ -4175,6 +4182,12 @@
           "artifact": "short-20260331-slot3",
           "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
           "ts": "2026-03-31T14:30:38.337236+00:00"
+        },
+        "4": {
+          "video_id": "eLplo4BtWVo",
+          "artifact": "short-20260331-slot4",
+          "fp": "ecf5cfbc585fb951d0f285c4d2a9ff0a0aadef35a3e2d8f12bda88882e05d744",
+          "ts": "2026-03-31T19:59:05.419007+00:00"
         }
       }
     }
