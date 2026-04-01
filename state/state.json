@@ -1996,6 +1996,13 @@
       "question": "What is 32 × 8 + 10?",
       "answer": "266",
       "date_iso": "2026-04-01"
+    },
+    {
+      "fp": "7280c0d6582596046120b7ea59f886c8ae072cb0ba70e645c280d16e4db5acb3",
+      "q_norm": "what is 27 9 40",
+      "question": "What is 27 × 9 + 40?",
+      "answer": "283",
+      "date_iso": "2026-04-01"
     }
   ],
   "publishes": {
@@ -4218,6 +4225,12 @@
           "artifact": "short-20260401-slot2",
           "fp": "0c05f8a573714de3551408c6439d608e8254836009613cab3509256f7bedd730",
           "ts": "2026-04-01T08:23:03.200664+00:00"
+        },
+        "4": {
+          "video_id": "KG5mrgXN0Qs",
+          "artifact": "short-20260401-slot4",
+          "fp": "7280c0d6582596046120b7ea59f886c8ae072cb0ba70e645c280d16e4db5acb3",
+          "ts": "2026-04-01T20:01:38.269540+00:00"
         }
       }
     }
