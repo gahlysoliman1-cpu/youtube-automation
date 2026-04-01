@@ -1982,6 +1982,13 @@
       "question": "What is 48 × 7 + 34?",
       "answer": "370",
       "date_iso": "2026-03-31"
+    },
+    {
+      "fp": "e7eaae2da6d1f6cf1ed7a5d1d8870c9b651fefd44555daeee53fcbd4935b503e",
+      "q_norm": "what is 33 8 33",
+      "question": "What is 33 × 8 + 33?",
+      "answer": "297",
+      "date_iso": "2026-04-01"
     }
   ],
   "publishes": {
@@ -4188,6 +4195,16 @@
           "artifact": "short-20260331-slot4",
           "fp": "ecf5cfbc585fb951d0f285c4d2a9ff0a0aadef35a3e2d8f12bda88882e05d744",
           "ts": "2026-03-31T19:59:05.419007+00:00"
+        }
+      }
+    },
+    "20260401": {
+      "shorts": {
+        "1": {
+          "video_id": "oqwMSOhSKtE",
+          "artifact": "short-20260401-slot1",
+          "fp": "e7eaae2da6d1f6cf1ed7a5d1d8870c9b651fefd44555daeee53fcbd4935b503e",
+          "ts": "2026-04-01T04:15:31.513332+00:00"
         }
       }
     }
