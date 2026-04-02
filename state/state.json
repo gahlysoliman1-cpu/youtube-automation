@@ -2024,6 +2024,13 @@
       "question": "What is 56 × 3 + 35?",
       "answer": "203",
       "date_iso": "2026-04-02"
+    },
+    {
+      "fp": "ebd90e7b2635d0e15e702c5dab6b9f048be316f644f9dfd35310cdf5c725ed2e",
+      "q_norm": "what is 24 4 26",
+      "question": "What is 24 × 4 + 26?",
+      "answer": "122",
+      "date_iso": "2026-04-02"
     }
   ],
   "publishes": {
@@ -4274,6 +4281,12 @@
           "artifact": "short-20260402-slot3",
           "fp": "e814afd6a3f3d4141f207b112bf95a44f900411c2d1d45c72af65f881d16e694",
           "ts": "2026-04-02T14:26:55.288367+00:00"
+        },
+        "4": {
+          "video_id": "ZF8aXusUbxI",
+          "artifact": "short-20260402-slot4",
+          "fp": "ebd90e7b2635d0e15e702c5dab6b9f048be316f644f9dfd35310cdf5c725ed2e",
+          "ts": "2026-04-02T19:55:35.347813+00:00"
         }
       }
     }
