@@ -2010,6 +2010,13 @@
       "question": "What is 94 × 5 + 29?",
       "answer": "499",
       "date_iso": "2026-04-02"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-04-02"
     }
   ],
   "publishes": {
@@ -4248,6 +4255,12 @@
           "artifact": "short-20260402-slot1",
           "fp": "5ef540be977410978483b1921cabd26d59595206537e39836e5b51cb194f3500",
           "ts": "2026-04-02T03:47:40.226861+00:00"
+        },
+        "2": {
+          "video_id": "jy6CqRNOwVo",
+          "artifact": "short-20260402-slot2",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-04-02T08:13:28.051392+00:00"
         }
       }
     }
