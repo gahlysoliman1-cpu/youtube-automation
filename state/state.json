@@ -2003,6 +2003,13 @@
       "question": "What is 27 × 9 + 40?",
       "answer": "283",
       "date_iso": "2026-04-01"
+    },
+    {
+      "fp": "5ef540be977410978483b1921cabd26d59595206537e39836e5b51cb194f3500",
+      "q_norm": "what is 94 5 29",
+      "question": "What is 94 × 5 + 29?",
+      "answer": "499",
+      "date_iso": "2026-04-02"
     }
   ],
   "publishes": {
@@ -4231,6 +4238,16 @@
           "artifact": "short-20260401-slot4",
           "fp": "7280c0d6582596046120b7ea59f886c8ae072cb0ba70e645c280d16e4db5acb3",
           "ts": "2026-04-01T20:01:38.269540+00:00"
+        }
+      }
+    },
+    "20260402": {
+      "shorts": {
+        "1": {
+          "video_id": "iMZGxFCIBlI",
+          "artifact": "short-20260402-slot1",
+          "fp": "5ef540be977410978483b1921cabd26d59595206537e39836e5b51cb194f3500",
+          "ts": "2026-04-02T03:47:40.226861+00:00"
         }
       }
     }
