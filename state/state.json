@@ -2038,6 +2038,13 @@
       "question": "What is 47 × 5 + 5?",
       "answer": "240",
       "date_iso": "2026-04-03"
+    },
+    {
+      "fp": "266c6e97ed1fd73388644869efd94c87bc4789cb809177adc01bd2cba0e47ef1",
+      "q_norm": "what is 33 11 21",
+      "question": "What is 33 × 11 + 21?",
+      "answer": "384",
+      "date_iso": "2026-04-03"
     }
   ],
   "publishes": {
@@ -4304,6 +4311,12 @@
           "artifact": "short-20260403-slot1",
           "fp": "766475eb1e38a8c5c3b1a579e0e5058215be5896c446aa0702fe796c114ca654",
           "ts": "2026-04-03T03:47:06.508653+00:00"
+        },
+        "2": {
+          "video_id": "5Ojrp-PWQhc",
+          "artifact": "short-20260403-slot2",
+          "fp": "266c6e97ed1fd73388644869efd94c87bc4789cb809177adc01bd2cba0e47ef1",
+          "ts": "2026-04-03T08:10:43.361631+00:00"
         }
       }
     }
