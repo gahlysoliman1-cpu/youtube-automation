@@ -2031,6 +2031,13 @@
       "question": "What is 24 × 4 + 26?",
       "answer": "122",
       "date_iso": "2026-04-02"
+    },
+    {
+      "fp": "766475eb1e38a8c5c3b1a579e0e5058215be5896c446aa0702fe796c114ca654",
+      "q_norm": "what is 47 5 5",
+      "question": "What is 47 × 5 + 5?",
+      "answer": "240",
+      "date_iso": "2026-04-03"
     }
   ],
   "publishes": {
@@ -4287,6 +4294,16 @@
           "artifact": "short-20260402-slot4",
           "fp": "ebd90e7b2635d0e15e702c5dab6b9f048be316f644f9dfd35310cdf5c725ed2e",
           "ts": "2026-04-02T19:55:35.347813+00:00"
+        }
+      }
+    },
+    "20260403": {
+      "shorts": {
+        "1": {
+          "video_id": "2ZtuUTnNSg8",
+          "artifact": "short-20260403-slot1",
+          "fp": "766475eb1e38a8c5c3b1a579e0e5058215be5896c446aa0702fe796c114ca654",
+          "ts": "2026-04-03T03:47:06.508653+00:00"
         }
       }
     }
