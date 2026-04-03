@@ -2045,6 +2045,13 @@
       "question": "What is 33 × 11 + 21?",
       "answer": "384",
       "date_iso": "2026-04-03"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-04-03"
     }
   ],
   "publishes": {
@@ -4317,6 +4324,12 @@
           "artifact": "short-20260403-slot2",
           "fp": "266c6e97ed1fd73388644869efd94c87bc4789cb809177adc01bd2cba0e47ef1",
           "ts": "2026-04-03T08:10:43.361631+00:00"
+        },
+        "3": {
+          "video_id": "Wc2Ti0Dw3Qo",
+          "artifact": "short-20260403-slot3",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-04-03T14:03:56.658792+00:00"
         }
       }
     }
