@@ -2052,6 +2052,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-04-03"
+    },
+    {
+      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+      "q_norm": "what is the capital of mexico",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "date_iso": "2026-04-03"
     }
   ],
   "publishes": {
@@ -4330,6 +4337,12 @@
           "artifact": "short-20260403-slot3",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-04-03T14:03:56.658792+00:00"
+        },
+        "4": {
+          "video_id": "EZhUhzNx5oI",
+          "artifact": "short-20260403-slot4",
+          "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+          "ts": "2026-04-03T19:49:53.486350+00:00"
         }
       }
     }
