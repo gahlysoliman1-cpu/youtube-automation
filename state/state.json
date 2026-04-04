@@ -2059,6 +2059,13 @@
       "question": "What is the capital of Mexico?",
       "answer": "Mexico City",
       "date_iso": "2026-04-03"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-04-04"
     }
   ],
   "publishes": {
@@ -4348,6 +4355,16 @@
       "long": {
         "video_id": "FG20wFFZUr0",
         "ts": "2026-04-04T00:00:35.042707+00:00"
+      }
+    },
+    "20260404": {
+      "shorts": {
+        "1": {
+          "video_id": "nH5p1Ehaerc",
+          "artifact": "short-20260404-slot1",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-04-04T03:36:04.034137+00:00"
+        }
       }
     }
   }
