@@ -2066,6 +2066,13 @@
       "question": "What is H2O commonly called?",
       "answer": "Water",
       "date_iso": "2026-04-04"
+    },
+    {
+      "fp": "7ef5696c1144ba3adf8704aa1b08ced3bca07c458972c42f44a0e4c9cdf734e9",
+      "q_norm": "what is 84 11 28",
+      "question": "What is 84 × 11 + 28?",
+      "answer": "952",
+      "date_iso": "2026-04-04"
     }
   ],
   "publishes": {
@@ -4364,6 +4371,12 @@
           "artifact": "short-20260404-slot1",
           "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
           "ts": "2026-04-04T03:36:04.034137+00:00"
+        },
+        "2": {
+          "video_id": "62MdlJMSYuM",
+          "artifact": "short-20260404-slot2",
+          "fp": "7ef5696c1144ba3adf8704aa1b08ced3bca07c458972c42f44a0e4c9cdf734e9",
+          "ts": "2026-04-04T07:56:23.907726+00:00"
         }
       }
     }
