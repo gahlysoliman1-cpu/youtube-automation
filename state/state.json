@@ -2073,6 +2073,13 @@
       "question": "What is 84 × 11 + 28?",
       "answer": "952",
       "date_iso": "2026-04-04"
+    },
+    {
+      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+      "q_norm": "what is the capital of japan",
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "date_iso": "2026-04-04"
     }
   ],
   "publishes": {
@@ -4377,6 +4384,12 @@
           "artifact": "short-20260404-slot2",
           "fp": "7ef5696c1144ba3adf8704aa1b08ced3bca07c458972c42f44a0e4c9cdf734e9",
           "ts": "2026-04-04T07:56:23.907726+00:00"
+        },
+        "3": {
+          "video_id": "alrhWJHc9Mg",
+          "artifact": "short-20260404-slot3",
+          "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+          "ts": "2026-04-04T13:56:20.950193+00:00"
         }
       }
     }
