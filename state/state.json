@@ -2101,6 +2101,13 @@
       "question": "What is 71 × 6 + 10?",
       "answer": "436",
       "date_iso": "2026-04-05"
+    },
+    {
+      "fp": "3917e59d7b73506ba43237cab4b3973c9f57abb75ce9d5b8a31d8c32b44eef68",
+      "q_norm": "what is 99 5 6",
+      "question": "What is 99 × 5 + 6?",
+      "answer": "501",
+      "date_iso": "2026-04-05"
     }
   ],
   "publishes": {
@@ -4433,6 +4440,12 @@
           "artifact": "short-20260405-slot3",
           "fp": "c7f0fdbea67a70ee4c6536ecc29836945d7ef9b26f27f39161c69bdfb0da2bc4",
           "ts": "2026-04-05T14:00:10.117798+00:00"
+        },
+        "4": {
+          "video_id": "l7YUK2T98X4",
+          "artifact": "short-20260405-slot4",
+          "fp": "3917e59d7b73506ba43237cab4b3973c9f57abb75ce9d5b8a31d8c32b44eef68",
+          "ts": "2026-04-05T19:42:28.862525+00:00"
         }
       }
     }
