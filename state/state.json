@@ -2094,6 +2094,13 @@
       "question": "What is 40 × 5 + 33?",
       "answer": "233",
       "date_iso": "2026-04-05"
+    },
+    {
+      "fp": "c7f0fdbea67a70ee4c6536ecc29836945d7ef9b26f27f39161c69bdfb0da2bc4",
+      "q_norm": "what is 71 6 10",
+      "question": "What is 71 × 6 + 10?",
+      "answer": "436",
+      "date_iso": "2026-04-05"
     }
   ],
   "publishes": {
@@ -4420,6 +4427,12 @@
           "artifact": "short-20260405-slot2",
           "fp": "2dceb8007ca4500624c9f3716e196c54e445b699c5c4bd86085e8dd01f0fd13f",
           "ts": "2026-04-05T08:01:40.184401+00:00"
+        },
+        "3": {
+          "video_id": "zjGFWtM2p6Q",
+          "artifact": "short-20260405-slot3",
+          "fp": "c7f0fdbea67a70ee4c6536ecc29836945d7ef9b26f27f39161c69bdfb0da2bc4",
+          "ts": "2026-04-05T14:00:10.117798+00:00"
         }
       }
     }
