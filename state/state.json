@@ -2087,6 +2087,13 @@
       "question": "What is 46 × 8 + 29?",
       "answer": "397",
       "date_iso": "2026-04-05"
+    },
+    {
+      "fp": "2dceb8007ca4500624c9f3716e196c54e445b699c5c4bd86085e8dd01f0fd13f",
+      "q_norm": "what is 40 5 33",
+      "question": "What is 40 × 5 + 33?",
+      "answer": "233",
+      "date_iso": "2026-04-05"
     }
   ],
   "publishes": {
@@ -4407,6 +4414,12 @@
           "artifact": "short-20260405-slot1",
           "fp": "9820746576e3556dc958abced7fecc71e934daa58a3be53f2d3a85635cc4c4c3",
           "ts": "2026-04-05T04:08:50.438137+00:00"
+        },
+        "2": {
+          "video_id": "SHamVY0MHNk",
+          "artifact": "short-20260405-slot2",
+          "fp": "2dceb8007ca4500624c9f3716e196c54e445b699c5c4bd86085e8dd01f0fd13f",
+          "ts": "2026-04-05T08:01:40.184401+00:00"
         }
       }
     }
