@@ -2080,6 +2080,13 @@
       "question": "What is the capital of Japan?",
       "answer": "Tokyo",
       "date_iso": "2026-04-04"
+    },
+    {
+      "fp": "9820746576e3556dc958abced7fecc71e934daa58a3be53f2d3a85635cc4c4c3",
+      "q_norm": "what is 46 8 29",
+      "question": "What is 46 × 8 + 29?",
+      "answer": "397",
+      "date_iso": "2026-04-05"
     }
   ],
   "publishes": {
@@ -4390,6 +4397,16 @@
           "artifact": "short-20260404-slot3",
           "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
           "ts": "2026-04-04T13:56:20.950193+00:00"
+        }
+      }
+    },
+    "20260405": {
+      "shorts": {
+        "1": {
+          "video_id": "bytwsAOVGQg",
+          "artifact": "short-20260405-slot1",
+          "fp": "9820746576e3556dc958abced7fecc71e934daa58a3be53f2d3a85635cc4c4c3",
+          "ts": "2026-04-05T04:08:50.438137+00:00"
         }
       }
     }
