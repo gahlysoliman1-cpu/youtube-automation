@@ -2108,6 +2108,13 @@
       "question": "What is 99 × 5 + 6?",
       "answer": "501",
       "date_iso": "2026-04-05"
+    },
+    {
+      "fp": "81acc5560032ae9a7f794b12015600a5b8d4cfa1ca70f745d938bebee8aa0ecd",
+      "q_norm": "what is 78 4 25",
+      "question": "What is 78 × 4 + 25?",
+      "answer": "337",
+      "date_iso": "2026-04-06"
     }
   ],
   "publishes": {
@@ -4446,6 +4453,16 @@
           "artifact": "short-20260405-slot4",
           "fp": "3917e59d7b73506ba43237cab4b3973c9f57abb75ce9d5b8a31d8c32b44eef68",
           "ts": "2026-04-05T19:42:28.862525+00:00"
+        }
+      }
+    },
+    "20260406": {
+      "shorts": {
+        "1": {
+          "video_id": "Xu5LnmdQ0nI",
+          "artifact": "short-20260406-slot1",
+          "fp": "81acc5560032ae9a7f794b12015600a5b8d4cfa1ca70f745d938bebee8aa0ecd",
+          "ts": "2026-04-06T04:14:42.705295+00:00"
         }
       }
     }
