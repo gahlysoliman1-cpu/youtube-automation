@@ -2129,6 +2129,13 @@
       "question": "What is 76 × 5 + 27?",
       "answer": "407",
       "date_iso": "2026-04-06"
+    },
+    {
+      "fp": "c3759ae675b4324118c5f8493e893e59d7a58bde17fe2272e323719b61da2b8b",
+      "q_norm": "what is 58 5 26",
+      "question": "What is 58 × 5 + 26?",
+      "answer": "316",
+      "date_iso": "2026-04-06"
     }
   ],
   "publishes": {
@@ -4489,6 +4496,12 @@
           "artifact": "short-20260406-slot3",
           "fp": "f9a5e2db1d9d214e29cee60a924095cc8b11418a28569f78364aad5ff142fd61",
           "ts": "2026-04-06T14:16:08.402191+00:00"
+        },
+        "4": {
+          "video_id": "2u--Urziepc",
+          "artifact": "short-20260406-slot4",
+          "fp": "c3759ae675b4324118c5f8493e893e59d7a58bde17fe2272e323719b61da2b8b",
+          "ts": "2026-04-06T19:58:56.250575+00:00"
         }
       }
     }
