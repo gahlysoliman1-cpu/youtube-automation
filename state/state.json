@@ -2122,6 +2122,13 @@
       "question": "What is 28 × 9 + 25?",
       "answer": "277",
       "date_iso": "2026-04-06"
+    },
+    {
+      "fp": "f9a5e2db1d9d214e29cee60a924095cc8b11418a28569f78364aad5ff142fd61",
+      "q_norm": "what is 76 5 27",
+      "question": "What is 76 × 5 + 27?",
+      "answer": "407",
+      "date_iso": "2026-04-06"
     }
   ],
   "publishes": {
@@ -4476,6 +4483,12 @@
           "artifact": "short-20260406-slot2",
           "fp": "d94b99ee2685fccb4ba8f9f3be766790de9b347b6f115731b8ae38319bd6acec",
           "ts": "2026-04-06T08:45:20.143655+00:00"
+        },
+        "3": {
+          "video_id": "gIlIN4pGazs",
+          "artifact": "short-20260406-slot3",
+          "fp": "f9a5e2db1d9d214e29cee60a924095cc8b11418a28569f78364aad5ff142fd61",
+          "ts": "2026-04-06T14:16:08.402191+00:00"
         }
       }
     }
