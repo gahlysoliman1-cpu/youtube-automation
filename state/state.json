@@ -2157,6 +2157,13 @@
       "question": "What is 18 × 9 + 28?",
       "answer": "190",
       "date_iso": "2026-04-07"
+    },
+    {
+      "fp": "1132e95a9c02763e67735e4d3875434b38a793328954ceca9e9730acc9c35f8a",
+      "q_norm": "what is 73 7 7",
+      "question": "What is 73 × 7 + 7?",
+      "answer": "518",
+      "date_iso": "2026-04-07"
     }
   ],
   "publishes": {
@@ -4545,6 +4552,12 @@
           "artifact": "short-20260407-slot3",
           "fp": "5b19b4d712702a59d4853582bb628f00de777a7d5f7cf321585518987a66f096",
           "ts": "2026-04-07T14:52:44.390384+00:00"
+        },
+        "4": {
+          "video_id": "vatAf8-Y4ag",
+          "artifact": "short-20260407-slot4",
+          "fp": "1132e95a9c02763e67735e4d3875434b38a793328954ceca9e9730acc9c35f8a",
+          "ts": "2026-04-07T20:05:33.816395+00:00"
         }
       }
     }
