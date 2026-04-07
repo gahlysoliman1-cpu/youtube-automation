@@ -2136,6 +2136,13 @@
       "question": "What is 58 × 5 + 26?",
       "answer": "316",
       "date_iso": "2026-04-06"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-04-07"
     }
   ],
   "publishes": {
@@ -4502,6 +4509,16 @@
           "artifact": "short-20260406-slot4",
           "fp": "c3759ae675b4324118c5f8493e893e59d7a58bde17fe2272e323719b61da2b8b",
           "ts": "2026-04-06T19:58:56.250575+00:00"
+        }
+      }
+    },
+    "20260407": {
+      "shorts": {
+        "1": {
+          "video_id": "3kUTpNSD22Y",
+          "artifact": "short-20260407-slot1",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-04-07T03:57:18.281145+00:00"
         }
       }
     }
