@@ -2150,6 +2150,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-04-07"
+    },
+    {
+      "fp": "5b19b4d712702a59d4853582bb628f00de777a7d5f7cf321585518987a66f096",
+      "q_norm": "what is 18 9 28",
+      "question": "What is 18 × 9 + 28?",
+      "answer": "190",
+      "date_iso": "2026-04-07"
     }
   ],
   "publishes": {
@@ -4532,6 +4539,12 @@
           "artifact": "short-20260407-slot2",
           "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
           "ts": "2026-04-07T08:19:22.082570+00:00"
+        },
+        "3": {
+          "video_id": "6pXqsnfyfJE",
+          "artifact": "short-20260407-slot3",
+          "fp": "5b19b4d712702a59d4853582bb628f00de777a7d5f7cf321585518987a66f096",
+          "ts": "2026-04-07T14:52:44.390384+00:00"
         }
       }
     }
