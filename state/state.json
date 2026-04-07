@@ -2143,6 +2143,13 @@
       "question": "Which star is closest to Earth?",
       "answer": "The Sun",
       "date_iso": "2026-04-07"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-04-07"
     }
   ],
   "publishes": {
@@ -4519,6 +4526,12 @@
           "artifact": "short-20260407-slot1",
           "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
           "ts": "2026-04-07T03:57:18.281145+00:00"
+        },
+        "2": {
+          "video_id": "d3wDggWMies",
+          "artifact": "short-20260407-slot2",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-04-07T08:19:22.082570+00:00"
         }
       }
     }
