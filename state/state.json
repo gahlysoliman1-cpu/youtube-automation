@@ -2164,6 +2164,13 @@
       "question": "What is 73 × 7 + 7?",
       "answer": "518",
       "date_iso": "2026-04-07"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-04-08"
     }
   ],
   "publishes": {
@@ -4558,6 +4565,16 @@
           "artifact": "short-20260407-slot4",
           "fp": "1132e95a9c02763e67735e4d3875434b38a793328954ceca9e9730acc9c35f8a",
           "ts": "2026-04-07T20:05:33.816395+00:00"
+        }
+      }
+    },
+    "20260408": {
+      "shorts": {
+        "1": {
+          "video_id": "be1uiGqtGDg",
+          "artifact": "short-20260408-slot1",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-04-08T04:08:10.111066+00:00"
         }
       }
     }
