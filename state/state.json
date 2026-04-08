@@ -2178,6 +2178,13 @@
       "question": "What is 43 × 3 + 13?",
       "answer": "142",
       "date_iso": "2026-04-08"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-04-08"
     }
   ],
   "publishes": {
@@ -4588,6 +4595,12 @@
           "artifact": "short-20260408-slot2",
           "fp": "b99f0f7947b11376b93d2af4ca165b79a231cc3ddf0c40853e77b7d89830492f",
           "ts": "2026-04-08T08:19:17.705711+00:00"
+        },
+        "3": {
+          "video_id": "d0u1gLXF5tQ",
+          "artifact": "short-20260408-slot3",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-04-08T14:50:11.179044+00:00"
         }
       }
     }
