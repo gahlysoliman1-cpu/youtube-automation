@@ -2185,6 +2185,13 @@
       "question": "What is the capital of Egypt?",
       "answer": "Cairo",
       "date_iso": "2026-04-08"
+    },
+    {
+      "fp": "8aa32ab89584a3a21ae6893adb9174306a1662866825460053a645f2ac58e13c",
+      "q_norm": "what is 28 8 16",
+      "question": "What is 28 × 8 + 16?",
+      "answer": "240",
+      "date_iso": "2026-04-08"
     }
   ],
   "publishes": {
@@ -4601,6 +4608,12 @@
           "artifact": "short-20260408-slot3",
           "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
           "ts": "2026-04-08T14:50:11.179044+00:00"
+        },
+        "4": {
+          "video_id": "bMPuK3KxwV8",
+          "artifact": "short-20260408-slot4",
+          "fp": "8aa32ab89584a3a21ae6893adb9174306a1662866825460053a645f2ac58e13c",
+          "ts": "2026-04-08T20:04:21.458691+00:00"
         }
       }
     }
