@@ -2213,6 +2213,13 @@
       "question": "What is 69 × 9 + 10?",
       "answer": "631",
       "date_iso": "2026-04-09"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-04-09"
     }
   ],
   "publishes": {
@@ -4657,6 +4664,12 @@
           "artifact": "short-20260409-slot3",
           "fp": "976202f9c400149040f1dce841e68c44821eb4a88fbd4edd83917dd54ecb13a2",
           "ts": "2026-04-09T15:03:40.849746+00:00"
+        },
+        "4": {
+          "video_id": "eYtcH2ksb14",
+          "artifact": "short-20260409-slot4",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-04-09T20:13:01.363257+00:00"
         }
       }
     }
