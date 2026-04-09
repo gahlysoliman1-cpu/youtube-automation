@@ -2192,6 +2192,13 @@
       "question": "What is 28 × 8 + 16?",
       "answer": "240",
       "date_iso": "2026-04-08"
+    },
+    {
+      "fp": "909a91d79bee9ead0e8c34af272be199997587c9ef164a4c05b93baa9566db34",
+      "q_norm": "what is 42 9 15",
+      "question": "What is 42 × 9 + 15?",
+      "answer": "393",
+      "date_iso": "2026-04-09"
     }
   ],
   "publishes": {
@@ -4614,6 +4621,16 @@
           "artifact": "short-20260408-slot4",
           "fp": "8aa32ab89584a3a21ae6893adb9174306a1662866825460053a645f2ac58e13c",
           "ts": "2026-04-08T20:04:21.458691+00:00"
+        }
+      }
+    },
+    "20260409": {
+      "shorts": {
+        "1": {
+          "video_id": "4CAr9RwjQfA",
+          "artifact": "short-20260409-slot1",
+          "fp": "909a91d79bee9ead0e8c34af272be199997587c9ef164a4c05b93baa9566db34",
+          "ts": "2026-04-09T03:55:23.037565+00:00"
         }
       }
     }
