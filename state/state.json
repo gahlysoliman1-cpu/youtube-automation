@@ -2199,6 +2199,13 @@
       "question": "What is 42 × 9 + 15?",
       "answer": "393",
       "date_iso": "2026-04-09"
+    },
+    {
+      "fp": "40aee4a9c0bd5d2b0b39f3d0714c24d14f0d651ea9ba1609a9b4987924c01942",
+      "q_norm": "what is 48 3 20",
+      "question": "What is 48 × 3 + 20?",
+      "answer": "164",
+      "date_iso": "2026-04-09"
     }
   ],
   "publishes": {
@@ -4631,6 +4638,12 @@
           "artifact": "short-20260409-slot1",
           "fp": "909a91d79bee9ead0e8c34af272be199997587c9ef164a4c05b93baa9566db34",
           "ts": "2026-04-09T03:55:23.037565+00:00"
+        },
+        "2": {
+          "video_id": "5x8XU_Hvidg",
+          "artifact": "short-20260409-slot2",
+          "fp": "40aee4a9c0bd5d2b0b39f3d0714c24d14f0d651ea9ba1609a9b4987924c01942",
+          "ts": "2026-04-09T08:27:05.216245+00:00"
         }
       }
     }
