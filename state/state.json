@@ -2206,6 +2206,13 @@
       "question": "What is 48 × 3 + 20?",
       "answer": "164",
       "date_iso": "2026-04-09"
+    },
+    {
+      "fp": "976202f9c400149040f1dce841e68c44821eb4a88fbd4edd83917dd54ecb13a2",
+      "q_norm": "what is 69 9 10",
+      "question": "What is 69 × 9 + 10?",
+      "answer": "631",
+      "date_iso": "2026-04-09"
     }
   ],
   "publishes": {
@@ -4644,6 +4651,12 @@
           "artifact": "short-20260409-slot2",
           "fp": "40aee4a9c0bd5d2b0b39f3d0714c24d14f0d651ea9ba1609a9b4987924c01942",
           "ts": "2026-04-09T08:27:05.216245+00:00"
+        },
+        "3": {
+          "video_id": "khXqPLKLWC0",
+          "artifact": "short-20260409-slot3",
+          "fp": "976202f9c400149040f1dce841e68c44821eb4a88fbd4edd83917dd54ecb13a2",
+          "ts": "2026-04-09T15:03:40.849746+00:00"
         }
       }
     }
