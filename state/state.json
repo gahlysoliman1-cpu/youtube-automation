@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "7b1b47eded20fcc53ac36b8181c3d946eaac15b9828f41fc80ac64c5f5c64409",
-      "q_norm": "what ancient wonder had a statue of the greek god helios",
-      "question": "What ancient wonder had a statue of the Greek god Helios?",
-      "answer": "Colossus of Rhodes",
-      "date_iso": "2026-01-09"
-    },
-    {
-      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
-      "q_norm": "what does break a leg mean",
-      "question": "What does 'break a leg' mean?",
-      "answer": "Good luck",
-      "date_iso": "2026-01-09"
-    },
-    {
-      "fp": "bb862b4a3721f4c6360e628576856a73d0c6efe04d8555a250e5a60504bc40d9",
-      "q_norm": "a snail is at the bottom of a 20ft well each day it climbs 3ft but falls back 2ft at night how many days to reach the top",
-      "question": "A snail is at the bottom of a 20ft well. Each day, it climbs 3ft but falls back 2ft at night. How many days to reach the top?",
-      "answer": "18",
-      "date_iso": "2026-01-09"
-    },
-    {
-      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
-      "q_norm": "what does cpu stand for",
-      "question": "What does CPU stand for?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-01-09"
-    },
-    {
       "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
       "q_norm": "what is the fastest land animal",
       "question": "What is the fastest land animal?",
@@ -2220,6 +2192,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-04-09"
+    },
+    {
+      "fp": "98cbe6ee352520272e0ffb971f2392c27ba57a0d47b8dc02abe5b90b02da89d3",
+      "q_norm": "what is 55 10 10",
+      "question": "What is 55 × 10 + 10?",
+      "answer": "560",
+      "date_iso": "2026-04-10"
     }
   ],
   "publishes": {
@@ -4670,6 +4649,16 @@
           "artifact": "short-20260409-slot4",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-04-09T20:13:01.363257+00:00"
+        }
+      }
+    },
+    "20260410": {
+      "shorts": {
+        "1": {
+          "video_id": "IxN7a12KHeQ",
+          "artifact": "short-20260410-slot1",
+          "fp": "98cbe6ee352520272e0ffb971f2392c27ba57a0d47b8dc02abe5b90b02da89d3",
+          "ts": "2026-04-10T04:17:46.200630+00:00"
         }
       }
     }
