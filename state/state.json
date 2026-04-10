@@ -2213,6 +2213,13 @@
       "question": "What is 88 × 7 + 13?",
       "answer": "629",
       "date_iso": "2026-04-10"
+    },
+    {
+      "fp": "f34e4574994a8ee04a3f5f5737a60e58c081d0e34974f04962c92b4f35452d39",
+      "q_norm": "what is 56 4 14",
+      "question": "What is 56 × 4 + 14?",
+      "answer": "238",
+      "date_iso": "2026-04-10"
     }
   ],
   "publishes": {
@@ -4685,6 +4692,12 @@
           "artifact": "short-20260410-slot3",
           "fp": "49a46af21efd108ed1cf75beb1650bedf942e4eca3ddfaebf5513471af73e322",
           "ts": "2026-04-10T14:20:33.329579+00:00"
+        },
+        "4": {
+          "video_id": "8vQIIyGxyyo",
+          "artifact": "short-20260410-slot4",
+          "fp": "f34e4574994a8ee04a3f5f5737a60e58c081d0e34974f04962c92b4f35452d39",
+          "ts": "2026-04-10T19:53:04.404529+00:00"
         }
       }
     }
