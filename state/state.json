@@ -2206,6 +2206,13 @@
       "question": "What is 90 × 4 + 14?",
       "answer": "374",
       "date_iso": "2026-04-10"
+    },
+    {
+      "fp": "49a46af21efd108ed1cf75beb1650bedf942e4eca3ddfaebf5513471af73e322",
+      "q_norm": "what is 88 7 13",
+      "question": "What is 88 × 7 + 13?",
+      "answer": "629",
+      "date_iso": "2026-04-10"
     }
   ],
   "publishes": {
@@ -4672,6 +4679,12 @@
           "artifact": "short-20260410-slot2",
           "fp": "b3f182023109c7ad1f28a4e0d873082e89aa6c93cfd5d1f8c1c2adc4f59e9b63",
           "ts": "2026-04-10T08:47:48.442443+00:00"
+        },
+        "3": {
+          "video_id": "jhXO_fqZ5IE",
+          "artifact": "short-20260410-slot3",
+          "fp": "49a46af21efd108ed1cf75beb1650bedf942e4eca3ddfaebf5513471af73e322",
+          "ts": "2026-04-10T14:20:33.329579+00:00"
         }
       }
     }
