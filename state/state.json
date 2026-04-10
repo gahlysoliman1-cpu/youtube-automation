@@ -2199,6 +2199,13 @@
       "question": "What is 55 × 10 + 10?",
       "answer": "560",
       "date_iso": "2026-04-10"
+    },
+    {
+      "fp": "b3f182023109c7ad1f28a4e0d873082e89aa6c93cfd5d1f8c1c2adc4f59e9b63",
+      "q_norm": "what is 90 4 14",
+      "question": "What is 90 × 4 + 14?",
+      "answer": "374",
+      "date_iso": "2026-04-10"
     }
   ],
   "publishes": {
@@ -4659,6 +4666,12 @@
           "artifact": "short-20260410-slot1",
           "fp": "98cbe6ee352520272e0ffb971f2392c27ba57a0d47b8dc02abe5b90b02da89d3",
           "ts": "2026-04-10T04:17:46.200630+00:00"
+        },
+        "2": {
+          "video_id": "hqXz0G7g-Bg",
+          "artifact": "short-20260410-slot2",
+          "fp": "b3f182023109c7ad1f28a4e0d873082e89aa6c93cfd5d1f8c1c2adc4f59e9b63",
+          "ts": "2026-04-10T08:47:48.442443+00:00"
         }
       }
     }
