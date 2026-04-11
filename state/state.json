@@ -2220,6 +2220,13 @@
       "question": "What is 69 × 7 + 18?",
       "answer": "501",
       "date_iso": "2026-04-11"
+    },
+    {
+      "fp": "2e7bca6c94432a21d4edef48bebeba66db86e2aec4d2fd66ab18cb37cfd13c78",
+      "q_norm": "what is 23 9 21",
+      "question": "What is 23 × 9 + 21?",
+      "answer": "228",
+      "date_iso": "2026-04-11"
     }
   ],
   "publishes": {
@@ -4720,6 +4727,12 @@
           "artifact": "short-20260411-slot3",
           "fp": "a319c30f4242ce6a4631923df11bcb9b48378181d56146d93dd80596bdecb97a",
           "ts": "2026-04-11T14:02:40.126133+00:00"
+        },
+        "4": {
+          "video_id": "59kEjX7wpuA",
+          "artifact": "short-20260411-slot4",
+          "fp": "2e7bca6c94432a21d4edef48bebeba66db86e2aec4d2fd66ab18cb37cfd13c78",
+          "ts": "2026-04-11T19:43:48.841686+00:00"
         }
       }
     }
