@@ -2206,6 +2206,13 @@
       "question": "What is 39 × 11 + 8?",
       "answer": "437",
       "date_iso": "2026-04-11"
+    },
+    {
+      "fp": "fcddd9ab6078e2fa75166a3acad358531bb9ea39ad78b01801d749805d50a74c",
+      "q_norm": "what is 50 3 6",
+      "question": "What is 50 × 3 + 6?",
+      "answer": "156",
+      "date_iso": "2026-04-11"
     }
   ],
   "publishes": {
@@ -4694,6 +4701,12 @@
           "artifact": "short-20260411-slot1",
           "fp": "319135cd7888446766b17e1b107c6975b059576fe4827dd6d0a303cc11d875e6",
           "ts": "2026-04-11T03:45:10.624548+00:00"
+        },
+        "2": {
+          "video_id": "Hhzgmelbz30",
+          "artifact": "short-20260411-slot2",
+          "fp": "fcddd9ab6078e2fa75166a3acad358531bb9ea39ad78b01801d749805d50a74c",
+          "ts": "2026-04-11T07:58:14.336154+00:00"
         }
       }
     }
