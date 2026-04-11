@@ -2213,6 +2213,13 @@
       "question": "What is 50 × 3 + 6?",
       "answer": "156",
       "date_iso": "2026-04-11"
+    },
+    {
+      "fp": "a319c30f4242ce6a4631923df11bcb9b48378181d56146d93dd80596bdecb97a",
+      "q_norm": "what is 69 7 18",
+      "question": "What is 69 × 7 + 18?",
+      "answer": "501",
+      "date_iso": "2026-04-11"
     }
   ],
   "publishes": {
@@ -4707,6 +4714,12 @@
           "artifact": "short-20260411-slot2",
           "fp": "fcddd9ab6078e2fa75166a3acad358531bb9ea39ad78b01801d749805d50a74c",
           "ts": "2026-04-11T07:58:14.336154+00:00"
+        },
+        "3": {
+          "video_id": "5dCYtdxl4pI",
+          "artifact": "short-20260411-slot3",
+          "fp": "a319c30f4242ce6a4631923df11bcb9b48378181d56146d93dd80596bdecb97a",
+          "ts": "2026-04-11T14:02:40.126133+00:00"
         }
       }
     }
