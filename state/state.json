@@ -3,27 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
-      "q_norm": "what is the fastest land animal",
-      "question": "What is the fastest land animal?",
-      "answer": "Cheetah",
-      "date_iso": "2026-01-10"
-    },
-    {
-      "fp": "6df3093520f64f4e88b8d8a46e4fc9dbb5daa605311fe8bf5feecca091c7d4b5",
-      "q_norm": "what planet in our solar system has the most moons",
-      "question": "What planet in our solar system has the most moons?",
-      "answer": "Jupiter",
-      "date_iso": "2026-01-10"
-    },
-    {
-      "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
-      "q_norm": "who holds the record for most career home runs in baseball",
-      "question": "Who holds the record for most career home runs in baseball?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-01-10"
-    },
-    {
       "fp": "f7c2ec63e7f1c11bd6911a5c0f9c24412368e338d3b43946af794c67a031db90",
       "q_norm": "i am a 5 digit number take away my first digit and i still sound the same what am i",
       "question": "I am a 5-digit number. Take away my first digit and I still sound the same. What am I?",
@@ -2220,6 +2199,13 @@
       "question": "What is 56 × 4 + 14?",
       "answer": "238",
       "date_iso": "2026-04-10"
+    },
+    {
+      "fp": "319135cd7888446766b17e1b107c6975b059576fe4827dd6d0a303cc11d875e6",
+      "q_norm": "what is 39 11 8",
+      "question": "What is 39 × 11 + 8?",
+      "answer": "437",
+      "date_iso": "2026-04-11"
     }
   ],
   "publishes": {
@@ -4698,6 +4684,16 @@
           "artifact": "short-20260410-slot4",
           "fp": "f34e4574994a8ee04a3f5f5737a60e58c081d0e34974f04962c92b4f35452d39",
           "ts": "2026-04-10T19:53:04.404529+00:00"
+        }
+      }
+    },
+    "20260411": {
+      "shorts": {
+        "1": {
+          "video_id": "Ec52cpr80tc",
+          "artifact": "short-20260411-slot1",
+          "fp": "319135cd7888446766b17e1b107c6975b059576fe4827dd6d0a303cc11d875e6",
+          "ts": "2026-04-11T03:45:10.624548+00:00"
         }
       }
     }
