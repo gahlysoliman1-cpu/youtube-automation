@@ -2206,6 +2206,13 @@
       "question": "What is 14 × 11 + 15?",
       "answer": "169",
       "date_iso": "2026-04-12"
+    },
+    {
+      "fp": "f5eb031c4d9014e7355dc29fb61605aae8550c11745c17f86bdce0a17a1036ec",
+      "q_norm": "what is 29 9 6",
+      "question": "What is 29 × 9 + 6?",
+      "answer": "267",
+      "date_iso": "2026-04-12"
     }
   ],
   "publishes": {
@@ -4722,6 +4729,12 @@
           "artifact": "short-20260412-slot1",
           "fp": "5d797b292ff16050b298708b076400bd197ebe88c61179b628143cedbdb76226",
           "ts": "2026-04-12T04:20:41.030989+00:00"
+        },
+        "2": {
+          "video_id": "q2FNHAzM1EY",
+          "artifact": "short-20260412-slot2",
+          "fp": "f5eb031c4d9014e7355dc29fb61605aae8550c11745c17f86bdce0a17a1036ec",
+          "ts": "2026-04-12T08:09:02.597471+00:00"
         }
       }
     }
