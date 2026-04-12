@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "f7c2ec63e7f1c11bd6911a5c0f9c24412368e338d3b43946af794c67a031db90",
-      "q_norm": "i am a 5 digit number take away my first digit and i still sound the same what am i",
-      "question": "I am a 5-digit number. Take away my first digit and I still sound the same. What am I?",
-      "answer": "Eight thousand",
-      "date_iso": "2026-01-11"
-    },
-    {
-      "fp": "dc3a77abd994051d250ee64edfa36a0fa3243f015e9a64e26edafd64604fbc0a",
-      "q_norm": "what is the approximate number of bytes in a gigabyte",
-      "question": "What is the approximate number of bytes in a gigabyte?",
-      "answer": "1,073,741,824",
-      "date_iso": "2026-01-11"
-    },
-    {
-      "fp": "d14543f9cdfd6961876ea5f6a2a24403e53cb0f12e5ad217cbb731b18d0b9eff",
-      "q_norm": "what s the capital of australia",
-      "question": "What's the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-01-11"
-    },
-    {
-      "fp": "2792e749497e29bd24d9526fa4c882ef83d4a25eab99b4c60a3fece9738572f0",
-      "q_norm": "which popular dessert s name translates to pick me up in italian",
-      "question": "Which popular dessert's name translates to 'pick-me-up' in Italian?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-11"
-    },
-    {
       "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
       "q_norm": "what is the capital of greenland",
       "question": "What is the capital of Greenland?",
@@ -2227,6 +2199,13 @@
       "question": "What is 23 × 9 + 21?",
       "answer": "228",
       "date_iso": "2026-04-11"
+    },
+    {
+      "fp": "5d797b292ff16050b298708b076400bd197ebe88c61179b628143cedbdb76226",
+      "q_norm": "what is 14 11 15",
+      "question": "What is 14 × 11 + 15?",
+      "answer": "169",
+      "date_iso": "2026-04-12"
     }
   ],
   "publishes": {
@@ -4733,6 +4712,16 @@
           "artifact": "short-20260411-slot4",
           "fp": "2e7bca6c94432a21d4edef48bebeba66db86e2aec4d2fd66ab18cb37cfd13c78",
           "ts": "2026-04-11T19:43:48.841686+00:00"
+        }
+      }
+    },
+    "20260412": {
+      "shorts": {
+        "1": {
+          "video_id": "3XV_OtrDh1o",
+          "artifact": "short-20260412-slot1",
+          "fp": "5d797b292ff16050b298708b076400bd197ebe88c61179b628143cedbdb76226",
+          "ts": "2026-04-12T04:20:41.030989+00:00"
         }
       }
     }
