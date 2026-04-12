@@ -2213,6 +2213,13 @@
       "question": "What is 29 × 9 + 6?",
       "answer": "267",
       "date_iso": "2026-04-12"
+    },
+    {
+      "fp": "6369dcfb1cd141cc404ed18bbe77c6786b6d0d276c5c2b136994b9dddfb07d69",
+      "q_norm": "what is 53 7 15",
+      "question": "What is 53 × 7 + 15?",
+      "answer": "386",
+      "date_iso": "2026-04-12"
     }
   ],
   "publishes": {
@@ -4735,6 +4742,12 @@
           "artifact": "short-20260412-slot2",
           "fp": "f5eb031c4d9014e7355dc29fb61605aae8550c11745c17f86bdce0a17a1036ec",
           "ts": "2026-04-12T08:09:02.597471+00:00"
+        },
+        "3": {
+          "video_id": "inL0p4BkRWk",
+          "artifact": "short-20260412-slot3",
+          "fp": "6369dcfb1cd141cc404ed18bbe77c6786b6d0d276c5c2b136994b9dddfb07d69",
+          "ts": "2026-04-12T14:04:21.495444+00:00"
         }
       }
     }
