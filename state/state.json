@@ -2220,6 +2220,13 @@
       "question": "What is 53 × 7 + 15?",
       "answer": "386",
       "date_iso": "2026-04-12"
+    },
+    {
+      "fp": "cedc9346943b9f205f42fbd2564b3f2fe83280b5fc853a8aa3e35e35924c2014",
+      "q_norm": "what is 92 6 7",
+      "question": "What is 92 × 6 + 7?",
+      "answer": "559",
+      "date_iso": "2026-04-12"
     }
   ],
   "publishes": {
@@ -4748,6 +4755,12 @@
           "artifact": "short-20260412-slot3",
           "fp": "6369dcfb1cd141cc404ed18bbe77c6786b6d0d276c5c2b136994b9dddfb07d69",
           "ts": "2026-04-12T14:04:21.495444+00:00"
+        },
+        "4": {
+          "video_id": "ma3o_1iYmpA",
+          "artifact": "short-20260412-slot4",
+          "fp": "cedc9346943b9f205f42fbd2564b3f2fe83280b5fc853a8aa3e35e35924c2014",
+          "ts": "2026-04-12T19:48:17.745783+00:00"
         }
       }
     }
