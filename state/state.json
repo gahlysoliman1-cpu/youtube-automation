@@ -2206,6 +2206,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-04-13"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-04-13"
     }
   ],
   "publishes": {
@@ -4750,6 +4757,12 @@
           "artifact": "short-20260413-slot1",
           "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
           "ts": "2026-04-13T04:29:24.622876+00:00"
+        },
+        "2": {
+          "video_id": "Pj9w9pBuGsY",
+          "artifact": "short-20260413-slot2",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-04-13T09:14:11.092732+00:00"
         }
       }
     }
