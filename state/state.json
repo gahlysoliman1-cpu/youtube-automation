@@ -2213,6 +2213,13 @@
       "question": "What gas do plants absorb from the air?",
       "answer": "Carbon dioxide",
       "date_iso": "2026-04-13"
+    },
+    {
+      "fp": "d75a7b95d736f84033009ded9ada7f6df54834cf6719a31e1059338746fc80ca",
+      "q_norm": "what is 27 10 36",
+      "question": "What is 27 × 10 + 36?",
+      "answer": "306",
+      "date_iso": "2026-04-13"
     }
   ],
   "publishes": {
@@ -4763,6 +4770,12 @@
           "artifact": "short-20260413-slot2",
           "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
           "ts": "2026-04-13T09:14:11.092732+00:00"
+        },
+        "3": {
+          "video_id": "5EMdoliNzOk",
+          "artifact": "short-20260413-slot3",
+          "fp": "d75a7b95d736f84033009ded9ada7f6df54834cf6719a31e1059338746fc80ca",
+          "ts": "2026-04-13T15:00:38.311368+00:00"
         }
       }
     }
