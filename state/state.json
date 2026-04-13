@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
-      "q_norm": "what is the capital of greenland",
-      "question": "What is the capital of Greenland?",
-      "answer": "Nuuk",
-      "date_iso": "2026-01-12"
-    },
-    {
-      "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
-      "q_norm": "what does bend over backwards mean",
-      "question": "What does 'bend over backwards' mean?",
-      "answer": "Go out of one's way to help",
-      "date_iso": "2026-01-12"
-    },
-    {
-      "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
-      "q_norm": "what is the largest planet in our solar system",
-      "question": "What is the largest planet in our solar system?",
-      "answer": "Jupiter",
-      "date_iso": "2026-01-12"
-    },
-    {
-      "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
-      "q_norm": "which popular italian dessert translates to pick me up",
-      "question": "Which popular Italian dessert translates to 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-12"
-    },
-    {
       "fp": "d1042c8d5426d4b85dd335c679935c149029d547fcb1c224df2904a829ba166f",
       "q_norm": "which baseball player broke the color barrier in 1947",
       "question": "Which baseball player broke the color barrier in 1947?",
@@ -2227,6 +2199,13 @@
       "question": "What is 92 × 6 + 7?",
       "answer": "559",
       "date_iso": "2026-04-12"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-04-13"
     }
   ],
   "publishes": {
@@ -4761,6 +4740,16 @@
           "artifact": "short-20260412-slot4",
           "fp": "cedc9346943b9f205f42fbd2564b3f2fe83280b5fc853a8aa3e35e35924c2014",
           "ts": "2026-04-12T19:48:17.745783+00:00"
+        }
+      }
+    },
+    "20260413": {
+      "shorts": {
+        "1": {
+          "video_id": "AP4uEVG_yVE",
+          "artifact": "short-20260413-slot1",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-04-13T04:29:24.622876+00:00"
         }
       }
     }
