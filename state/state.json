@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "d1042c8d5426d4b85dd335c679935c149029d547fcb1c224df2904a829ba166f",
-      "q_norm": "which baseball player broke the color barrier in 1947",
-      "question": "Which baseball player broke the color barrier in 1947?",
-      "answer": "Jackie Robinson",
-      "date_iso": "2026-01-13"
-    },
-    {
-      "fp": "bc1e2f40b5380069759dab3e8934cb1d3356d2efce269e7f1e0bc587096e1568",
-      "q_norm": "who holds the record for the most olympic gold medals won by an individual",
-      "question": "Who holds the record for the most Olympic gold medals won by an individual?",
-      "answer": "Michael Phelps",
-      "date_iso": "2026-01-13"
-    },
-    {
-      "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
-      "q_norm": "what does cpu stand for in computers",
-      "question": "What does CPU stand for in computers?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-01-13"
-    },
-    {
-      "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
-      "q_norm": "what can be broken but never held",
-      "question": "What can be broken, but never held?",
-      "answer": "A promise",
-      "date_iso": "2026-01-13"
-    },
-    {
       "fp": "905a44a04f6fbee572437b763a90af02b47d40107491d8b4c282b0057426b82a",
       "q_norm": "most consecutive baseball games played",
       "question": "Most consecutive baseball games played?",
@@ -2227,6 +2199,13 @@
       "question": "What is 80 × 7 + 15?",
       "answer": "575",
       "date_iso": "2026-04-13"
+    },
+    {
+      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+      "q_norm": "what is the capital of italy",
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "date_iso": "2026-04-14"
     }
   ],
   "publishes": {
@@ -4789,6 +4768,16 @@
           "artifact": "short-20260413-slot4",
           "fp": "5bd046321bc1ee456c7feef50e2055763a0299381b1539e1275c63b2ecf490e0",
           "ts": "2026-04-13T20:16:26.915219+00:00"
+        }
+      }
+    },
+    "20260414": {
+      "shorts": {
+        "1": {
+          "video_id": "UItmrSgOie0",
+          "artifact": "short-20260414-slot1",
+          "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+          "ts": "2026-04-14T04:22:00.578798+00:00"
         }
       }
     }
