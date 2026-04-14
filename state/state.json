@@ -2206,6 +2206,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-04-14"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-04-14"
     }
   ],
   "publishes": {
@@ -4778,6 +4785,12 @@
           "artifact": "short-20260414-slot1",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-04-14T04:22:00.578798+00:00"
+        },
+        "2": {
+          "video_id": "4qzcxLPNJk8",
+          "artifact": "short-20260414-slot2",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-04-14T08:51:54.324490+00:00"
         }
       }
     }
