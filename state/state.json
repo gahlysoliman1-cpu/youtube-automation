@@ -2213,6 +2213,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-04-14"
+    },
+    {
+      "fp": "d763aebc6b2ab48c6f9f7286381f4d2f71c9821eb48cbf6586660b802f98a1bf",
+      "q_norm": "what is 50 2 37",
+      "question": "What is 50 × 2 + 37?",
+      "answer": "137",
+      "date_iso": "2026-04-14"
     }
   ],
   "publishes": {
@@ -4791,6 +4798,12 @@
           "artifact": "short-20260414-slot2",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-04-14T08:51:54.324490+00:00"
+        },
+        "3": {
+          "video_id": "YIeos7gyQTI",
+          "artifact": "short-20260414-slot3",
+          "fp": "d763aebc6b2ab48c6f9f7286381f4d2f71c9821eb48cbf6586660b802f98a1bf",
+          "ts": "2026-04-14T14:57:03.221038+00:00"
         }
       }
     }
