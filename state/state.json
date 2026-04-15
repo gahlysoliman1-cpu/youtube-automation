@@ -2220,6 +2220,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-04-15"
+    },
+    {
+      "fp": "b93a3d875f51d648b16bf457b0d30b36f9eabf1c3a0739e9d2377974d60ec03c",
+      "q_norm": "what is 86 10 13",
+      "question": "What is 86 × 10 + 13?",
+      "answer": "873",
+      "date_iso": "2026-04-15"
     }
   ],
   "publishes": {
@@ -4832,6 +4839,12 @@
           "artifact": "short-20260415-slot3",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-04-15T14:56:22.161926+00:00"
+        },
+        "4": {
+          "video_id": "bc706EAnnsc",
+          "artifact": "short-20260415-slot4",
+          "fp": "b93a3d875f51d648b16bf457b0d30b36f9eabf1c3a0739e9d2377974d60ec03c",
+          "ts": "2026-04-15T20:10:14.714639+00:00"
         }
       }
     }
