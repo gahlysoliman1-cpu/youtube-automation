@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "905a44a04f6fbee572437b763a90af02b47d40107491d8b4c282b0057426b82a",
-      "q_norm": "most consecutive baseball games played",
-      "question": "Most consecutive baseball games played?",
-      "answer": "2,632",
-      "date_iso": "2026-01-14"
-    },
-    {
-      "fp": "6c5c5a0c12c6fce5256674c2569bd5545eefc514f35a4406ca5c103cfe4e986e",
-      "q_norm": "what popular italian dessert means pick me up in english",
-      "question": "What popular Italian dessert means 'pick-me-up' in English?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-14"
-    },
-    {
-      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
-      "q_norm": "what popular italian dessert s name means pick me up",
-      "question": "What popular Italian dessert's name means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-14"
-    },
-    {
-      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
-      "q_norm": "what does cpu stand for in computing",
-      "question": "What does CPU stand for in computing?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-01-14"
-    },
-    {
       "fp": "19f2035d9784bd99e3e39f091e0bb35ad75764346850ac34f1d84d2afa75efc4",
       "q_norm": "what continent is home to the country of morocco",
       "question": "What continent is home to the country of Morocco?",
@@ -2227,6 +2199,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-04-14"
+    },
+    {
+      "fp": "eca562f8db16e485191c9be247bd9a90d53fcc323145cd6f43fd6c586783eeb7",
+      "q_norm": "what is 71 2 24",
+      "question": "What is 71 × 2 + 24?",
+      "answer": "166",
+      "date_iso": "2026-04-15"
     }
   ],
   "publishes": {
@@ -4817,6 +4796,16 @@
           "artifact": "short-20260414-slot4",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-04-14T20:14:05.525110+00:00"
+        }
+      }
+    },
+    "20260415": {
+      "shorts": {
+        "1": {
+          "video_id": "9GHxJLWzgrU",
+          "artifact": "short-20260415-slot1",
+          "fp": "eca562f8db16e485191c9be247bd9a90d53fcc323145cd6f43fd6c586783eeb7",
+          "ts": "2026-04-15T04:15:44.318588+00:00"
         }
       }
     }
