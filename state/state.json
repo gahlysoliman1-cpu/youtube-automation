@@ -2206,6 +2206,13 @@
       "question": "What is 71 × 2 + 24?",
       "answer": "166",
       "date_iso": "2026-04-15"
+    },
+    {
+      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+      "q_norm": "what gets wetter the more it dries",
+      "question": "What gets wetter the more it dries?",
+      "answer": "A towel",
+      "date_iso": "2026-04-15"
     }
   ],
   "publishes": {
@@ -4806,6 +4813,12 @@
           "artifact": "short-20260415-slot1",
           "fp": "eca562f8db16e485191c9be247bd9a90d53fcc323145cd6f43fd6c586783eeb7",
           "ts": "2026-04-15T04:15:44.318588+00:00"
+        },
+        "2": {
+          "video_id": "ujYh-bxmXcs",
+          "artifact": "short-20260415-slot2",
+          "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+          "ts": "2026-04-15T08:53:24.251258+00:00"
         }
       }
     }
