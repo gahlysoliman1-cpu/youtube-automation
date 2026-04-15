@@ -2213,6 +2213,13 @@
       "question": "What gets wetter the more it dries?",
       "answer": "A towel",
       "date_iso": "2026-04-15"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-04-15"
     }
   ],
   "publishes": {
@@ -4819,6 +4826,12 @@
           "artifact": "short-20260415-slot2",
           "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
           "ts": "2026-04-15T08:53:24.251258+00:00"
+        },
+        "3": {
+          "video_id": "lWw1u0wKBJw",
+          "artifact": "short-20260415-slot3",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-04-15T14:56:22.161926+00:00"
         }
       }
     }
