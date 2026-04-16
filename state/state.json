@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "19f2035d9784bd99e3e39f091e0bb35ad75764346850ac34f1d84d2afa75efc4",
-      "q_norm": "what continent is home to the country of morocco",
-      "question": "What continent is home to the country of Morocco?",
-      "answer": "Africa",
-      "date_iso": "2026-01-15"
-    },
-    {
-      "fp": "4012a618b9a1410fc54f08f517c908d0b5fe95d48e299d819d4b83bf44ecf8f7",
-      "q_norm": "what is 161 x 3 192 286",
-      "question": "What is 161 x 3 + 192 - 286?",
-      "answer": "495",
-      "date_iso": "2026-01-15"
-    },
-    {
-      "fp": "c486e5f0dc19dbaf055ab2afb9bf1875e1f88c6dd35ecbe2818a44a506a54924",
-      "q_norm": "what is 354067249 divided by 7",
-      "question": "What is 354067249 divided by 7?",
-      "answer": "50538107",
-      "date_iso": "2026-01-15"
-    },
-    {
-      "fp": "4614bbedc8d55eea964dafa250b33e4a9c58f95b989176021f3367b37fde9c41",
-      "q_norm": "what does gb stand for in computer storage",
-      "question": "What does 'GB' stand for in computer storage?",
-      "answer": "Gigabyte",
-      "date_iso": "2026-01-15"
-    },
-    {
       "fp": "4de262e1953c85762fcb5286c294c742fa75e4ce0914699c71bd8598cdcc57d8",
       "q_norm": "what continent is brunei located on",
       "question": "What continent is Brunei located on?",
@@ -2227,6 +2199,13 @@
       "question": "What is 86 × 10 + 13?",
       "answer": "873",
       "date_iso": "2026-04-15"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-04-16"
     }
   ],
   "publishes": {
@@ -4845,6 +4824,16 @@
           "artifact": "short-20260415-slot4",
           "fp": "b93a3d875f51d648b16bf457b0d30b36f9eabf1c3a0739e9d2377974d60ec03c",
           "ts": "2026-04-15T20:10:14.714639+00:00"
+        }
+      }
+    },
+    "20260416": {
+      "shorts": {
+        "1": {
+          "video_id": "cUdpiTR8uVE",
+          "artifact": "short-20260416-slot1",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-04-16T04:24:53.691639+00:00"
         }
       }
     }
