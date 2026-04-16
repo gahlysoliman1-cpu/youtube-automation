@@ -2206,6 +2206,13 @@
       "question": "What force pulls objects toward Earth?",
       "answer": "Gravity",
       "date_iso": "2026-04-16"
+    },
+    {
+      "fp": "9f91e8d1c2373172552ec35fdf7ed9ddea0126f4adf3a3764bfccacaecd8f052",
+      "q_norm": "what is 89 4 19",
+      "question": "What is 89 × 4 + 19?",
+      "answer": "375",
+      "date_iso": "2026-04-16"
     }
   ],
   "publishes": {
@@ -4834,6 +4841,12 @@
           "artifact": "short-20260416-slot1",
           "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
           "ts": "2026-04-16T04:24:53.691639+00:00"
+        },
+        "2": {
+          "video_id": "otV8dxlaKkY",
+          "artifact": "short-20260416-slot2",
+          "fp": "9f91e8d1c2373172552ec35fdf7ed9ddea0126f4adf3a3764bfccacaecd8f052",
+          "ts": "2026-04-16T08:53:59.606816+00:00"
         }
       }
     }
