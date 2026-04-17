@@ -2213,6 +2213,13 @@
       "question": "What is 83 × 5 + 8?",
       "answer": "423",
       "date_iso": "2026-04-17"
+    },
+    {
+      "fp": "0d95c0ec91357c3ce190aa3d9834ac1b4269ff360db568c4f00d5ba0740933be",
+      "q_norm": "what is 68 2 32",
+      "question": "What is 68 × 2 + 32?",
+      "answer": "168",
+      "date_iso": "2026-04-17"
     }
   ],
   "publishes": {
@@ -4875,6 +4882,12 @@
           "artifact": "short-20260417-slot2",
           "fp": "3fb5b9f5bcb81c9b6e812ff28cfd8b5938cd35088415927f049724df3fc37e16",
           "ts": "2026-04-17T08:54:05.817141+00:00"
+        },
+        "3": {
+          "video_id": "HlzIXKPxhQo",
+          "artifact": "short-20260417-slot3",
+          "fp": "0d95c0ec91357c3ce190aa3d9834ac1b4269ff360db568c4f00d5ba0740933be",
+          "ts": "2026-04-17T14:25:14.024600+00:00"
         }
       }
     }
