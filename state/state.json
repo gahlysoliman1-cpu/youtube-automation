@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "4de262e1953c85762fcb5286c294c742fa75e4ce0914699c71bd8598cdcc57d8",
-      "q_norm": "what continent is brunei located on",
-      "question": "What continent is Brunei located on?",
-      "answer": "Asia",
-      "date_iso": "2026-01-16"
-    },
-    {
-      "fp": "fcc5aee17e01b36d4eac8ec360e2eade8aef1fe6a7ed3ca084d7d23894a3f13a",
-      "q_norm": "what is the longest recorded tennis match in hours and minutes",
-      "question": "What is the longest recorded tennis match in hours and minutes?",
-      "answer": "11 hours 5 minutes",
-      "date_iso": "2026-01-16"
-    },
-    {
-      "fp": "f32680fa3fe9b15a559238303c3e3c40eb304b8b88c08df4ed1eecf4d3bfcd6e",
-      "q_norm": "what s 5 005 445 divided by 5",
-      "question": "What's 5,005,445 divided by 5?",
-      "answer": "1,001,089",
-      "date_iso": "2026-01-16"
-    },
-    {
-      "fp": "caf55b006f5c44c41092b1e28b93a31033e175c0072d16513702dc5935cd0d6c",
-      "q_norm": "what is the world s most widely consumed fruit",
-      "question": "What is the world's most widely consumed fruit?",
-      "answer": "Banana",
-      "date_iso": "2026-01-16"
-    },
-    {
       "fp": "27d80ebd2b5966db7e2ded536c379b9d371097ddf7966987c87ff177316899b1",
       "q_norm": "which company produced the first affordable personal computer in 1975",
       "question": "Which company produced the first affordable personal computer in 1975?",
@@ -2227,6 +2199,13 @@
       "question": "What is 22 × 11 + 29?",
       "answer": "271",
       "date_iso": "2026-04-16"
+    },
+    {
+      "fp": "bc7fcaa6f06411cb686ee9162e14dfb9499abfd55dc59d04524369f1fa755aac",
+      "q_norm": "what is 52 5 33",
+      "question": "What is 52 × 5 + 33?",
+      "answer": "293",
+      "date_iso": "2026-04-17"
     }
   ],
   "publishes": {
@@ -4873,6 +4852,16 @@
           "artifact": "short-20260416-slot4",
           "fp": "db8f24044c1b03648be611ed17356a8c5417b533aefb87b35201ed2d76685887",
           "ts": "2026-04-16T20:05:10.398328+00:00"
+        }
+      }
+    },
+    "20260417": {
+      "shorts": {
+        "1": {
+          "video_id": "qejxKXAovBw",
+          "artifact": "short-20260417-slot1",
+          "fp": "bc7fcaa6f06411cb686ee9162e14dfb9499abfd55dc59d04524369f1fa755aac",
+          "ts": "2026-04-17T04:20:57.464059+00:00"
         }
       }
     }
