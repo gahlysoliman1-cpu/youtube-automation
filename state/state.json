@@ -2206,6 +2206,13 @@
       "question": "What is 52 × 5 + 33?",
       "answer": "293",
       "date_iso": "2026-04-17"
+    },
+    {
+      "fp": "3fb5b9f5bcb81c9b6e812ff28cfd8b5938cd35088415927f049724df3fc37e16",
+      "q_norm": "what is 83 5 8",
+      "question": "What is 83 × 5 + 8?",
+      "answer": "423",
+      "date_iso": "2026-04-17"
     }
   ],
   "publishes": {
@@ -4862,6 +4869,12 @@
           "artifact": "short-20260417-slot1",
           "fp": "bc7fcaa6f06411cb686ee9162e14dfb9499abfd55dc59d04524369f1fa755aac",
           "ts": "2026-04-17T04:20:57.464059+00:00"
+        },
+        "2": {
+          "video_id": "_8AdkvuJmjs",
+          "artifact": "short-20260417-slot2",
+          "fp": "3fb5b9f5bcb81c9b6e812ff28cfd8b5938cd35088415927f049724df3fc37e16",
+          "ts": "2026-04-17T08:54:05.817141+00:00"
         }
       }
     }
