@@ -2206,6 +2206,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-04-18"
+    },
+    {
+      "fp": "b1837aeb8eade6a54e66d9537b9b54d4a46adb39e1d81e03f5245620bd2986cd",
+      "q_norm": "what is 92 6 15",
+      "question": "What is 92 × 6 + 15?",
+      "answer": "567",
+      "date_iso": "2026-04-18"
     }
   ],
   "publishes": {
@@ -4890,6 +4897,12 @@
           "artifact": "short-20260418-slot2",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-04-18T08:04:44.672421+00:00"
+        },
+        "3": {
+          "video_id": "yrxiueiGq7M",
+          "artifact": "short-20260418-slot3",
+          "fp": "b1837aeb8eade6a54e66d9537b9b54d4a46adb39e1d81e03f5245620bd2986cd",
+          "ts": "2026-04-18T14:06:02.802497+00:00"
         }
       }
     }
