@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "27d80ebd2b5966db7e2ded536c379b9d371097ddf7966987c87ff177316899b1",
-      "q_norm": "which company produced the first affordable personal computer in 1975",
-      "question": "Which company produced the first affordable personal computer in 1975?",
-      "answer": "Apple",
-      "date_iso": "2026-01-17"
-    },
-    {
-      "fp": "da09e32b3704ba0b9002b1c088962eb483cb0098a79aa70485b6ddacbf73b11b",
-      "q_norm": "which popular dessert s name comes from the french word for burnt cream",
-      "question": "Which popular dessert's name comes from the French word for 'burnt cream'?",
-      "answer": "Creme Brulee",
-      "date_iso": "2026-01-17"
-    },
-    {
-      "fp": "2dddbb39a042e466e142b91e314374f15b9c65d2390ee90fd546d32e6af66633",
-      "q_norm": "what can be broken but never held what can be given but never sold",
-      "question": "What can be broken, but never held? What can be given, but never sold?",
-      "answer": "A Promise",
-      "date_iso": "2026-01-17"
-    },
-    {
-      "fp": "ed6a6c459919cee1c79b0acb54bf86474f2d7228cdc86615352ef4c3fa8cd366",
-      "q_norm": "which popular dessert s name translates to burnt cream in french",
-      "question": "Which popular dessert's name translates to 'burnt cream' in French?",
-      "answer": "Crème Brûlée",
-      "date_iso": "2026-01-17"
-    },
-    {
       "fp": "1ffd6cab2e9cf59dfcf97b823230c1779d11e401b16da80ac28c144eb0842c41",
       "q_norm": "in japan what popular food consists of vinegared rice and raw fish",
       "question": "In Japan, what popular food consists of vinegared rice and raw fish?",
@@ -2227,6 +2199,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-04-17"
+    },
+    {
+      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+      "q_norm": "what is the capital of germany",
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "date_iso": "2026-04-18"
     }
   ],
   "publishes": {
@@ -4901,6 +4880,16 @@
           "artifact": "short-20260417-slot4",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-04-17T20:06:12.900744+00:00"
+        }
+      }
+    },
+    "20260418": {
+      "shorts": {
+        "2": {
+          "video_id": "9YNKDvdCysI",
+          "artifact": "short-20260418-slot2",
+          "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+          "ts": "2026-04-18T08:04:44.672421+00:00"
         }
       }
     }
