@@ -2206,6 +2206,13 @@
       "question": "What is 48 × 5 + 36?",
       "answer": "276",
       "date_iso": "2026-04-19"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-04-19"
     }
   ],
   "publishes": {
@@ -4918,6 +4925,12 @@
           "artifact": "short-20260419-slot2",
           "fp": "457b54880cf77c86d498cf9f69fcbb7d8eade501d360d50de7fed330f36635bb",
           "ts": "2026-04-19T08:18:14.891832+00:00"
+        },
+        "3": {
+          "video_id": "m-eOpYY0dGw",
+          "artifact": "short-20260419-slot3",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-04-19T14:05:15.464465+00:00"
         }
       }
     }
