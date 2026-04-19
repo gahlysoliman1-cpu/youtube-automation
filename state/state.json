@@ -2199,6 +2199,13 @@
       "question": "What is 38 × 11 + 40?",
       "answer": "458",
       "date_iso": "2026-04-19"
+    },
+    {
+      "fp": "457b54880cf77c86d498cf9f69fcbb7d8eade501d360d50de7fed330f36635bb",
+      "q_norm": "what is 48 5 36",
+      "question": "What is 48 × 5 + 36?",
+      "answer": "276",
+      "date_iso": "2026-04-19"
     }
   ],
   "publishes": {
@@ -4905,6 +4912,12 @@
           "artifact": "short-20260419-slot1",
           "fp": "81b030cd69cfd924a9d18580a52e5bee7b323e93cd711122b1ca59d5ae71e269",
           "ts": "2026-04-19T04:21:27.323148+00:00"
+        },
+        "2": {
+          "video_id": "51DNcwULT1w",
+          "artifact": "short-20260419-slot2",
+          "fp": "457b54880cf77c86d498cf9f69fcbb7d8eade501d360d50de7fed330f36635bb",
+          "ts": "2026-04-19T08:18:14.891832+00:00"
         }
       }
     }
