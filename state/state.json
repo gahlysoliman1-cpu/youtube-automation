@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "1ffd6cab2e9cf59dfcf97b823230c1779d11e401b16da80ac28c144eb0842c41",
-      "q_norm": "in japan what popular food consists of vinegared rice and raw fish",
-      "question": "In Japan, what popular food consists of vinegared rice and raw fish?",
-      "answer": "Sushi",
-      "date_iso": "2026-01-18"
-    },
-    {
-      "fp": "c3743d6df108953222e64150ceb9b899a445b14ffd8d3fcd93cc60831b8e7b3d",
-      "q_norm": "which popular dessert s name means pick me up in italian",
-      "question": "Which popular dessert's name means 'pick-me-up' in Italian?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-18"
-    },
-    {
-      "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
-      "q_norm": "what does bite off more than you can chew mean",
-      "question": "What does 'Bite off more than you can chew' mean?",
-      "answer": "Take on more than you can handle",
-      "date_iso": "2026-01-18"
-    },
-    {
-      "fp": "4ecf2abe646704236d599156342b39a7061da5448f6c6e327f6533978ddfa25a",
-      "q_norm": "what country has lisbon as its capital",
-      "question": "What country has Lisbon as its capital?",
-      "answer": "Portugal",
-      "date_iso": "2026-01-18"
-    },
-    {
       "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
       "q_norm": "who is the only tennis player to achieve a golden slam",
       "question": "Who is the only tennis player to achieve a Golden Slam?",
@@ -2220,6 +2192,13 @@
       "question": "What is 62 × 5 + 10?",
       "answer": "320",
       "date_iso": "2026-04-18"
+    },
+    {
+      "fp": "81b030cd69cfd924a9d18580a52e5bee7b323e93cd711122b1ca59d5ae71e269",
+      "q_norm": "what is 38 11 40",
+      "question": "What is 38 × 11 + 40?",
+      "answer": "458",
+      "date_iso": "2026-04-19"
     }
   ],
   "publishes": {
@@ -4916,6 +4895,16 @@
           "artifact": "short-20260418-slot4",
           "fp": "d79acb9f9fdf3defdda99d6688d2ee011647b3ed5336c4dc92c695ced5fb76bb",
           "ts": "2026-04-18T19:50:41.161224+00:00"
+        }
+      }
+    },
+    "20260419": {
+      "shorts": {
+        "1": {
+          "video_id": "lrK4gI0RwHk",
+          "artifact": "short-20260419-slot1",
+          "fp": "81b030cd69cfd924a9d18580a52e5bee7b323e93cd711122b1ca59d5ae71e269",
+          "ts": "2026-04-19T04:21:27.323148+00:00"
         }
       }
     }
