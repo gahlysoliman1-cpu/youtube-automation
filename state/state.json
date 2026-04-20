@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
-      "q_norm": "who is the only tennis player to achieve a golden slam",
-      "question": "Who is the only tennis player to achieve a Golden Slam?",
-      "answer": "Steffi Graf",
-      "date_iso": "2026-01-19"
-    },
-    {
-      "fp": "0340d40484c98587d614b556577948e25db85fc8fbde2d2b156274334c7cfce8",
-      "q_norm": "what is the widely accepted shortcut for copy in computing",
-      "question": "What is the widely accepted shortcut for 'copy' in computing?",
-      "answer": "Ctrl+C",
-      "date_iso": "2026-01-19"
-    },
-    {
-      "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
-      "q_norm": "who holds the record for most career home runs in mlb",
-      "question": "Who holds the record for most career home runs in MLB?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-01-19"
-    },
-    {
-      "fp": "e9d6bcb34eb75d30551768989ab1294437c7c5ccf0277040135de91b551b879e",
-      "q_norm": "which popular dessert s name means pick me up in french",
-      "question": "Which popular dessert's name means 'pick-me-up' in French?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-19"
-    },
-    {
       "fp": "818a9b9c3f2af103a0422e6ca12f4b3ee5941a166cc66ca943aae35017a8e270",
       "q_norm": "what is the capital of peru",
       "question": "What is the capital of Peru?",
@@ -2213,6 +2185,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-04-19"
+    },
+    {
+      "fp": "c327849da8cd56c440809568d55aa6a8d1daee838eef048acad0cd54f7c46fbe",
+      "q_norm": "what is 38 10 38",
+      "question": "What is 38 × 10 + 38?",
+      "answer": "418",
+      "date_iso": "2026-04-20"
     }
   ],
   "publishes": {
@@ -4931,6 +4910,16 @@
           "artifact": "short-20260419-slot3",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-04-19T14:05:15.464465+00:00"
+        }
+      }
+    },
+    "20260420": {
+      "shorts": {
+        "1": {
+          "video_id": "ZKlk0Br7RIE",
+          "artifact": "short-20260420-slot1",
+          "fp": "c327849da8cd56c440809568d55aa6a8d1daee838eef048acad0cd54f7c46fbe",
+          "ts": "2026-04-20T04:30:58.068412+00:00"
         }
       }
     }
