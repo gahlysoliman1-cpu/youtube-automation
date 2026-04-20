@@ -2206,6 +2206,13 @@
       "question": "What is 94 × 5 + 22?",
       "answer": "492",
       "date_iso": "2026-04-20"
+    },
+    {
+      "fp": "84e2fdc8dab32207f9c1c9239dd92e414c8a080854e7abaafdd3ff9b41d578fe",
+      "q_norm": "what is 18 8 34",
+      "question": "What is 18 × 8 + 34?",
+      "answer": "178",
+      "date_iso": "2026-04-20"
     }
   ],
   "publishes": {
@@ -4946,6 +4953,12 @@
           "artifact": "short-20260420-slot3",
           "fp": "e90b947e27f19111786b70654da788dc552aa02c9a0cacd82f2ee61b05d3da7a",
           "ts": "2026-04-20T14:58:31.310972+00:00"
+        },
+        "4": {
+          "video_id": "tvsR1eyBeyQ",
+          "artifact": "short-20260420-slot4",
+          "fp": "84e2fdc8dab32207f9c1c9239dd92e414c8a080854e7abaafdd3ff9b41d578fe",
+          "ts": "2026-04-20T20:11:26.321948+00:00"
         }
       }
     }
