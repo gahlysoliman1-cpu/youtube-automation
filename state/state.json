@@ -2199,6 +2199,13 @@
       "question": "What is the capital of Spain?",
       "answer": "Madrid",
       "date_iso": "2026-04-20"
+    },
+    {
+      "fp": "e90b947e27f19111786b70654da788dc552aa02c9a0cacd82f2ee61b05d3da7a",
+      "q_norm": "what is 94 5 22",
+      "question": "What is 94 × 5 + 22?",
+      "answer": "492",
+      "date_iso": "2026-04-20"
     }
   ],
   "publishes": {
@@ -4933,6 +4940,12 @@
           "artifact": "short-20260420-slot2",
           "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
           "ts": "2026-04-20T09:18:42.759832+00:00"
+        },
+        "3": {
+          "video_id": "0rMjb_Suy04",
+          "artifact": "short-20260420-slot3",
+          "fp": "e90b947e27f19111786b70654da788dc552aa02c9a0cacd82f2ee61b05d3da7a",
+          "ts": "2026-04-20T14:58:31.310972+00:00"
         }
       }
     }
