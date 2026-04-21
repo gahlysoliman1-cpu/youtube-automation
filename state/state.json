@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "818a9b9c3f2af103a0422e6ca12f4b3ee5941a166cc66ca943aae35017a8e270",
-      "q_norm": "what is the capital of peru",
-      "question": "What is the capital of Peru?",
-      "answer": "Lima",
-      "date_iso": "2026-01-20"
-    },
-    {
-      "fp": "933ddb928bff2beef263751ebf342be0ded7fc9cbae35cba0393398038a3721f",
-      "q_norm": "how many moons does mars have",
-      "question": "How many moons does Mars have?",
-      "answer": "2",
-      "date_iso": "2026-01-20"
-    },
-    {
-      "fp": "9a27c31f2ffe6638720004ef2b09c42ddcf90a1e2c269b4761e6626f9cf18bed",
-      "q_norm": "what does bend over backwards really mean",
-      "question": "What does 'bend over backwards' really mean?",
-      "answer": "go out of one's way to help",
-      "date_iso": "2026-01-20"
-    },
-    {
-      "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
-      "q_norm": "what has a head a tail but no body",
-      "question": "What has a head, a tail, but no body?",
-      "answer": "Coin",
-      "date_iso": "2026-01-20"
-    },
-    {
       "fp": "f77626107aa16dec7b958b7fec576f02b1ed0733dffe637bbe42fe96d49c823a",
       "q_norm": "if 761538604 is divided by 4 what s the last digit of the result",
       "question": "If 761538604 is divided by 4, what's the last digit of the result?",
@@ -2213,6 +2185,13 @@
       "question": "What is 18 × 8 + 34?",
       "answer": "178",
       "date_iso": "2026-04-20"
+    },
+    {
+      "fp": "f1716a9d7a215420346ec7274007d6d40dabc8b8e6ce40eb033246dc19275b66",
+      "q_norm": "what is 45 5 15",
+      "question": "What is 45 × 5 + 15?",
+      "answer": "240",
+      "date_iso": "2026-04-21"
     }
   ],
   "publishes": {
@@ -4959,6 +4938,16 @@
           "artifact": "short-20260420-slot4",
           "fp": "84e2fdc8dab32207f9c1c9239dd92e414c8a080854e7abaafdd3ff9b41d578fe",
           "ts": "2026-04-20T20:11:26.321948+00:00"
+        }
+      }
+    },
+    "20260421": {
+      "shorts": {
+        "1": {
+          "video_id": "FVHkareAcEk",
+          "artifact": "short-20260421-slot1",
+          "fp": "f1716a9d7a215420346ec7274007d6d40dabc8b8e6ce40eb033246dc19275b66",
+          "ts": "2026-04-21T04:19:55.945559+00:00"
         }
       }
     }
