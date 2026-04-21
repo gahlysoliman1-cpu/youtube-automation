@@ -2192,6 +2192,13 @@
       "question": "What is 45 × 5 + 15?",
       "answer": "240",
       "date_iso": "2026-04-21"
+    },
+    {
+      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+      "q_norm": "what is the capital of mexico",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "date_iso": "2026-04-21"
     }
   ],
   "publishes": {
@@ -4948,6 +4955,12 @@
           "artifact": "short-20260421-slot1",
           "fp": "f1716a9d7a215420346ec7274007d6d40dabc8b8e6ce40eb033246dc19275b66",
           "ts": "2026-04-21T04:19:55.945559+00:00"
+        },
+        "2": {
+          "video_id": "BAPM-WVA5q4",
+          "artifact": "short-20260421-slot2",
+          "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+          "ts": "2026-04-21T09:01:12.524520+00:00"
         }
       }
     }
