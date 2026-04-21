@@ -2206,6 +2206,13 @@
       "question": "What is H2O commonly called?",
       "answer": "Water",
       "date_iso": "2026-04-21"
+    },
+    {
+      "fp": "75ea913e79305ef99ed4ce9eaaa06dfe7010733843b9db72e22b9bd64045c66b",
+      "q_norm": "what is 50 4 21",
+      "question": "What is 50 × 4 + 21?",
+      "answer": "221",
+      "date_iso": "2026-04-21"
     }
   ],
   "publishes": {
@@ -4974,6 +4981,12 @@
           "artifact": "short-20260421-slot3",
           "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
           "ts": "2026-04-21T14:54:17.862309+00:00"
+        },
+        "4": {
+          "video_id": "c5JMLM5WZhg",
+          "artifact": "short-20260421-slot4",
+          "fp": "75ea913e79305ef99ed4ce9eaaa06dfe7010733843b9db72e22b9bd64045c66b",
+          "ts": "2026-04-21T20:15:35.205008+00:00"
         }
       }
     }
