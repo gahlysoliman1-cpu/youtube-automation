@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "f77626107aa16dec7b958b7fec576f02b1ed0733dffe637bbe42fe96d49c823a",
-      "q_norm": "if 761538604 is divided by 4 what s the last digit of the result",
-      "question": "If 761538604 is divided by 4, what's the last digit of the result?",
-      "answer": "1",
-      "date_iso": "2026-01-21"
-    },
-    {
-      "fp": "1a3ef1d7d6ba985bb48045562f3449f58df807f4e28666e7428572ddaf6ff60b",
-      "q_norm": "a bookshelf has 8 shelves and each shelf can hold 5 books if the bookshelf is currently empty how many books can be placed on it in total",
-      "question": "A bookshelf has 8 shelves, and each shelf can hold 5 books. If the bookshelf is currently empty, how many books can be placed on it in total?",
-      "answer": "40",
-      "date_iso": "2026-01-21"
-    },
-    {
-      "fp": "7c1a1ff31fdd1bb9feb388a742e577c5f8be48ab34681b47284671dfed244201",
-      "q_norm": "what does break a leg really mean",
-      "question": "What does 'break a leg' really mean?",
-      "answer": "Good luck",
-      "date_iso": "2026-01-21"
-    },
-    {
-      "fp": "f4e909b729986bf07f9610d315b7088937f27b19f830d62f829f1e14283bc3a5",
-      "q_norm": "what is 1576 14",
-      "question": "What is 1576 ÷ 14?",
-      "answer": "112",
-      "date_iso": "2026-01-21"
-    },
-    {
       "fp": "49a0c2f4f5516495bfa64990a656fa75caac72bd629e242800a9b28f7ed71a9c",
       "q_norm": "what s the meaning of bite off more than you can chew",
       "question": "What's the meaning of 'Bite off more than you can chew'?",
@@ -2213,6 +2185,13 @@
       "question": "What is 50 × 4 + 21?",
       "answer": "221",
       "date_iso": "2026-04-21"
+    },
+    {
+      "fp": "67a147c50e6b4122e461deb1ae14b1ac6564fa1104102ea913f45ce79e1b504d",
+      "q_norm": "what is 67 9 33",
+      "question": "What is 67 × 9 + 33?",
+      "answer": "636",
+      "date_iso": "2026-04-22"
     }
   ],
   "publishes": {
@@ -4987,6 +4966,16 @@
           "artifact": "short-20260421-slot4",
           "fp": "75ea913e79305ef99ed4ce9eaaa06dfe7010733843b9db72e22b9bd64045c66b",
           "ts": "2026-04-21T20:15:35.205008+00:00"
+        }
+      }
+    },
+    "20260422": {
+      "shorts": {
+        "1": {
+          "video_id": "2-CQmtIoY5w",
+          "artifact": "short-20260422-slot1",
+          "fp": "67a147c50e6b4122e461deb1ae14b1ac6564fa1104102ea913f45ce79e1b504d",
+          "ts": "2026-04-22T04:14:58.823290+00:00"
         }
       }
     }
