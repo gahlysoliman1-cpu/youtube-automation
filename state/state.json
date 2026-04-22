@@ -2206,6 +2206,13 @@
       "question": "What is 45 × 8 + 24?",
       "answer": "384",
       "date_iso": "2026-04-22"
+    },
+    {
+      "fp": "6c32febe59bd409db9eac10044860d8967f3aa8fddc60094893f60f5fe5cfa85",
+      "q_norm": "what is 88 8 5",
+      "question": "What is 88 × 8 + 5?",
+      "answer": "709",
+      "date_iso": "2026-04-22"
     }
   ],
   "publishes": {
@@ -5002,6 +5009,12 @@
           "artifact": "short-20260422-slot3",
           "fp": "64973e217b6cced07821abfc1f8cd78ad539ea86b6a0fe5c2968cc8bd6dae130",
           "ts": "2026-04-22T14:53:32.941266+00:00"
+        },
+        "4": {
+          "video_id": "vsnzgqLjgMA",
+          "artifact": "short-20260422-slot4",
+          "fp": "6c32febe59bd409db9eac10044860d8967f3aa8fddc60094893f60f5fe5cfa85",
+          "ts": "2026-04-22T20:16:33.479709+00:00"
         }
       }
     }
