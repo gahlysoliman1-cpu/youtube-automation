@@ -2199,6 +2199,13 @@
       "question": "What is 53 × 11 + 20?",
       "answer": "603",
       "date_iso": "2026-04-22"
+    },
+    {
+      "fp": "64973e217b6cced07821abfc1f8cd78ad539ea86b6a0fe5c2968cc8bd6dae130",
+      "q_norm": "what is 45 8 24",
+      "question": "What is 45 × 8 + 24?",
+      "answer": "384",
+      "date_iso": "2026-04-22"
     }
   ],
   "publishes": {
@@ -4989,6 +4996,12 @@
           "artifact": "short-20260422-slot2",
           "fp": "dfbdaf31afaa4480f4358c9663413b95e16baf79bab398b3c26a6915444a096f",
           "ts": "2026-04-22T08:58:46.448120+00:00"
+        },
+        "3": {
+          "video_id": "EbZZLKjG3ls",
+          "artifact": "short-20260422-slot3",
+          "fp": "64973e217b6cced07821abfc1f8cd78ad539ea86b6a0fe5c2968cc8bd6dae130",
+          "ts": "2026-04-22T14:53:32.941266+00:00"
         }
       }
     }
