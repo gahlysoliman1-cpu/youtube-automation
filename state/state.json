@@ -2199,6 +2199,13 @@
       "question": "What is 52 × 3 + 29?",
       "answer": "185",
       "date_iso": "2026-04-23"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-04-23"
     }
   ],
   "publishes": {
@@ -5017,6 +5024,12 @@
           "artifact": "short-20260423-slot2",
           "fp": "05e491efc811c997aa20f036ab1612b766de88bf429d356591b4282a8a7c1f8c",
           "ts": "2026-04-23T09:03:55.949787+00:00"
+        },
+        "3": {
+          "video_id": "j2vn2wQeXLc",
+          "artifact": "short-20260423-slot3",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-04-23T15:23:47.375973+00:00"
         }
       }
     }
