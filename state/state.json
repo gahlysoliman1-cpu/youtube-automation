@@ -2192,6 +2192,13 @@
       "question": "What is 21 × 8 + 24?",
       "answer": "192",
       "date_iso": "2026-04-23"
+    },
+    {
+      "fp": "05e491efc811c997aa20f036ab1612b766de88bf429d356591b4282a8a7c1f8c",
+      "q_norm": "what is 52 3 29",
+      "question": "What is 52 × 3 + 29?",
+      "answer": "185",
+      "date_iso": "2026-04-23"
     }
   ],
   "publishes": {
@@ -5004,6 +5011,12 @@
           "artifact": "short-20260423-slot1",
           "fp": "080b8221cb8cb66071ba141c200b5da48c4ced105d26dea2dec8a02f2b758b59",
           "ts": "2026-04-23T04:22:04.050130+00:00"
+        },
+        "2": {
+          "video_id": "GScTo7zeW58",
+          "artifact": "short-20260423-slot2",
+          "fp": "05e491efc811c997aa20f036ab1612b766de88bf429d356591b4282a8a7c1f8c",
+          "ts": "2026-04-23T09:03:55.949787+00:00"
         }
       }
     }
