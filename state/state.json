@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "49a0c2f4f5516495bfa64990a656fa75caac72bd629e242800a9b28f7ed71a9c",
-      "q_norm": "what s the meaning of bite off more than you can chew",
-      "question": "What's the meaning of 'Bite off more than you can chew'?",
-      "answer": "Take on more responsibility than you can handle",
-      "date_iso": "2026-01-22"
-    },
-    {
-      "fp": "0afb5c6d96ad149c8c90b36bae549d9b760a11a16883cc07de2ecb81e066929d",
-      "q_norm": "if 3 friends share 48 cookies how many cookies does each friend get",
-      "question": "If 3 friends share 48 cookies, how many cookies does each friend get?",
-      "answer": "16",
-      "date_iso": "2026-01-22"
-    },
-    {
-      "fp": "d252ac8341e2cbb2caf6a28cedd4dd51c2c88ab63461b2b67cf59095126339bb",
-      "q_norm": "what insect can turn its body into a wheel for defense",
-      "question": "What insect can turn its body into a 'wheel' for defense?",
-      "answer": "Rolling dung beetle",
-      "date_iso": "2026-01-22"
-    },
-    {
-      "fp": "50edbf86c9fd47c18590fd094c519d40970a6221d999744b581bcb154a4628c2",
-      "q_norm": "a bat and a ball together cost 1 10 the bat costs 1 00 more than the ball how much does the ball cost",
-      "question": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
-      "answer": "5 cents",
-      "date_iso": "2026-01-22"
-    },
-    {
       "fp": "8ea37fca8025b06c02cb23150ddcba0c79a62fcdca50fe90825254d106c41785",
       "q_norm": "what has the largest brain to body mass ratio among animals",
       "question": "What has the largest brain-to-body mass ratio among animals?",
@@ -2213,6 +2185,13 @@
       "question": "What is 88 × 8 + 5?",
       "answer": "709",
       "date_iso": "2026-04-22"
+    },
+    {
+      "fp": "080b8221cb8cb66071ba141c200b5da48c4ced105d26dea2dec8a02f2b758b59",
+      "q_norm": "what is 21 8 24",
+      "question": "What is 21 × 8 + 24?",
+      "answer": "192",
+      "date_iso": "2026-04-23"
     }
   ],
   "publishes": {
@@ -5015,6 +4994,16 @@
           "artifact": "short-20260422-slot4",
           "fp": "6c32febe59bd409db9eac10044860d8967f3aa8fddc60094893f60f5fe5cfa85",
           "ts": "2026-04-22T20:16:33.479709+00:00"
+        }
+      }
+    },
+    "20260423": {
+      "shorts": {
+        "1": {
+          "video_id": "5kDrAGTBE1s",
+          "artifact": "short-20260423-slot1",
+          "fp": "080b8221cb8cb66071ba141c200b5da48c4ced105d26dea2dec8a02f2b758b59",
+          "ts": "2026-04-23T04:22:04.050130+00:00"
         }
       }
     }
