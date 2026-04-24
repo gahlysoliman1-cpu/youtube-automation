@@ -2199,6 +2199,13 @@
       "question": "What is 53 × 5 + 7?",
       "answer": "272",
       "date_iso": "2026-04-24"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-04-24"
     }
   ],
   "publishes": {
@@ -5045,6 +5052,12 @@
           "artifact": "short-20260424-slot3",
           "fp": "a8cbdf5b2c630a9e556f04447d738bda2a4af4af466dd47a77d87995eb694f22",
           "ts": "2026-04-24T14:50:04.003146+00:00"
+        },
+        "4": {
+          "video_id": "M8XAAzMrLaI",
+          "artifact": "short-20260424-slot4",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-04-24T19:58:38.190108+00:00"
         }
       }
     }
