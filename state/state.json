@@ -2192,6 +2192,13 @@
       "question": "What is 37 × 4 + 16?",
       "answer": "164",
       "date_iso": "2026-04-24"
+    },
+    {
+      "fp": "a8cbdf5b2c630a9e556f04447d738bda2a4af4af466dd47a77d87995eb694f22",
+      "q_norm": "what is 53 5 7",
+      "question": "What is 53 × 5 + 7?",
+      "answer": "272",
+      "date_iso": "2026-04-24"
     }
   ],
   "publishes": {
@@ -5032,6 +5039,12 @@
           "artifact": "short-20260424-slot1",
           "fp": "3a665bc6f47086f0f4a0ab6ad626ad69d19d0a049b212ad24c1edcffb7fd96ca",
           "ts": "2026-04-24T04:26:12.516231+00:00"
+        },
+        "3": {
+          "video_id": "VMmJItOhPMo",
+          "artifact": "short-20260424-slot3",
+          "fp": "a8cbdf5b2c630a9e556f04447d738bda2a4af4af466dd47a77d87995eb694f22",
+          "ts": "2026-04-24T14:50:04.003146+00:00"
         }
       }
     }
