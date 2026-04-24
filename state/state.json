@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "8ea37fca8025b06c02cb23150ddcba0c79a62fcdca50fe90825254d106c41785",
-      "q_norm": "what has the largest brain to body mass ratio among animals",
-      "question": "What has the largest brain-to-body mass ratio among animals?",
-      "answer": "Sperm whale",
-      "date_iso": "2026-01-23"
-    },
-    {
-      "fp": "d03f0e0fa29ca8b0b4d6ac784118eb702c9ca98af2f6cf9e5ae06068451a7321",
-      "q_norm": "the first computer bug was caused by a real insect in which year",
-      "question": "The first computer bug was caused by a real insect in which year?",
-      "answer": "1947",
-      "date_iso": "2026-01-23"
-    },
-    {
-      "fp": "86e76ea58dbadf9ffe86083b6ca47a96db8f795170fe02443f40465b16aca61a",
-      "q_norm": "what s 338 942 997 divided by 7",
-      "question": "What's 338,942,997 divided by 7?",
-      "answer": "48,492,571",
-      "date_iso": "2026-01-23"
-    },
-    {
-      "fp": "d071b823764669a9a0ec67cd316c14467f5afd6f4a1ebb433c01265889bfb1cb",
-      "q_norm": "i have a 3 digit number if you reverse my digits i m the same what am i",
-      "question": "I have a 3-digit number. If you reverse my digits, I'm the same. What am I?",
-      "answer": "808",
-      "date_iso": "2026-01-23"
-    },
-    {
       "fp": "745d2dbb57a536626a2699814b4686eb7c6e766f499a01973a8b8a99744b2b6a",
       "q_norm": "which big cat has the longest tail relative to its body",
       "question": "Which big cat has the longest tail relative to its body?",
@@ -2213,6 +2185,13 @@
       "question": "What is 56 × 9 + 35?",
       "answer": "539",
       "date_iso": "2026-04-23"
+    },
+    {
+      "fp": "3a665bc6f47086f0f4a0ab6ad626ad69d19d0a049b212ad24c1edcffb7fd96ca",
+      "q_norm": "what is 37 4 16",
+      "question": "What is 37 × 4 + 16?",
+      "answer": "164",
+      "date_iso": "2026-04-24"
     }
   ],
   "publishes": {
@@ -5043,6 +5022,16 @@
           "artifact": "short-20260423-slot4",
           "fp": "834d4a4d56907ebbcf2e0a3fcc05422a9749435f84507faefdcbacfd6e66f3d0",
           "ts": "2026-04-23T20:17:09.607900+00:00"
+        }
+      }
+    },
+    "20260424": {
+      "shorts": {
+        "1": {
+          "video_id": "Kv5iSpX9EBo",
+          "artifact": "short-20260424-slot1",
+          "fp": "3a665bc6f47086f0f4a0ab6ad626ad69d19d0a049b212ad24c1edcffb7fd96ca",
+          "ts": "2026-04-24T04:26:12.516231+00:00"
         }
       }
     }
