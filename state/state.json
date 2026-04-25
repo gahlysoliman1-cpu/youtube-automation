@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "745d2dbb57a536626a2699814b4686eb7c6e766f499a01973a8b8a99744b2b6a",
-      "q_norm": "which big cat has the longest tail relative to its body",
-      "question": "Which big cat has the longest tail relative to its body?",
-      "answer": "Snow Leopard",
-      "date_iso": "2026-01-24"
-    },
-    {
-      "fp": "9c3fb234c2be00c2f2a3457dbed6becdd6b1a67f46eacf9d43f1840bfb1a1e0a",
-      "q_norm": "what does ram stand for",
-      "question": "What does RAM stand for?",
-      "answer": "Random Access Memory",
-      "date_iso": "2026-01-24"
-    },
-    {
-      "fp": "82caf820ab329e6e304153e00f699025ea5e5c493aaf298d1472eb5b3b4e199d",
-      "q_norm": "what unique feature allows the axolotl to regrow lost limbs",
-      "question": "What unique feature allows the axolotl to regrow lost limbs?",
-      "answer": "Their ability to regenerate cells",
-      "date_iso": "2026-01-24"
-    },
-    {
-      "fp": "f0a25d214f3dbe34d38ca5ef33b489d300e5546b41d1520019e84215e5104cd7",
-      "q_norm": "most career home runs in baseball",
-      "question": "Most career home runs in baseball?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-01-24"
-    },
-    {
       "fp": "2512d8e0c73605447166ec71fe08ae649f066749a62ce7622053b2a9de29667b",
       "q_norm": "what s the capital of colombia",
       "question": "What's the capital of Colombia?",
@@ -2206,6 +2178,13 @@
       "question": "What is the capital of Egypt?",
       "answer": "Cairo",
       "date_iso": "2026-04-24"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-04-25"
     }
   ],
   "publishes": {
@@ -5058,6 +5037,16 @@
           "artifact": "short-20260424-slot4",
           "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
           "ts": "2026-04-24T19:58:38.190108+00:00"
+        }
+      }
+    },
+    "20260425": {
+      "shorts": {
+        "1": {
+          "video_id": "2tAAZHzZ0Mk",
+          "artifact": "short-20260425-slot1",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-04-25T04:05:38.225652+00:00"
         }
       }
     }
