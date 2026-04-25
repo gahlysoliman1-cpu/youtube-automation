@@ -2192,6 +2192,13 @@
       "question": "Which star is closest to Earth?",
       "answer": "The Sun",
       "date_iso": "2026-04-25"
+    },
+    {
+      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+      "q_norm": "what is the capital of japan",
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "date_iso": "2026-04-25"
     }
   ],
   "publishes": {
@@ -5060,6 +5067,12 @@
           "artifact": "short-20260425-slot2",
           "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
           "ts": "2026-04-25T08:11:43.124665+00:00"
+        },
+        "3": {
+          "video_id": "HV5JLq96xTI",
+          "artifact": "short-20260425-slot3",
+          "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+          "ts": "2026-04-25T14:12:43.135873+00:00"
         }
       }
     }
