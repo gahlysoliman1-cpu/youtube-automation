@@ -2185,6 +2185,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-04-25"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-04-25"
     }
   ],
   "publishes": {
@@ -5047,6 +5054,12 @@
           "artifact": "short-20260425-slot1",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-04-25T04:05:38.225652+00:00"
+        },
+        "2": {
+          "video_id": "rxKdW98RXrY",
+          "artifact": "short-20260425-slot2",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-04-25T08:11:43.124665+00:00"
         }
       }
     }
