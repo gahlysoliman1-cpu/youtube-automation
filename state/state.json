@@ -2199,6 +2199,13 @@
       "question": "What is the capital of Japan?",
       "answer": "Tokyo",
       "date_iso": "2026-04-25"
+    },
+    {
+      "fp": "fa982246ab690b4d409e651831a0bd076dabcbbb393f6da62ea7bb852243a894",
+      "q_norm": "what is 38 9 27",
+      "question": "What is 38 × 9 + 27?",
+      "answer": "369",
+      "date_iso": "2026-04-25"
     }
   ],
   "publishes": {
@@ -5073,6 +5080,12 @@
           "artifact": "short-20260425-slot3",
           "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
           "ts": "2026-04-25T14:12:43.135873+00:00"
+        },
+        "4": {
+          "video_id": "vAXKDozHGgk",
+          "artifact": "short-20260425-slot4",
+          "fp": "fa982246ab690b4d409e651831a0bd076dabcbbb393f6da62ea7bb852243a894",
+          "ts": "2026-04-25T19:51:20.606075+00:00"
         }
       }
     }
