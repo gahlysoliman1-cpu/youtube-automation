@@ -2185,6 +2185,13 @@
       "question": "What is 25 × 6 + 17?",
       "answer": "167",
       "date_iso": "2026-04-26"
+    },
+    {
+      "fp": "380796d2e354ae173686f2d82146800236ebefd070f8a887cae293199a1b4fb0",
+      "q_norm": "what is 65 8 7",
+      "question": "What is 65 × 8 + 7?",
+      "answer": "527",
+      "date_iso": "2026-04-26"
     }
   ],
   "publishes": {
@@ -5075,6 +5082,12 @@
           "artifact": "short-20260426-slot1",
           "fp": "f244fc3f3858deb3ac27751577a1e956ea0f1eceb3bc9b806633397838d6d914",
           "ts": "2026-04-26T04:31:45.978729+00:00"
+        },
+        "2": {
+          "video_id": "TbSg7Gvedoo",
+          "artifact": "short-20260426-slot2",
+          "fp": "380796d2e354ae173686f2d82146800236ebefd070f8a887cae293199a1b4fb0",
+          "ts": "2026-04-26T08:22:48.591266+00:00"
         }
       }
     }
