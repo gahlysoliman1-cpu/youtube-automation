@@ -2199,6 +2199,13 @@
       "question": "What is 30 × 8 + 30?",
       "answer": "270",
       "date_iso": "2026-04-26"
+    },
+    {
+      "fp": "1cbc6ef981f6f3fec713e8353640b518146433c38e72ad82b3600cd974e07b6a",
+      "q_norm": "what is 27 7 39",
+      "question": "What is 27 × 7 + 39?",
+      "answer": "228",
+      "date_iso": "2026-04-26"
     }
   ],
   "publishes": {
@@ -5101,6 +5108,12 @@
           "artifact": "short-20260426-slot3",
           "fp": "863c704a9c18908d5041ec6f738382a195d661c309d5d5d29ffe8b7a69f3879d",
           "ts": "2026-04-26T14:12:03.509330+00:00"
+        },
+        "4": {
+          "video_id": "2k62VaLBoEU",
+          "artifact": "short-20260426-slot4",
+          "fp": "1cbc6ef981f6f3fec713e8353640b518146433c38e72ad82b3600cd974e07b6a",
+          "ts": "2026-04-26T19:54:17.044982+00:00"
         }
       }
     }
