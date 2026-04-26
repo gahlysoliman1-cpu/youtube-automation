@@ -2192,6 +2192,13 @@
       "question": "What is 65 × 8 + 7?",
       "answer": "527",
       "date_iso": "2026-04-26"
+    },
+    {
+      "fp": "863c704a9c18908d5041ec6f738382a195d661c309d5d5d29ffe8b7a69f3879d",
+      "q_norm": "what is 30 8 30",
+      "question": "What is 30 × 8 + 30?",
+      "answer": "270",
+      "date_iso": "2026-04-26"
     }
   ],
   "publishes": {
@@ -5088,6 +5095,12 @@
           "artifact": "short-20260426-slot2",
           "fp": "380796d2e354ae173686f2d82146800236ebefd070f8a887cae293199a1b4fb0",
           "ts": "2026-04-26T08:22:48.591266+00:00"
+        },
+        "3": {
+          "video_id": "ycF9Dss1Rb8",
+          "artifact": "short-20260426-slot3",
+          "fp": "863c704a9c18908d5041ec6f738382a195d661c309d5d5d29ffe8b7a69f3879d",
+          "ts": "2026-04-26T14:12:03.509330+00:00"
         }
       }
     }
