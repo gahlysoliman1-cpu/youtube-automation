@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "2512d8e0c73605447166ec71fe08ae649f066749a62ce7622053b2a9de29667b",
-      "q_norm": "what s the capital of colombia",
-      "question": "What's the capital of Colombia?",
-      "answer": "Bogotá",
-      "date_iso": "2026-01-25"
-    },
-    {
-      "fp": "ce7c8a8c9a9a5c8c9ab98c2a73baeecc388232515344a22a58fbaaad58c0ff90",
-      "q_norm": "i have a head a tail but no body what am i",
-      "question": "I have a head, a tail, but no body. What am I?",
-      "answer": "A Coin",
-      "date_iso": "2026-01-25"
-    },
-    {
-      "fp": "6881d4b6fc6b6a97cd99882a517210b492e1cf83a69fd6f2ae5303aec3a18b72",
-      "q_norm": "i am a 9 digit number with the digits 8 3 4 2 4 0 2 3 7 what digit appears twice",
-      "question": "I am a 9-digit number with the digits 8, 3, 4, 2, 4, 0, 2, 3, 7. What digit appears twice?",
-      "answer": "4",
-      "date_iso": "2026-01-25"
-    },
-    {
-      "fp": "e4d3866346de1eae89fcb878189245c248386ea9308e105878223eace40ad624",
-      "q_norm": "what is the longest tennis match in history by duration",
-      "question": "What is the longest tennis match in history by duration?",
-      "answer": "11 hours 5 minutes",
-      "date_iso": "2026-01-25"
-    },
-    {
       "fp": "081b780c7301e582a3e523747582b4ba8fe4ceae386aa06dd7475fb640c3ba9d",
       "q_norm": "what s the result of 743 280 9 8",
       "question": "What's the result of 743,280 ÷ 9 × 8?",
@@ -2206,6 +2178,13 @@
       "question": "What is 38 × 9 + 27?",
       "answer": "369",
       "date_iso": "2026-04-25"
+    },
+    {
+      "fp": "f244fc3f3858deb3ac27751577a1e956ea0f1eceb3bc9b806633397838d6d914",
+      "q_norm": "what is 25 6 17",
+      "question": "What is 25 × 6 + 17?",
+      "answer": "167",
+      "date_iso": "2026-04-26"
     }
   ],
   "publishes": {
@@ -5086,6 +5065,16 @@
           "artifact": "short-20260425-slot4",
           "fp": "fa982246ab690b4d409e651831a0bd076dabcbbb393f6da62ea7bb852243a894",
           "ts": "2026-04-25T19:51:20.606075+00:00"
+        }
+      }
+    },
+    "20260426": {
+      "shorts": {
+        "1": {
+          "video_id": "RbDWwEtoajs",
+          "artifact": "short-20260426-slot1",
+          "fp": "f244fc3f3858deb3ac27751577a1e956ea0f1eceb3bc9b806633397838d6d914",
+          "ts": "2026-04-26T04:31:45.978729+00:00"
         }
       }
     }
