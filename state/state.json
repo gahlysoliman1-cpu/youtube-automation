@@ -2192,6 +2192,13 @@
       "question": "What is 73 × 2 + 9?",
       "answer": "155",
       "date_iso": "2026-04-27"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-04-27"
     }
   ],
   "publishes": {
@@ -5116,6 +5123,12 @@
           "artifact": "short-20260427-slot2",
           "fp": "258ed641e5d028734c5470ed962bc08fe0bdb9c2f56e71beffe9f327927d5686",
           "ts": "2026-04-27T09:29:45.160441+00:00"
+        },
+        "3": {
+          "video_id": "QvUNLVV9pqA",
+          "artifact": "short-20260427-slot3",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-04-27T15:21:25.391826+00:00"
         }
       }
     }
