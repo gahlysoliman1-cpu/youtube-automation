@@ -2185,6 +2185,13 @@
       "question": "What is 45 × 9 + 36?",
       "answer": "441",
       "date_iso": "2026-04-27"
+    },
+    {
+      "fp": "258ed641e5d028734c5470ed962bc08fe0bdb9c2f56e71beffe9f327927d5686",
+      "q_norm": "what is 73 2 9",
+      "question": "What is 73 × 2 + 9?",
+      "answer": "155",
+      "date_iso": "2026-04-27"
     }
   ],
   "publishes": {
@@ -5103,6 +5110,12 @@
           "artifact": "short-20260427-slot1",
           "fp": "2ba9c701108e92cbf872347dbdc0014d6baeed6c4477eca97fe0cee93c3ba33d",
           "ts": "2026-04-27T04:37:42.446667+00:00"
+        },
+        "2": {
+          "video_id": "NS895Uf3HXw",
+          "artifact": "short-20260427-slot2",
+          "fp": "258ed641e5d028734c5470ed962bc08fe0bdb9c2f56e71beffe9f327927d5686",
+          "ts": "2026-04-27T09:29:45.160441+00:00"
         }
       }
     }
