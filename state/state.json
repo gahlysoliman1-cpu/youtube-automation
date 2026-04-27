@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "081b780c7301e582a3e523747582b4ba8fe4ceae386aa06dd7475fb640c3ba9d",
-      "q_norm": "what s the result of 743 280 9 8",
-      "question": "What's the result of 743,280 ÷ 9 × 8?",
-      "answer": "662,176",
-      "date_iso": "2026-01-26"
-    },
-    {
-      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
-      "q_norm": "what does cpu stand for",
-      "question": "What does CPU stand for?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-01-26"
-    },
-    {
-      "fp": "3f0f28caa3cbb4ee1f302d64355d2d14748c6608eabd5e082b5e2d7a0daa0840",
-      "q_norm": "most career home runs in mlb history",
-      "question": "Most career home runs in MLB history?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-01-26"
-    },
-    {
-      "fp": "45ecf6a62e664b94d842103ffbadca4a577900bba004372f85759a22ecc47d7c",
-      "q_norm": "most career mlb home runs by a single player as of 2023",
-      "question": "Most career MLB home runs by a single player, as of 2023?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-01-26"
-    },
-    {
       "fp": "7571631e10e8ec6a599513b2e500973d57cffdd4dc265f200bf35c5db0ce7e02",
       "q_norm": "what s the longest recorded tennis match duration in hours",
       "question": "What's the longest recorded tennis match duration in hours?",
@@ -2206,6 +2178,13 @@
       "question": "What is 27 × 7 + 39?",
       "answer": "228",
       "date_iso": "2026-04-26"
+    },
+    {
+      "fp": "2ba9c701108e92cbf872347dbdc0014d6baeed6c4477eca97fe0cee93c3ba33d",
+      "q_norm": "what is 45 9 36",
+      "question": "What is 45 × 9 + 36?",
+      "answer": "441",
+      "date_iso": "2026-04-27"
     }
   ],
   "publishes": {
@@ -5114,6 +5093,16 @@
           "artifact": "short-20260426-slot4",
           "fp": "1cbc6ef981f6f3fec713e8353640b518146433c38e72ad82b3600cd974e07b6a",
           "ts": "2026-04-26T19:54:17.044982+00:00"
+        }
+      }
+    },
+    "20260427": {
+      "shorts": {
+        "1": {
+          "video_id": "hEvKDFSamow",
+          "artifact": "short-20260427-slot1",
+          "fp": "2ba9c701108e92cbf872347dbdc0014d6baeed6c4477eca97fe0cee93c3ba33d",
+          "ts": "2026-04-27T04:37:42.446667+00:00"
         }
       }
     }
