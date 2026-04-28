@@ -2178,6 +2178,13 @@
       "question": "What is 82 × 11 + 31?",
       "answer": "933",
       "date_iso": "2026-04-28"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-04-28"
     }
   ],
   "publishes": {
@@ -5118,6 +5125,12 @@
           "artifact": "short-20260428-slot2",
           "fp": "c0b2f5ca3c08a9c3d065fe40d72af5170a123165a09a00bc8f7dd55ece89e28b",
           "ts": "2026-04-28T09:37:29.236394+00:00"
+        },
+        "3": {
+          "video_id": "9Zv60kq6jDI",
+          "artifact": "short-20260428-slot3",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-04-28T15:34:09.882528+00:00"
         }
       }
     }
