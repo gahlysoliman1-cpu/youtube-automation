@@ -2171,6 +2171,13 @@
       "question": "What is 90 × 8 + 18?",
       "answer": "738",
       "date_iso": "2026-04-29"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-04-29"
     }
   ],
   "publishes": {
@@ -5133,6 +5140,12 @@
           "artifact": "short-20260429-slot1",
           "fp": "56a0d23e306400b502d83c7377779f54cd46b4dd600faf8ad7a7cdec7deb79d3",
           "ts": "2026-04-29T04:37:42.961616+00:00"
+        },
+        "2": {
+          "video_id": "qw0xWHxhkZw",
+          "artifact": "short-20260429-slot2",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-04-29T09:21:54.027896+00:00"
         }
       }
     }
