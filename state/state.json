@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
-      "q_norm": "what does break a leg mean",
-      "question": "What does 'break a leg' mean?",
-      "answer": "Good luck",
-      "date_iso": "2026-01-28"
-    },
-    {
-      "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
-      "q_norm": "what is the largest planet in our solar system",
-      "question": "What is the largest planet in our solar system?",
-      "answer": "Jupiter",
-      "date_iso": "2026-01-28"
-    },
-    {
-      "fp": "b2f1d1580b56814a3342bfdfa809f6517b3749b4d2594ba4d0128264bec661fd",
-      "q_norm": "what does bend over backwards mean",
-      "question": "What does 'bend over backwards' mean?",
-      "answer": "Go out of one's way",
-      "date_iso": "2026-01-28"
-    },
-    {
-      "fp": "38eb2717e033edef9ea73cd1053d09a51c56ff1fccb8c53f9ecb3fa4089202a5",
-      "q_norm": "if 5 shirts cost 385 11 how much is each shirt",
-      "question": "If 5 shirts cost $385.11, how much is each shirt?",
-      "answer": "77.022",
-      "date_iso": "2026-01-28"
-    },
-    {
       "fp": "50dc5eaa1ead40bba8733d7e71dee9fdde031ee7d492b3baaed141379f44bb1d",
       "q_norm": "what s 59409925 divided by 5",
       "question": "What's 59409925 divided by 5?",
@@ -2192,6 +2164,13 @@
       "question": "What is 62 × 9 + 18?",
       "answer": "576",
       "date_iso": "2026-04-28"
+    },
+    {
+      "fp": "56a0d23e306400b502d83c7377779f54cd46b4dd600faf8ad7a7cdec7deb79d3",
+      "q_norm": "what is 90 8 18",
+      "question": "What is 90 × 8 + 18?",
+      "answer": "738",
+      "date_iso": "2026-04-29"
     }
   ],
   "publishes": {
@@ -5144,6 +5123,16 @@
           "artifact": "short-20260428-slot4",
           "fp": "35aa4f64eab2d0c45259c964c9e41f6249149ea4239efd80d5a36955990fdc2a",
           "ts": "2026-04-28T20:27:30.122501+00:00"
+        }
+      }
+    },
+    "20260429": {
+      "shorts": {
+        "1": {
+          "video_id": "IHmGzFFMQG4",
+          "artifact": "short-20260429-slot1",
+          "fp": "56a0d23e306400b502d83c7377779f54cd46b4dd600faf8ad7a7cdec7deb79d3",
+          "ts": "2026-04-29T04:37:42.961616+00:00"
         }
       }
     }
