@@ -2171,6 +2171,13 @@
       "question": "What is 90 × 6 + 5?",
       "answer": "545",
       "date_iso": "2026-04-30"
+    },
+    {
+      "fp": "37ae3b63b98bb403b545edaec295b153f3caf8527a8fca1be5e6c9b826bd787a",
+      "q_norm": "what is 72 2 31",
+      "question": "What is 72 × 2 + 31?",
+      "answer": "175",
+      "date_iso": "2026-04-30"
     }
   ],
   "publishes": {
@@ -5161,6 +5168,12 @@
           "artifact": "short-20260430-slot1",
           "fp": "d76b9083602dcda4041dff9d22b162788f8bee8c0cb134d72f85395c1cc5a059",
           "ts": "2026-04-30T04:41:22.491878+00:00"
+        },
+        "2": {
+          "video_id": "jE3SL2Fi4vk",
+          "artifact": "short-20260430-slot2",
+          "fp": "37ae3b63b98bb403b545edaec295b153f3caf8527a8fca1be5e6c9b826bd787a",
+          "ts": "2026-04-30T09:28:22.929501+00:00"
         }
       }
     }
