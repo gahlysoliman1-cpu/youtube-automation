@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "50dc5eaa1ead40bba8733d7e71dee9fdde031ee7d492b3baaed141379f44bb1d",
-      "q_norm": "what s 59409925 divided by 5",
-      "question": "What's 59409925 divided by 5?",
-      "answer": "11881985",
-      "date_iso": "2026-01-29"
-    },
-    {
-      "fp": "59c6af258702806e43d123074c302984c1f17358fe2c73d86fc13c7a5e75481a",
-      "q_norm": "if 309 837 847 is divided by 11 what s the remainder",
-      "question": "If 309,837,847 is divided by 11, what's the remainder?",
-      "answer": "7",
-      "date_iso": "2026-01-29"
-    },
-    {
-      "fp": "65439498e02787152158d2af31635ded1c1ddd0fad9e24906c00c8f3a0afc5e1",
-      "q_norm": "what can be broken but never held",
-      "question": "What can be broken but never held?",
-      "answer": "A promise",
-      "date_iso": "2026-01-29"
-    },
-    {
-      "fp": "f2ce40ba3aeab708242e6fc6d1fde6451555be79f08cb40d91e39de6701f5ad7",
-      "q_norm": "in japanese cuisine what s often served with sushi",
-      "question": "In Japanese cuisine, what's often served with sushi?",
-      "answer": "Wasabi and ginger",
-      "date_iso": "2026-01-29"
-    },
-    {
       "fp": "710e50ccb6cd748ec4e227dce41e30b5dc37bcefba2917a649d832efbc591738",
       "q_norm": "what is the approximate number of bytes in a megabyte",
       "question": "What is the approximate number of bytes in a megabyte?",
@@ -2192,6 +2164,13 @@
       "question": "What is 97 × 6 + 12?",
       "answer": "594",
       "date_iso": "2026-04-29"
+    },
+    {
+      "fp": "d76b9083602dcda4041dff9d22b162788f8bee8c0cb134d72f85395c1cc5a059",
+      "q_norm": "what is 90 6 5",
+      "question": "What is 90 × 6 + 5?",
+      "answer": "545",
+      "date_iso": "2026-04-30"
     }
   ],
   "publishes": {
@@ -5172,6 +5151,16 @@
           "artifact": "short-20260429-slot4",
           "fp": "275b906e73aa77af69206bbee783ae8dead8c690452586a091590a91c86244d6",
           "ts": "2026-04-29T20:20:06.697478+00:00"
+        }
+      }
+    },
+    "20260430": {
+      "shorts": {
+        "1": {
+          "video_id": "u6c9x6Mz6Y4",
+          "artifact": "short-20260430-slot1",
+          "fp": "d76b9083602dcda4041dff9d22b162788f8bee8c0cb134d72f85395c1cc5a059",
+          "ts": "2026-04-30T04:41:22.491878+00:00"
         }
       }
     }
