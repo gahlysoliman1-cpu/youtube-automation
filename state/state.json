@@ -2185,6 +2185,13 @@
       "question": "What is 51 × 6 + 24?",
       "answer": "330",
       "date_iso": "2026-04-30"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-04-30"
     }
   ],
   "publishes": {
@@ -5187,6 +5194,12 @@
           "artifact": "short-20260430-slot3",
           "fp": "671a1ca2ff44b815c782f57a4cde4c1b743ef273dbda6fd9950c7b0a6307444f",
           "ts": "2026-04-30T15:21:19.504450+00:00"
+        },
+        "4": {
+          "video_id": "bt86tbhAH60",
+          "artifact": "short-20260430-slot4",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-04-30T20:23:26.646644+00:00"
         }
       }
     }
