@@ -2171,6 +2171,13 @@
       "question": "What is 67 × 11 + 33?",
       "answer": "770",
       "date_iso": "2026-05-01"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-05-01"
     }
   ],
   "publishes": {
@@ -5189,6 +5196,12 @@
           "artifact": "short-20260501-slot1",
           "fp": "e6fd9603b20a9a0b281a6abae6f3a5dc6c8705986e2bdfe1ab678086b3cce490",
           "ts": "2026-05-01T04:57:28.707656+00:00"
+        },
+        "2": {
+          "video_id": "w_5-xkXA8e0",
+          "artifact": "short-20260501-slot2",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-05-01T09:11:32.495017+00:00"
         }
       }
     }
