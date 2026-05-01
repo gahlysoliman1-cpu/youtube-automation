@@ -2178,6 +2178,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-05-01"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-05-01"
     }
   ],
   "publishes": {
@@ -5202,6 +5209,12 @@
           "artifact": "short-20260501-slot2",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-05-01T09:11:32.495017+00:00"
+        },
+        "3": {
+          "video_id": "6WytGWu7R4s",
+          "artifact": "short-20260501-slot3",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-05-01T14:21:50.514764+00:00"
         }
       }
     }
