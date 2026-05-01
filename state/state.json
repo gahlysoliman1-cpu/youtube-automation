@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "710e50ccb6cd748ec4e227dce41e30b5dc37bcefba2917a649d832efbc591738",
-      "q_norm": "what is the approximate number of bytes in a megabyte",
-      "question": "What is the approximate number of bytes in a megabyte?",
-      "answer": "1,048,576",
-      "date_iso": "2026-01-30"
-    },
-    {
-      "fp": "75d414fc0dae6d71e74e02a48d1eedd8f5546925b0bd6829f58caa6090699217",
-      "q_norm": "what s the fastest land animal",
-      "question": "What's the fastest land animal?",
-      "answer": "Cheetah",
-      "date_iso": "2026-01-30"
-    },
-    {
-      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
-      "q_norm": "what popular italian dessert s name means pick me up",
-      "question": "What popular Italian dessert's name means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-30"
-    },
-    {
-      "fp": "aac1f0762c7131a59c012869716837e6636cacf83279d8edd17a9bd864c7b6d7",
-      "q_norm": "what does cpu stand for in computers",
-      "question": "What does CPU stand for in computers?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-01-30"
-    },
-    {
       "fp": "4b38240396c9f5650e7b7b89d04dee3e02653f22ae6d13bc6cf78b63dad41c12",
       "q_norm": "who holds the record for most career home runs in professional baseball",
       "question": "Who holds the record for most career home runs in professional baseball?",
@@ -2192,6 +2164,13 @@
       "question": "What is H2O commonly called?",
       "answer": "Water",
       "date_iso": "2026-04-30"
+    },
+    {
+      "fp": "e6fd9603b20a9a0b281a6abae6f3a5dc6c8705986e2bdfe1ab678086b3cce490",
+      "q_norm": "what is 67 11 33",
+      "question": "What is 67 × 11 + 33?",
+      "answer": "770",
+      "date_iso": "2026-05-01"
     }
   ],
   "publishes": {
@@ -5200,6 +5179,16 @@
           "artifact": "short-20260430-slot4",
           "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
           "ts": "2026-04-30T20:23:26.646644+00:00"
+        }
+      }
+    },
+    "20260501": {
+      "shorts": {
+        "1": {
+          "video_id": "zL20ggBJDgw",
+          "artifact": "short-20260501-slot1",
+          "fp": "e6fd9603b20a9a0b281a6abae6f3a5dc6c8705986e2bdfe1ab678086b3cce490",
+          "ts": "2026-05-01T04:57:28.707656+00:00"
         }
       }
     }
