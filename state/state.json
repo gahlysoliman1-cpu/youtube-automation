@@ -2178,6 +2178,13 @@
       "question": "What is 79 × 9 + 16?",
       "answer": "727",
       "date_iso": "2026-05-02"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-05-02"
     }
   ],
   "publishes": {
@@ -5230,6 +5237,12 @@
           "artifact": "short-20260502-slot2",
           "fp": "9b763253ee5716d5f2177f207d27b350a6a0d33efc42448e1f5fc57806ef3da6",
           "ts": "2026-05-02T08:44:50.996069+00:00"
+        },
+        "3": {
+          "video_id": "iFKVEkJjCX8",
+          "artifact": "short-20260502-slot3",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-05-02T14:13:54.090151+00:00"
         }
       }
     }
