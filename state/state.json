@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "4b38240396c9f5650e7b7b89d04dee3e02653f22ae6d13bc6cf78b63dad41c12",
-      "q_norm": "who holds the record for most career home runs in professional baseball",
-      "question": "Who holds the record for most career home runs in professional baseball?",
-      "answer": "Sadaharu Oh",
-      "date_iso": "2026-01-31"
-    },
-    {
-      "fp": "38d67e197a6164b71c694099555d06b3b8f9b67893595b251cea185a0f1f37e0",
-      "q_norm": "most olympic gold medals won by an individual",
-      "question": "Most Olympic gold medals won by an individual?",
-      "answer": "28",
-      "date_iso": "2026-01-31"
-    },
-    {
-      "fp": "7f6030f7b7229bb399ef8d9216d374ab7607ef02975d3e196b4edbbed7ec8133",
-      "q_norm": "what is the name of the 1st web browser released in 1990",
-      "question": "What is the name of the 1st web browser released in 1990?",
-      "answer": "WorldWideWeb",
-      "date_iso": "2026-01-31"
-    },
-    {
-      "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
-      "q_norm": "which popular italian dessert translates to pick me up",
-      "question": "Which popular Italian dessert translates to 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-01-31"
-    },
-    {
       "fp": "3ef0ab2cb493e1f6372b6123d28a5f61ec27cafabe6a5e95174b95bfd2e76a60",
       "q_norm": "what country is home to the city of lusaka",
       "question": "What country is home to the city of Lusaka?",
@@ -2192,6 +2164,13 @@
       "question": "What is 23 × 10 + 5?",
       "answer": "235",
       "date_iso": "2026-05-01"
+    },
+    {
+      "fp": "8bb5e85400ee05e2ebf4c0a6a57aec2c590cb9383616b88a76f28b428b8cc7bb",
+      "q_norm": "what is 33 6 17",
+      "question": "What is 33 × 6 + 17?",
+      "answer": "215",
+      "date_iso": "2026-05-02"
     }
   ],
   "publishes": {
@@ -5228,6 +5207,16 @@
           "artifact": "short-20260501-slot4",
           "fp": "92bda03464805e0dccbe8c7bf558b3b28746e23dc21cd8fd8ac7ced3728db859",
           "ts": "2026-05-01T20:11:05.513966+00:00"
+        }
+      }
+    },
+    "20260502": {
+      "shorts": {
+        "1": {
+          "video_id": "LBYP4Fnvx_M",
+          "artifact": "short-20260502-slot1",
+          "fp": "8bb5e85400ee05e2ebf4c0a6a57aec2c590cb9383616b88a76f28b428b8cc7bb",
+          "ts": "2026-05-02T04:25:55.626004+00:00"
         }
       }
     }
