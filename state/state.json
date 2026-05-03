@@ -2178,6 +2178,13 @@
       "question": "What gets wetter the more it dries?",
       "answer": "A towel",
       "date_iso": "2026-05-03"
+    },
+    {
+      "fp": "62371ff4a487d0e2cfe21cfddf2d5adec87de26c66620ad7f67f951fdbdbdc23",
+      "q_norm": "what is 94 8 12",
+      "question": "What is 94 × 8 + 12?",
+      "answer": "764",
+      "date_iso": "2026-05-03"
     }
   ],
   "publishes": {
@@ -5258,6 +5265,12 @@
           "artifact": "short-20260503-slot2",
           "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
           "ts": "2026-05-03T08:57:39.362885+00:00"
+        },
+        "3": {
+          "video_id": "yAQknN6M98w",
+          "artifact": "short-20260503-slot3",
+          "fp": "62371ff4a487d0e2cfe21cfddf2d5adec87de26c66620ad7f67f951fdbdbdc23",
+          "ts": "2026-05-03T14:20:57.094570+00:00"
         }
       }
     }
