@@ -2171,6 +2171,13 @@
       "question": "What force pulls objects toward Earth?",
       "answer": "Gravity",
       "date_iso": "2026-05-03"
+    },
+    {
+      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+      "q_norm": "what gets wetter the more it dries",
+      "question": "What gets wetter the more it dries?",
+      "answer": "A towel",
+      "date_iso": "2026-05-03"
     }
   ],
   "publishes": {
@@ -5245,6 +5252,12 @@
           "artifact": "short-20260503-slot1",
           "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
           "ts": "2026-05-03T04:50:04.408947+00:00"
+        },
+        "2": {
+          "video_id": "SpLBS8qIs-Y",
+          "artifact": "short-20260503-slot2",
+          "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+          "ts": "2026-05-03T08:57:39.362885+00:00"
         }
       }
     }
