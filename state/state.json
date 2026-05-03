@@ -2185,6 +2185,13 @@
       "question": "What is 94 × 8 + 12?",
       "answer": "764",
       "date_iso": "2026-05-03"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-05-03"
     }
   ],
   "publishes": {
@@ -5271,6 +5278,12 @@
           "artifact": "short-20260503-slot3",
           "fp": "62371ff4a487d0e2cfe21cfddf2d5adec87de26c66620ad7f67f951fdbdbdc23",
           "ts": "2026-05-03T14:20:57.094570+00:00"
+        },
+        "4": {
+          "video_id": "cHG7LIOBdog",
+          "artifact": "short-20260503-slot4",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-05-03T19:59:32.085720+00:00"
         }
       }
     }
