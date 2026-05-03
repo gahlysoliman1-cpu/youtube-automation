@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "3ef0ab2cb493e1f6372b6123d28a5f61ec27cafabe6a5e95174b95bfd2e76a60",
-      "q_norm": "what country is home to the city of lusaka",
-      "question": "What country is home to the city of Lusaka?",
-      "answer": "Zambia",
-      "date_iso": "2026-02-01"
-    },
-    {
-      "fp": "70bf2e69975bbfa370e26f6b30396f50d87e4c7c0866d96426eb0ffa7e9bf3a9",
-      "q_norm": "what is the main ingredient in a traditional hummus recipe",
-      "question": "What is the main ingredient in a traditional hummus recipe?",
-      "answer": "Chickpeas",
-      "date_iso": "2026-02-01"
-    },
-    {
-      "fp": "5aedf270096ab09e62798af2cadab1ad288fb47b8261ffdf06eb386810dcd5b4",
-      "q_norm": "what s 97 x 11",
-      "question": "What's 97 x 11?",
-      "answer": "1067",
-      "date_iso": "2026-02-01"
-    },
-    {
-      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
-      "q_norm": "what does cpu stand for in computing",
-      "question": "What does CPU stand for in computing?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-02-01"
-    },
-    {
       "fp": "b20e2c9506729a14c0c4d39e8c783ba19b7df801d1a3aeb310a2037675e642f4",
       "q_norm": "what s 97 65 32",
       "question": "What's 97 + 65 + 32?",
@@ -2192,6 +2164,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-05-02"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-05-03"
     }
   ],
   "publishes": {
@@ -5256,6 +5235,16 @@
           "artifact": "short-20260502-slot4",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-05-02T19:58:39.040843+00:00"
+        }
+      }
+    },
+    "20260503": {
+      "shorts": {
+        "1": {
+          "video_id": "bD1jMMNUe6o",
+          "artifact": "short-20260503-slot1",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-05-03T04:50:04.408947+00:00"
         }
       }
     }
