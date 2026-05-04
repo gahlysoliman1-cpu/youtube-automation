@@ -2178,6 +2178,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-05-04"
+    },
+    {
+      "fp": "334f1b2a96ce1d197927ae87a815d5c5c5ab759f1126618cf852e114ada7b5a9",
+      "q_norm": "what is 20 4 40",
+      "question": "What is 20 × 4 + 40?",
+      "answer": "120",
+      "date_iso": "2026-05-04"
     }
   ],
   "publishes": {
@@ -5280,6 +5287,12 @@
           "artifact": "short-20260504-slot3",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-05-04T15:17:18.839375+00:00"
+        },
+        "4": {
+          "video_id": "hMZjnx4dTrs",
+          "artifact": "short-20260504-slot4",
+          "fp": "334f1b2a96ce1d197927ae87a815d5c5c5ab759f1126618cf852e114ada7b5a9",
+          "ts": "2026-05-04T20:26:04.817495+00:00"
         }
       }
     }
