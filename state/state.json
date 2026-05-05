@@ -2164,6 +2164,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-05-05"
+    },
+    {
+      "fp": "e80b22085a593c5e177de7517794b37a45e2f9b88d134dd98c4ebaddb16d1ac9",
+      "q_norm": "what is 59 5 24",
+      "question": "What is 59 × 5 + 24?",
+      "answer": "319",
+      "date_iso": "2026-05-05"
     }
   ],
   "publishes": {
@@ -5282,6 +5289,12 @@
           "artifact": "short-20260505-slot1",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-05-05T04:28:25.691720+00:00"
+        },
+        "2": {
+          "video_id": "9dsr29vkbJ8",
+          "artifact": "short-20260505-slot2",
+          "fp": "e80b22085a593c5e177de7517794b37a45e2f9b88d134dd98c4ebaddb16d1ac9",
+          "ts": "2026-05-05T09:22:16.468121+00:00"
         }
       }
     }
