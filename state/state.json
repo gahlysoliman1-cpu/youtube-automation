@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6849b1e4feb28826de4d4da951c3c5b2d4aeed8b29cfb55b395e20d6ddc53ca2",
-      "q_norm": "which country s capital is funafuti",
-      "question": "Which country's capital is Funafuti?",
-      "answer": "Tuvalu",
-      "date_iso": "2026-02-03"
-    },
-    {
-      "fp": "a55be8a127245972a0feeed0a628cad256a99579b8dc38d0bc72bb7a16648fc1",
-      "q_norm": "if a bookshelf has 5 shelves and each shelf can hold 588 books how many books can it hold in total",
-      "question": "If a bookshelf has 5 shelves, and each shelf can hold 588 books, how many books can it hold in total?",
-      "answer": "2940",
-      "date_iso": "2026-02-03"
-    },
-    {
-      "fp": "8357c09cb2cc1e24a422ec2900f3edc26f144706ee20e7da36b36bc892d72aa3",
-      "q_norm": "who ran the fastest marathon time ever recorded",
-      "question": "Who ran the fastest marathon time ever recorded?",
-      "answer": "Eliud Kipchoge",
-      "date_iso": "2026-02-03"
-    },
-    {
-      "fp": "49d64400f983b759e73f67d1f894aec012f2182a9a5f799f83002b3ddb824b87",
-      "q_norm": "what is the term for a sequence of 8 binary digits",
-      "question": "What is the term for a sequence of 8 binary digits?",
-      "answer": "Byte",
-      "date_iso": "2026-02-03"
-    },
-    {
       "fp": "4bed2fe6badf985498ee5c8076e73a45daaa008e316e31d8d37693c216a7049e",
       "q_norm": "which country is home to the dessert tiramisu",
       "question": "Which country is home to the dessert 'Tiramisu'?",
@@ -2185,6 +2157,13 @@
       "question": "What is 20 × 4 + 40?",
       "answer": "120",
       "date_iso": "2026-05-04"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-05-05"
     }
   ],
   "publishes": {
@@ -5293,6 +5272,16 @@
           "artifact": "short-20260504-slot4",
           "fp": "334f1b2a96ce1d197927ae87a815d5c5c5ab759f1126618cf852e114ada7b5a9",
           "ts": "2026-05-04T20:26:04.817495+00:00"
+        }
+      }
+    },
+    "20260505": {
+      "shorts": {
+        "1": {
+          "video_id": "Y35dU0MAM8E",
+          "artifact": "short-20260505-slot1",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-05-05T04:28:25.691720+00:00"
         }
       }
     }
