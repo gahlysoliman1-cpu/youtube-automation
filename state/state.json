@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "4bed2fe6badf985498ee5c8076e73a45daaa008e316e31d8d37693c216a7049e",
-      "q_norm": "which country is home to the dessert tiramisu",
-      "question": "Which country is home to the dessert 'Tiramisu'?",
-      "answer": "Italy",
-      "date_iso": "2026-02-04"
-    },
-    {
-      "fp": "91281b8a8d1796efa60bf96e8278262d441a114690516ebcdb2643b5f78a7f0c",
-      "q_norm": "most career home runs by a baseball player",
-      "question": "Most career home runs by a baseball player?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-02-04"
-    },
-    {
-      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
-      "q_norm": "what is the capital of greenland",
-      "question": "What is the capital of Greenland?",
-      "answer": "Nuuk",
-      "date_iso": "2026-02-04"
-    },
-    {
-      "fp": "ce1a503f8c94047b0bace280f871d9553aa707d35ddccb22a248c631647ed55f",
-      "q_norm": "what has 8 numbers but cannot be called or opened",
-      "question": "What has 8 numbers but cannot be called or opened?",
-      "answer": "A padlock",
-      "date_iso": "2026-02-04"
-    },
-    {
       "fp": "3cda44a3e17257ed9ec018e497994a1f3f1cfd47a1f93effc5dce5d9a42a9458",
       "q_norm": "quickly calculate this 928 million 100 thousand 20",
       "question": "Quickly calculate this: 928 million - 100 thousand - 20",
@@ -2178,6 +2150,13 @@
       "question": "What is 93 × 5 + 12?",
       "answer": "477",
       "date_iso": "2026-05-05"
+    },
+    {
+      "fp": "1c1f340623834369cf4686c1b12598235acafdffd7d1568ee3eb228ce55bfcb1",
+      "q_norm": "what is 85 2 23",
+      "question": "What is 85 × 2 + 23?",
+      "answer": "193",
+      "date_iso": "2026-05-06"
     }
   ],
   "publishes": {
@@ -5308,6 +5287,16 @@
           "artifact": "short-20260505-slot4",
           "fp": "43550bf011fd91ae43f8387698939ad9cf4d4f9e3eff8e9a61c56214e56634b1",
           "ts": "2026-05-05T20:33:26.178250+00:00"
+        }
+      }
+    },
+    "20260506": {
+      "shorts": {
+        "2": {
+          "video_id": "09oT31ZPHRk",
+          "artifact": "short-20260506-slot2",
+          "fp": "1c1f340623834369cf4686c1b12598235acafdffd7d1568ee3eb228ce55bfcb1",
+          "ts": "2026-05-06T09:35:51.473549+00:00"
         }
       }
     }
