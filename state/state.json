@@ -2157,6 +2157,13 @@
       "question": "What is 85 × 2 + 23?",
       "answer": "193",
       "date_iso": "2026-05-06"
+    },
+    {
+      "fp": "9c7fcebe4d48b797f03a337f870444de455cb0d4b05d3e72e7751bc9eecd7882",
+      "q_norm": "what is 48 10 6",
+      "question": "What is 48 × 10 + 6?",
+      "answer": "486",
+      "date_iso": "2026-05-06"
     }
   ],
   "publishes": {
@@ -5297,6 +5304,12 @@
           "artifact": "short-20260506-slot2",
           "fp": "1c1f340623834369cf4686c1b12598235acafdffd7d1568ee3eb228ce55bfcb1",
           "ts": "2026-05-06T09:35:51.473549+00:00"
+        },
+        "3": {
+          "video_id": "0fxjoLT7kZ8",
+          "artifact": "short-20260506-slot3",
+          "fp": "9c7fcebe4d48b797f03a337f870444de455cb0d4b05d3e72e7751bc9eecd7882",
+          "ts": "2026-05-06T15:35:47.351759+00:00"
         }
       }
     }
