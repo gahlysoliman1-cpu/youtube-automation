@@ -2164,6 +2164,13 @@
       "question": "What is 48 × 10 + 6?",
       "answer": "486",
       "date_iso": "2026-05-06"
+    },
+    {
+      "fp": "f88d1b9145b64574aa239213e6898eae65939f7a323f565b7e84c6b3c05099f4",
+      "q_norm": "what is 95 4 13",
+      "question": "What is 95 × 4 + 13?",
+      "answer": "393",
+      "date_iso": "2026-05-06"
     }
   ],
   "publishes": {
@@ -5310,6 +5317,12 @@
           "artifact": "short-20260506-slot3",
           "fp": "9c7fcebe4d48b797f03a337f870444de455cb0d4b05d3e72e7751bc9eecd7882",
           "ts": "2026-05-06T15:35:47.351759+00:00"
+        },
+        "4": {
+          "video_id": "QX4hD2tkWbc",
+          "artifact": "short-20260506-slot4",
+          "fp": "f88d1b9145b64574aa239213e6898eae65939f7a323f565b7e84c6b3c05099f4",
+          "ts": "2026-05-06T20:44:19.565218+00:00"
         }
       }
     }
