@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "3cda44a3e17257ed9ec018e497994a1f3f1cfd47a1f93effc5dce5d9a42a9458",
-      "q_norm": "quickly calculate this 928 million 100 thousand 20",
-      "question": "Quickly calculate this: 928 million - 100 thousand - 20",
-      "answer": "927 million 980 thousand",
-      "date_iso": "2026-02-05"
-    },
-    {
-      "fp": "9df2387dc802a12884e0f7ca2d4ba203a7ee9f4cadc3f831e84545dac5d71a77",
-      "q_norm": "what s 9972 3 5",
-      "question": "What's 9972 ÷ 3 + 5?",
-      "answer": "3329",
-      "date_iso": "2026-02-05"
-    },
-    {
-      "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
-      "q_norm": "who holds the record for most olympic gold medals",
-      "question": "Who holds the record for most Olympic gold medals?",
-      "answer": "Michael Phelps",
-      "date_iso": "2026-02-05"
-    },
-    {
-      "fp": "035c011922ea2a94f035f23c8936798b9c325f68af5e85bf3633210279a2aced",
-      "q_norm": "what popular dessert s name comes from the italian words for pick me up",
-      "question": "What popular dessert's name comes from the Italian words for 'pick me up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-05"
-    },
-    {
       "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
       "q_norm": "what is the capital of australia",
       "question": "What is the capital of Australia?",
@@ -2171,6 +2143,13 @@
       "question": "What is 95 × 4 + 13?",
       "answer": "393",
       "date_iso": "2026-05-06"
+    },
+    {
+      "fp": "7fe970344699b292ad14f66049df3d2f85abb13a97c47d8bd63dab24e39e7654",
+      "q_norm": "what is 27 6 35",
+      "question": "What is 27 × 6 + 35?",
+      "answer": "197",
+      "date_iso": "2026-05-07"
     }
   ],
   "publishes": {
@@ -5323,6 +5302,16 @@
           "artifact": "short-20260506-slot4",
           "fp": "f88d1b9145b64574aa239213e6898eae65939f7a323f565b7e84c6b3c05099f4",
           "ts": "2026-05-06T20:44:19.565218+00:00"
+        }
+      }
+    },
+    "20260507": {
+      "shorts": {
+        "1": {
+          "video_id": "dmU9O_Yq6UY",
+          "artifact": "short-20260507-slot1",
+          "fp": "7fe970344699b292ad14f66049df3d2f85abb13a97c47d8bd63dab24e39e7654",
+          "ts": "2026-05-07T04:41:53.573021+00:00"
         }
       }
     }
