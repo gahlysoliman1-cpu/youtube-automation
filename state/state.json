@@ -2150,6 +2150,13 @@
       "question": "What is 27 × 6 + 35?",
       "answer": "197",
       "date_iso": "2026-05-07"
+    },
+    {
+      "fp": "9e9742b35a55ba6f29aa77ce6a729c5fc96297a2ed5ea66146710867cec53f4a",
+      "q_norm": "what is 67 6 26",
+      "question": "What is 67 × 6 + 26?",
+      "answer": "428",
+      "date_iso": "2026-05-07"
     }
   ],
   "publishes": {
@@ -5312,6 +5319,12 @@
           "artifact": "short-20260507-slot1",
           "fp": "7fe970344699b292ad14f66049df3d2f85abb13a97c47d8bd63dab24e39e7654",
           "ts": "2026-05-07T04:41:53.573021+00:00"
+        },
+        "2": {
+          "video_id": "jWgGKWfLwlQ",
+          "artifact": "short-20260507-slot2",
+          "fp": "9e9742b35a55ba6f29aa77ce6a729c5fc96297a2ed5ea66146710867cec53f4a",
+          "ts": "2026-05-07T09:45:25.844941+00:00"
         }
       }
     }
