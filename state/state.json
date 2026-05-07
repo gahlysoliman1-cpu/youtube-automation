@@ -2157,6 +2157,13 @@
       "question": "What is 67 × 6 + 26?",
       "answer": "428",
       "date_iso": "2026-05-07"
+    },
+    {
+      "fp": "9fc33a8e68c840df57e99a2013af013aa579f0395fc6395884132fbf31b71065",
+      "q_norm": "what is 61 3 21",
+      "question": "What is 61 × 3 + 21?",
+      "answer": "204",
+      "date_iso": "2026-05-07"
     }
   ],
   "publishes": {
@@ -5325,6 +5332,12 @@
           "artifact": "short-20260507-slot2",
           "fp": "9e9742b35a55ba6f29aa77ce6a729c5fc96297a2ed5ea66146710867cec53f4a",
           "ts": "2026-05-07T09:45:25.844941+00:00"
+        },
+        "3": {
+          "video_id": "cpPgXuBIGSM",
+          "artifact": "short-20260507-slot3",
+          "fp": "9fc33a8e68c840df57e99a2013af013aa579f0395fc6395884132fbf31b71065",
+          "ts": "2026-05-07T15:36:27.357351+00:00"
         }
       }
     }
