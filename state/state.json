@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
-      "q_norm": "what is the capital of australia",
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-02-06"
-    },
-    {
-      "fp": "eaf5ae74ed4e6e1eb558f5f7778496ca6e7cca80ae1e2421e293af90df81e014",
-      "q_norm": "a bakery sells 588 loaves at 4 05 each how much does it make in total",
-      "question": "A bakery sells 588 loaves at $4.05 each. How much does it make in total?",
-      "answer": "$2381.40",
-      "date_iso": "2026-02-06"
-    },
-    {
-      "fp": "0462ce8d53d9f6b6cb3fb6e671a915c31243cfa28a397882b3a84e4345a55e4e",
-      "q_norm": "who holds the record for the most career home runs in baseball",
-      "question": "Who holds the record for the most career home runs in baseball?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-02-06"
-    },
-    {
-      "fp": "a157fd0a7454686df39271b80c0b0d33589af9236cb3ebcc39ae220c6e44b7ac",
-      "q_norm": "who holds the record for most career home runs in mlb",
-      "question": "Who holds the record for most career home runs in MLB?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-02-06"
-    },
-    {
       "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
       "q_norm": "what has a head a tail but no body",
       "question": "What has a head, a tail, but no body?",
@@ -2164,6 +2136,13 @@
       "question": "What is 61 × 3 + 21?",
       "answer": "204",
       "date_iso": "2026-05-07"
+    },
+    {
+      "fp": "5763e48955c7cef77ce8073d897996a9dda567a8ec4a45de5f0b9520a8f3536f",
+      "q_norm": "what is 31 3 7",
+      "question": "What is 31 × 3 + 7?",
+      "answer": "100",
+      "date_iso": "2026-05-08"
     }
   ],
   "publishes": {
@@ -5338,6 +5317,16 @@
           "artifact": "short-20260507-slot3",
           "fp": "9fc33a8e68c840df57e99a2013af013aa579f0395fc6395884132fbf31b71065",
           "ts": "2026-05-07T15:36:27.357351+00:00"
+        }
+      }
+    },
+    "20260508": {
+      "shorts": {
+        "1": {
+          "video_id": "rBKqM9izZD0",
+          "artifact": "short-20260508-slot1",
+          "fp": "5763e48955c7cef77ce8073d897996a9dda567a8ec4a45de5f0b9520a8f3536f",
+          "ts": "2026-05-08T04:23:29.393749+00:00"
         }
       }
     }
