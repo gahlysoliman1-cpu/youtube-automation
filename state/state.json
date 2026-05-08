@@ -2143,6 +2143,13 @@
       "question": "What is 31 × 3 + 7?",
       "answer": "100",
       "date_iso": "2026-05-08"
+    },
+    {
+      "fp": "f9990cd57e96eaee86526a2043aaca4af7b0595583173778fb3c28b7afa2b16d",
+      "q_norm": "what is 36 4 37",
+      "question": "What is 36 × 4 + 37?",
+      "answer": "181",
+      "date_iso": "2026-05-08"
     }
   ],
   "publishes": {
@@ -5327,6 +5334,12 @@
           "artifact": "short-20260508-slot1",
           "fp": "5763e48955c7cef77ce8073d897996a9dda567a8ec4a45de5f0b9520a8f3536f",
           "ts": "2026-05-08T04:23:29.393749+00:00"
+        },
+        "2": {
+          "video_id": "DGJpXRb5rbw",
+          "artifact": "short-20260508-slot2",
+          "fp": "f9990cd57e96eaee86526a2043aaca4af7b0595583173778fb3c28b7afa2b16d",
+          "ts": "2026-05-08T08:57:32.255765+00:00"
         }
       }
     }
