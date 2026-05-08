@@ -2157,6 +2157,13 @@
       "question": "What is 66 × 8 + 13?",
       "answer": "541",
       "date_iso": "2026-05-08"
+    },
+    {
+      "fp": "866acce7151c44ce87eeee0a30b5d91e0a679cf42c27114f200f461aa6b78a84",
+      "q_norm": "what is 47 11 20",
+      "question": "What is 47 × 11 + 20?",
+      "answer": "537",
+      "date_iso": "2026-05-08"
     }
   ],
   "publishes": {
@@ -5353,6 +5360,12 @@
           "artifact": "short-20260508-slot3",
           "fp": "09f93fa0bcc8816829c9cd85403445093e8f31ee82f814bd69cdc7d1a2d86d44",
           "ts": "2026-05-08T15:03:58.204408+00:00"
+        },
+        "4": {
+          "video_id": "d2npZGVK9CU",
+          "artifact": "short-20260508-slot4",
+          "fp": "866acce7151c44ce87eeee0a30b5d91e0a679cf42c27114f200f461aa6b78a84",
+          "ts": "2026-05-08T20:15:37.169742+00:00"
         }
       }
     }
