@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "88bd1b5495b467a735338950dc90792b7d3ee48fbcd4cb9747e24d9777bc8f94",
-      "q_norm": "what has a head a tail but no body",
-      "question": "What has a head, a tail, but no body?",
-      "answer": "A coin",
-      "date_iso": "2026-02-07"
-    },
-    {
-      "fp": "25be055582c99a943e71b8064be9ff0138473ba0593eded4c852bd809a0cc328",
-      "q_norm": "what does bite off more than you can chew mean",
-      "question": "What does 'Bite Off More Than You Can Chew' mean?",
-      "answer": "Take on more responsibility than you can handle",
-      "date_iso": "2026-02-07"
-    },
-    {
-      "fp": "b04ea35085b8e5e89cc8c9fefeed131684e49376fce344f778a4565b6f5b1a9c",
-      "q_norm": "a bookshelf has 5 shelves each shelf can hold 8 books how many books can the bookshelf hold in total",
-      "question": "A bookshelf has 5 shelves. Each shelf can hold 8 books. How many books can the bookshelf hold in total?",
-      "answer": "40",
-      "date_iso": "2026-02-07"
-    },
-    {
-      "fp": "573b430ae44a646634ba64b6a2a69dfc584fb6bfe9992a95b975d29fb82fbe02",
-      "q_norm": "most career home runs in baseball history",
-      "question": "Most career home runs in baseball history?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-02-07"
-    },
-    {
       "fp": "50edbf86c9fd47c18590fd094c519d40970a6221d999744b581bcb154a4628c2",
       "q_norm": "a bat and a ball together cost 1 10 the bat costs 1 00 more than the ball how much does the ball cost",
       "question": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
@@ -2164,6 +2136,13 @@
       "question": "What is 47 × 11 + 20?",
       "answer": "537",
       "date_iso": "2026-05-08"
+    },
+    {
+      "fp": "6ac114dde65e823894e50b787e811554c019e3fd9e844e9991b9b7e9265a4250",
+      "q_norm": "what is 34 7 10",
+      "question": "What is 34 × 7 + 10?",
+      "answer": "248",
+      "date_iso": "2026-05-09"
     }
   ],
   "publishes": {
@@ -5366,6 +5345,16 @@
           "artifact": "short-20260508-slot4",
           "fp": "866acce7151c44ce87eeee0a30b5d91e0a679cf42c27114f200f461aa6b78a84",
           "ts": "2026-05-08T20:15:37.169742+00:00"
+        }
+      }
+    },
+    "20260509": {
+      "shorts": {
+        "1": {
+          "video_id": "dG2usswVZWE",
+          "artifact": "short-20260509-slot1",
+          "fp": "6ac114dde65e823894e50b787e811554c019e3fd9e844e9991b9b7e9265a4250",
+          "ts": "2026-05-09T04:37:03.691669+00:00"
         }
       }
     }
