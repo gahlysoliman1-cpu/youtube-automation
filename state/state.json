@@ -2157,6 +2157,13 @@
       "question": "What is 80 × 6 + 6?",
       "answer": "486",
       "date_iso": "2026-05-09"
+    },
+    {
+      "fp": "5af3fc42e36380b403168054359fa175fca2e69e87d31f4734afa21adc92ac43",
+      "q_norm": "what is 99 6 26",
+      "question": "What is 99 × 6 + 26?",
+      "answer": "620",
+      "date_iso": "2026-05-09"
     }
   ],
   "publishes": {
@@ -5381,6 +5388,12 @@
           "artifact": "short-20260509-slot3",
           "fp": "cade195af73cbd1ff3e6915e5b4c951f1500de236968c49fc0df1e2e64e3322b",
           "ts": "2026-05-09T14:21:26.212815+00:00"
+        },
+        "4": {
+          "video_id": "D9EHJIIgvTA",
+          "artifact": "short-20260509-slot4",
+          "fp": "5af3fc42e36380b403168054359fa175fca2e69e87d31f4734afa21adc92ac43",
+          "ts": "2026-05-09T20:01:20.596766+00:00"
         }
       }
     }
