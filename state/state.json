@@ -2143,6 +2143,13 @@
       "question": "What is 34 × 7 + 10?",
       "answer": "248",
       "date_iso": "2026-05-09"
+    },
+    {
+      "fp": "222a1de0b2ad5b529e72ebbd4f122a139ad6f4fad463c43911308299301cc04c",
+      "q_norm": "what is 18 8 25",
+      "question": "What is 18 × 8 + 25?",
+      "answer": "169",
+      "date_iso": "2026-05-09"
     }
   ],
   "publishes": {
@@ -5355,6 +5362,12 @@
           "artifact": "short-20260509-slot1",
           "fp": "6ac114dde65e823894e50b787e811554c019e3fd9e844e9991b9b7e9265a4250",
           "ts": "2026-05-09T04:37:03.691669+00:00"
+        },
+        "2": {
+          "video_id": "LZwjAdN-9So",
+          "artifact": "short-20260509-slot2",
+          "fp": "222a1de0b2ad5b529e72ebbd4f122a139ad6f4fad463c43911308299301cc04c",
+          "ts": "2026-05-09T08:54:56.155440+00:00"
         }
       }
     }
