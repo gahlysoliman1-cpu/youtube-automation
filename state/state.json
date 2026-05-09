@@ -2150,6 +2150,13 @@
       "question": "What is 18 × 8 + 25?",
       "answer": "169",
       "date_iso": "2026-05-09"
+    },
+    {
+      "fp": "cade195af73cbd1ff3e6915e5b4c951f1500de236968c49fc0df1e2e64e3322b",
+      "q_norm": "what is 80 6 6",
+      "question": "What is 80 × 6 + 6?",
+      "answer": "486",
+      "date_iso": "2026-05-09"
     }
   ],
   "publishes": {
@@ -5368,6 +5375,12 @@
           "artifact": "short-20260509-slot2",
           "fp": "222a1de0b2ad5b529e72ebbd4f122a139ad6f4fad463c43911308299301cc04c",
           "ts": "2026-05-09T08:54:56.155440+00:00"
+        },
+        "3": {
+          "video_id": "CkJNCvZw2sQ",
+          "artifact": "short-20260509-slot3",
+          "fp": "cade195af73cbd1ff3e6915e5b4c951f1500de236968c49fc0df1e2e64e3322b",
+          "ts": "2026-05-09T14:21:26.212815+00:00"
         }
       }
     }
