@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "50edbf86c9fd47c18590fd094c519d40970a6221d999744b581bcb154a4628c2",
-      "q_norm": "a bat and a ball together cost 1 10 the bat costs 1 00 more than the ball how much does the ball cost",
-      "question": "A bat and a ball together cost $1.10. The bat costs $1.00 more than the ball. How much does the ball cost?",
-      "answer": "5 cents",
-      "date_iso": "2026-02-08"
-    },
-    {
-      "fp": "97d0a4ec20bb0ee3a2904f8a9d7494f717b87243aec10e50f3275e016c40c80d",
-      "q_norm": "who won the most formula 1 world championships",
-      "question": "Who won the most Formula 1 World Championships?",
-      "answer": "Michael Schumacher",
-      "date_iso": "2026-02-08"
-    },
-    {
-      "fp": "e045fd1d813e6c64817e716368983d0329c26062950729588f7074ca7f01f557",
-      "q_norm": "which popular dessert s name translates to burnt cream",
-      "question": "Which popular dessert's name translates to 'burnt cream'?",
-      "answer": "Creme Brûlée",
-      "date_iso": "2026-02-08"
-    },
-    {
-      "fp": "374dc573424cbe24abb0b46fb62fc797324c4355be3cf8f3e4c52b1430c29867",
-      "q_norm": "which popular dessert s name translates to pick me up in french",
-      "question": "Which popular dessert's name translates to 'pick-me-up' in French?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-08"
-    },
-    {
       "fp": "6467a4f9ce5d6d177e29e0660fccc0a050401de0a38c8c905bf73a21c2bf5f89",
       "q_norm": "which city is the capital of greenland",
       "question": "Which city is the capital of Greenland?",
@@ -2164,6 +2136,13 @@
       "question": "What is 99 × 6 + 26?",
       "answer": "620",
       "date_iso": "2026-05-09"
+    },
+    {
+      "fp": "ae4904ba46e655e835560ffefe7b7474378eff38339caee3f4c2c7aad89506f1",
+      "q_norm": "what is 62 10 33",
+      "question": "What is 62 × 10 + 33?",
+      "answer": "653",
+      "date_iso": "2026-05-10"
     }
   ],
   "publishes": {
@@ -5394,6 +5373,16 @@
           "artifact": "short-20260509-slot4",
           "fp": "5af3fc42e36380b403168054359fa175fca2e69e87d31f4734afa21adc92ac43",
           "ts": "2026-05-09T20:01:20.596766+00:00"
+        }
+      }
+    },
+    "20260510": {
+      "shorts": {
+        "1": {
+          "video_id": "aOl2X4QUXMw",
+          "artifact": "short-20260510-slot1",
+          "fp": "ae4904ba46e655e835560ffefe7b7474378eff38339caee3f4c2c7aad89506f1",
+          "ts": "2026-05-10T04:57:14.147725+00:00"
         }
       }
     }
