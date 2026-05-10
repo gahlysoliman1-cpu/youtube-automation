@@ -2143,6 +2143,13 @@
       "question": "What is 62 × 10 + 33?",
       "answer": "653",
       "date_iso": "2026-05-10"
+    },
+    {
+      "fp": "7ba65954aad0e03a602b2af320cf24f630ee85b33af8846795e992f6ebffe5ba",
+      "q_norm": "what is 68 4 40",
+      "question": "What is 68 × 4 + 40?",
+      "answer": "312",
+      "date_iso": "2026-05-10"
     }
   ],
   "publishes": {
@@ -5383,6 +5390,12 @@
           "artifact": "short-20260510-slot1",
           "fp": "ae4904ba46e655e835560ffefe7b7474378eff38339caee3f4c2c7aad89506f1",
           "ts": "2026-05-10T04:57:14.147725+00:00"
+        },
+        "2": {
+          "video_id": "NUIwlE3yawA",
+          "artifact": "short-20260510-slot2",
+          "fp": "7ba65954aad0e03a602b2af320cf24f630ee85b33af8846795e992f6ebffe5ba",
+          "ts": "2026-05-10T09:04:05.241691+00:00"
         }
       }
     }
