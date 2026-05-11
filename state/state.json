@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6467a4f9ce5d6d177e29e0660fccc0a050401de0a38c8c905bf73a21c2bf5f89",
-      "q_norm": "which city is the capital of greenland",
-      "question": "Which city is the capital of Greenland?",
-      "answer": "Nuuk",
-      "date_iso": "2026-02-09"
-    },
-    {
-      "fp": "22e91e90a9bc031c68e50e88c2c39e630b7bac6304a82354d3b4fd984219dfcf",
-      "q_norm": "what does cut to the chase mean",
-      "question": "What does 'cut to the chase' mean?",
-      "answer": "Get to the point",
-      "date_iso": "2026-02-09"
-    },
-    {
-      "fp": "093b0d9ed0c7f481ae26f7d98e3aa12afa950e8aa3214a7f24be8088bdeffba3",
-      "q_norm": "who is the only tennis player to achieve a golden slam",
-      "question": "Who is the only tennis player to achieve a 'Golden Slam'?",
-      "answer": "Steffi Graf",
-      "date_iso": "2026-02-09"
-    },
-    {
-      "fp": "470163ce4beed7d4634e1a255afedbb9fea18403538b57ac662b9221b49f8d2b",
-      "q_norm": "using 5 lines i can make 4 triangles what am i",
-      "question": "Using 5 lines, I can make 4 triangles. What am I?",
-      "answer": "A triforce",
-      "date_iso": "2026-02-09"
-    },
-    {
       "fp": "284fe5c089249b841728aa8af3b4c4e10f6d1765dc0ca3eaadc8d147cf690d91",
       "q_norm": "who holds the longest perfect game streak in baseball",
       "question": "Who holds the longest perfect game streak in baseball?",
@@ -2157,6 +2129,13 @@
       "question": "What is 52 × 2 + 21?",
       "answer": "125",
       "date_iso": "2026-05-10"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-05-11"
     }
   ],
   "publishes": {
@@ -5409,6 +5388,16 @@
           "artifact": "short-20260510-slot3",
           "fp": "89c61109bd8674684e07f0008978ba8e84872e4d0c1339b6f5524e84ef903fba",
           "ts": "2026-05-10T14:24:37.578594+00:00"
+        }
+      }
+    },
+    "20260511": {
+      "shorts": {
+        "1": {
+          "video_id": "MxJfbodVYJk",
+          "artifact": "short-20260511-slot1",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-05-11T05:09:55.688833+00:00"
         }
       }
     }
