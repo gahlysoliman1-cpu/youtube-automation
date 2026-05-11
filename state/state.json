@@ -2143,6 +2143,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-05-11"
+    },
+    {
+      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+      "q_norm": "what is the capital of japan",
+      "question": "What is the capital of Japan?",
+      "answer": "Tokyo",
+      "date_iso": "2026-05-11"
     }
   ],
   "publishes": {
@@ -5411,6 +5418,12 @@
           "artifact": "short-20260511-slot2",
           "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
           "ts": "2026-05-11T10:43:32.303060+00:00"
+        },
+        "4": {
+          "video_id": "-r-32mzvm3s",
+          "artifact": "short-20260511-slot4",
+          "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
+          "ts": "2026-05-11T20:51:41.107484+00:00"
         }
       }
     }
