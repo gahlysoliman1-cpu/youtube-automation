@@ -2136,6 +2136,13 @@
       "question": "What is 43 × 2 + 13?",
       "answer": "99",
       "date_iso": "2026-05-12"
+    },
+    {
+      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+      "q_norm": "what is the capital of mexico",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "date_iso": "2026-05-12"
     }
   ],
   "publishes": {
@@ -5426,6 +5433,12 @@
           "artifact": "short-20260512-slot2",
           "fp": "5ff66762698874435840e10004497696e5872dff9ef9102a091ee5826222c7ef",
           "ts": "2026-05-12T09:52:43.533559+00:00"
+        },
+        "3": {
+          "video_id": "UnypftkTnoI",
+          "artifact": "short-20260512-slot3",
+          "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+          "ts": "2026-05-12T15:51:05.055752+00:00"
         }
       }
     }
