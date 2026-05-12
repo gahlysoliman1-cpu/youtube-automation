@@ -2129,6 +2129,13 @@
       "question": "What is 73 × 5 + 40?",
       "answer": "405",
       "date_iso": "2026-05-12"
+    },
+    {
+      "fp": "5ff66762698874435840e10004497696e5872dff9ef9102a091ee5826222c7ef",
+      "q_norm": "what is 43 2 13",
+      "question": "What is 43 × 2 + 13?",
+      "answer": "99",
+      "date_iso": "2026-05-12"
     }
   ],
   "publishes": {
@@ -5413,6 +5420,12 @@
           "artifact": "short-20260512-slot1",
           "fp": "a85de93d4e25a9f491e1f74789a701781c123b7d2fb3ac2d8716ad3dfecfaff0",
           "ts": "2026-05-12T04:47:10.616233+00:00"
+        },
+        "2": {
+          "video_id": "Q6CklDRgGAY",
+          "artifact": "short-20260512-slot2",
+          "fp": "5ff66762698874435840e10004497696e5872dff9ef9102a091ee5826222c7ef",
+          "ts": "2026-05-12T09:52:43.533559+00:00"
         }
       }
     }
