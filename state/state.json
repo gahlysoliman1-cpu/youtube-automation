@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "284fe5c089249b841728aa8af3b4c4e10f6d1765dc0ca3eaadc8d147cf690d91",
-      "q_norm": "who holds the longest perfect game streak in baseball",
-      "question": "Who holds the longest perfect game streak in baseball?",
-      "answer": "Cy Young",
-      "date_iso": "2026-02-10"
-    },
-    {
-      "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
-      "q_norm": "what popular dessert s name means pick me up in italian",
-      "question": "What popular dessert's name means 'pick-me-up' in Italian?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-10"
-    },
-    {
-      "fp": "a4172dddc0eefc9838c435dc271c0abad59a2ec6e751b18ec5fb035e6ab0ab16",
-      "q_norm": "what popular italian dessert literally means pick me up",
-      "question": "What popular Italian dessert literally means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-10"
-    },
-    {
-      "fp": "018c8b00194b35f4627322c9e0cd9d6299fb893e3d7c098c538e6978129481c3",
-      "q_norm": "if 28 3 0 7 1 and 71 0 8 1 then 28307100",
-      "question": "If 28-3-0=7-1, and 71-0=8-1, then 28307100=?",
-      "answer": "9-1",
-      "date_iso": "2026-02-10"
-    },
-    {
       "fp": "0cf4b3ae49954222dff3ef2f0a86f0ce7cd136e9fd02eac9a73308a1419aaa90",
       "q_norm": "what s the fastest land animal speed record in mph",
       "question": "What's the fastest land animal speed record in mph?",
@@ -2150,6 +2122,13 @@
       "question": "What is the capital of Japan?",
       "answer": "Tokyo",
       "date_iso": "2026-05-11"
+    },
+    {
+      "fp": "a85de93d4e25a9f491e1f74789a701781c123b7d2fb3ac2d8716ad3dfecfaff0",
+      "q_norm": "what is 73 5 40",
+      "question": "What is 73 × 5 + 40?",
+      "answer": "405",
+      "date_iso": "2026-05-12"
     }
   ],
   "publishes": {
@@ -5424,6 +5403,16 @@
           "artifact": "short-20260511-slot4",
           "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
           "ts": "2026-05-11T20:51:41.107484+00:00"
+        }
+      }
+    },
+    "20260512": {
+      "shorts": {
+        "1": {
+          "video_id": "q3lCP51IsDM",
+          "artifact": "short-20260512-slot1",
+          "fp": "a85de93d4e25a9f491e1f74789a701781c123b7d2fb3ac2d8716ad3dfecfaff0",
+          "ts": "2026-05-12T04:47:10.616233+00:00"
         }
       }
     }
