@@ -2143,6 +2143,13 @@
       "question": "What is the capital of Mexico?",
       "answer": "Mexico City",
       "date_iso": "2026-05-12"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-05-12"
     }
   ],
   "publishes": {
@@ -5439,6 +5446,12 @@
           "artifact": "short-20260512-slot3",
           "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
           "ts": "2026-05-12T15:51:05.055752+00:00"
+        },
+        "4": {
+          "video_id": "uauk7Fkhx9k",
+          "artifact": "short-20260512-slot4",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-05-12T21:08:46.094238+00:00"
         }
       }
     }
