@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "0cf4b3ae49954222dff3ef2f0a86f0ce7cd136e9fd02eac9a73308a1419aaa90",
-      "q_norm": "what s the fastest land animal speed record in mph",
-      "question": "What's the fastest land animal speed record in mph?",
-      "answer": "70",
-      "date_iso": "2026-02-11"
-    },
-    {
-      "fp": "4fe55c3602dedcd9e13bb494eae1e52763104d66d5cb47610483a6170a109e8d",
-      "q_norm": "if i have 5 boxes of 8 crayons each how many crayons do i have if i remove 2 boxes",
-      "question": "If I have 5 boxes of 8 crayons each, how many crayons do I have if I remove 2 boxes?",
-      "answer": "24",
-      "date_iso": "2026-02-11"
-    },
-    {
-      "fp": "175fa563c183972acd7f6aac4984e85f414c901d5d1b68273cb224e201312153",
-      "q_norm": "what is japan s popular noodle soup dish",
-      "question": "What is Japan's popular noodle soup dish?",
-      "answer": "Ramen",
-      "date_iso": "2026-02-11"
-    },
-    {
-      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
-      "q_norm": "what does cpu stand for",
-      "question": "What does CPU stand for?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-02-11"
-    },
-    {
       "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
       "q_norm": "which city is the capital of australia",
       "question": "Which city is the capital of Australia?",
@@ -2150,6 +2122,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-05-12"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-05-13"
     }
   ],
   "publishes": {
@@ -5452,6 +5431,16 @@
           "artifact": "short-20260512-slot4",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-05-12T21:08:46.094238+00:00"
+        }
+      }
+    },
+    "20260513": {
+      "shorts": {
+        "1": {
+          "video_id": "cIXkJn_bRUE",
+          "artifact": "short-20260513-slot1",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-05-13T04:57:30.517492+00:00"
         }
       }
     }
