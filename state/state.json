@@ -2136,6 +2136,13 @@
       "question": "What is 88 × 8 + 16?",
       "answer": "720",
       "date_iso": "2026-05-13"
+    },
+    {
+      "fp": "8e5c4fc608b19f7bdbe0fb91f6f5c4ab7bc08ea3e35ff598b1ac234c62c7e03a",
+      "q_norm": "what is 63 8 26",
+      "question": "What is 63 × 8 + 26?",
+      "answer": "530",
+      "date_iso": "2026-05-13"
     }
   ],
   "publishes": {
@@ -5454,6 +5461,12 @@
           "artifact": "short-20260513-slot3",
           "fp": "46150a87b6ccc0bfe4edf9cff6e196d1846890c46b64e2cbc9fce039734c1c52",
           "ts": "2026-05-13T15:55:56.030169+00:00"
+        },
+        "4": {
+          "video_id": "akOGpldPysg",
+          "artifact": "short-20260513-slot4",
+          "fp": "8e5c4fc608b19f7bdbe0fb91f6f5c4ab7bc08ea3e35ff598b1ac234c62c7e03a",
+          "ts": "2026-05-13T20:54:42.675668+00:00"
         }
       }
     }
