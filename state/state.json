@@ -2122,6 +2122,13 @@
       "question": "What is 49 × 9 + 38?",
       "answer": "479",
       "date_iso": "2026-05-14"
+    },
+    {
+      "fp": "aacb1488d6e0f6502c0155595538864544b9acb19ee3bc7b2ff7e908d0256e0f",
+      "q_norm": "what is 80 4 9",
+      "question": "What is 80 × 4 + 9?",
+      "answer": "329",
+      "date_iso": "2026-05-14"
     }
   ],
   "publishes": {
@@ -5456,6 +5463,12 @@
           "artifact": "short-20260514-slot1",
           "fp": "d456caaf39e4a37d00065cc02ae70ea4adea1db9f083bad7f9c935b9635f0938",
           "ts": "2026-05-14T04:56:00.356131+00:00"
+        },
+        "2": {
+          "video_id": "7n6UxddNS8Y",
+          "artifact": "short-20260514-slot2",
+          "fp": "aacb1488d6e0f6502c0155595538864544b9acb19ee3bc7b2ff7e908d0256e0f",
+          "ts": "2026-05-14T09:41:08.375166+00:00"
         }
       }
     }
