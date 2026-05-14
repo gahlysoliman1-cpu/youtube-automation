@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
-      "q_norm": "which city is the capital of australia",
-      "question": "Which city is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-02-12"
-    },
-    {
-      "fp": "651327bc7eb0f761ca5ffe0b67052f0b9e21ce9d56ffa0f938b412b459d10cce",
-      "q_norm": "which african country has accra as its capital",
-      "question": "Which African country has Accra as its capital?",
-      "answer": "Ghana",
-      "date_iso": "2026-02-12"
-    },
-    {
-      "fp": "83643022787e253362f7bb9c0cf0f243551be9ab945f982eb050f01ac918d446",
-      "q_norm": "493 544 436 divided by 7 is closest to",
-      "question": "493,544,436 divided by 7 is closest to?",
-      "answer": "70,635,634",
-      "date_iso": "2026-02-12"
-    },
-    {
-      "fp": "dd08d90fd5f978e4a47a7ef5e93b910257920fb29bee78e7ae07570f311e72c4",
-      "q_norm": "what is the decimal equivalent of the binary number 101000111",
-      "question": "What is the decimal equivalent of the binary number 101000111?",
-      "answer": "415",
-      "date_iso": "2026-02-12"
-    },
-    {
       "fp": "423468cbcc2cca2c381e1c07f5a059c356a0bdf4e317960e4e75613d0c5ec6ed",
       "q_norm": "what s 384803922 divided by 4",
       "question": "What's 384803922 divided by 4?",
@@ -2143,6 +2115,13 @@
       "question": "What is 63 × 8 + 26?",
       "answer": "530",
       "date_iso": "2026-05-13"
+    },
+    {
+      "fp": "d456caaf39e4a37d00065cc02ae70ea4adea1db9f083bad7f9c935b9635f0938",
+      "q_norm": "what is 49 9 38",
+      "question": "What is 49 × 9 + 38?",
+      "answer": "479",
+      "date_iso": "2026-05-14"
     }
   ],
   "publishes": {
@@ -5467,6 +5446,16 @@
           "artifact": "short-20260513-slot4",
           "fp": "8e5c4fc608b19f7bdbe0fb91f6f5c4ab7bc08ea3e35ff598b1ac234c62c7e03a",
           "ts": "2026-05-13T20:54:42.675668+00:00"
+        }
+      }
+    },
+    "20260514": {
+      "shorts": {
+        "1": {
+          "video_id": "ChOacGpBFqw",
+          "artifact": "short-20260514-slot1",
+          "fp": "d456caaf39e4a37d00065cc02ae70ea4adea1db9f083bad7f9c935b9635f0938",
+          "ts": "2026-05-14T04:56:00.356131+00:00"
         }
       }
     }
