@@ -2136,6 +2136,13 @@
       "question": "What is 86 × 8 + 10?",
       "answer": "698",
       "date_iso": "2026-05-14"
+    },
+    {
+      "fp": "f670b5d44a954cd535bd28e3b7317c15ef2eaceb6259eb75e33bffec32f76fc3",
+      "q_norm": "what is 76 9 14",
+      "question": "What is 76 × 9 + 14?",
+      "answer": "698",
+      "date_iso": "2026-05-14"
     }
   ],
   "publishes": {
@@ -5482,6 +5489,12 @@
           "artifact": "short-20260514-slot3",
           "fp": "65e8f53a3ba5125922c48160f3c1eb2629157bf945de8c987dcaa3242515d17b",
           "ts": "2026-05-14T15:31:42.168268+00:00"
+        },
+        "4": {
+          "video_id": "t_PUNB3VYso",
+          "artifact": "short-20260514-slot4",
+          "fp": "f670b5d44a954cd535bd28e3b7317c15ef2eaceb6259eb75e33bffec32f76fc3",
+          "ts": "2026-05-14T20:47:02.563942+00:00"
         }
       }
     }
