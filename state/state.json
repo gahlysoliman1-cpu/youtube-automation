@@ -2129,6 +2129,13 @@
       "question": "What is 80 × 4 + 9?",
       "answer": "329",
       "date_iso": "2026-05-14"
+    },
+    {
+      "fp": "65e8f53a3ba5125922c48160f3c1eb2629157bf945de8c987dcaa3242515d17b",
+      "q_norm": "what is 86 8 10",
+      "question": "What is 86 × 8 + 10?",
+      "answer": "698",
+      "date_iso": "2026-05-14"
     }
   ],
   "publishes": {
@@ -5469,6 +5476,12 @@
           "artifact": "short-20260514-slot2",
           "fp": "aacb1488d6e0f6502c0155595538864544b9acb19ee3bc7b2ff7e908d0256e0f",
           "ts": "2026-05-14T09:41:08.375166+00:00"
+        },
+        "3": {
+          "video_id": "3tAhtJpqcsk",
+          "artifact": "short-20260514-slot3",
+          "fp": "65e8f53a3ba5125922c48160f3c1eb2629157bf945de8c987dcaa3242515d17b",
+          "ts": "2026-05-14T15:31:42.168268+00:00"
         }
       }
     }
