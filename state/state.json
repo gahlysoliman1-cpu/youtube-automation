@@ -2122,6 +2122,13 @@
       "question": "What is 60 × 5 + 37?",
       "answer": "337",
       "date_iso": "2026-05-15"
+    },
+    {
+      "fp": "3fe0945f1a8776e2eb0c687cd8b0f23550ff6f0a24046c4e87bf463474a57213",
+      "q_norm": "what is 48 11 31",
+      "question": "What is 48 × 11 + 31?",
+      "answer": "559",
+      "date_iso": "2026-05-15"
     }
   ],
   "publishes": {
@@ -5484,6 +5491,12 @@
           "artifact": "short-20260515-slot1",
           "fp": "b9e4fcda39f082ad43f5df9b41992be2cd36a4ff121b0688e9b7911c6235e112",
           "ts": "2026-05-15T05:00:00.273106+00:00"
+        },
+        "2": {
+          "video_id": "RnZ5_eGxybM",
+          "artifact": "short-20260515-slot2",
+          "fp": "3fe0945f1a8776e2eb0c687cd8b0f23550ff6f0a24046c4e87bf463474a57213",
+          "ts": "2026-05-15T09:53:44.784913+00:00"
         }
       }
     }
