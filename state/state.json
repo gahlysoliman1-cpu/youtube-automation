@@ -2136,6 +2136,13 @@
       "question": "What is 41 × 4 + 15?",
       "answer": "179",
       "date_iso": "2026-05-15"
+    },
+    {
+      "fp": "07c7d6c862ae865947c9c88fc3b50c72c2333e61cb2a9a4af0b3e054adf7a20b",
+      "q_norm": "what is 52 10 8",
+      "question": "What is 52 × 10 + 8?",
+      "answer": "528",
+      "date_iso": "2026-05-15"
     }
   ],
   "publishes": {
@@ -5510,6 +5517,12 @@
           "artifact": "short-20260515-slot3",
           "fp": "e63a511066ea3e90012f9e635bc0faa987f9f235cc7355ac48495bad0285036a",
           "ts": "2026-05-15T15:28:17.829013+00:00"
+        },
+        "4": {
+          "video_id": "ZWtWjAjKYA0",
+          "artifact": "short-20260515-slot4",
+          "fp": "07c7d6c862ae865947c9c88fc3b50c72c2333e61cb2a9a4af0b3e054adf7a20b",
+          "ts": "2026-05-15T20:22:39.666219+00:00"
         }
       }
     }
