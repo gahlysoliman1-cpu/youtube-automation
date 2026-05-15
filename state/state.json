@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "423468cbcc2cca2c381e1c07f5a059c356a0bdf4e317960e4e75613d0c5ec6ed",
-      "q_norm": "what s 384803922 divided by 4",
-      "question": "What's 384803922 divided by 4?",
-      "answer": "96200981",
-      "date_iso": "2026-02-13"
-    },
-    {
-      "fp": "99e22d9515f2b9d841764fbc2d86f83b044816fcf56183cdad0e6f6de0ca5d63",
-      "q_norm": "which popular italian dessert means pick me up",
-      "question": "Which popular Italian dessert means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-13"
-    },
-    {
-      "fp": "75be541fa2aacb6db4454d2b9474d39348b725cb79ac45a522b0b1f68aa147c2",
-      "q_norm": "which country has the capital quito",
-      "question": "Which country has the capital, Quito?",
-      "answer": "Ecuador",
-      "date_iso": "2026-02-13"
-    },
-    {
-      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
-      "q_norm": "what does break a leg mean",
-      "question": "What does 'break a leg' mean?",
-      "answer": "Good luck",
-      "date_iso": "2026-02-13"
-    },
-    {
       "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
       "q_norm": "what is the largest planet in our solar system",
       "question": "What is the largest planet in our solar system?",
@@ -2143,6 +2115,13 @@
       "question": "What is 76 × 9 + 14?",
       "answer": "698",
       "date_iso": "2026-05-14"
+    },
+    {
+      "fp": "b9e4fcda39f082ad43f5df9b41992be2cd36a4ff121b0688e9b7911c6235e112",
+      "q_norm": "what is 60 5 37",
+      "question": "What is 60 × 5 + 37?",
+      "answer": "337",
+      "date_iso": "2026-05-15"
     }
   ],
   "publishes": {
@@ -5495,6 +5474,16 @@
           "artifact": "short-20260514-slot4",
           "fp": "f670b5d44a954cd535bd28e3b7317c15ef2eaceb6259eb75e33bffec32f76fc3",
           "ts": "2026-05-14T20:47:02.563942+00:00"
+        }
+      }
+    },
+    "20260515": {
+      "shorts": {
+        "1": {
+          "video_id": "FWPHM7hgTjQ",
+          "artifact": "short-20260515-slot1",
+          "fp": "b9e4fcda39f082ad43f5df9b41992be2cd36a4ff121b0688e9b7911c6235e112",
+          "ts": "2026-05-15T05:00:00.273106+00:00"
         }
       }
     }
