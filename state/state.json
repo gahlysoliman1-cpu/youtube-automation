@@ -2129,6 +2129,13 @@
       "question": "What is 48 × 11 + 31?",
       "answer": "559",
       "date_iso": "2026-05-15"
+    },
+    {
+      "fp": "e63a511066ea3e90012f9e635bc0faa987f9f235cc7355ac48495bad0285036a",
+      "q_norm": "what is 41 4 15",
+      "question": "What is 41 × 4 + 15?",
+      "answer": "179",
+      "date_iso": "2026-05-15"
     }
   ],
   "publishes": {
@@ -5497,6 +5504,12 @@
           "artifact": "short-20260515-slot2",
           "fp": "3fe0945f1a8776e2eb0c687cd8b0f23550ff6f0a24046c4e87bf463474a57213",
           "ts": "2026-05-15T09:53:44.784913+00:00"
+        },
+        "3": {
+          "video_id": "-Jhh1vjn2Y0",
+          "artifact": "short-20260515-slot3",
+          "fp": "e63a511066ea3e90012f9e635bc0faa987f9f235cc7355ac48495bad0285036a",
+          "ts": "2026-05-15T15:28:17.829013+00:00"
         }
       }
     }
