@@ -2136,6 +2136,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-05-16"
+    },
+    {
+      "fp": "ced3d88452d38308e8122a04e82f94644508e790ecbb4c32cd6d50cd5c4c5f27",
+      "q_norm": "what is 28 11 12",
+      "question": "What is 28 × 11 + 12?",
+      "answer": "320",
+      "date_iso": "2026-05-16"
     }
   ],
   "publishes": {
@@ -5538,6 +5545,12 @@
           "artifact": "short-20260516-slot3",
           "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
           "ts": "2026-05-16T14:27:14.992586+00:00"
+        },
+        "4": {
+          "video_id": "RmNkQBrf1fs",
+          "artifact": "short-20260516-slot4",
+          "fp": "ced3d88452d38308e8122a04e82f94644508e790ecbb4c32cd6d50cd5c4c5f27",
+          "ts": "2026-05-16T20:08:25.289317+00:00"
         }
       }
     }
