@@ -2122,6 +2122,13 @@
       "question": "What is H2O commonly called?",
       "answer": "Water",
       "date_iso": "2026-05-16"
+    },
+    {
+      "fp": "0126efc69e700234df9877b0f1c5b184ad8050ebf952bc4291c3c797e4c7789d",
+      "q_norm": "what is 52 6 37",
+      "question": "What is 52 × 6 + 37?",
+      "answer": "349",
+      "date_iso": "2026-05-16"
     }
   ],
   "publishes": {
@@ -5512,6 +5519,12 @@
           "artifact": "short-20260516-slot1",
           "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
           "ts": "2026-05-16T04:36:17.396912+00:00"
+        },
+        "2": {
+          "video_id": "5DTW5z9a4R8",
+          "artifact": "short-20260516-slot2",
+          "fp": "0126efc69e700234df9877b0f1c5b184ad8050ebf952bc4291c3c797e4c7789d",
+          "ts": "2026-05-16T08:58:37.005986+00:00"
         }
       }
     }
