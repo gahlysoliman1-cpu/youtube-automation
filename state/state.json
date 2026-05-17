@@ -2136,6 +2136,13 @@
       "question": "What is 52 × 5 + 7?",
       "answer": "267",
       "date_iso": "2026-05-17"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-05-17"
     }
   ],
   "publishes": {
@@ -5566,6 +5573,12 @@
           "artifact": "short-20260517-slot3",
           "fp": "9858b26c7729e4b57f3f31a3c8d8cfa822a99653f8cb6d243172f89d9079bbde",
           "ts": "2026-05-17T14:42:06.282225+00:00"
+        },
+        "4": {
+          "video_id": "vEYwio-39jA",
+          "artifact": "short-20260517-slot4",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-05-17T20:09:00.979787+00:00"
         }
       }
     }
