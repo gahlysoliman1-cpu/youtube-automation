@@ -2122,6 +2122,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-05-17"
+    },
+    {
+      "fp": "0bab5b1129da07ba2e8aa4698b48ba568f523234e0bf56dc751da0d70387c423",
+      "q_norm": "what is 67 8 7",
+      "question": "What is 67 × 8 + 7?",
+      "answer": "543",
+      "date_iso": "2026-05-17"
     }
   ],
   "publishes": {
@@ -5540,6 +5547,12 @@
           "artifact": "short-20260517-slot1",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-05-17T05:00:17.960371+00:00"
+        },
+        "2": {
+          "video_id": "pSRIkitaqfw",
+          "artifact": "short-20260517-slot2",
+          "fp": "0bab5b1129da07ba2e8aa4698b48ba568f523234e0bf56dc751da0d70387c423",
+          "ts": "2026-05-17T09:13:25.669489+00:00"
         }
       }
     }
