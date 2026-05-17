@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "72d22dbd27cf67ee8905ea940a193f86c450d57826fa79767e0d23181687c790",
-      "q_norm": "what s 12 x 11",
-      "question": "What's 12 x 11?",
-      "answer": "132",
-      "date_iso": "2026-02-15"
-    },
-    {
-      "fp": "c186af9928a703974efd041904b1ad127ca06f663626577f48942da0b2067885",
-      "q_norm": "a bakery sells 408 loaves of bread at 2 99 each and 429 loaves at 3 19 each what s the total revenue",
-      "question": "A bakery sells 408 loaves of bread at $2.99 each and 429 loaves at $3.19 each. What's the total revenue?",
-      "answer": "$2,755.92",
-      "date_iso": "2026-02-15"
-    },
-    {
-      "fp": "b3fff87e6b09b064ca100055888036c642ff2ff4506b9d9e2fceff00d63d2397",
-      "q_norm": "which country s capital is built on more than 100 small islands",
-      "question": "Which country's capital is built on more than 100 small islands?",
-      "answer": "Sweden (Stockholm)",
-      "date_iso": "2026-02-15"
-    },
-    {
-      "fp": "b24c38b0fc449e62ed7d7cc8a04e3491d9fc7acff756b2fb8256a2d7d3eb4091",
-      "q_norm": "what popular dessert s name comes from the french word for burnt cream",
-      "question": "What popular dessert's name comes from the French word for 'burnt cream'?",
-      "answer": "Crème Brûlée",
-      "date_iso": "2026-02-15"
-    },
-    {
       "fp": "56b58ff1f865d73d22971dc3ea1911c874f308b35eb223ab4c0b8c0a33fce787",
       "q_norm": "how many planets in our solar system have rings",
       "question": "How many planets in our solar system have rings?",
@@ -2143,6 +2115,13 @@
       "question": "What is 28 × 11 + 12?",
       "answer": "320",
       "date_iso": "2026-05-16"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-05-17"
     }
   ],
   "publishes": {
@@ -5551,6 +5530,16 @@
           "artifact": "short-20260516-slot4",
           "fp": "ced3d88452d38308e8122a04e82f94644508e790ecbb4c32cd6d50cd5c4c5f27",
           "ts": "2026-05-16T20:08:25.289317+00:00"
+        }
+      }
+    },
+    "20260517": {
+      "shorts": {
+        "1": {
+          "video_id": "OqPcWhiXD38",
+          "artifact": "short-20260517-slot1",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-05-17T05:00:17.960371+00:00"
         }
       }
     }
