@@ -2129,6 +2129,13 @@
       "question": "What is 67 × 8 + 7?",
       "answer": "543",
       "date_iso": "2026-05-17"
+    },
+    {
+      "fp": "9858b26c7729e4b57f3f31a3c8d8cfa822a99653f8cb6d243172f89d9079bbde",
+      "q_norm": "what is 52 5 7",
+      "question": "What is 52 × 5 + 7?",
+      "answer": "267",
+      "date_iso": "2026-05-17"
     }
   ],
   "publishes": {
@@ -5553,6 +5560,12 @@
           "artifact": "short-20260517-slot2",
           "fp": "0bab5b1129da07ba2e8aa4698b48ba568f523234e0bf56dc751da0d70387c423",
           "ts": "2026-05-17T09:13:25.669489+00:00"
+        },
+        "3": {
+          "video_id": "toUIj-nJGio",
+          "artifact": "short-20260517-slot3",
+          "fp": "9858b26c7729e4b57f3f31a3c8d8cfa822a99653f8cb6d243172f89d9079bbde",
+          "ts": "2026-05-17T14:42:06.282225+00:00"
         }
       }
     }
