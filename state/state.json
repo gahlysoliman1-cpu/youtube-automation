@@ -2122,6 +2122,13 @@
       "question": "What is 87 × 10 + 23?",
       "answer": "893",
       "date_iso": "2026-05-18"
+    },
+    {
+      "fp": "d8d6cbf3ca9835f92bc5957929d1bd3e56d0fcfa97fe3b7f6715141cfdc7c6db",
+      "q_norm": "what is 85 8 32",
+      "question": "What is 85 × 8 + 32?",
+      "answer": "712",
+      "date_iso": "2026-05-18"
     }
   ],
   "publishes": {
@@ -5568,6 +5575,12 @@
           "artifact": "short-20260518-slot1",
           "fp": "ee666ce6d7eafba56b8db3dc2c39d775e041d5e21077448f7745eb9b862dc50c",
           "ts": "2026-05-18T05:19:35.257678+00:00"
+        },
+        "2": {
+          "video_id": "PK_FK1vuscI",
+          "artifact": "short-20260518-slot2",
+          "fp": "d8d6cbf3ca9835f92bc5957929d1bd3e56d0fcfa97fe3b7f6715141cfdc7c6db",
+          "ts": "2026-05-18T11:12:33.032765+00:00"
         }
       }
     }
