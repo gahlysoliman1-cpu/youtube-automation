@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "56b58ff1f865d73d22971dc3ea1911c874f308b35eb223ab4c0b8c0a33fce787",
-      "q_norm": "how many planets in our solar system have rings",
-      "question": "How many planets in our solar system have rings?",
-      "answer": "4",
-      "date_iso": "2026-02-16"
-    },
-    {
-      "fp": "ff4249711708e44fbeb3566f90091aaa50552c6a9151ebe3a95b8bb323a02aea",
-      "q_norm": "if 142 2 3 is written as 1 4 2 2 3 what is 262902142",
-      "question": "If 142 + 2 * 3 is written as 1 4 2 2 3, what is 262902142?",
-      "answer": "1 4 13 2 2 3",
-      "date_iso": "2026-02-16"
-    },
-    {
-      "fp": "6fea7e8d4222f8defbed7829832384cf22118f41692dc333ed21286565d0d148",
-      "q_norm": "what is the world s largest living structure according to the guinness world records",
-      "question": "What is the world's largest living structure, according to the Guinness World Records?",
-      "answer": "The Great Barrier Reef",
-      "date_iso": "2026-02-16"
-    },
-    {
-      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
-      "q_norm": "what popular italian dessert s name means pick me up",
-      "question": "What popular Italian dessert's name means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-16"
-    },
-    {
       "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
       "q_norm": "what is the fastest land animal",
       "question": "What is the fastest land animal?",
@@ -2143,6 +2115,13 @@
       "question": "What gas do plants absorb from the air?",
       "answer": "Carbon dioxide",
       "date_iso": "2026-05-17"
+    },
+    {
+      "fp": "ee666ce6d7eafba56b8db3dc2c39d775e041d5e21077448f7745eb9b862dc50c",
+      "q_norm": "what is 87 10 23",
+      "question": "What is 87 × 10 + 23?",
+      "answer": "893",
+      "date_iso": "2026-05-18"
     }
   ],
   "publishes": {
@@ -5579,6 +5558,16 @@
           "artifact": "short-20260517-slot4",
           "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
           "ts": "2026-05-17T20:09:00.979787+00:00"
+        }
+      }
+    },
+    "20260518": {
+      "shorts": {
+        "1": {
+          "video_id": "AmXRddDwplw",
+          "artifact": "short-20260518-slot1",
+          "fp": "ee666ce6d7eafba56b8db3dc2c39d775e041d5e21077448f7745eb9b862dc50c",
+          "ts": "2026-05-18T05:19:35.257678+00:00"
         }
       }
     }
