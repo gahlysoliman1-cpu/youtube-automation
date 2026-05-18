@@ -2129,6 +2129,13 @@
       "question": "What is 85 × 8 + 32?",
       "answer": "712",
       "date_iso": "2026-05-18"
+    },
+    {
+      "fp": "0f29e33b59182fe75db5d3cdaf191567f1260c0b0df164e166cc2aaedd4fb242",
+      "q_norm": "what is 27 10 21",
+      "question": "What is 27 × 10 + 21?",
+      "answer": "291",
+      "date_iso": "2026-05-18"
     }
   ],
   "publishes": {
@@ -5581,6 +5588,12 @@
           "artifact": "short-20260518-slot2",
           "fp": "d8d6cbf3ca9835f92bc5957929d1bd3e56d0fcfa97fe3b7f6715141cfdc7c6db",
           "ts": "2026-05-18T11:12:33.032765+00:00"
+        },
+        "3": {
+          "video_id": "v_As0MZap3o",
+          "artifact": "short-20260518-slot3",
+          "fp": "0f29e33b59182fe75db5d3cdaf191567f1260c0b0df164e166cc2aaedd4fb242",
+          "ts": "2026-05-18T16:38:27.957022+00:00"
         }
       }
     }
