@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
-      "q_norm": "what is the fastest land animal",
-      "question": "What is the fastest land animal?",
-      "answer": "Cheetah",
-      "date_iso": "2026-02-17"
-    },
-    {
-      "fp": "85eb1ddbfe57be81b774d81c1c8f82ae4e02a41bf1f06391522af426b65107ba",
-      "q_norm": "which planet in our solar system is closest to the sun",
-      "question": "Which planet in our solar system is closest to the sun?",
-      "answer": "Mercury",
-      "date_iso": "2026-02-17"
-    },
-    {
-      "fp": "d95d7e8a023309197cfd6165fabd4220849b50dd3ca7cdbd58a9fb608191f4e4",
-      "q_norm": "a book costs 983 12 if a 20 discount is applied how much will you pay",
-      "question": "A book costs $983.12. If a 20% discount is applied, how much will you pay?",
-      "answer": "$785.00",
-      "date_iso": "2026-02-17"
-    },
-    {
-      "fp": "b940ad8a0e937569c36466b9a0a75deb8bf9a9080c7c04616471f047fe101159",
-      "q_norm": "who holds the record for most career home runs in major league baseball",
-      "question": "Who holds the record for most career home runs in Major League Baseball?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-02-17"
-    },
-    {
       "fp": "6dbc68ba936de264ac88428db996065c3cbe2bcbb8fcc549437965bf632b86e7",
       "q_norm": "what does burn the midnight oil mean",
       "question": "What does 'burn the midnight oil' mean?",
@@ -2143,6 +2115,13 @@
       "question": "What is 27 × 2 + 8?",
       "answer": "62",
       "date_iso": "2026-05-18"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-05-19"
     }
   ],
   "publishes": {
@@ -5607,6 +5586,16 @@
           "artifact": "short-20260518-slot4",
           "fp": "160d51f16f5762bb015f4e9d1f855856cbaae607fb589d184fa37a3eec77aef1",
           "ts": "2026-05-18T20:44:06.674025+00:00"
+        }
+      }
+    },
+    "20260519": {
+      "shorts": {
+        "1": {
+          "video_id": "RN0kFSuQDVQ",
+          "artifact": "short-20260519-slot1",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-05-19T05:11:38.678586+00:00"
         }
       }
     }
