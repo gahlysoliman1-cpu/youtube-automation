@@ -2129,6 +2129,13 @@
       "question": "What is 56 × 6 + 24?",
       "answer": "360",
       "date_iso": "2026-05-19"
+    },
+    {
+      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+      "q_norm": "what is the capital of italy",
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "date_iso": "2026-05-19"
     }
   ],
   "publishes": {
@@ -5609,6 +5616,12 @@
           "artifact": "short-20260519-slot2",
           "fp": "8414d01382482e1a3b4eaea6b54e0af1b904e968a1b0f6f365769bdfd4b0a0f3",
           "ts": "2026-05-19T10:42:01.344937+00:00"
+        },
+        "3": {
+          "video_id": "ag-Q-SLSbzQ",
+          "artifact": "short-20260519-slot3",
+          "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+          "ts": "2026-05-19T16:31:05.502753+00:00"
         }
       }
     }
