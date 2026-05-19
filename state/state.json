@@ -2122,6 +2122,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-05-19"
+    },
+    {
+      "fp": "8414d01382482e1a3b4eaea6b54e0af1b904e968a1b0f6f365769bdfd4b0a0f3",
+      "q_norm": "what is 56 6 24",
+      "question": "What is 56 × 6 + 24?",
+      "answer": "360",
+      "date_iso": "2026-05-19"
     }
   ],
   "publishes": {
@@ -5596,6 +5603,12 @@
           "artifact": "short-20260519-slot1",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-05-19T05:11:38.678586+00:00"
+        },
+        "2": {
+          "video_id": "0tqG8L1ulTs",
+          "artifact": "short-20260519-slot2",
+          "fp": "8414d01382482e1a3b4eaea6b54e0af1b904e968a1b0f6f365769bdfd4b0a0f3",
+          "ts": "2026-05-19T10:42:01.344937+00:00"
         }
       }
     }
