@@ -2129,6 +2129,13 @@
       "question": "What is 26 × 2 + 27?",
       "answer": "79",
       "date_iso": "2026-05-20"
+    },
+    {
+      "fp": "74bb86007465946ab654cea7376aa3a4dfdc1d9541a1723688e25c52342bdbc3",
+      "q_norm": "what is 37 10 5",
+      "question": "What is 37 × 10 + 5?",
+      "answer": "375",
+      "date_iso": "2026-05-20"
     }
   ],
   "publishes": {
@@ -5637,6 +5644,12 @@
           "artifact": "short-20260520-slot2",
           "fp": "3af087d205a2a8b0b069c7ab639806cd709a5c9fb5788e15438ef95604065129",
           "ts": "2026-05-20T10:30:36.570577+00:00"
+        },
+        "3": {
+          "video_id": "JgyIN8Ymqf8",
+          "artifact": "short-20260520-slot3",
+          "fp": "74bb86007465946ab654cea7376aa3a4dfdc1d9541a1723688e25c52342bdbc3",
+          "ts": "2026-05-20T16:32:14.268024+00:00"
         }
       }
     }
