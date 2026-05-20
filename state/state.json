@@ -2136,6 +2136,13 @@
       "question": "What is 37 × 10 + 5?",
       "answer": "375",
       "date_iso": "2026-05-20"
+    },
+    {
+      "fp": "b92d6e5e2cb60e1e997f21854c252096560b5ec8611ad704ad9c3cbff7842114",
+      "q_norm": "what is 72 11 26",
+      "question": "What is 72 × 11 + 26?",
+      "answer": "818",
+      "date_iso": "2026-05-20"
     }
   ],
   "publishes": {
@@ -5650,6 +5657,12 @@
           "artifact": "short-20260520-slot3",
           "fp": "74bb86007465946ab654cea7376aa3a4dfdc1d9541a1723688e25c52342bdbc3",
           "ts": "2026-05-20T16:32:14.268024+00:00"
+        },
+        "4": {
+          "video_id": "bL4LbdENCbw",
+          "artifact": "short-20260520-slot4",
+          "fp": "b92d6e5e2cb60e1e997f21854c252096560b5ec8611ad704ad9c3cbff7842114",
+          "ts": "2026-05-20T21:07:41.279718+00:00"
         }
       }
     }
