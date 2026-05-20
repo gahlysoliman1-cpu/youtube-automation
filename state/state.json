@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6dbc68ba936de264ac88428db996065c3cbe2bcbb8fcc549437965bf632b86e7",
-      "q_norm": "what does burn the midnight oil mean",
-      "question": "What does 'burn the midnight oil' mean?",
-      "answer": "Work late into the night",
-      "date_iso": "2026-02-18"
-    },
-    {
-      "fp": "19706780e5f900e6f35b3c7416b93c902bbfe0014359529d1a477222171e83e6",
-      "q_norm": "i have a 3 digit number with no repeating digits if you remove my first digit i m 294 times smaller what am i",
-      "question": "I have a 3-digit number with no repeating digits. If you remove my first digit, I'm 294 times smaller. What am I?",
-      "answer": "102",
-      "date_iso": "2026-02-18"
-    },
-    {
-      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
-      "q_norm": "what does cpu stand for in computing",
-      "question": "What does CPU stand for in computing?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-02-18"
-    },
-    {
-      "fp": "de0c7641a88acc5660c0cbcbdc45a2dd168cb439eaf2cf6e606bc8937f9323df",
-      "q_norm": "which country has ouagadougou as its capital",
-      "question": "Which country has Ouagadougou as its capital?",
-      "answer": "Burkina Faso",
-      "date_iso": "2026-02-18"
-    },
-    {
       "fp": "5ea30fbcb2655a360ae12e1d5861136edf9a81875c7d8b19809ef2e175722758",
       "q_norm": "which continent is home to the country of madagascar",
       "question": "Which continent is home to the country of Madagascar?",
@@ -2143,6 +2115,13 @@
       "question": "What is 84 × 8 + 7?",
       "answer": "679",
       "date_iso": "2026-05-19"
+    },
+    {
+      "fp": "bf0383a3918be9be852081c4038222a07d69072136cce9eebb6a8be0bcb73c54",
+      "q_norm": "what is 38 2 31",
+      "question": "What is 38 × 2 + 31?",
+      "answer": "107",
+      "date_iso": "2026-05-20"
     }
   ],
   "publishes": {
@@ -5635,6 +5614,16 @@
           "artifact": "short-20260519-slot4",
           "fp": "f887e50cd85daa38f8206fcd37f8dcfc1c008148e097dabeed0131edca2d2bb6",
           "ts": "2026-05-19T20:52:42.757189+00:00"
+        }
+      }
+    },
+    "20260520": {
+      "shorts": {
+        "1": {
+          "video_id": "Fgip0GtEn_U",
+          "artifact": "short-20260520-slot1",
+          "fp": "bf0383a3918be9be852081c4038222a07d69072136cce9eebb6a8be0bcb73c54",
+          "ts": "2026-05-20T05:15:11.681843+00:00"
         }
       }
     }
