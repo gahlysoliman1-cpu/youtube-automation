@@ -2122,6 +2122,13 @@
       "question": "What is 88 × 9 + 26?",
       "answer": "818",
       "date_iso": "2026-05-21"
+    },
+    {
+      "fp": "7808c8bdf5a6dbd3b54cfcbbd1a3aa1c241d630b84ab860b6489ca5a1dc33f75",
+      "q_norm": "what is 39 6 23",
+      "question": "What is 39 × 6 + 23?",
+      "answer": "257",
+      "date_iso": "2026-05-21"
     }
   ],
   "publishes": {
@@ -5652,6 +5659,12 @@
           "artifact": "short-20260521-slot1",
           "fp": "db9ffc6f34c10aaf8cdf4637bbedb6eb19f1444ee0256fc33a46e913a92273bd",
           "ts": "2026-05-21T05:22:12.722446+00:00"
+        },
+        "2": {
+          "video_id": "tFeHwHKAq8I",
+          "artifact": "short-20260521-slot2",
+          "fp": "7808c8bdf5a6dbd3b54cfcbbd1a3aa1c241d630b84ab860b6489ca5a1dc33f75",
+          "ts": "2026-05-21T10:49:05.588986+00:00"
         }
       }
     }
