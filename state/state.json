@@ -2129,6 +2129,13 @@
       "question": "What is 39 × 6 + 23?",
       "answer": "257",
       "date_iso": "2026-05-21"
+    },
+    {
+      "fp": "6a96fafcc0faac0869aa102b51eeb0c60a97d03251feb10b710c2212e4cf4fee",
+      "q_norm": "what is 29 2 24",
+      "question": "What is 29 × 2 + 24?",
+      "answer": "82",
+      "date_iso": "2026-05-21"
     }
   ],
   "publishes": {
@@ -5665,6 +5672,12 @@
           "artifact": "short-20260521-slot2",
           "fp": "7808c8bdf5a6dbd3b54cfcbbd1a3aa1c241d630b84ab860b6489ca5a1dc33f75",
           "ts": "2026-05-21T10:49:05.588986+00:00"
+        },
+        "3": {
+          "video_id": "xDkrIh5cljE",
+          "artifact": "short-20260521-slot3",
+          "fp": "6a96fafcc0faac0869aa102b51eeb0c60a97d03251feb10b710c2212e4cf4fee",
+          "ts": "2026-05-21T16:25:02.657017+00:00"
         }
       }
     }
