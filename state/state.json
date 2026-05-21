@@ -2136,6 +2136,13 @@
       "question": "What is 29 × 2 + 24?",
       "answer": "82",
       "date_iso": "2026-05-21"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-05-21"
     }
   ],
   "publishes": {
@@ -5678,6 +5685,12 @@
           "artifact": "short-20260521-slot3",
           "fp": "6a96fafcc0faac0869aa102b51eeb0c60a97d03251feb10b710c2212e4cf4fee",
           "ts": "2026-05-21T16:25:02.657017+00:00"
+        },
+        "4": {
+          "video_id": "Do3PSWcb3gE",
+          "artifact": "short-20260521-slot4",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-05-21T20:57:15.435045+00:00"
         }
       }
     }
