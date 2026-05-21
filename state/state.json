@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "5ea30fbcb2655a360ae12e1d5861136edf9a81875c7d8b19809ef2e175722758",
-      "q_norm": "which continent is home to the country of madagascar",
-      "question": "Which continent is home to the country of Madagascar?",
-      "answer": "Africa",
-      "date_iso": "2026-02-19"
-    },
-    {
-      "fp": "36738281dfabf811a813ae222f9c7fdd1705350d5c81fddbbb7a4aeed81f9631",
-      "q_norm": "what is 43 9 38",
-      "question": "What is 43 × 9 + 38?",
-      "answer": "425",
-      "date_iso": "2026-02-19"
-    },
-    {
-      "fp": "2c65332318be30b25d0141200a550fac6295b66115b4f182d925c40146ad92b3",
-      "q_norm": "a bookshelf has 13 shelves each with 7 books how many books are there in total",
-      "question": "A bookshelf has 13 shelves, each with 7 books. How many books are there in total?",
-      "answer": "91",
-      "date_iso": "2026-02-19"
-    },
-    {
-      "fp": "35f8635af5a0e5d0b9e8710d08123ffec211a38e96558e2da774f9110f31aea8",
-      "q_norm": "i have 8 numbers but add 1 and i become odd what am i",
-      "question": "I have 8 numbers, but add 1 and I become odd. What am I?",
-      "answer": "Nine",
-      "date_iso": "2026-02-19"
-    },
-    {
       "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
       "q_norm": "which popular italian dessert translates to pick me up",
       "question": "Which popular Italian dessert translates to 'pick-me-up'?",
@@ -2143,6 +2115,13 @@
       "question": "What is 72 × 11 + 26?",
       "answer": "818",
       "date_iso": "2026-05-20"
+    },
+    {
+      "fp": "db9ffc6f34c10aaf8cdf4637bbedb6eb19f1444ee0256fc33a46e913a92273bd",
+      "q_norm": "what is 88 9 26",
+      "question": "What is 88 × 9 + 26?",
+      "answer": "818",
+      "date_iso": "2026-05-21"
     }
   ],
   "publishes": {
@@ -5663,6 +5642,16 @@
           "artifact": "short-20260520-slot4",
           "fp": "b92d6e5e2cb60e1e997f21854c252096560b5ec8611ad704ad9c3cbff7842114",
           "ts": "2026-05-20T21:07:41.279718+00:00"
+        }
+      }
+    },
+    "20260521": {
+      "shorts": {
+        "1": {
+          "video_id": "ysi69CcZuBo",
+          "artifact": "short-20260521-slot1",
+          "fp": "db9ffc6f34c10aaf8cdf4637bbedb6eb19f1444ee0256fc33a46e913a92273bd",
+          "ts": "2026-05-21T05:22:12.722446+00:00"
         }
       }
     }
