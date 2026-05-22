@@ -2122,6 +2122,13 @@
       "question": "What is 29 × 7 + 17?",
       "answer": "220",
       "date_iso": "2026-05-22"
+    },
+    {
+      "fp": "f718be07f0438acbf2791e11db4b27b1cf49f95311d02b5bdb238c0104a82a21",
+      "q_norm": "what is 79 8 8",
+      "question": "What is 79 × 8 + 8?",
+      "answer": "640",
+      "date_iso": "2026-05-22"
     }
   ],
   "publishes": {
@@ -5680,6 +5687,12 @@
           "artifact": "short-20260522-slot1",
           "fp": "84b22c02bb794afe644fe8e1cf8ea41e034be6f919788825269bce7005551b6d",
           "ts": "2026-05-22T05:11:52.660132+00:00"
+        },
+        "2": {
+          "video_id": "AyLTPqqTTuQ",
+          "artifact": "short-20260522-slot2",
+          "fp": "f718be07f0438acbf2791e11db4b27b1cf49f95311d02b5bdb238c0104a82a21",
+          "ts": "2026-05-22T10:29:46.152297+00:00"
         }
       }
     }
