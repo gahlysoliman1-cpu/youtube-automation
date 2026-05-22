@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "5ddbc7fc763aa156aede7c18f1f5585fa70d79a7e9aed01501e31a3fa9809a4b",
-      "q_norm": "which popular italian dessert translates to pick me up",
-      "question": "Which popular Italian dessert translates to 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-20"
-    },
-    {
-      "fp": "745564f7cfef630ba52aa8f297f56fbb3a3b7b67e234e29d32cd56b5f197b72a",
-      "q_norm": "who holds the record for most super bowl wins by a player",
-      "question": "Who holds the record for most Super Bowl wins by a player?",
-      "answer": "Tom Brady",
-      "date_iso": "2026-02-20"
-    },
-    {
-      "fp": "c9f3dda709b5fcdba0b85f55592cca9201228fc1d2971e20fc8531a4fcfc6b4c",
-      "q_norm": "if a bookshelf has 5 shelves and each shelf can hold 319 books how many books can it hold in total",
-      "question": "If a bookshelf has 5 shelves, and each shelf can hold 319 books, how many books can it hold in total?",
-      "answer": "1595",
-      "date_iso": "2026-02-20"
-    },
-    {
-      "fp": "b79efbb305bd6d5dbe3d0d435c17814258f98176c72064b0950f2e9bfa5e6812",
-      "q_norm": "i have 5 letters take away my first letter and i still sound the same what am i",
-      "question": "I have 5 letters, take away my first letter, and I still sound the same. What am I?",
-      "answer": "Swims",
-      "date_iso": "2026-02-20"
-    },
-    {
       "fp": "4a33a5884c9cbb8faf1e30a494723d0902efb70ae4f54bfa8f959813c70598aa",
       "q_norm": "what s the farthest human made object from earth",
       "question": "What's the farthest human-made object from Earth?",
@@ -2143,6 +2115,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-05-21"
+    },
+    {
+      "fp": "84b22c02bb794afe644fe8e1cf8ea41e034be6f919788825269bce7005551b6d",
+      "q_norm": "what is 29 7 17",
+      "question": "What is 29 × 7 + 17?",
+      "answer": "220",
+      "date_iso": "2026-05-22"
     }
   ],
   "publishes": {
@@ -5691,6 +5670,16 @@
           "artifact": "short-20260521-slot4",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-05-21T20:57:15.435045+00:00"
+        }
+      }
+    },
+    "20260522": {
+      "shorts": {
+        "1": {
+          "video_id": "d1uY4aw2Uos",
+          "artifact": "short-20260522-slot1",
+          "fp": "84b22c02bb794afe644fe8e1cf8ea41e034be6f919788825269bce7005551b6d",
+          "ts": "2026-05-22T05:11:52.660132+00:00"
         }
       }
     }
