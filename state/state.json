@@ -2122,6 +2122,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-05-23"
+    },
+    {
+      "fp": "86abac64865abbe43eaff3ea7c0f0056734c07f7e36506f08be2f01162982b81",
+      "q_norm": "what is 31 10 24",
+      "question": "What is 31 × 10 + 24?",
+      "answer": "334",
+      "date_iso": "2026-05-23"
     }
   ],
   "publishes": {
@@ -5708,6 +5715,12 @@
           "artifact": "short-20260523-slot2",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-05-23T09:10:40.946089+00:00"
+        },
+        "3": {
+          "video_id": "5n3tm94Lkbo",
+          "artifact": "short-20260523-slot3",
+          "fp": "86abac64865abbe43eaff3ea7c0f0056734c07f7e36506f08be2f01162982b81",
+          "ts": "2026-05-23T14:43:55.181729+00:00"
         }
       }
     }
