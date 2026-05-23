@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "4a33a5884c9cbb8faf1e30a494723d0902efb70ae4f54bfa8f959813c70598aa",
-      "q_norm": "what s the farthest human made object from earth",
-      "question": "What's the farthest human-made object from Earth?",
-      "answer": "Voyager 1",
-      "date_iso": "2026-02-21"
-    },
-    {
-      "fp": "174010e52e75d0f1fc742512f06aec3816fed4335cc8159f9a0a781873e6f050",
-      "q_norm": "which popular dessert originated in italy",
-      "question": "Which popular dessert originated in Italy?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-21"
-    },
-    {
-      "fp": "f7b4fd589917d5cbfb00d6370b29a534b4887c4d2e1bf8f648aa9450d960c219",
-      "q_norm": "who holds the record for most olympic gold medals won by an individual",
-      "question": "Who holds the record for most Olympic gold medals won by an individual?",
-      "answer": "Michael Phelps",
-      "date_iso": "2026-02-21"
-    },
-    {
-      "fp": "6da8017e94a5a2dca0084172ea9c66c71124b98b6b5e1dbdcdabfe84dc47f447",
-      "q_norm": "what is the most widely used web browser",
-      "question": "What is the most widely used web browser?",
-      "answer": "Google Chrome",
-      "date_iso": "2026-02-21"
-    },
-    {
       "fp": "943da5acef6f8e86ade5b4eee9bf3f6a81ad535f6e954a1c3dadea251628b2c5",
       "q_norm": "what popular italian dessert s name translates to pick me up",
       "question": "What popular Italian dessert's name translates to 'pick-me-up'?",
@@ -2143,6 +2115,13 @@
       "question": "What is 27 × 4 + 17?",
       "answer": "125",
       "date_iso": "2026-05-22"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-05-23"
     }
   ],
   "publishes": {
@@ -5719,6 +5698,16 @@
           "artifact": "short-20260522-slot4",
           "fp": "2cf6693a57354a761f76a0a93db03e3974669ad5783a6473c3eaeacaec0115a6",
           "ts": "2026-05-22T20:46:39.518061+00:00"
+        }
+      }
+    },
+    "20260523": {
+      "shorts": {
+        "2": {
+          "video_id": "xu_SN9kmsHU",
+          "artifact": "short-20260523-slot2",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-05-23T09:10:40.946089+00:00"
         }
       }
     }
