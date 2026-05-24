@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "943da5acef6f8e86ade5b4eee9bf3f6a81ad535f6e954a1c3dadea251628b2c5",
-      "q_norm": "what popular italian dessert s name translates to pick me up",
-      "question": "What popular Italian dessert's name translates to 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-02-22"
-    },
-    {
-      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
-      "q_norm": "what is the capital of australia",
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-02-22"
-    },
-    {
-      "fp": "5e7315458540057937cb8c2981bbdcc13121477e4b88a0e357929eb1a9693c44",
-      "q_norm": "what s the fastest land animal reaching speeds of 70 mph",
-      "question": "What's the fastest land animal, reaching speeds of 70 mph?",
-      "answer": "Cheetah",
-      "date_iso": "2026-02-22"
-    },
-    {
-      "fp": "b5bf4854ba60533e20f3b43a6823fa5de44b4fe480b7e66e8223cba6c453f388",
-      "q_norm": "who holds the record for the fastest 100m dash time",
-      "question": "Who holds the record for the fastest 100m dash time?",
-      "answer": "Usain Bolt",
-      "date_iso": "2026-02-22"
-    },
-    {
       "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
       "q_norm": "what is the capital of greenland",
       "question": "What is the capital of Greenland?",
@@ -2136,6 +2108,13 @@
       "question": "What is 97 × 7 + 6?",
       "answer": "685",
       "date_iso": "2026-05-23"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-05-24"
     }
   ],
   "publishes": {
@@ -5734,6 +5713,16 @@
           "artifact": "short-20260523-slot4",
           "fp": "a799880ba48e8507860ff9617713da32908179ade66f83be138f020a50911db9",
           "ts": "2026-05-23T20:14:03.608859+00:00"
+        }
+      }
+    },
+    "20260524": {
+      "shorts": {
+        "1": {
+          "video_id": "yM7YbH9o150",
+          "artifact": "short-20260524-slot1",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-05-24T05:12:07.058228+00:00"
         }
       }
     }
