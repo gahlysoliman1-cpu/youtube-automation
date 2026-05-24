@@ -2129,6 +2129,13 @@
       "question": "What is 13 × 2 + 17?",
       "answer": "43",
       "date_iso": "2026-05-24"
+    },
+    {
+      "fp": "703ddb98650f98c598433edfb50685904cb95f0baf9abbacba516ebca685a03f",
+      "q_norm": "what is 82 4 20",
+      "question": "What is 82 × 4 + 20?",
+      "answer": "348",
+      "date_iso": "2026-05-24"
     }
   ],
   "publishes": {
@@ -5749,6 +5756,12 @@
           "artifact": "short-20260524-slot3",
           "fp": "2be469e2cf96aa14540fa53fc36e9fa55c5115ca1baa2d3b6b4fb7a816c75cf1",
           "ts": "2026-05-24T14:44:14.222877+00:00"
+        },
+        "4": {
+          "video_id": "6gEQwi_Capc",
+          "artifact": "short-20260524-slot4",
+          "fp": "703ddb98650f98c598433edfb50685904cb95f0baf9abbacba516ebca685a03f",
+          "ts": "2026-05-24T20:14:43.853911+00:00"
         }
       }
     }
