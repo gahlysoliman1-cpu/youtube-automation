@@ -2136,6 +2136,13 @@
       "question": "What is 82 × 8 + 26?",
       "answer": "682",
       "date_iso": "2026-05-25"
+    },
+    {
+      "fp": "a27d69f7ce86f4af20d1f4644fca0fd7972aa8dbbfcbc8c52a91f35cebc0a222",
+      "q_norm": "what is 88 10 37",
+      "question": "What is 88 × 10 + 37?",
+      "answer": "917",
+      "date_iso": "2026-05-25"
     }
   ],
   "publishes": {
@@ -5772,6 +5779,12 @@
           "artifact": "short-20260525-slot1",
           "fp": "8200a0d0472281f48f918e02db471f41e6c23d5294a51ce61e7c57c463532cc5",
           "ts": "2026-05-25T05:47:58.026089+00:00"
+        },
+        "2": {
+          "video_id": "vz21n2srMG0",
+          "artifact": "short-20260525-slot2",
+          "fp": "a27d69f7ce86f4af20d1f4644fca0fd7972aa8dbbfcbc8c52a91f35cebc0a222",
+          "ts": "2026-05-25T11:17:57.150663+00:00"
         }
       }
     }
