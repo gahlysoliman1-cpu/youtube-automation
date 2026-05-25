@@ -2150,6 +2150,13 @@
       "question": "What is 85 × 9 + 11?",
       "answer": "776",
       "date_iso": "2026-05-25"
+    },
+    {
+      "fp": "1ef11586fd518b60e3cfe212174b6657f76fc383ff7d32a2f3c7e12eff75d7ea",
+      "q_norm": "what is 79 4 12",
+      "question": "What is 79 × 4 + 12?",
+      "answer": "328",
+      "date_iso": "2026-05-25"
     }
   ],
   "publishes": {
@@ -5798,6 +5805,12 @@
           "artifact": "short-20260525-slot3",
           "fp": "df565f9890ea94efa41ddeb3a19994667ebf63f6df3457599c0250b3be7b4f5b",
           "ts": "2026-05-25T15:59:54.107604+00:00"
+        },
+        "4": {
+          "video_id": "CqW-gaSF9zk",
+          "artifact": "short-20260525-slot4",
+          "fp": "1ef11586fd518b60e3cfe212174b6657f76fc383ff7d32a2f3c7e12eff75d7ea",
+          "ts": "2026-05-25T20:43:38.429786+00:00"
         }
       }
     }
