@@ -3,13 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "d4e005bb0125492c024a24dd21327a9cd3c02bf75af2c5f55adf21a05d9da2bb",
-      "q_norm": "what is the capital of greenland",
-      "question": "What is the capital of Greenland?",
-      "answer": "Nuuk",
-      "date_iso": "2026-02-23"
-    },
-    {
       "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
       "q_norm": "what does cpu stand for",
       "question": "What does CPU stand for?",
@@ -2136,6 +2129,13 @@
       "question": "What is 82 × 4 + 20?",
       "answer": "348",
       "date_iso": "2026-05-24"
+    },
+    {
+      "fp": "8200a0d0472281f48f918e02db471f41e6c23d5294a51ce61e7c57c463532cc5",
+      "q_norm": "what is 82 8 26",
+      "question": "What is 82 × 8 + 26?",
+      "answer": "682",
+      "date_iso": "2026-05-25"
     }
   ],
   "publishes": {
@@ -5762,6 +5762,16 @@
           "artifact": "short-20260524-slot4",
           "fp": "703ddb98650f98c598433edfb50685904cb95f0baf9abbacba516ebca685a03f",
           "ts": "2026-05-24T20:14:43.853911+00:00"
+        }
+      }
+    },
+    "20260525": {
+      "shorts": {
+        "1": {
+          "video_id": "VdI8HJ8VDL0",
+          "artifact": "short-20260525-slot1",
+          "fp": "8200a0d0472281f48f918e02db471f41e6c23d5294a51ce61e7c57c463532cc5",
+          "ts": "2026-05-25T05:47:58.026089+00:00"
         }
       }
     }
