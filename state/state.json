@@ -2143,6 +2143,13 @@
       "question": "What is 88 × 10 + 37?",
       "answer": "917",
       "date_iso": "2026-05-25"
+    },
+    {
+      "fp": "df565f9890ea94efa41ddeb3a19994667ebf63f6df3457599c0250b3be7b4f5b",
+      "q_norm": "what is 85 9 11",
+      "question": "What is 85 × 9 + 11?",
+      "answer": "776",
+      "date_iso": "2026-05-25"
     }
   ],
   "publishes": {
@@ -5785,6 +5792,12 @@
           "artifact": "short-20260525-slot2",
           "fp": "a27d69f7ce86f4af20d1f4644fca0fd7972aa8dbbfcbc8c52a91f35cebc0a222",
           "ts": "2026-05-25T11:17:57.150663+00:00"
+        },
+        "3": {
+          "video_id": "ufyFKEmCPOw",
+          "artifact": "short-20260525-slot3",
+          "fp": "df565f9890ea94efa41ddeb3a19994667ebf63f6df3457599c0250b3be7b4f5b",
+          "ts": "2026-05-25T15:59:54.107604+00:00"
         }
       }
     }
