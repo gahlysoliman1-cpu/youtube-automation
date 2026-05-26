@@ -2157,6 +2157,13 @@
       "question": "What is 79 × 4 + 12?",
       "answer": "328",
       "date_iso": "2026-05-25"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-05-26"
     }
   ],
   "publishes": {
@@ -5811,6 +5818,16 @@
           "artifact": "short-20260525-slot4",
           "fp": "1ef11586fd518b60e3cfe212174b6657f76fc383ff7d32a2f3c7e12eff75d7ea",
           "ts": "2026-05-25T20:43:38.429786+00:00"
+        }
+      }
+    },
+    "20260526": {
+      "shorts": {
+        "1": {
+          "video_id": "S0gPur55nsw",
+          "artifact": "short-20260526-slot1",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-05-26T05:18:05.949666+00:00"
         }
       }
     }
