@@ -2171,6 +2171,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-05-26"
+    },
+    {
+      "fp": "f049e11ae18142e1c0d84520c29586552a3f53ab91aa1493717363b4544171ee",
+      "q_norm": "what is 54 2 5",
+      "question": "What is 54 × 2 + 5?",
+      "answer": "113",
+      "date_iso": "2026-05-26"
     }
   ],
   "publishes": {
@@ -5841,6 +5848,12 @@
           "artifact": "short-20260526-slot3",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-05-26T16:51:57.343472+00:00"
+        },
+        "4": {
+          "video_id": "TQDgVJStU3A",
+          "artifact": "short-20260526-slot4",
+          "fp": "f049e11ae18142e1c0d84520c29586552a3f53ab91aa1493717363b4544171ee",
+          "ts": "2026-05-26T21:03:05.275605+00:00"
         }
       }
     }
