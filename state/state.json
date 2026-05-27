@@ -2185,6 +2185,13 @@
       "question": "What is 34 × 7 + 14?",
       "answer": "252",
       "date_iso": "2026-05-27"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-05-27"
     }
   ],
   "publishes": {
@@ -5871,6 +5878,12 @@
           "artifact": "short-20260527-slot2",
           "fp": "d107753d7a748cd3af160bce2f1833dd3c139a5219e659ae5d23c15558325e9a",
           "ts": "2026-05-27T11:01:27.614347+00:00"
+        },
+        "3": {
+          "video_id": "j4HfLSZyFIk",
+          "artifact": "short-20260527-slot3",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-05-27T16:50:42.976326+00:00"
         }
       }
     }
