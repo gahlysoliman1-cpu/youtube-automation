@@ -2192,6 +2192,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-05-27"
+    },
+    {
+      "fp": "f80b42aed9a9226380acd7eef58e7105e27b0b2515791da9096605ee930ab091",
+      "q_norm": "what is 46 7 16",
+      "question": "What is 46 × 7 + 16?",
+      "answer": "338",
+      "date_iso": "2026-05-27"
     }
   ],
   "publishes": {
@@ -5884,6 +5891,12 @@
           "artifact": "short-20260527-slot3",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-05-27T16:50:42.976326+00:00"
+        },
+        "4": {
+          "video_id": "wvHcSG0y_ik",
+          "artifact": "short-20260527-slot4",
+          "fp": "f80b42aed9a9226380acd7eef58e7105e27b0b2515791da9096605ee930ab091",
+          "ts": "2026-05-27T21:09:07.371370+00:00"
         }
       }
     }
