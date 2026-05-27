@@ -2178,6 +2178,13 @@
       "question": "What is 54 × 2 + 5?",
       "answer": "113",
       "date_iso": "2026-05-26"
+    },
+    {
+      "fp": "d107753d7a748cd3af160bce2f1833dd3c139a5219e659ae5d23c15558325e9a",
+      "q_norm": "what is 34 7 14",
+      "question": "What is 34 × 7 + 14?",
+      "answer": "252",
+      "date_iso": "2026-05-27"
     }
   ],
   "publishes": {
@@ -5854,6 +5861,16 @@
           "artifact": "short-20260526-slot4",
           "fp": "f049e11ae18142e1c0d84520c29586552a3f53ab91aa1493717363b4544171ee",
           "ts": "2026-05-26T21:03:05.275605+00:00"
+        }
+      }
+    },
+    "20260527": {
+      "shorts": {
+        "2": {
+          "video_id": "uUD_I4_npeQ",
+          "artifact": "short-20260527-slot2",
+          "fp": "d107753d7a748cd3af160bce2f1833dd3c139a5219e659ae5d23c15558325e9a",
+          "ts": "2026-05-27T11:01:27.614347+00:00"
         }
       }
     }
