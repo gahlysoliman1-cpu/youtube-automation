@@ -2199,6 +2199,13 @@
       "question": "What is 46 × 7 + 16?",
       "answer": "338",
       "date_iso": "2026-05-27"
+    },
+    {
+      "fp": "29ae5f28ccb08457e12931d567785a2385bb9c8f89523811c59080f6ecfb1c9b",
+      "q_norm": "what is 37 6 34",
+      "question": "What is 37 × 6 + 34?",
+      "answer": "256",
+      "date_iso": "2026-05-28"
     }
   ],
   "publishes": {
@@ -5897,6 +5904,16 @@
           "artifact": "short-20260527-slot4",
           "fp": "f80b42aed9a9226380acd7eef58e7105e27b0b2515791da9096605ee930ab091",
           "ts": "2026-05-27T21:09:07.371370+00:00"
+        }
+      }
+    },
+    "20260528": {
+      "shorts": {
+        "1": {
+          "video_id": "O0tS_bMc6rU",
+          "artifact": "short-20260528-slot1",
+          "fp": "29ae5f28ccb08457e12931d567785a2385bb9c8f89523811c59080f6ecfb1c9b",
+          "ts": "2026-05-28T05:22:41.577187+00:00"
         }
       }
     }
