@@ -2220,6 +2220,13 @@
       "question": "What is 15 × 3 + 7?",
       "answer": "52",
       "date_iso": "2026-05-28"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-05-28"
     }
   ],
   "publishes": {
@@ -5940,6 +5947,12 @@
           "artifact": "short-20260528-slot3",
           "fp": "1e6db4b0102f6a71015273448faccca4204653be6b2a5eb3b3caef04d2ff5576",
           "ts": "2026-05-28T17:02:44.761512+00:00"
+        },
+        "4": {
+          "video_id": "a5Eg5NwHJ_0",
+          "artifact": "short-20260528-slot4",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-05-28T21:17:52.242372+00:00"
         }
       }
     }
