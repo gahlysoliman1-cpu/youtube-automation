@@ -2206,6 +2206,13 @@
       "question": "What is 37 × 6 + 34?",
       "answer": "256",
       "date_iso": "2026-05-28"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-05-28"
     }
   ],
   "publishes": {
@@ -5914,6 +5921,12 @@
           "artifact": "short-20260528-slot1",
           "fp": "29ae5f28ccb08457e12931d567785a2385bb9c8f89523811c59080f6ecfb1c9b",
           "ts": "2026-05-28T05:22:41.577187+00:00"
+        },
+        "2": {
+          "video_id": "lds4yVfZQVY",
+          "artifact": "short-20260528-slot2",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-05-28T11:04:08.701005+00:00"
         }
       }
     }
