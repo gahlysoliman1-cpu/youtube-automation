@@ -2213,6 +2213,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-05-28"
+    },
+    {
+      "fp": "1e6db4b0102f6a71015273448faccca4204653be6b2a5eb3b3caef04d2ff5576",
+      "q_norm": "what is 15 3 7",
+      "question": "What is 15 × 3 + 7?",
+      "answer": "52",
+      "date_iso": "2026-05-28"
     }
   ],
   "publishes": {
@@ -5927,6 +5934,12 @@
           "artifact": "short-20260528-slot2",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-05-28T11:04:08.701005+00:00"
+        },
+        "3": {
+          "video_id": "IctsKVVsVkY",
+          "artifact": "short-20260528-slot3",
+          "fp": "1e6db4b0102f6a71015273448faccca4204653be6b2a5eb3b3caef04d2ff5576",
+          "ts": "2026-05-28T17:02:44.761512+00:00"
         }
       }
     }
