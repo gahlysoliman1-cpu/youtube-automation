@@ -2227,6 +2227,13 @@
       "question": "Which star is closest to Earth?",
       "answer": "The Sun",
       "date_iso": "2026-05-28"
+    },
+    {
+      "fp": "204181dee81d643ef85dce6e34044e8d8c5015ad7f11c8b41a272a3a5d918e9d",
+      "q_norm": "what is 19 6 40",
+      "question": "What is 19 × 6 + 40?",
+      "answer": "154",
+      "date_iso": "2026-05-29"
     }
   ],
   "publishes": {
@@ -5953,6 +5960,16 @@
           "artifact": "short-20260528-slot4",
           "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
           "ts": "2026-05-28T21:17:52.242372+00:00"
+        }
+      }
+    },
+    "20260529": {
+      "shorts": {
+        "1": {
+          "video_id": "sgdeLFvw3SQ",
+          "artifact": "short-20260529-slot1",
+          "fp": "204181dee81d643ef85dce6e34044e8d8c5015ad7f11c8b41a272a3a5d918e9d",
+          "ts": "2026-05-29T05:22:20.792850+00:00"
         }
       }
     }
