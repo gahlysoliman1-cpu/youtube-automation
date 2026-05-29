@@ -2241,6 +2241,13 @@
       "question": "What is 25 × 4 + 33?",
       "answer": "133",
       "date_iso": "2026-05-29"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-05-29"
     }
   ],
   "publishes": {
@@ -5983,6 +5990,12 @@
           "artifact": "short-20260529-slot3",
           "fp": "c012716fdfd20ad197ccbec4032325f462fc0155e8c821cea2501ada99e6af39",
           "ts": "2026-05-29T16:53:35.429096+00:00"
+        },
+        "4": {
+          "video_id": "KxWd2jvF-v0",
+          "artifact": "short-20260529-slot4",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-05-29T21:12:39.156323+00:00"
         }
       }
     }
