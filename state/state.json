@@ -2234,6 +2234,13 @@
       "question": "What is 19 × 6 + 40?",
       "answer": "154",
       "date_iso": "2026-05-29"
+    },
+    {
+      "fp": "c012716fdfd20ad197ccbec4032325f462fc0155e8c821cea2501ada99e6af39",
+      "q_norm": "what is 25 4 33",
+      "question": "What is 25 × 4 + 33?",
+      "answer": "133",
+      "date_iso": "2026-05-29"
     }
   ],
   "publishes": {
@@ -5970,6 +5977,12 @@
           "artifact": "short-20260529-slot1",
           "fp": "204181dee81d643ef85dce6e34044e8d8c5015ad7f11c8b41a272a3a5d918e9d",
           "ts": "2026-05-29T05:22:20.792850+00:00"
+        },
+        "3": {
+          "video_id": "mvTM6PNX7Ww",
+          "artifact": "short-20260529-slot3",
+          "fp": "c012716fdfd20ad197ccbec4032325f462fc0155e8c821cea2501ada99e6af39",
+          "ts": "2026-05-29T16:53:35.429096+00:00"
         }
       }
     }
