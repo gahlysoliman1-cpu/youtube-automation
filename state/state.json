@@ -3,13 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "f94b550a9c16c260ebe5f5adba25870fc2cdeefdccb82fd51d7e8158b173ec69",
-      "q_norm": "what does cpu stand for",
-      "question": "What does CPU stand for?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-02-28"
-    },
-    {
       "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
       "q_norm": "what is the fastest land animal",
       "question": "What is the fastest land animal?",
@@ -2248,6 +2241,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-05-29"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-05-30"
     }
   ],
   "publishes": {
@@ -5996,6 +5996,16 @@
           "artifact": "short-20260529-slot4",
           "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
           "ts": "2026-05-29T21:12:39.156323+00:00"
+        }
+      }
+    },
+    "20260530": {
+      "shorts": {
+        "1": {
+          "video_id": "j6FzOmXzr-g",
+          "artifact": "short-20260530-slot1",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-05-30T05:05:13.451985+00:00"
         }
       }
     }
