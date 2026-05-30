@@ -2248,6 +2248,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-05-30"
+    },
+    {
+      "fp": "f26621cea7721d96f45353ebb02e2c335eed3ffdffd01b69cd012fa34de246fe",
+      "q_norm": "what is 67 5 26",
+      "question": "What is 67 × 5 + 26?",
+      "answer": "361",
+      "date_iso": "2026-05-30"
     }
   ],
   "publishes": {
@@ -6006,6 +6013,12 @@
           "artifact": "short-20260530-slot1",
           "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
           "ts": "2026-05-30T05:05:13.451985+00:00"
+        },
+        "2": {
+          "video_id": "MWJGGspuR4E",
+          "artifact": "short-20260530-slot2",
+          "fp": "f26621cea7721d96f45353ebb02e2c335eed3ffdffd01b69cd012fa34de246fe",
+          "ts": "2026-05-30T09:27:07.993447+00:00"
         }
       }
     }
