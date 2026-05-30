@@ -2255,6 +2255,13 @@
       "question": "What is 67 × 5 + 26?",
       "answer": "361",
       "date_iso": "2026-05-30"
+    },
+    {
+      "fp": "dab39f8bd9dae05155d71a1a9d09bc308db00b4e58c15655b1fe9c12f1276803",
+      "q_norm": "what is 86 2 30",
+      "question": "What is 86 × 2 + 30?",
+      "answer": "202",
+      "date_iso": "2026-05-30"
     }
   ],
   "publishes": {
@@ -6019,6 +6026,12 @@
           "artifact": "short-20260530-slot2",
           "fp": "f26621cea7721d96f45353ebb02e2c335eed3ffdffd01b69cd012fa34de246fe",
           "ts": "2026-05-30T09:27:07.993447+00:00"
+        },
+        "3": {
+          "video_id": "KSmTXA7lVAI",
+          "artifact": "short-20260530-slot3",
+          "fp": "dab39f8bd9dae05155d71a1a9d09bc308db00b4e58c15655b1fe9c12f1276803",
+          "ts": "2026-05-30T14:46:33.666737+00:00"
         }
       }
     }
