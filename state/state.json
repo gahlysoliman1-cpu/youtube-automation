@@ -2276,6 +2276,13 @@
       "question": "What is 74 × 4 + 16?",
       "answer": "312",
       "date_iso": "2026-05-31"
+    },
+    {
+      "fp": "f941a827a4697a2e0dfc9f776adbaf0b0ecc673b8184a7a423fddc2f5eef6726",
+      "q_norm": "what is 31 5 29",
+      "question": "What is 31 × 5 + 29?",
+      "answer": "184",
+      "date_iso": "2026-05-31"
     }
   ],
   "publishes": {
@@ -6062,6 +6069,12 @@
           "artifact": "short-20260531-slot2",
           "fp": "1c775f9bb053904db3ea7c49c72bc70b1b67341cb2df32f300fe228274262017",
           "ts": "2026-05-31T09:53:21.095520+00:00"
+        },
+        "3": {
+          "video_id": "FWpo83pmgPg",
+          "artifact": "short-20260531-slot3",
+          "fp": "f941a827a4697a2e0dfc9f776adbaf0b0ecc673b8184a7a423fddc2f5eef6726",
+          "ts": "2026-05-31T14:54:10.245249+00:00"
         }
       }
     }
