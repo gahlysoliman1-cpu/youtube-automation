@@ -2283,6 +2283,13 @@
       "question": "What is 31 × 5 + 29?",
       "answer": "184",
       "date_iso": "2026-05-31"
+    },
+    {
+      "fp": "de703b816b8c519f6b97433fcd0da921da9c34b616cb29ee706aaf2f7b3e9ac9",
+      "q_norm": "what is 93 8 22",
+      "question": "What is 93 × 8 + 22?",
+      "answer": "766",
+      "date_iso": "2026-05-31"
     }
   ],
   "publishes": {
@@ -6075,6 +6082,12 @@
           "artifact": "short-20260531-slot3",
           "fp": "f941a827a4697a2e0dfc9f776adbaf0b0ecc673b8184a7a423fddc2f5eef6726",
           "ts": "2026-05-31T14:54:10.245249+00:00"
+        },
+        "4": {
+          "video_id": "BD4kSSW8wAM",
+          "artifact": "short-20260531-slot4",
+          "fp": "de703b816b8c519f6b97433fcd0da921da9c34b616cb29ee706aaf2f7b3e9ac9",
+          "ts": "2026-05-31T20:20:13.171846+00:00"
         }
       }
     }
