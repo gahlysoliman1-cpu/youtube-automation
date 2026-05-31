@@ -2262,6 +2262,13 @@
       "question": "What is 86 × 2 + 30?",
       "answer": "202",
       "date_iso": "2026-05-30"
+    },
+    {
+      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+      "q_norm": "what is the capital of mexico",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "date_iso": "2026-05-31"
     }
   ],
   "publishes": {
@@ -6032,6 +6039,16 @@
           "artifact": "short-20260530-slot3",
           "fp": "dab39f8bd9dae05155d71a1a9d09bc308db00b4e58c15655b1fe9c12f1276803",
           "ts": "2026-05-30T14:46:33.666737+00:00"
+        }
+      }
+    },
+    "20260531": {
+      "shorts": {
+        "1": {
+          "video_id": "xo00PkzhdYs",
+          "artifact": "short-20260531-slot1",
+          "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+          "ts": "2026-05-31T05:47:53.287294+00:00"
         }
       }
     }
