@@ -2290,6 +2290,13 @@
       "question": "What is 93 × 8 + 22?",
       "answer": "766",
       "date_iso": "2026-05-31"
+    },
+    {
+      "fp": "e1b3dc7572d202b846c0be50613028b0f89ab6461eb9f756aea5c25d644fd639",
+      "q_norm": "what is 20 3 32",
+      "question": "What is 20 × 3 + 32?",
+      "answer": "92",
+      "date_iso": "2026-06-01"
     }
   ],
   "publishes": {
@@ -6088,6 +6095,16 @@
           "artifact": "short-20260531-slot4",
           "fp": "de703b816b8c519f6b97433fcd0da921da9c34b616cb29ee706aaf2f7b3e9ac9",
           "ts": "2026-05-31T20:20:13.171846+00:00"
+        }
+      }
+    },
+    "20260601": {
+      "shorts": {
+        "1": {
+          "video_id": "dOwZ-itN07k",
+          "artifact": "short-20260601-slot1",
+          "fp": "e1b3dc7572d202b846c0be50613028b0f89ab6461eb9f756aea5c25d644fd639",
+          "ts": "2026-06-01T06:18:31.501703+00:00"
         }
       }
     }
