@@ -2297,6 +2297,13 @@
       "question": "What is 20 × 3 + 32?",
       "answer": "92",
       "date_iso": "2026-06-01"
+    },
+    {
+      "fp": "50e6a96d1d9744d330d7897f732a779ea836cc00232835c870c54af2f24ee2ad",
+      "q_norm": "what is 12 3 19",
+      "question": "What is 12 × 3 + 19?",
+      "answer": "55",
+      "date_iso": "2026-06-01"
     }
   ],
   "publishes": {
@@ -6105,6 +6112,12 @@
           "artifact": "short-20260601-slot1",
           "fp": "e1b3dc7572d202b846c0be50613028b0f89ab6461eb9f756aea5c25d644fd639",
           "ts": "2026-06-01T06:18:31.501703+00:00"
+        },
+        "2": {
+          "video_id": "mztfsCIbi6Q",
+          "artifact": "short-20260601-slot2",
+          "fp": "50e6a96d1d9744d330d7897f732a779ea836cc00232835c870c54af2f24ee2ad",
+          "ts": "2026-06-01T12:51:09.316702+00:00"
         }
       }
     }
