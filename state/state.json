@@ -2311,6 +2311,13 @@
       "question": "What is the capital of Egypt?",
       "answer": "Cairo",
       "date_iso": "2026-06-02"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-06-02"
     }
   ],
   "publishes": {
@@ -6135,6 +6142,12 @@
           "artifact": "short-20260602-slot1",
           "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
           "ts": "2026-06-02T06:02:41.224705+00:00"
+        },
+        "3": {
+          "video_id": "glQ2Oj9RJvM",
+          "artifact": "short-20260602-slot3",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-06-02T17:48:57.436130+00:00"
         }
       }
     }
