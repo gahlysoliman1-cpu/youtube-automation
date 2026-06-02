@@ -2304,6 +2304,13 @@
       "question": "What is 12 × 3 + 19?",
       "answer": "55",
       "date_iso": "2026-06-01"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-06-02"
     }
   ],
   "publishes": {
@@ -6118,6 +6125,16 @@
           "artifact": "short-20260601-slot2",
           "fp": "50e6a96d1d9744d330d7897f732a779ea836cc00232835c870c54af2f24ee2ad",
           "ts": "2026-06-01T12:51:09.316702+00:00"
+        }
+      }
+    },
+    "20260602": {
+      "shorts": {
+        "1": {
+          "video_id": "EmuQQw2AcxI",
+          "artifact": "short-20260602-slot1",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-06-02T06:02:41.224705+00:00"
         }
       }
     }
