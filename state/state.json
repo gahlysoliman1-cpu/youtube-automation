@@ -2339,6 +2339,13 @@
       "question": "What is 55 × 10 + 38?",
       "answer": "588",
       "date_iso": "2026-06-03"
+    },
+    {
+      "fp": "39464c18f41624bcb2bdbe007efabe6973e32501aa5fc735116112f1a8eb0d36",
+      "q_norm": "what is 65 5 33",
+      "question": "What is 65 × 5 + 33?",
+      "answer": "358",
+      "date_iso": "2026-06-03"
     }
   ],
   "publishes": {
@@ -6191,6 +6198,12 @@
           "artifact": "short-20260603-slot3",
           "fp": "5196a2ec22d886319fa5a875fdf0e119d86ad1fb0ce9f1661228817b8164c07f",
           "ts": "2026-06-03T18:04:17.325117+00:00"
+        },
+        "4": {
+          "video_id": "T4vWP-EO5wA",
+          "artifact": "short-20260603-slot4",
+          "fp": "39464c18f41624bcb2bdbe007efabe6973e32501aa5fc735116112f1a8eb0d36",
+          "ts": "2026-06-03T22:01:45.353471+00:00"
         }
       }
     }
