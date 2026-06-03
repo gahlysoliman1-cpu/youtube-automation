@@ -2332,6 +2332,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-06-03"
+    },
+    {
+      "fp": "5196a2ec22d886319fa5a875fdf0e119d86ad1fb0ce9f1661228817b8164c07f",
+      "q_norm": "what is 55 10 38",
+      "question": "What is 55 × 10 + 38?",
+      "answer": "588",
+      "date_iso": "2026-06-03"
     }
   ],
   "publishes": {
@@ -6178,6 +6185,12 @@
           "artifact": "short-20260603-slot2",
           "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
           "ts": "2026-06-03T12:04:56.255007+00:00"
+        },
+        "3": {
+          "video_id": "aC6O-iXKtB8",
+          "artifact": "short-20260603-slot3",
+          "fp": "5196a2ec22d886319fa5a875fdf0e119d86ad1fb0ce9f1661228817b8164c07f",
+          "ts": "2026-06-03T18:04:17.325117+00:00"
         }
       }
     }
