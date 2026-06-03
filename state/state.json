@@ -2325,6 +2325,13 @@
       "question": "What is 21 × 3 + 26?",
       "answer": "89",
       "date_iso": "2026-06-03"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-06-03"
     }
   ],
   "publishes": {
@@ -6165,6 +6172,12 @@
           "artifact": "short-20260603-slot1",
           "fp": "c69a8f85774ee6f4b68080769e20faec52a456e1990846d07bf046c6af89f7ba",
           "ts": "2026-06-03T06:13:24.550445+00:00"
+        },
+        "2": {
+          "video_id": "ItNi-gGDxiE",
+          "artifact": "short-20260603-slot2",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-06-03T12:04:56.255007+00:00"
         }
       }
     }
