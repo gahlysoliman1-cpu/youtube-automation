@@ -2318,6 +2318,13 @@
       "question": "Which planet is known as the Red Planet?",
       "answer": "Mars",
       "date_iso": "2026-06-02"
+    },
+    {
+      "fp": "c69a8f85774ee6f4b68080769e20faec52a456e1990846d07bf046c6af89f7ba",
+      "q_norm": "what is 21 3 26",
+      "question": "What is 21 × 3 + 26?",
+      "answer": "89",
+      "date_iso": "2026-06-03"
     }
   ],
   "publishes": {
@@ -6148,6 +6155,16 @@
           "artifact": "short-20260602-slot3",
           "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
           "ts": "2026-06-02T17:48:57.436130+00:00"
+        }
+      }
+    },
+    "20260603": {
+      "shorts": {
+        "1": {
+          "video_id": "UdUDzcxfLac",
+          "artifact": "short-20260603-slot1",
+          "fp": "c69a8f85774ee6f4b68080769e20faec52a456e1990846d07bf046c6af89f7ba",
+          "ts": "2026-06-03T06:13:24.550445+00:00"
         }
       }
     }
