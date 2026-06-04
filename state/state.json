@@ -2346,6 +2346,13 @@
       "question": "What is 65 × 5 + 33?",
       "answer": "358",
       "date_iso": "2026-06-03"
+    },
+    {
+      "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+      "q_norm": "what is the capital of spain",
+      "question": "What is the capital of Spain?",
+      "answer": "Madrid",
+      "date_iso": "2026-06-04"
     }
   ],
   "publishes": {
@@ -6204,6 +6211,16 @@
           "artifact": "short-20260603-slot4",
           "fp": "39464c18f41624bcb2bdbe007efabe6973e32501aa5fc735116112f1a8eb0d36",
           "ts": "2026-06-03T22:01:45.353471+00:00"
+        }
+      }
+    },
+    "20260604": {
+      "shorts": {
+        "1": {
+          "video_id": "nkoLyoqMzPY",
+          "artifact": "short-20260604-slot1",
+          "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+          "ts": "2026-06-04T06:06:19.330539+00:00"
         }
       }
     }
