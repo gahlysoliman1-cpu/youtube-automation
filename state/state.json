@@ -2353,6 +2353,13 @@
       "question": "What is the capital of Spain?",
       "answer": "Madrid",
       "date_iso": "2026-06-04"
+    },
+    {
+      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+      "q_norm": "what gas do plants absorb from the air",
+      "question": "What gas do plants absorb from the air?",
+      "answer": "Carbon dioxide",
+      "date_iso": "2026-06-04"
     }
   ],
   "publishes": {
@@ -6221,6 +6228,12 @@
           "artifact": "short-20260604-slot1",
           "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
           "ts": "2026-06-04T06:06:19.330539+00:00"
+        },
+        "2": {
+          "video_id": "YHmfWfampeA",
+          "artifact": "short-20260604-slot2",
+          "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
+          "ts": "2026-06-04T10:44:15.638676+00:00"
         }
       }
     }
