@@ -2353,6 +2353,13 @@
       "question": "What is 33 × 3 + 8?",
       "answer": "107",
       "date_iso": "2026-06-05"
+    },
+    {
+      "fp": "b655ff1b703c6d29144580adb6a99cd2ce69a63a7327a4763afbff81106321b7",
+      "q_norm": "what is 37 2 9",
+      "question": "What is 37 × 2 + 9?",
+      "answer": "83",
+      "date_iso": "2026-06-05"
     }
   ],
   "publishes": {
@@ -6243,6 +6250,12 @@
           "artifact": "short-20260605-slot1",
           "fp": "146102891d7c415a1075d82fc05cbd8c7eedd6c866f0870ca970946e63e89dff",
           "ts": "2026-06-05T05:46:19.844858+00:00"
+        },
+        "2": {
+          "video_id": "vEM2xXCQj9w",
+          "artifact": "short-20260605-slot2",
+          "fp": "b655ff1b703c6d29144580adb6a99cd2ce69a63a7327a4763afbff81106321b7",
+          "ts": "2026-06-05T10:54:45.350145+00:00"
         }
       }
     }
