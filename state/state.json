@@ -2367,6 +2367,13 @@
       "question": "What is 42 × 7 + 30?",
       "answer": "324",
       "date_iso": "2026-06-05"
+    },
+    {
+      "fp": "df70c5d9cf327cb76d222178ea812b5cd91d41c0dc9c72536a7932b11c293613",
+      "q_norm": "what is 71 4 20",
+      "question": "What is 71 × 4 + 20?",
+      "answer": "304",
+      "date_iso": "2026-06-05"
     }
   ],
   "publishes": {
@@ -6269,6 +6276,12 @@
           "artifact": "short-20260605-slot3",
           "fp": "5f056ffa5ab5ce94c2ae512e61ed8d4c5e692a9bbbf537a346764abf4d407e78",
           "ts": "2026-06-05T16:08:54.177375+00:00"
+        },
+        "4": {
+          "video_id": "sNijNVg-XxQ",
+          "artifact": "short-20260605-slot4",
+          "fp": "df70c5d9cf327cb76d222178ea812b5cd91d41c0dc9c72536a7932b11c293613",
+          "ts": "2026-06-05T20:55:25.470504+00:00"
         }
       }
     }
