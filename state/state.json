@@ -2360,6 +2360,13 @@
       "question": "What is 37 × 2 + 9?",
       "answer": "83",
       "date_iso": "2026-06-05"
+    },
+    {
+      "fp": "5f056ffa5ab5ce94c2ae512e61ed8d4c5e692a9bbbf537a346764abf4d407e78",
+      "q_norm": "what is 42 7 30",
+      "question": "What is 42 × 7 + 30?",
+      "answer": "324",
+      "date_iso": "2026-06-05"
     }
   ],
   "publishes": {
@@ -6256,6 +6263,12 @@
           "artifact": "short-20260605-slot2",
           "fp": "b655ff1b703c6d29144580adb6a99cd2ce69a63a7327a4763afbff81106321b7",
           "ts": "2026-06-05T10:54:45.350145+00:00"
+        },
+        "3": {
+          "video_id": "6423_kgGpfg",
+          "artifact": "short-20260605-slot3",
+          "fp": "5f056ffa5ab5ce94c2ae512e61ed8d4c5e692a9bbbf537a346764abf4d407e78",
+          "ts": "2026-06-05T16:08:54.177375+00:00"
         }
       }
     }
