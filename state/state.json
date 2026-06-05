@@ -3,27 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "aee4a99921749c3ab4de381da48386818b63da50734a94802c5b5081798835d4",
-      "q_norm": "what is the fastest land animal",
-      "question": "What is the fastest land animal?",
-      "answer": "Cheetah",
-      "date_iso": "2026-03-06"
-    },
-    {
-      "fp": "133127a647c40349f640b22f12f9810c2633876021f3c8f4fb8e1f504800587a",
-      "q_norm": "a bakery sells 312 loaves of bread at 2 90 each how much money does it make",
-      "question": "A bakery sells 312 loaves of bread at $2.90 each. How much money does it make?",
-      "answer": "$906.80",
-      "date_iso": "2026-03-06"
-    },
-    {
-      "fp": "72748f42b563e74bf3f2823b2ad45f25406edaa07822f24e149edc4b767c97e0",
-      "q_norm": "what is the largest planet in our solar system",
-      "question": "What is the largest planet in our solar system?",
-      "answer": "Jupiter",
-      "date_iso": "2026-03-06"
-    },
-    {
       "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
       "q_norm": "what does break a leg mean",
       "question": "What does 'break a leg' mean?",
@@ -2367,6 +2346,13 @@
       "question": "What is 27 × 8 + 28?",
       "answer": "244",
       "date_iso": "2026-06-04"
+    },
+    {
+      "fp": "146102891d7c415a1075d82fc05cbd8c7eedd6c866f0870ca970946e63e89dff",
+      "q_norm": "what is 33 3 8",
+      "question": "What is 33 × 3 + 8?",
+      "answer": "107",
+      "date_iso": "2026-06-05"
     }
   ],
   "publishes": {
@@ -6247,6 +6233,16 @@
           "artifact": "short-20260604-slot4",
           "fp": "9e7e555a0cf9a005691daca5d4861e908b059c958df25d5ce197c34684815362",
           "ts": "2026-06-04T21:01:51.595357+00:00"
+        }
+      }
+    },
+    "20260605": {
+      "shorts": {
+        "1": {
+          "video_id": "rfIs8bsWyIY",
+          "artifact": "short-20260605-slot1",
+          "fp": "146102891d7c415a1075d82fc05cbd8c7eedd6c866f0870ca970946e63e89dff",
+          "ts": "2026-06-05T05:46:19.844858+00:00"
         }
       }
     }
