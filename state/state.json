@@ -2353,6 +2353,13 @@
       "question": "What is 78 × 3 + 17?",
       "answer": "251",
       "date_iso": "2026-06-06"
+    },
+    {
+      "fp": "f1ab50948a209833852b97a966b74e67fdf18213815cc6feeba71796ac025fa9",
+      "q_norm": "what is 89 3 26",
+      "question": "What is 89 × 3 + 26?",
+      "answer": "293",
+      "date_iso": "2026-06-06"
     }
   ],
   "publishes": {
@@ -6271,6 +6278,12 @@
           "artifact": "short-20260606-slot1",
           "fp": "ad6b6dc2882394437cbfd5ae5fdd1fcdf6aaac79b29c2c8dfbc2d401399023d9",
           "ts": "2026-06-06T05:04:09.701461+00:00"
+        },
+        "2": {
+          "video_id": "jpcjxrBH8Wk",
+          "artifact": "short-20260606-slot2",
+          "fp": "f1ab50948a209833852b97a966b74e67fdf18213815cc6feeba71796ac025fa9",
+          "ts": "2026-06-06T09:31:27.460252+00:00"
         }
       }
     }
