@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6b59f3f1f27f581629306e022b9b576e9f1e9d157ce91391223c8a7ae031b686",
-      "q_norm": "what does break a leg mean",
-      "question": "What does 'break a leg' mean?",
-      "answer": "Good luck",
-      "date_iso": "2026-03-07"
-    },
-    {
-      "fp": "d583e2bf411f5e0ef4f4224ed63b7999f35e8ea247c085fc5aa6da7ce123550e",
-      "q_norm": "what s 717 774 806 divided by 2",
-      "question": "What's 717,774,806 divided by 2?",
-      "answer": "358,887,403",
-      "date_iso": "2026-03-07"
-    },
-    {
-      "fp": "863dc78673567d23973536e4df0b5f0f8664f6b83f2959c38df53c35e250dc45",
-      "q_norm": "who holds the record for most career home runs in baseball",
-      "question": "Who holds the record for most career home runs in baseball?",
-      "answer": "Barry Bonds",
-      "date_iso": "2026-03-07"
-    },
-    {
-      "fp": "04a6972936750203e56ada0f2a40de005ebe8a2d340cabad70a2543d16ad04a1",
-      "q_norm": "which city is the capital of australia",
-      "question": "Which city is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-03-07"
-    },
-    {
       "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
       "q_norm": "what does cpu stand for in computing",
       "question": "What does CPU stand for in computing?",
@@ -2374,6 +2346,13 @@
       "question": "What is 71 × 4 + 20?",
       "answer": "304",
       "date_iso": "2026-06-05"
+    },
+    {
+      "fp": "ad6b6dc2882394437cbfd5ae5fdd1fcdf6aaac79b29c2c8dfbc2d401399023d9",
+      "q_norm": "what is 78 3 17",
+      "question": "What is 78 × 3 + 17?",
+      "answer": "251",
+      "date_iso": "2026-06-06"
     }
   ],
   "publishes": {
@@ -6282,6 +6261,16 @@
           "artifact": "short-20260605-slot4",
           "fp": "df70c5d9cf327cb76d222178ea812b5cd91d41c0dc9c72536a7932b11c293613",
           "ts": "2026-06-05T20:55:25.470504+00:00"
+        }
+      }
+    },
+    "20260606": {
+      "shorts": {
+        "1": {
+          "video_id": "amePkhdZXVY",
+          "artifact": "short-20260606-slot1",
+          "fp": "ad6b6dc2882394437cbfd5ae5fdd1fcdf6aaac79b29c2c8dfbc2d401399023d9",
+          "ts": "2026-06-06T05:04:09.701461+00:00"
         }
       }
     }
