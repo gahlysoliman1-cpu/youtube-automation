@@ -2360,6 +2360,13 @@
       "question": "What is 89 × 3 + 26?",
       "answer": "293",
       "date_iso": "2026-06-06"
+    },
+    {
+      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+      "q_norm": "what is the capital of italy",
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "date_iso": "2026-06-06"
     }
   ],
   "publishes": {
@@ -6284,6 +6291,12 @@
           "artifact": "short-20260606-slot2",
           "fp": "f1ab50948a209833852b97a966b74e67fdf18213815cc6feeba71796ac025fa9",
           "ts": "2026-06-06T09:31:27.460252+00:00"
+        },
+        "4": {
+          "video_id": "r12oQbA1w9k",
+          "artifact": "short-20260606-slot4",
+          "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+          "ts": "2026-06-06T20:19:16.756244+00:00"
         }
       }
     }
