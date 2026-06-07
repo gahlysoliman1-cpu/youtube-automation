@@ -2360,6 +2360,13 @@
       "question": "What is H2O commonly called?",
       "answer": "Water",
       "date_iso": "2026-06-07"
+    },
+    {
+      "fp": "65637a0fdccd58ce061e50ac519a8106346424245b5b21b81db7a62bc3042ce9",
+      "q_norm": "what is 20 4 24",
+      "question": "What is 20 × 4 + 24?",
+      "answer": "104",
+      "date_iso": "2026-06-07"
     }
   ],
   "publishes": {
@@ -6312,6 +6319,12 @@
           "artifact": "short-20260607-slot3",
           "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
           "ts": "2026-06-07T15:04:12.298528+00:00"
+        },
+        "4": {
+          "video_id": "Qg0iWRQS-NM",
+          "artifact": "short-20260607-slot4",
+          "fp": "65637a0fdccd58ce061e50ac519a8106346424245b5b21b81db7a62bc3042ce9",
+          "ts": "2026-06-07T20:22:55.947392+00:00"
         }
       }
     }
