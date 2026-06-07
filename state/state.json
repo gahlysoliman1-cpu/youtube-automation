@@ -2346,6 +2346,13 @@
       "question": "What is 99 × 2 + 14?",
       "answer": "212",
       "date_iso": "2026-06-07"
+    },
+    {
+      "fp": "f739dd9e88ca624e8d540f2400e95b1386d7fc1e545ce1a1e7d257b818ed3f38",
+      "q_norm": "what is 74 11 40",
+      "question": "What is 74 × 11 + 40?",
+      "answer": "854",
+      "date_iso": "2026-06-07"
     }
   ],
   "publishes": {
@@ -6286,6 +6293,12 @@
           "artifact": "short-20260607-slot1",
           "fp": "244bc323e34548030a9e7eafc6f05b70d1a55c893083abcf7938b04d0984419e",
           "ts": "2026-06-07T05:53:26.271979+00:00"
+        },
+        "2": {
+          "video_id": "11th4YmCcs0",
+          "artifact": "short-20260607-slot2",
+          "fp": "f739dd9e88ca624e8d540f2400e95b1386d7fc1e545ce1a1e7d257b818ed3f38",
+          "ts": "2026-06-07T10:10:56.576633+00:00"
         }
       }
     }
