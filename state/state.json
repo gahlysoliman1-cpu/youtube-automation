@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "763afeb677f56f5a760c382b1bdd002175b3f728e1ba5a1ad8501ae3c5dd33cd",
-      "q_norm": "what does cpu stand for in computing",
-      "question": "What does CPU stand for in computing?",
-      "answer": "Central Processing Unit",
-      "date_iso": "2026-03-08"
-    },
-    {
-      "fp": "b6ea2e3e2946226401d5bedbdbb439ab905e674edde3a27adcdfa8000282735b",
-      "q_norm": "what popular italian dessert s name means pick me up",
-      "question": "What popular Italian dessert's name means 'pick-me-up'?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-03-08"
-    },
-    {
-      "fp": "3f74dfdaa6795aaa0810f7969efc0782a9f567bfd6220292228b3249c315126b",
-      "q_norm": "what popular dessert s name means pick me up in italian",
-      "question": "What popular dessert's name means 'pick-me-up' in Italian?",
-      "answer": "Tiramisu",
-      "date_iso": "2026-03-08"
-    },
-    {
-      "fp": "e66888ab04e57d6cd8f53c7298ce7b6ef70e29791f7e764c5ba9999a3b9c4863",
-      "q_norm": "if a pizza parlor sells 3 large pizzas for 24 how much does one large pizza cost",
-      "question": "If a pizza parlor sells 3 large pizzas for $24, how much does one large pizza cost?",
-      "answer": "$8",
-      "date_iso": "2026-03-08"
-    },
-    {
       "fp": "b4a38d41b63f44b02b5c2032a150638e34cff05db223d2bcbd10f67a6edfa40e",
       "q_norm": "what is the farthest planet from the sun",
       "question": "What is the farthest planet from the Sun?",
@@ -2367,6 +2339,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-06-06"
+    },
+    {
+      "fp": "244bc323e34548030a9e7eafc6f05b70d1a55c893083abcf7938b04d0984419e",
+      "q_norm": "what is 99 2 14",
+      "question": "What is 99 × 2 + 14?",
+      "answer": "212",
+      "date_iso": "2026-06-07"
     }
   ],
   "publishes": {
@@ -6297,6 +6276,16 @@
           "artifact": "short-20260606-slot4",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-06-06T20:19:16.756244+00:00"
+        }
+      }
+    },
+    "20260607": {
+      "shorts": {
+        "1": {
+          "video_id": "C_Ly_K3fcSg",
+          "artifact": "short-20260607-slot1",
+          "fp": "244bc323e34548030a9e7eafc6f05b70d1a55c893083abcf7938b04d0984419e",
+          "ts": "2026-06-07T05:53:26.271979+00:00"
         }
       }
     }
