@@ -2353,6 +2353,13 @@
       "question": "What is 74 × 11 + 40?",
       "answer": "854",
       "date_iso": "2026-06-07"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-06-07"
     }
   ],
   "publishes": {
@@ -6299,6 +6306,12 @@
           "artifact": "short-20260607-slot2",
           "fp": "f739dd9e88ca624e8d540f2400e95b1386d7fc1e545ce1a1e7d257b818ed3f38",
           "ts": "2026-06-07T10:10:56.576633+00:00"
+        },
+        "3": {
+          "video_id": "2CaCnCNfoUs",
+          "artifact": "short-20260607-slot3",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-06-07T15:04:12.298528+00:00"
         }
       }
     }
