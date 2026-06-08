@@ -2346,6 +2346,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-06-08"
+    },
+    {
+      "fp": "973aba14fc81411e7d6eaf56ef4eed748b0b94f266717ac3e4c41df98086f89b",
+      "q_norm": "what is 24 11 18",
+      "question": "What is 24 × 11 + 18?",
+      "answer": "282",
+      "date_iso": "2026-06-08"
     }
   ],
   "publishes": {
@@ -6314,6 +6321,12 @@
           "artifact": "short-20260608-slot1",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-06-08T06:04:14.995598+00:00"
+        },
+        "2": {
+          "video_id": "KlrlvkaYs70",
+          "artifact": "short-20260608-slot2",
+          "fp": "973aba14fc81411e7d6eaf56ef4eed748b0b94f266717ac3e4c41df98086f89b",
+          "ts": "2026-06-08T12:09:35.863443+00:00"
         }
       }
     }
