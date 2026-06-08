@@ -2360,6 +2360,13 @@
       "question": "What is 59 × 4 + 40?",
       "answer": "276",
       "date_iso": "2026-06-08"
+    },
+    {
+      "fp": "d2c975a527407c811a084a160fae8d14d3754d7141332fb3086118f199179952",
+      "q_norm": "what is 66 5 40",
+      "question": "What is 66 × 5 + 40?",
+      "answer": "370",
+      "date_iso": "2026-06-08"
     }
   ],
   "publishes": {
@@ -6340,6 +6347,12 @@
           "artifact": "short-20260608-slot3",
           "fp": "5464a546e66aac904be535e4c406e4eb9ec7742069a531dc938f097c23c84ca0",
           "ts": "2026-06-08T16:53:23.591096+00:00"
+        },
+        "4": {
+          "video_id": "lgRN4j62Mbs",
+          "artifact": "short-20260608-slot4",
+          "fp": "d2c975a527407c811a084a160fae8d14d3754d7141332fb3086118f199179952",
+          "ts": "2026-06-08T21:16:58.546939+00:00"
         }
       }
     }
