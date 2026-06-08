@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "b4a38d41b63f44b02b5c2032a150638e34cff05db223d2bcbd10f67a6edfa40e",
-      "q_norm": "what is the farthest planet from the sun",
-      "question": "What is the farthest planet from the Sun?",
-      "answer": "Neptune",
-      "date_iso": "2026-03-09"
-    },
-    {
-      "fp": "c190a3cda1165c018a97e8103375b12eda3531583c20dc0f325fe9dc0097555b",
-      "q_norm": "what is 221 396 680 divided by 4",
-      "question": "What is 221,396,680 divided by 4?",
-      "answer": "553,49170",
-      "date_iso": "2026-03-09"
-    },
-    {
-      "fp": "21c36d08d9df4153b0e99f23e973a5e35acd6148cfb88e79d8953b131261cb49",
-      "q_norm": "what is the main ingredient in a traditional hummus dip",
-      "question": "What is the main ingredient in a traditional Hummus dip?",
-      "answer": "Chickpeas",
-      "date_iso": "2026-03-09"
-    },
-    {
-      "fp": "d6fd2a416ea5b326fdad1c8872c7e9b0198d5ceb016ce08b25e484628f0ce742",
-      "q_norm": "who holds the record for most olympic gold medals",
-      "question": "Who holds the record for most Olympic gold medals?",
-      "answer": "Michael Phelps",
-      "date_iso": "2026-03-09"
-    },
-    {
       "fp": "d94a2fbf203aaa70d9956f982d7cf1317359d580831145d9e5989fd09e480b4a",
       "q_norm": "what is 97 2 5",
       "question": "What is 97 × 2 + 5?",
@@ -2367,6 +2339,13 @@
       "question": "What is 20 × 4 + 24?",
       "answer": "104",
       "date_iso": "2026-06-07"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-06-08"
     }
   ],
   "publishes": {
@@ -6325,6 +6304,16 @@
           "artifact": "short-20260607-slot4",
           "fp": "65637a0fdccd58ce061e50ac519a8106346424245b5b21b81db7a62bc3042ce9",
           "ts": "2026-06-07T20:22:55.947392+00:00"
+        }
+      }
+    },
+    "20260608": {
+      "shorts": {
+        "1": {
+          "video_id": "62sCl4QqSro",
+          "artifact": "short-20260608-slot1",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-06-08T06:04:14.995598+00:00"
         }
       }
     }
