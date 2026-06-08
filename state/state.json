@@ -2353,6 +2353,13 @@
       "question": "What is 24 × 11 + 18?",
       "answer": "282",
       "date_iso": "2026-06-08"
+    },
+    {
+      "fp": "5464a546e66aac904be535e4c406e4eb9ec7742069a531dc938f097c23c84ca0",
+      "q_norm": "what is 59 4 40",
+      "question": "What is 59 × 4 + 40?",
+      "answer": "276",
+      "date_iso": "2026-06-08"
     }
   ],
   "publishes": {
@@ -6327,6 +6334,12 @@
           "artifact": "short-20260608-slot2",
           "fp": "973aba14fc81411e7d6eaf56ef4eed748b0b94f266717ac3e4c41df98086f89b",
           "ts": "2026-06-08T12:09:35.863443+00:00"
+        },
+        "3": {
+          "video_id": "2PQeu6bxeLo",
+          "artifact": "short-20260608-slot3",
+          "fp": "5464a546e66aac904be535e4c406e4eb9ec7742069a531dc938f097c23c84ca0",
+          "ts": "2026-06-08T16:53:23.591096+00:00"
         }
       }
     }
