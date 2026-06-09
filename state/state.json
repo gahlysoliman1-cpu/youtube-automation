@@ -2360,6 +2360,13 @@
       "question": "What is 33 × 3 + 25?",
       "answer": "124",
       "date_iso": "2026-06-09"
+    },
+    {
+      "fp": "992e8082d7f2f93af480098e5f4a3a1d7964783c319ddff06f81352e04c82314",
+      "q_norm": "what is 53 6 24",
+      "question": "What is 53 × 6 + 24?",
+      "answer": "342",
+      "date_iso": "2026-06-09"
     }
   ],
   "publishes": {
@@ -6368,6 +6375,12 @@
           "artifact": "short-20260609-slot3",
           "fp": "9735a1ace682f5d3523039a7bf55a2313d169d62861dc5614a5b7b46045bdd5b",
           "ts": "2026-06-09T16:15:15.725116+00:00"
+        },
+        "4": {
+          "video_id": "ESkEHv5nYuI",
+          "artifact": "short-20260609-slot4",
+          "fp": "992e8082d7f2f93af480098e5f4a3a1d7964783c319ddff06f81352e04c82314",
+          "ts": "2026-06-09T21:06:12.480189+00:00"
         }
       }
     }
