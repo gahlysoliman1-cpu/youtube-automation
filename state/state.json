@@ -2353,6 +2353,13 @@
       "question": "What is 74 × 11 + 33?",
       "answer": "847",
       "date_iso": "2026-06-09"
+    },
+    {
+      "fp": "9735a1ace682f5d3523039a7bf55a2313d169d62861dc5614a5b7b46045bdd5b",
+      "q_norm": "what is 33 3 25",
+      "question": "What is 33 × 3 + 25?",
+      "answer": "124",
+      "date_iso": "2026-06-09"
     }
   ],
   "publishes": {
@@ -6355,6 +6362,12 @@
           "artifact": "short-20260609-slot2",
           "fp": "e681de61012681c8fcd52ff022ee9a2bb8b6303a9c32d6a7abc8b871771ac005",
           "ts": "2026-06-09T10:42:11.649638+00:00"
+        },
+        "3": {
+          "video_id": "wRtpv9Jo_Lo",
+          "artifact": "short-20260609-slot3",
+          "fp": "9735a1ace682f5d3523039a7bf55a2313d169d62861dc5614a5b7b46045bdd5b",
+          "ts": "2026-06-09T16:15:15.725116+00:00"
         }
       }
     }
