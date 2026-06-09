@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "d94a2fbf203aaa70d9956f982d7cf1317359d580831145d9e5989fd09e480b4a",
-      "q_norm": "what is 97 2 5",
-      "question": "What is 97 × 2 + 5?",
-      "answer": "199",
-      "date_iso": "2026-03-10"
-    },
-    {
-      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
-      "q_norm": "what is the capital of canada",
-      "question": "What is the capital of Canada?",
-      "answer": "Ottawa",
-      "date_iso": "2026-03-10"
-    },
-    {
-      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
-      "q_norm": "which star is closest to earth",
-      "question": "Which star is closest to Earth?",
-      "answer": "The Sun",
-      "date_iso": "2026-03-10"
-    },
-    {
-      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
-      "q_norm": "what is the capital of australia",
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-03-10"
-    },
-    {
       "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
       "q_norm": "what is the capital of japan",
       "question": "What is the capital of Japan?",
@@ -2367,6 +2339,13 @@
       "question": "What is 66 × 5 + 40?",
       "answer": "370",
       "date_iso": "2026-06-08"
+    },
+    {
+      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+      "q_norm": "what gets wetter the more it dries",
+      "question": "What gets wetter the more it dries?",
+      "answer": "A towel",
+      "date_iso": "2026-06-09"
     }
   ],
   "publishes": {
@@ -6353,6 +6332,16 @@
           "artifact": "short-20260608-slot4",
           "fp": "d2c975a527407c811a084a160fae8d14d3754d7141332fb3086118f199179952",
           "ts": "2026-06-08T21:16:58.546939+00:00"
+        }
+      }
+    },
+    "20260609": {
+      "shorts": {
+        "1": {
+          "video_id": "3C8CtNgp57E",
+          "artifact": "short-20260609-slot1",
+          "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+          "ts": "2026-06-09T05:16:02.471393+00:00"
         }
       }
     }
