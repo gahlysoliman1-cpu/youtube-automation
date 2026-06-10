@@ -2353,6 +2353,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-06-10"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-06-10"
     }
   ],
   "publishes": {
@@ -6383,6 +6390,12 @@
           "artifact": "short-20260610-slot2",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-06-10T11:06:57.876025+00:00"
+        },
+        "3": {
+          "video_id": "1Fasa9Sln_I",
+          "artifact": "short-20260610-slot3",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-06-10T16:43:45.060243+00:00"
         }
       }
     }
