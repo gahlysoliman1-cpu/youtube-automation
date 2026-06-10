@@ -2360,6 +2360,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-06-10"
+    },
+    {
+      "fp": "9200b3b9096654cbe484b2531888fe77507dae19bc3458dae75ea3a104e418c6",
+      "q_norm": "what is 70 6 9",
+      "question": "What is 70 × 6 + 9?",
+      "answer": "429",
+      "date_iso": "2026-06-10"
     }
   ],
   "publishes": {
@@ -6396,6 +6403,12 @@
           "artifact": "short-20260610-slot3",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-06-10T16:43:45.060243+00:00"
+        },
+        "4": {
+          "video_id": "EdTFpDe8DjY",
+          "artifact": "short-20260610-slot4",
+          "fp": "9200b3b9096654cbe484b2531888fe77507dae19bc3458dae75ea3a104e418c6",
+          "ts": "2026-06-10T21:29:18.557708+00:00"
         }
       }
     }
