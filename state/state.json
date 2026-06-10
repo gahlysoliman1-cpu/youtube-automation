@@ -2346,6 +2346,13 @@
       "question": "What is 93 × 10 + 33?",
       "answer": "963",
       "date_iso": "2026-06-10"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-06-10"
     }
   ],
   "publishes": {
@@ -6370,6 +6377,12 @@
           "artifact": "short-20260610-slot1",
           "fp": "7aac55b9ba4a0b0c8eaff6d8c401815fbe8f22a3fd62a0d2c4635904b8b7b5c4",
           "ts": "2026-06-10T05:52:00.537389+00:00"
+        },
+        "2": {
+          "video_id": "j1wlIdCyicY",
+          "artifact": "short-20260610-slot2",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-06-10T11:06:57.876025+00:00"
         }
       }
     }
