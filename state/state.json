@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
-      "q_norm": "what is the capital of japan",
-      "question": "What is the capital of Japan?",
-      "answer": "Tokyo",
-      "date_iso": "2026-03-11"
-    },
-    {
-      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
-      "q_norm": "which planet is known as the red planet",
-      "question": "Which planet is known as the Red Planet?",
-      "answer": "Mars",
-      "date_iso": "2026-03-11"
-    },
-    {
-      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
-      "q_norm": "what has keys but can t open locks",
-      "question": "What has keys but can't open locks?",
-      "answer": "A piano",
-      "date_iso": "2026-03-11"
-    },
-    {
-      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
-      "q_norm": "what is the capital of egypt",
-      "question": "What is the capital of Egypt?",
-      "answer": "Cairo",
-      "date_iso": "2026-03-11"
-    },
-    {
       "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
       "q_norm": "what is the capital of italy",
       "question": "What is the capital of Italy?",
@@ -2367,6 +2339,13 @@
       "question": "What is 53 × 6 + 24?",
       "answer": "342",
       "date_iso": "2026-06-09"
+    },
+    {
+      "fp": "7aac55b9ba4a0b0c8eaff6d8c401815fbe8f22a3fd62a0d2c4635904b8b7b5c4",
+      "q_norm": "what is 93 10 33",
+      "question": "What is 93 × 10 + 33?",
+      "answer": "963",
+      "date_iso": "2026-06-10"
     }
   ],
   "publishes": {
@@ -6381,6 +6360,16 @@
           "artifact": "short-20260609-slot4",
           "fp": "992e8082d7f2f93af480098e5f4a3a1d7964783c319ddff06f81352e04c82314",
           "ts": "2026-06-09T21:06:12.480189+00:00"
+        }
+      }
+    },
+    "20260610": {
+      "shorts": {
+        "1": {
+          "video_id": "F4dnirYfb-0",
+          "artifact": "short-20260610-slot1",
+          "fp": "7aac55b9ba4a0b0c8eaff6d8c401815fbe8f22a3fd62a0d2c4635904b8b7b5c4",
+          "ts": "2026-06-10T05:52:00.537389+00:00"
         }
       }
     }
