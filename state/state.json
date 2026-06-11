@@ -2353,6 +2353,13 @@
       "question": "What is 28 × 8 + 34?",
       "answer": "258",
       "date_iso": "2026-06-11"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-06-11"
     }
   ],
   "publishes": {
@@ -6411,6 +6418,12 @@
           "artifact": "short-20260611-slot2",
           "fp": "0b3a923f570b9550257be6cf388827725a681b647c3f6849df8934dd2fce0b2d",
           "ts": "2026-06-11T11:48:44.784211+00:00"
+        },
+        "4": {
+          "video_id": "D362BuYcpfk",
+          "artifact": "short-20260611-slot4",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-06-11T21:31:18.170262+00:00"
         }
       }
     }
