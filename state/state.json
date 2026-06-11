@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
-      "q_norm": "what is the capital of italy",
-      "question": "What is the capital of Italy?",
-      "answer": "Rome",
-      "date_iso": "2026-03-12"
-    },
-    {
-      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
-      "q_norm": "what is the capital of france",
-      "question": "What is the capital of France?",
-      "answer": "Paris",
-      "date_iso": "2026-03-12"
-    },
-    {
-      "fp": "b7471820159c6e663d520f5733ad5fb363b2b6d9eed3e97d8c0a2b062a3abb05",
-      "q_norm": "what is 20 2 23",
-      "question": "What is 20 × 2 + 23?",
-      "answer": "63",
-      "date_iso": "2026-03-12"
-    },
-    {
-      "fp": "b1d7de8bce8226b85deee3875f504a4fe3f1418b5b99834068d22dbc3948e154",
-      "q_norm": "what is 41 11 7",
-      "question": "What is 41 × 11 + 7?",
-      "answer": "458",
-      "date_iso": "2026-03-12"
-    },
-    {
       "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
       "q_norm": "what has hands but can t clap",
       "question": "What has hands but can't clap?",
@@ -2367,6 +2339,13 @@
       "question": "What is 70 × 6 + 9?",
       "answer": "429",
       "date_iso": "2026-06-10"
+    },
+    {
+      "fp": "674463b53d96a8f860df5bf7c42d526463bc6cdca9ead7265c9f864252126372",
+      "q_norm": "what is 80 3 27",
+      "question": "What is 80 × 3 + 27?",
+      "answer": "267",
+      "date_iso": "2026-06-11"
     }
   ],
   "publishes": {
@@ -6409,6 +6388,16 @@
           "artifact": "short-20260610-slot4",
           "fp": "9200b3b9096654cbe484b2531888fe77507dae19bc3458dae75ea3a104e418c6",
           "ts": "2026-06-10T21:29:18.557708+00:00"
+        }
+      }
+    },
+    "20260611": {
+      "shorts": {
+        "1": {
+          "video_id": "yt2ktewlohs",
+          "artifact": "short-20260611-slot1",
+          "fp": "674463b53d96a8f860df5bf7c42d526463bc6cdca9ead7265c9f864252126372",
+          "ts": "2026-06-11T06:05:58.022256+00:00"
         }
       }
     }
