@@ -2346,6 +2346,13 @@
       "question": "What is 80 × 3 + 27?",
       "answer": "267",
       "date_iso": "2026-06-11"
+    },
+    {
+      "fp": "0b3a923f570b9550257be6cf388827725a681b647c3f6849df8934dd2fce0b2d",
+      "q_norm": "what is 28 8 34",
+      "question": "What is 28 × 8 + 34?",
+      "answer": "258",
+      "date_iso": "2026-06-11"
     }
   ],
   "publishes": {
@@ -6398,6 +6405,12 @@
           "artifact": "short-20260611-slot1",
           "fp": "674463b53d96a8f860df5bf7c42d526463bc6cdca9ead7265c9f864252126372",
           "ts": "2026-06-11T06:05:58.022256+00:00"
+        },
+        "2": {
+          "video_id": "hL1onMbiBU0",
+          "artifact": "short-20260611-slot2",
+          "fp": "0b3a923f570b9550257be6cf388827725a681b647c3f6849df8934dd2fce0b2d",
+          "ts": "2026-06-11T11:48:44.784211+00:00"
         }
       }
     }
