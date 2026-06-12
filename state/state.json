@@ -2346,6 +2346,13 @@
       "question": "What is 93 × 7 + 34?",
       "answer": "685",
       "date_iso": "2026-06-12"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-06-12"
     }
   ],
   "publishes": {
@@ -6426,6 +6433,12 @@
           "artifact": "short-20260612-slot2",
           "fp": "8b69ea60826d2593a9039da2abdf782b043088814a8e4babbafd9ace3c8e7ec0",
           "ts": "2026-06-12T11:09:48.454506+00:00"
+        },
+        "3": {
+          "video_id": "0_WmiIQDEWc",
+          "artifact": "short-20260612-slot3",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-06-12T16:28:35.779619+00:00"
         }
       }
     }
