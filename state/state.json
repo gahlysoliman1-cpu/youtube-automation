@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
-      "q_norm": "what has hands but can t clap",
-      "question": "What has hands but can't clap?",
-      "answer": "A clock",
-      "date_iso": "2026-03-13"
-    },
-    {
-      "fp": "5020b2acbec0a3b3b54f4f77bbc7009276d2ca27555288f694f3fa1df1301797",
-      "q_norm": "what is 88 5 13",
-      "question": "What is 88 × 5 + 13?",
-      "answer": "453",
-      "date_iso": "2026-03-13"
-    },
-    {
-      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
-      "q_norm": "what gets wetter the more it dries",
-      "question": "What gets wetter the more it dries?",
-      "answer": "A towel",
-      "date_iso": "2026-03-13"
-    },
-    {
-      "fp": "5f22706498e0aa1c55e333770d45e6166345d430eac7f3fa190e75516d289f09",
-      "q_norm": "what is 75 7 21",
-      "question": "What is 75 × 7 + 21?",
-      "answer": "546",
-      "date_iso": "2026-03-13"
-    },
-    {
       "fp": "b77d7e0fdbea6ea7835c1c4c964459c69f2e9c7b07113e20b20f813743afc55b",
       "q_norm": "what is 12 4 37",
       "question": "What is 12 × 4 + 37?",
@@ -2360,6 +2332,13 @@
       "question": "What force pulls objects toward Earth?",
       "answer": "Gravity",
       "date_iso": "2026-06-11"
+    },
+    {
+      "fp": "492c7625df8bcd3f03c7efeb00416377da027b9950c89a376c610a8074a423cb",
+      "q_norm": "what is 44 7 38",
+      "question": "What is 44 × 7 + 38?",
+      "answer": "346",
+      "date_iso": "2026-06-12"
     }
   ],
   "publishes": {
@@ -6424,6 +6403,16 @@
           "artifact": "short-20260611-slot4",
           "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
           "ts": "2026-06-11T21:31:18.170262+00:00"
+        }
+      }
+    },
+    "20260612": {
+      "shorts": {
+        "1": {
+          "video_id": "e0LhzJELFoE",
+          "artifact": "short-20260612-slot1",
+          "fp": "492c7625df8bcd3f03c7efeb00416377da027b9950c89a376c610a8074a423cb",
+          "ts": "2026-06-12T06:00:36.109046+00:00"
         }
       }
     }
