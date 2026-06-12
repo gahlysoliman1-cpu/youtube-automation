@@ -2353,6 +2353,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-06-12"
+    },
+    {
+      "fp": "3f3ef4b691ea62dd17f1fb4a756e8fd45e92ec4c056111e462ce42e4ab38614e",
+      "q_norm": "what is 77 8 21",
+      "question": "What is 77 × 8 + 21?",
+      "answer": "637",
+      "date_iso": "2026-06-12"
     }
   ],
   "publishes": {
@@ -6439,6 +6446,12 @@
           "artifact": "short-20260612-slot3",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-06-12T16:28:35.779619+00:00"
+        },
+        "4": {
+          "video_id": "rIPGBzIu4-U",
+          "artifact": "short-20260612-slot4",
+          "fp": "3f3ef4b691ea62dd17f1fb4a756e8fd45e92ec4c056111e462ce42e4ab38614e",
+          "ts": "2026-06-12T21:06:16.501661+00:00"
         }
       }
     }
