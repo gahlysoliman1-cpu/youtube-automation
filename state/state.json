@@ -2339,6 +2339,13 @@
       "question": "What is 44 × 7 + 38?",
       "answer": "346",
       "date_iso": "2026-06-12"
+    },
+    {
+      "fp": "8b69ea60826d2593a9039da2abdf782b043088814a8e4babbafd9ace3c8e7ec0",
+      "q_norm": "what is 93 7 34",
+      "question": "What is 93 × 7 + 34?",
+      "answer": "685",
+      "date_iso": "2026-06-12"
     }
   ],
   "publishes": {
@@ -6413,6 +6420,12 @@
           "artifact": "short-20260612-slot1",
           "fp": "492c7625df8bcd3f03c7efeb00416377da027b9950c89a376c610a8074a423cb",
           "ts": "2026-06-12T06:00:36.109046+00:00"
+        },
+        "2": {
+          "video_id": "NpTYcZsRpx0",
+          "artifact": "short-20260612-slot2",
+          "fp": "8b69ea60826d2593a9039da2abdf782b043088814a8e4babbafd9ace3c8e7ec0",
+          "ts": "2026-06-12T11:09:48.454506+00:00"
         }
       }
     }
