@@ -2346,6 +2346,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-06-13"
+    },
+    {
+      "fp": "2388e355a6b044e9148ada22950150304f80dc93a1c08e636f0ae7d5d0755b18",
+      "q_norm": "what is 91 11 21",
+      "question": "What is 91 × 11 + 21?",
+      "answer": "1022",
+      "date_iso": "2026-06-13"
     }
   ],
   "publishes": {
@@ -6454,6 +6461,12 @@
           "artifact": "short-20260613-slot2",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-06-13T10:09:07.077248+00:00"
+        },
+        "4": {
+          "video_id": "S1bhHksi1wo",
+          "artifact": "short-20260613-slot4",
+          "fp": "2388e355a6b044e9148ada22950150304f80dc93a1c08e636f0ae7d5d0755b18",
+          "ts": "2026-06-13T20:24:29.662644+00:00"
         }
       }
     }
