@@ -2339,6 +2339,13 @@
       "question": "What is 77 × 9 + 14?",
       "answer": "707",
       "date_iso": "2026-06-13"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-06-13"
     }
   ],
   "publishes": {
@@ -6441,6 +6448,12 @@
           "artifact": "short-20260613-slot1",
           "fp": "2b166d33188a9d6dcebb9651513b38c3f28cba81c01943c87cb4a089394ec92b",
           "ts": "2026-06-13T05:44:30.147266+00:00"
+        },
+        "2": {
+          "video_id": "QPCP9mT351I",
+          "artifact": "short-20260613-slot2",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-06-13T10:09:07.077248+00:00"
         }
       }
     }
