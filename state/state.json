@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "b77d7e0fdbea6ea7835c1c4c964459c69f2e9c7b07113e20b20f813743afc55b",
-      "q_norm": "what is 12 4 37",
-      "question": "What is 12 × 4 + 37?",
-      "answer": "85",
-      "date_iso": "2026-03-14"
-    },
-    {
-      "fp": "1c5a3d83feaf23eb8fda18f622c87327149a741a479d59c9704161a93cabcc56",
-      "q_norm": "what is 84 11 17",
-      "question": "What is 84 × 11 + 17?",
-      "answer": "941",
-      "date_iso": "2026-03-14"
-    },
-    {
-      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
-      "q_norm": "what force pulls objects toward earth",
-      "question": "What force pulls objects toward Earth?",
-      "answer": "Gravity",
-      "date_iso": "2026-03-14"
-    },
-    {
-      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
-      "q_norm": "what is the capital of mexico",
-      "question": "What is the capital of Mexico?",
-      "answer": "Mexico City",
-      "date_iso": "2026-03-14"
-    },
-    {
       "fp": "5c57347942c11a393ffd00e2f9be09759732ec4e79028f07f989cd596d2d636b",
       "q_norm": "what is 33 3 22",
       "question": "What is 33 × 3 + 22?",
@@ -2360,6 +2332,13 @@
       "question": "What is 77 × 8 + 21?",
       "answer": "637",
       "date_iso": "2026-06-12"
+    },
+    {
+      "fp": "2b166d33188a9d6dcebb9651513b38c3f28cba81c01943c87cb4a089394ec92b",
+      "q_norm": "what is 77 9 14",
+      "question": "What is 77 × 9 + 14?",
+      "answer": "707",
+      "date_iso": "2026-06-13"
     }
   ],
   "publishes": {
@@ -6452,6 +6431,16 @@
           "artifact": "short-20260612-slot4",
           "fp": "3f3ef4b691ea62dd17f1fb4a756e8fd45e92ec4c056111e462ce42e4ab38614e",
           "ts": "2026-06-12T21:06:16.501661+00:00"
+        }
+      }
+    },
+    "20260613": {
+      "shorts": {
+        "1": {
+          "video_id": "GUK4ZjO9ws0",
+          "artifact": "short-20260613-slot1",
+          "fp": "2b166d33188a9d6dcebb9651513b38c3f28cba81c01943c87cb4a089394ec92b",
+          "ts": "2026-06-13T05:44:30.147266+00:00"
         }
       }
     }
