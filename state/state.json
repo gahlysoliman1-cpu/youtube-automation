@@ -2339,6 +2339,13 @@
       "question": "What is 24 × 11 + 6?",
       "answer": "270",
       "date_iso": "2026-06-14"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-06-14"
     }
   ],
   "publishes": {
@@ -6469,6 +6476,12 @@
           "artifact": "short-20260614-slot2",
           "fp": "08149cb78f068d5b11a7ee0e90dceb6bd9d9de9d63eb32f177d2c879a7fb5bf4",
           "ts": "2026-06-14T10:32:27.657980+00:00"
+        },
+        "3": {
+          "video_id": "jbLNDTurYF4",
+          "artifact": "short-20260614-slot3",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-06-14T15:19:11.701014+00:00"
         }
       }
     }
