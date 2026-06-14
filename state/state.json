@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "5c57347942c11a393ffd00e2f9be09759732ec4e79028f07f989cd596d2d636b",
-      "q_norm": "what is 33 3 22",
-      "question": "What is 33 × 3 + 22?",
-      "answer": "121",
-      "date_iso": "2026-03-15"
-    },
-    {
-      "fp": "72eb9a66f9cc1f59afe30218cbee4799434fffc0aecaac2ef9c9e3b234bed009",
-      "q_norm": "what is 71 11 19",
-      "question": "What is 71 × 11 + 19?",
-      "answer": "800",
-      "date_iso": "2026-03-15"
-    },
-    {
-      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
-      "q_norm": "what gas do plants absorb from the air",
-      "question": "What gas do plants absorb from the air?",
-      "answer": "Carbon dioxide",
-      "date_iso": "2026-03-15"
-    },
-    {
-      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
-      "q_norm": "what is the capital of germany",
-      "question": "What is the capital of Germany?",
-      "answer": "Berlin",
-      "date_iso": "2026-03-15"
-    },
-    {
       "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
       "q_norm": "what has a neck but no head",
       "question": "What has a neck but no head?",
@@ -2353,6 +2325,13 @@
       "question": "What is 91 × 11 + 21?",
       "answer": "1022",
       "date_iso": "2026-06-13"
+    },
+    {
+      "fp": "1ddca4e232725c6df5a0f11cc416b7871d9b088d2324c97d51dec5a11e9697d1",
+      "q_norm": "what is 17 9 28",
+      "question": "What is 17 × 9 + 28?",
+      "answer": "181",
+      "date_iso": "2026-06-14"
     }
   ],
   "publishes": {
@@ -6467,6 +6446,16 @@
           "artifact": "short-20260613-slot4",
           "fp": "2388e355a6b044e9148ada22950150304f80dc93a1c08e636f0ae7d5d0755b18",
           "ts": "2026-06-13T20:24:29.662644+00:00"
+        }
+      }
+    },
+    "20260614": {
+      "shorts": {
+        "1": {
+          "video_id": "i57kE1hHKxA",
+          "artifact": "short-20260614-slot1",
+          "fp": "1ddca4e232725c6df5a0f11cc416b7871d9b088d2324c97d51dec5a11e9697d1",
+          "ts": "2026-06-14T06:04:06.022786+00:00"
         }
       }
     }
