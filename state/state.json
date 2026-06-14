@@ -2332,6 +2332,13 @@
       "question": "What is 17 × 9 + 28?",
       "answer": "181",
       "date_iso": "2026-06-14"
+    },
+    {
+      "fp": "08149cb78f068d5b11a7ee0e90dceb6bd9d9de9d63eb32f177d2c879a7fb5bf4",
+      "q_norm": "what is 24 11 6",
+      "question": "What is 24 × 11 + 6?",
+      "answer": "270",
+      "date_iso": "2026-06-14"
     }
   ],
   "publishes": {
@@ -6456,6 +6463,12 @@
           "artifact": "short-20260614-slot1",
           "fp": "1ddca4e232725c6df5a0f11cc416b7871d9b088d2324c97d51dec5a11e9697d1",
           "ts": "2026-06-14T06:04:06.022786+00:00"
+        },
+        "2": {
+          "video_id": "k1nrHL-7uAE",
+          "artifact": "short-20260614-slot2",
+          "fp": "08149cb78f068d5b11a7ee0e90dceb6bd9d9de9d63eb32f177d2c879a7fb5bf4",
+          "ts": "2026-06-14T10:32:27.657980+00:00"
         }
       }
     }
