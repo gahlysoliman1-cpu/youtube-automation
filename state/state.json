@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
-      "q_norm": "what has a neck but no head",
-      "question": "What has a neck but no head?",
-      "answer": "A bottle",
-      "date_iso": "2026-03-16"
-    },
-    {
-      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
-      "q_norm": "what is h2o commonly called",
-      "question": "What is H2O commonly called?",
-      "answer": "Water",
-      "date_iso": "2026-03-16"
-    },
-    {
-      "fp": "69ce9ccd8ccc7dd4e8914b136ed1ca81c3f68ce65598561a45d512325a8afde4",
-      "q_norm": "what is 87 11 35",
-      "question": "What is 87 × 11 + 35?",
-      "answer": "992",
-      "date_iso": "2026-03-16"
-    },
-    {
-      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
-      "q_norm": "what is the capital of brazil",
-      "question": "What is the capital of Brazil?",
-      "answer": "Brasília",
-      "date_iso": "2026-03-16"
-    },
-    {
       "fp": "245141258dcd64f4cb2451ed51f6ef68e2c8dbafab586fcae2bc15417bd38284",
       "q_norm": "what is 96 3 5",
       "question": "What is 96 × 3 + 5?",
@@ -2353,6 +2325,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-06-14"
+    },
+    {
+      "fp": "e4fb36928ba5f44d5253d2c7bbaf26de0ad1371d80ce4d2881e1a31e2a2a1de1",
+      "q_norm": "what is 51 11 28",
+      "question": "What is 51 × 11 + 28?",
+      "answer": "589",
+      "date_iso": "2026-06-15"
     }
   ],
   "publishes": {
@@ -6495,6 +6474,16 @@
           "artifact": "short-20260614-slot4",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-06-14T20:26:23.284184+00:00"
+        }
+      }
+    },
+    "20260615": {
+      "shorts": {
+        "1": {
+          "video_id": "ZwtodJ1i0SI",
+          "artifact": "short-20260615-slot1",
+          "fp": "e4fb36928ba5f44d5253d2c7bbaf26de0ad1371d80ce4d2881e1a31e2a2a1de1",
+          "ts": "2026-06-15T06:36:38.837194+00:00"
         }
       }
     }
