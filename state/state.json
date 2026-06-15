@@ -2346,6 +2346,13 @@
       "question": "What is 74 × 5 + 32?",
       "answer": "402",
       "date_iso": "2026-06-15"
+    },
+    {
+      "fp": "c6caf17e35666047d8f13553cae127cf078ae5d5211fae610200fce8df8a27df",
+      "q_norm": "what is 16 10 18",
+      "question": "What is 16 × 10 + 18?",
+      "answer": "178",
+      "date_iso": "2026-06-15"
     }
   ],
   "publishes": {
@@ -6510,6 +6517,12 @@
           "artifact": "short-20260615-slot3",
           "fp": "501c67981bd939ea04e13892a7858d59146f361386693abbea7831a08e9b3529",
           "ts": "2026-06-15T18:02:03.853030+00:00"
+        },
+        "4": {
+          "video_id": "pF49DAgyMk8",
+          "artifact": "short-20260615-slot4",
+          "fp": "c6caf17e35666047d8f13553cae127cf078ae5d5211fae610200fce8df8a27df",
+          "ts": "2026-06-15T21:50:15.218578+00:00"
         }
       }
     }
