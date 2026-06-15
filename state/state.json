@@ -2332,6 +2332,13 @@
       "question": "What is 51 × 11 + 28?",
       "answer": "589",
       "date_iso": "2026-06-15"
+    },
+    {
+      "fp": "b21fd4e0531fe8ed6381e3ee4fa97fd2ca31fc8ce11142363153adf0fa7fa15c",
+      "q_norm": "what is 31 7 20",
+      "question": "What is 31 × 7 + 20?",
+      "answer": "237",
+      "date_iso": "2026-06-15"
     }
   ],
   "publishes": {
@@ -6484,6 +6491,12 @@
           "artifact": "short-20260615-slot1",
           "fp": "e4fb36928ba5f44d5253d2c7bbaf26de0ad1371d80ce4d2881e1a31e2a2a1de1",
           "ts": "2026-06-15T06:36:38.837194+00:00"
+        },
+        "2": {
+          "video_id": "hdCgGFYRv3s",
+          "artifact": "short-20260615-slot2",
+          "fp": "b21fd4e0531fe8ed6381e3ee4fa97fd2ca31fc8ce11142363153adf0fa7fa15c",
+          "ts": "2026-06-15T13:26:23.524878+00:00"
         }
       }
     }
