@@ -2339,6 +2339,13 @@
       "question": "What is 31 × 7 + 20?",
       "answer": "237",
       "date_iso": "2026-06-15"
+    },
+    {
+      "fp": "501c67981bd939ea04e13892a7858d59146f361386693abbea7831a08e9b3529",
+      "q_norm": "what is 74 5 32",
+      "question": "What is 74 × 5 + 32?",
+      "answer": "402",
+      "date_iso": "2026-06-15"
     }
   ],
   "publishes": {
@@ -6497,6 +6504,12 @@
           "artifact": "short-20260615-slot2",
           "fp": "b21fd4e0531fe8ed6381e3ee4fa97fd2ca31fc8ce11142363153adf0fa7fa15c",
           "ts": "2026-06-15T13:26:23.524878+00:00"
+        },
+        "3": {
+          "video_id": "eJ51QkI3uQQ",
+          "artifact": "short-20260615-slot3",
+          "fp": "501c67981bd939ea04e13892a7858d59146f361386693abbea7831a08e9b3529",
+          "ts": "2026-06-15T18:02:03.853030+00:00"
         }
       }
     }
