@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "245141258dcd64f4cb2451ed51f6ef68e2c8dbafab586fcae2bc15417bd38284",
-      "q_norm": "what is 96 3 5",
-      "question": "What is 96 × 3 + 5?",
-      "answer": "293",
-      "date_iso": "2026-03-17"
-    },
-    {
-      "fp": "661de7cbd3d44a7f9f0749cc183a7fe4f5a2e0b6b51a469a1813b18625e7f4a5",
-      "q_norm": "what is 25 4 26",
-      "question": "What is 25 × 4 + 26?",
-      "answer": "126",
-      "date_iso": "2026-03-17"
-    },
-    {
-      "fp": "b7e46161646d0b5d7c20ca55c4182b68d6971a5706263d863b12f4be3c2f8966",
-      "q_norm": "what is 41 4 35",
-      "question": "What is 41 × 4 + 35?",
-      "answer": "199",
-      "date_iso": "2026-03-17"
-    },
-    {
-      "fp": "978da734c877192b924ead3150af5a57c4a3c63587159f6d66da03ff378ebe6d",
-      "q_norm": "what is 92 5 30",
-      "question": "What is 92 × 5 + 30?",
-      "answer": "490",
-      "date_iso": "2026-03-17"
-    },
-    {
       "fp": "a8e239594271941eaa32288efc87485cac84402deabd134f6c0082e02d90e064",
       "q_norm": "what is 12 9 25",
       "question": "What is 12 × 9 + 25?",
@@ -2353,6 +2325,13 @@
       "question": "What is 16 × 10 + 18?",
       "answer": "178",
       "date_iso": "2026-06-15"
+    },
+    {
+      "fp": "5afdc623fe5f194699a92a9d9d66a8e7d8716578a5343d5116d457988a66b740",
+      "q_norm": "what is 49 4 21",
+      "question": "What is 49 × 4 + 21?",
+      "answer": "217",
+      "date_iso": "2026-06-16"
     }
   ],
   "publishes": {
@@ -6523,6 +6502,16 @@
           "artifact": "short-20260615-slot4",
           "fp": "c6caf17e35666047d8f13553cae127cf078ae5d5211fae610200fce8df8a27df",
           "ts": "2026-06-15T21:50:15.218578+00:00"
+        }
+      }
+    },
+    "20260616": {
+      "shorts": {
+        "1": {
+          "video_id": "b8u0W94SA4I",
+          "artifact": "short-20260616-slot1",
+          "fp": "5afdc623fe5f194699a92a9d9d66a8e7d8716578a5343d5116d457988a66b740",
+          "ts": "2026-06-16T06:43:50.171546+00:00"
         }
       }
     }
