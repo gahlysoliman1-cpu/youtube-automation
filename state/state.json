@@ -2332,6 +2332,13 @@
       "question": "What is 49 × 4 + 21?",
       "answer": "217",
       "date_iso": "2026-06-16"
+    },
+    {
+      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+      "q_norm": "what is the capital of mexico",
+      "question": "What is the capital of Mexico?",
+      "answer": "Mexico City",
+      "date_iso": "2026-06-16"
     }
   ],
   "publishes": {
@@ -6512,6 +6519,12 @@
           "artifact": "short-20260616-slot1",
           "fp": "5afdc623fe5f194699a92a9d9d66a8e7d8716578a5343d5116d457988a66b740",
           "ts": "2026-06-16T06:43:50.171546+00:00"
+        },
+        "2": {
+          "video_id": "D9QlaEE-rJk",
+          "artifact": "short-20260616-slot2",
+          "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
+          "ts": "2026-06-16T12:20:00.505762+00:00"
         }
       }
     }
