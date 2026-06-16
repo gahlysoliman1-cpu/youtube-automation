@@ -2339,6 +2339,13 @@
       "question": "What is the capital of Mexico?",
       "answer": "Mexico City",
       "date_iso": "2026-06-16"
+    },
+    {
+      "fp": "be351170689c054f05364894d5fa1825f1787b03d33e612663c44c00e6f87142",
+      "q_norm": "what is 81 8 28",
+      "question": "What is 81 × 8 + 28?",
+      "answer": "676",
+      "date_iso": "2026-06-16"
     }
   ],
   "publishes": {
@@ -6525,6 +6532,12 @@
           "artifact": "short-20260616-slot2",
           "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
           "ts": "2026-06-16T12:20:00.505762+00:00"
+        },
+        "3": {
+          "video_id": "iFsCGHBmNTM",
+          "artifact": "short-20260616-slot3",
+          "fp": "be351170689c054f05364894d5fa1825f1787b03d33e612663c44c00e6f87142",
+          "ts": "2026-06-16T18:11:12.295751+00:00"
         }
       }
     }
