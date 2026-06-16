@@ -2346,6 +2346,13 @@
       "question": "What is 81 × 8 + 28?",
       "answer": "676",
       "date_iso": "2026-06-16"
+    },
+    {
+      "fp": "b79823deae72b59692bbed57d962fb83bf74048200b84a2bb563f382d30b4065",
+      "q_norm": "what is 61 7 33",
+      "question": "What is 61 × 7 + 33?",
+      "answer": "460",
+      "date_iso": "2026-06-16"
     }
   ],
   "publishes": {
@@ -6538,6 +6545,12 @@
           "artifact": "short-20260616-slot3",
           "fp": "be351170689c054f05364894d5fa1825f1787b03d33e612663c44c00e6f87142",
           "ts": "2026-06-16T18:11:12.295751+00:00"
+        },
+        "4": {
+          "video_id": "V-4eceOlnp4",
+          "artifact": "short-20260616-slot4",
+          "fp": "b79823deae72b59692bbed57d962fb83bf74048200b84a2bb563f382d30b4065",
+          "ts": "2026-06-16T21:47:33.005030+00:00"
         }
       }
     }
