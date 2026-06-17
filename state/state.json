@@ -2332,6 +2332,13 @@
       "question": "What is 49 × 7 + 33?",
       "answer": "376",
       "date_iso": "2026-06-17"
+    },
+    {
+      "fp": "018749b089e7aa4aaf4ad184537d75651e736eef1d12e8d2e6ffbe8921c7d0d6",
+      "q_norm": "what is 84 8 38",
+      "question": "What is 84 × 8 + 38?",
+      "answer": "710",
+      "date_iso": "2026-06-17"
     }
   ],
   "publishes": {
@@ -6540,6 +6547,12 @@
           "artifact": "short-20260617-slot1",
           "fp": "527739e36183443cb660549e252ff420abbfa324fcc0a9bb84d344b99e5b6822",
           "ts": "2026-06-17T06:29:20.400641+00:00"
+        },
+        "2": {
+          "video_id": "XJ8ixeNN3rs",
+          "artifact": "short-20260617-slot2",
+          "fp": "018749b089e7aa4aaf4ad184537d75651e736eef1d12e8d2e6ffbe8921c7d0d6",
+          "ts": "2026-06-17T12:01:56.096167+00:00"
         }
       }
     }
