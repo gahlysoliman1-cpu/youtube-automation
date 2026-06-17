@@ -2346,6 +2346,13 @@
       "question": "What is 60 × 3 + 23?",
       "answer": "203",
       "date_iso": "2026-06-17"
+    },
+    {
+      "fp": "fbb3a85026774e973119848b3f8eb4773bc47c2464d8f65a07516880a4b7c3be",
+      "q_norm": "what is 39 5 20",
+      "question": "What is 39 × 5 + 20?",
+      "answer": "215",
+      "date_iso": "2026-06-17"
     }
   ],
   "publishes": {
@@ -6566,6 +6573,12 @@
           "artifact": "short-20260617-slot3",
           "fp": "cc960b68c83f9a31b49a6fb8afa564151422acae6cf8f9c97e07ec7304078943",
           "ts": "2026-06-17T16:44:06.686810+00:00"
+        },
+        "4": {
+          "video_id": "mt3eM0wgw6A",
+          "artifact": "short-20260617-slot4",
+          "fp": "fbb3a85026774e973119848b3f8eb4773bc47c2464d8f65a07516880a4b7c3be",
+          "ts": "2026-06-17T21:20:46.990978+00:00"
         }
       }
     }
