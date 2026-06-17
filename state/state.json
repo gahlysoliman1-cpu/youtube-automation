@@ -2339,6 +2339,13 @@
       "question": "What is 84 × 8 + 38?",
       "answer": "710",
       "date_iso": "2026-06-17"
+    },
+    {
+      "fp": "cc960b68c83f9a31b49a6fb8afa564151422acae6cf8f9c97e07ec7304078943",
+      "q_norm": "what is 60 3 23",
+      "question": "What is 60 × 3 + 23?",
+      "answer": "203",
+      "date_iso": "2026-06-17"
     }
   ],
   "publishes": {
@@ -6553,6 +6560,12 @@
           "artifact": "short-20260617-slot2",
           "fp": "018749b089e7aa4aaf4ad184537d75651e736eef1d12e8d2e6ffbe8921c7d0d6",
           "ts": "2026-06-17T12:01:56.096167+00:00"
+        },
+        "3": {
+          "video_id": "SJFzO3FSyGM",
+          "artifact": "short-20260617-slot3",
+          "fp": "cc960b68c83f9a31b49a6fb8afa564151422acae6cf8f9c97e07ec7304078943",
+          "ts": "2026-06-17T16:44:06.686810+00:00"
         }
       }
     }
