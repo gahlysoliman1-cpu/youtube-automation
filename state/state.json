@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "f9527d88f6d67080aa372cc812a04ba85382e9d37d431b78452da0890d3b6533",
-      "q_norm": "what is 24 5 10",
-      "question": "What is 24 × 5 + 10?",
-      "answer": "130",
-      "date_iso": "2026-03-19"
-    },
-    {
-      "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
-      "q_norm": "what is the capital of spain",
-      "question": "What is the capital of Spain?",
-      "answer": "Madrid",
-      "date_iso": "2026-03-19"
-    },
-    {
-      "fp": "8519166616f9d9d0e9eb5dd153543bb67bf96c383d0c6474543403aa9fe01397",
-      "q_norm": "what is 19 10 19",
-      "question": "What is 19 × 10 + 19?",
-      "answer": "209",
-      "date_iso": "2026-03-19"
-    },
-    {
-      "fp": "6ff24ebf34e5ce6e2c8b1b185486c68d6b2bd1a34438998dbdad5bab097858fe",
-      "q_norm": "what is 87 5 8",
-      "question": "What is 87 × 5 + 8?",
-      "answer": "443",
-      "date_iso": "2026-03-19"
-    },
-    {
       "fp": "3126542021d882ab987816aca16f6990505081096141974178e5c65e80da53f9",
       "q_norm": "what is 75 10 17",
       "question": "What is 75 × 10 + 17?",
@@ -2353,6 +2325,13 @@
       "question": "What is 39 × 5 + 20?",
       "answer": "215",
       "date_iso": "2026-06-17"
+    },
+    {
+      "fp": "4abb07952845c85099cda64f85aa5c5af45f9f31a3a014ab4cca74307ade5be4",
+      "q_norm": "what is 60 8 19",
+      "question": "What is 60 × 8 + 19?",
+      "answer": "499",
+      "date_iso": "2026-06-18"
     }
   ],
   "publishes": {
@@ -6579,6 +6558,16 @@
           "artifact": "short-20260617-slot4",
           "fp": "fbb3a85026774e973119848b3f8eb4773bc47c2464d8f65a07516880a4b7c3be",
           "ts": "2026-06-17T21:20:46.990978+00:00"
+        }
+      }
+    },
+    "20260618": {
+      "shorts": {
+        "1": {
+          "video_id": "3QUIHKrqXyA",
+          "artifact": "short-20260618-slot1",
+          "fp": "4abb07952845c85099cda64f85aa5c5af45f9f31a3a014ab4cca74307ade5be4",
+          "ts": "2026-06-18T06:08:18.851569+00:00"
         }
       }
     }
