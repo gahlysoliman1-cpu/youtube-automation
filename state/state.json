@@ -2332,6 +2332,13 @@
       "question": "What is 60 × 8 + 19?",
       "answer": "499",
       "date_iso": "2026-06-18"
+    },
+    {
+      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+      "q_norm": "which planet is known as the red planet",
+      "question": "Which planet is known as the Red Planet?",
+      "answer": "Mars",
+      "date_iso": "2026-06-18"
     }
   ],
   "publishes": {
@@ -6568,6 +6575,12 @@
           "artifact": "short-20260618-slot1",
           "fp": "4abb07952845c85099cda64f85aa5c5af45f9f31a3a014ab4cca74307ade5be4",
           "ts": "2026-06-18T06:08:18.851569+00:00"
+        },
+        "2": {
+          "video_id": "ktxiLvCKtck",
+          "artifact": "short-20260618-slot2",
+          "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
+          "ts": "2026-06-18T11:19:02.937924+00:00"
         }
       }
     }
