@@ -2346,6 +2346,13 @@
       "question": "What is 66 × 6 + 28?",
       "answer": "424",
       "date_iso": "2026-06-18"
+    },
+    {
+      "fp": "77d0ff9194258dfab74fc0350a7477871b60649a703f564aaa7d73dff229eecb",
+      "q_norm": "what is 91 10 25",
+      "question": "What is 91 × 10 + 25?",
+      "answer": "935",
+      "date_iso": "2026-06-18"
     }
   ],
   "publishes": {
@@ -6594,6 +6601,12 @@
           "artifact": "short-20260618-slot3",
           "fp": "0cb407e312bff7fb0673b52a9d3dc12df4f4d00996061b833aa880d17222bd89",
           "ts": "2026-06-18T16:50:13.738808+00:00"
+        },
+        "4": {
+          "video_id": "UZW1PCl8vgM",
+          "artifact": "short-20260618-slot4",
+          "fp": "77d0ff9194258dfab74fc0350a7477871b60649a703f564aaa7d73dff229eecb",
+          "ts": "2026-06-18T21:27:59.431771+00:00"
         }
       }
     }
