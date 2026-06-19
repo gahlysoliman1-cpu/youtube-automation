@@ -2339,6 +2339,13 @@
       "question": "What is 82 × 2 + 34?",
       "answer": "198",
       "date_iso": "2026-06-19"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-06-19"
     }
   ],
   "publishes": {
@@ -6609,6 +6616,12 @@
           "artifact": "short-20260619-slot2",
           "fp": "5c1e4c24ec8fda92d532d88cb06a50a14acf81bab5c372a7cb769c69cf64b881",
           "ts": "2026-06-19T11:42:54.136499+00:00"
+        },
+        "3": {
+          "video_id": "FYBV0EpQcT4",
+          "artifact": "short-20260619-slot3",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-06-19T16:14:55.417696+00:00"
         }
       }
     }
