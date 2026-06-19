@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "3126542021d882ab987816aca16f6990505081096141974178e5c65e80da53f9",
-      "q_norm": "what is 75 10 17",
-      "question": "What is 75 × 10 + 17?",
-      "answer": "767",
-      "date_iso": "2026-03-20"
-    },
-    {
-      "fp": "ec3098f63c17328458b71494bec171dec207c9c7dc22f1f6578d76653ed3b13a",
-      "q_norm": "what is 36 7 13",
-      "question": "What is 36 × 7 + 13?",
-      "answer": "265",
-      "date_iso": "2026-03-20"
-    },
-    {
-      "fp": "a7fff2d02f8353a0cae2f10134f85bcaff53ceb2ba8524e33c5232b370b98e34",
-      "q_norm": "what is 27 7 33",
-      "question": "What is 27 × 7 + 33?",
-      "answer": "222",
-      "date_iso": "2026-03-20"
-    },
-    {
-      "fp": "8694b266058b9b2cddf3d72e23a576431da274b7a533b4823fef76f1389ec243",
-      "q_norm": "what is 52 7 36",
-      "question": "What is 52 × 7 + 36?",
-      "answer": "400",
-      "date_iso": "2026-03-20"
-    },
-    {
       "fp": "0c57edb791fa8e2f0707894f456008fb59b271acbcf18a708c168cd306da6b15",
       "q_norm": "what is 89 9 26",
       "question": "What is 89 × 9 + 26?",
@@ -2353,6 +2325,13 @@
       "question": "What is 91 × 10 + 25?",
       "answer": "935",
       "date_iso": "2026-06-18"
+    },
+    {
+      "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+      "q_norm": "what is the capital of spain",
+      "question": "What is the capital of Spain?",
+      "answer": "Madrid",
+      "date_iso": "2026-06-19"
     }
   ],
   "publishes": {
@@ -6607,6 +6586,16 @@
           "artifact": "short-20260618-slot4",
           "fp": "77d0ff9194258dfab74fc0350a7477871b60649a703f564aaa7d73dff229eecb",
           "ts": "2026-06-18T21:27:59.431771+00:00"
+        }
+      }
+    },
+    "20260619": {
+      "shorts": {
+        "1": {
+          "video_id": "B8IlKNShwD8",
+          "artifact": "short-20260619-slot1",
+          "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+          "ts": "2026-06-19T06:35:01.538250+00:00"
         }
       }
     }
