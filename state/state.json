@@ -2346,6 +2346,13 @@
       "question": "What has keys but can't open locks?",
       "answer": "A piano",
       "date_iso": "2026-06-19"
+    },
+    {
+      "fp": "6c38e2218fb923cc838a0dbff022a86f96fe6e62069d94ad72911e3187069928",
+      "q_norm": "what is 64 3 37",
+      "question": "What is 64 × 3 + 37?",
+      "answer": "229",
+      "date_iso": "2026-06-19"
     }
   ],
   "publishes": {
@@ -6622,6 +6629,12 @@
           "artifact": "short-20260619-slot3",
           "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
           "ts": "2026-06-19T16:14:55.417696+00:00"
+        },
+        "4": {
+          "video_id": "izZpmXd0ZOQ",
+          "artifact": "short-20260619-slot4",
+          "fp": "6c38e2218fb923cc838a0dbff022a86f96fe6e62069d94ad72911e3187069928",
+          "ts": "2026-06-19T20:44:22.837620+00:00"
         }
       }
     }
