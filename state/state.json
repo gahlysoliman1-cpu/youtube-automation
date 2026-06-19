@@ -2332,6 +2332,13 @@
       "question": "What is the capital of Spain?",
       "answer": "Madrid",
       "date_iso": "2026-06-19"
+    },
+    {
+      "fp": "5c1e4c24ec8fda92d532d88cb06a50a14acf81bab5c372a7cb769c69cf64b881",
+      "q_norm": "what is 82 2 34",
+      "question": "What is 82 × 2 + 34?",
+      "answer": "198",
+      "date_iso": "2026-06-19"
     }
   ],
   "publishes": {
@@ -6596,6 +6603,12 @@
           "artifact": "short-20260619-slot1",
           "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
           "ts": "2026-06-19T06:35:01.538250+00:00"
+        },
+        "2": {
+          "video_id": "CO9JX6H2tVA",
+          "artifact": "short-20260619-slot2",
+          "fp": "5c1e4c24ec8fda92d532d88cb06a50a14acf81bab5c372a7cb769c69cf64b881",
+          "ts": "2026-06-19T11:42:54.136499+00:00"
         }
       }
     }
