@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "0c57edb791fa8e2f0707894f456008fb59b271acbcf18a708c168cd306da6b15",
-      "q_norm": "what is 89 9 26",
-      "question": "What is 89 × 9 + 26?",
-      "answer": "827",
-      "date_iso": "2026-03-21"
-    },
-    {
-      "fp": "e92947ae302107b525c11d1c062eee9a97266ef1183cc175a749cbe99a1f1f2e",
-      "q_norm": "what is 97 11 10",
-      "question": "What is 97 × 11 + 10?",
-      "answer": "1077",
-      "date_iso": "2026-03-21"
-    },
-    {
-      "fp": "3a06eeec448254c7b676ca971e933c8e43bff96385b28fa3aea4c6a2f6da7888",
-      "q_norm": "what is 72 2 35",
-      "question": "What is 72 × 2 + 35?",
-      "answer": "179",
-      "date_iso": "2026-03-21"
-    },
-    {
-      "fp": "82fdf3062298c595a41b9763f1d5dd34d7924a9a2799e8a62f4735575e00f434",
-      "q_norm": "what is 25 6 8",
-      "question": "What is 25 × 6 + 8?",
-      "answer": "158",
-      "date_iso": "2026-03-21"
-    },
-    {
       "fp": "6ceaddb3bd60b8e4a9a237b34139aedc44239e5c0e31b8fdba1b561424ef42ab",
       "q_norm": "what is 28 5 24",
       "question": "What is 28 × 5 + 24?",
@@ -2353,6 +2325,13 @@
       "question": "What is 64 × 3 + 37?",
       "answer": "229",
       "date_iso": "2026-06-19"
+    },
+    {
+      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+      "q_norm": "what is h2o commonly called",
+      "question": "What is H2O commonly called?",
+      "answer": "Water",
+      "date_iso": "2026-06-20"
     }
   ],
   "publishes": {
@@ -6635,6 +6614,16 @@
           "artifact": "short-20260619-slot4",
           "fp": "6c38e2218fb923cc838a0dbff022a86f96fe6e62069d94ad72911e3187069928",
           "ts": "2026-06-19T20:44:22.837620+00:00"
+        }
+      }
+    },
+    "20260620": {
+      "shorts": {
+        "1": {
+          "video_id": "l3UYG6gh4Jc",
+          "artifact": "short-20260620-slot1",
+          "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
+          "ts": "2026-06-20T05:31:07.271724+00:00"
         }
       }
     }
