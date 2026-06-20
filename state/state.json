@@ -2346,6 +2346,13 @@
       "question": "What is 94 × 2 + 36?",
       "answer": "224",
       "date_iso": "2026-06-20"
+    },
+    {
+      "fp": "e4f112c573d8228bdd9e61d2b467203615e917ca40e2d5c254e20d8100d0f8d1",
+      "q_norm": "what is 24 6 34",
+      "question": "What is 24 × 6 + 34?",
+      "answer": "178",
+      "date_iso": "2026-06-20"
     }
   ],
   "publishes": {
@@ -6650,6 +6657,12 @@
           "artifact": "short-20260620-slot3",
           "fp": "a36c8fd06142b825ef7c723612a6afbe01e8565b0e825f6a89e8a25f40d66eca",
           "ts": "2026-06-20T15:08:26.623654+00:00"
+        },
+        "4": {
+          "video_id": "crRdCviljqI",
+          "artifact": "short-20260620-slot4",
+          "fp": "e4f112c573d8228bdd9e61d2b467203615e917ca40e2d5c254e20d8100d0f8d1",
+          "ts": "2026-06-20T20:23:35.243798+00:00"
         }
       }
     }
