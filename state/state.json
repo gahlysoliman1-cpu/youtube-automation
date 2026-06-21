@@ -2332,6 +2332,13 @@
       "question": "What is 65 × 2 + 14?",
       "answer": "144",
       "date_iso": "2026-06-21"
+    },
+    {
+      "fp": "d4031b0ba909be54368da569b426566b6b3f98c2b8c826c8e593c2a808a6a58e",
+      "q_norm": "what is 14 3 30",
+      "question": "What is 14 × 3 + 30?",
+      "answer": "72",
+      "date_iso": "2026-06-21"
     }
   ],
   "publishes": {
@@ -6652,6 +6659,12 @@
           "artifact": "short-20260621-slot1",
           "fp": "89e6e2e363277c2df1d740d9c6eecab502bcb27fa723cee8fb1f2fe885252503",
           "ts": "2026-06-21T06:16:15.540800+00:00"
+        },
+        "2": {
+          "video_id": "wsQp-D-8njA",
+          "artifact": "short-20260621-slot2",
+          "fp": "d4031b0ba909be54368da569b426566b6b3f98c2b8c826c8e593c2a808a6a58e",
+          "ts": "2026-06-21T10:41:58.543300+00:00"
         }
       }
     }
