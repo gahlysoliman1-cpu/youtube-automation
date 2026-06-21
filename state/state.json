@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "6ceaddb3bd60b8e4a9a237b34139aedc44239e5c0e31b8fdba1b561424ef42ab",
-      "q_norm": "what is 28 5 24",
-      "question": "What is 28 × 5 + 24?",
-      "answer": "164",
-      "date_iso": "2026-03-22"
-    },
-    {
-      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
-      "q_norm": "which star is closest to earth",
-      "question": "Which star is closest to Earth?",
-      "answer": "The Sun",
-      "date_iso": "2026-03-22"
-    },
-    {
-      "fp": "9906782f84bca1a753ee051e099bd95e05c89324f41624afa7af701da1b4003f",
-      "q_norm": "what is 66 2 26",
-      "question": "What is 66 × 2 + 26?",
-      "answer": "158",
-      "date_iso": "2026-03-22"
-    },
-    {
-      "fp": "4d7e36b9c3b5ad67a8766371c42884c5e26d83dcbc4ca7d9b4bbaa8423821460",
-      "q_norm": "what is 23 3 24",
-      "question": "What is 23 × 3 + 24?",
-      "answer": "93",
-      "date_iso": "2026-03-22"
-    },
-    {
       "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
       "q_norm": "what is the capital of australia",
       "question": "What is the capital of Australia?",
@@ -2353,6 +2325,13 @@
       "question": "What is 24 × 6 + 34?",
       "answer": "178",
       "date_iso": "2026-06-20"
+    },
+    {
+      "fp": "89e6e2e363277c2df1d740d9c6eecab502bcb27fa723cee8fb1f2fe885252503",
+      "q_norm": "what is 65 2 14",
+      "question": "What is 65 × 2 + 14?",
+      "answer": "144",
+      "date_iso": "2026-06-21"
     }
   ],
   "publishes": {
@@ -6663,6 +6642,16 @@
           "artifact": "short-20260620-slot4",
           "fp": "e4f112c573d8228bdd9e61d2b467203615e917ca40e2d5c254e20d8100d0f8d1",
           "ts": "2026-06-20T20:23:35.243798+00:00"
+        }
+      }
+    },
+    "20260621": {
+      "shorts": {
+        "1": {
+          "video_id": "Av86BmuQVck",
+          "artifact": "short-20260621-slot1",
+          "fp": "89e6e2e363277c2df1d740d9c6eecab502bcb27fa723cee8fb1f2fe885252503",
+          "ts": "2026-06-21T06:16:15.540800+00:00"
         }
       }
     }
