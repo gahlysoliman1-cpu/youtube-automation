@@ -2346,6 +2346,13 @@
       "question": "What is 44 × 4 + 29?",
       "answer": "205",
       "date_iso": "2026-06-21"
+    },
+    {
+      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+      "q_norm": "what is the capital of france",
+      "question": "What is the capital of France?",
+      "answer": "Paris",
+      "date_iso": "2026-06-21"
     }
   ],
   "publishes": {
@@ -6678,6 +6685,12 @@
           "artifact": "short-20260621-slot3",
           "fp": "16fd51558dbb37f31ef43b92a446e514c5e587f5b250eb7fe17d1abd85ebfd5c",
           "ts": "2026-06-21T15:16:14.740966+00:00"
+        },
+        "4": {
+          "video_id": "Is0GTi9MBpA",
+          "artifact": "short-20260621-slot4",
+          "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
+          "ts": "2026-06-21T20:50:11.654204+00:00"
         }
       }
     }
