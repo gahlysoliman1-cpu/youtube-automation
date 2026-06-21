@@ -2339,6 +2339,13 @@
       "question": "What is 14 × 3 + 30?",
       "answer": "72",
       "date_iso": "2026-06-21"
+    },
+    {
+      "fp": "16fd51558dbb37f31ef43b92a446e514c5e587f5b250eb7fe17d1abd85ebfd5c",
+      "q_norm": "what is 44 4 29",
+      "question": "What is 44 × 4 + 29?",
+      "answer": "205",
+      "date_iso": "2026-06-21"
     }
   ],
   "publishes": {
@@ -6665,6 +6672,12 @@
           "artifact": "short-20260621-slot2",
           "fp": "d4031b0ba909be54368da569b426566b6b3f98c2b8c826c8e593c2a808a6a58e",
           "ts": "2026-06-21T10:41:58.543300+00:00"
+        },
+        "3": {
+          "video_id": "1WhoBtvBdhw",
+          "artifact": "short-20260621-slot3",
+          "fp": "16fd51558dbb37f31ef43b92a446e514c5e587f5b250eb7fe17d1abd85ebfd5c",
+          "ts": "2026-06-21T15:16:14.740966+00:00"
         }
       }
     }
