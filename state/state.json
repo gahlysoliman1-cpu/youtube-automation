@@ -2346,6 +2346,13 @@
       "question": "What is 72 × 7 + 38?",
       "answer": "542",
       "date_iso": "2026-06-22"
+    },
+    {
+      "fp": "c70fe8552b020cb82dbbe58fd84285b1bf4268a77a98f9f181b2f2d67b6643ea",
+      "q_norm": "what is 58 7 11",
+      "question": "What is 58 × 7 + 11?",
+      "answer": "417",
+      "date_iso": "2026-06-22"
     }
   ],
   "publishes": {
@@ -6706,6 +6713,12 @@
           "artifact": "short-20260622-slot3",
           "fp": "7791368db79361b95be692713c852b972971f15a49f25fb6a4b29cd83d958d38",
           "ts": "2026-06-22T17:50:29.996064+00:00"
+        },
+        "4": {
+          "video_id": "QRRsTPm7XEI",
+          "artifact": "short-20260622-slot4",
+          "fp": "c70fe8552b020cb82dbbe58fd84285b1bf4268a77a98f9f181b2f2d67b6643ea",
+          "ts": "2026-06-22T21:37:59.449281+00:00"
         }
       }
     }
