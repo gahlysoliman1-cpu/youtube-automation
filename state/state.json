@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
-      "q_norm": "what is the capital of australia",
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-03-23"
-    },
-    {
-      "fp": "847a66c97b5f3380a06375c090efa0ddfc473d0a8e07e8fe488079902c8f27cd",
-      "q_norm": "what is 63 3 38",
-      "question": "What is 63 × 3 + 38?",
-      "answer": "227",
-      "date_iso": "2026-03-23"
-    },
-    {
-      "fp": "be13823d9d229f94b1b17457cc6c45f8ac4f5e35e2d1ee8db3aced0ea22fbf5b",
-      "q_norm": "what is 62 9 14",
-      "question": "What is 62 × 9 + 14?",
-      "answer": "572",
-      "date_iso": "2026-03-23"
-    },
-    {
-      "fp": "2e00b6bd6b1fbfcbb6c5d50b8dbf365c35beab76915f2e88074324cb1e49600a",
-      "q_norm": "what is 61 6 17",
-      "question": "What is 61 × 6 + 17?",
-      "answer": "383",
-      "date_iso": "2026-03-23"
-    },
-    {
       "fp": "cdac514983cdeeaf2db9a75dc71b36911a70a1f26764bd190f73636f6c61229c",
       "q_norm": "what is 27 10 29",
       "question": "What is 27 × 10 + 29?",
@@ -2353,6 +2325,13 @@
       "question": "What is the capital of France?",
       "answer": "Paris",
       "date_iso": "2026-06-21"
+    },
+    {
+      "fp": "ccff5b14e14ecc0531c7aef81f6eb3caa5fe195b16a341aa4e4af5cc9779a040",
+      "q_norm": "what is 19 4 31",
+      "question": "What is 19 × 4 + 31?",
+      "answer": "107",
+      "date_iso": "2026-06-22"
     }
   ],
   "publishes": {
@@ -6691,6 +6670,16 @@
           "artifact": "short-20260621-slot4",
           "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
           "ts": "2026-06-21T20:50:11.654204+00:00"
+        }
+      }
+    },
+    "20260622": {
+      "shorts": {
+        "1": {
+          "video_id": "ZkpLi1GO4ug",
+          "artifact": "short-20260622-slot1",
+          "fp": "ccff5b14e14ecc0531c7aef81f6eb3caa5fe195b16a341aa4e4af5cc9779a040",
+          "ts": "2026-06-22T06:39:44.340780+00:00"
         }
       }
     }
