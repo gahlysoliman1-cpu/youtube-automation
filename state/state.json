@@ -2339,6 +2339,13 @@
       "question": "What is the capital of Egypt?",
       "answer": "Cairo",
       "date_iso": "2026-06-22"
+    },
+    {
+      "fp": "7791368db79361b95be692713c852b972971f15a49f25fb6a4b29cd83d958d38",
+      "q_norm": "what is 72 7 38",
+      "question": "What is 72 × 7 + 38?",
+      "answer": "542",
+      "date_iso": "2026-06-22"
     }
   ],
   "publishes": {
@@ -6693,6 +6700,12 @@
           "artifact": "short-20260622-slot2",
           "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
           "ts": "2026-06-22T13:01:53.803883+00:00"
+        },
+        "3": {
+          "video_id": "ERFoqtSV7iQ",
+          "artifact": "short-20260622-slot3",
+          "fp": "7791368db79361b95be692713c852b972971f15a49f25fb6a4b29cd83d958d38",
+          "ts": "2026-06-22T17:50:29.996064+00:00"
         }
       }
     }
