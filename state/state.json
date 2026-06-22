@@ -2332,6 +2332,13 @@
       "question": "What is 19 × 4 + 31?",
       "answer": "107",
       "date_iso": "2026-06-22"
+    },
+    {
+      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+      "q_norm": "what is the capital of egypt",
+      "question": "What is the capital of Egypt?",
+      "answer": "Cairo",
+      "date_iso": "2026-06-22"
     }
   ],
   "publishes": {
@@ -6680,6 +6687,12 @@
           "artifact": "short-20260622-slot1",
           "fp": "ccff5b14e14ecc0531c7aef81f6eb3caa5fe195b16a341aa4e4af5cc9779a040",
           "ts": "2026-06-22T06:39:44.340780+00:00"
+        },
+        "2": {
+          "video_id": "Eyeb9JwVctY",
+          "artifact": "short-20260622-slot2",
+          "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
+          "ts": "2026-06-22T13:01:53.803883+00:00"
         }
       }
     }
