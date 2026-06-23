@@ -2339,6 +2339,13 @@
       "question": "What is 54 × 6 + 12?",
       "answer": "336",
       "date_iso": "2026-06-23"
+    },
+    {
+      "fp": "e46965506a49bdc616c03c46217bb1717cb92305968a879f28af1c2f01a46ee0",
+      "q_norm": "what is 66 3 27",
+      "question": "What is 66 × 3 + 27?",
+      "answer": "225",
+      "date_iso": "2026-06-23"
     }
   ],
   "publishes": {
@@ -6721,6 +6728,12 @@
           "artifact": "short-20260623-slot2",
           "fp": "83a31af55afb404194d219299757230828f3b6128bace60b730ab8d9e19b2c13",
           "ts": "2026-06-23T10:42:11.787049+00:00"
+        },
+        "3": {
+          "video_id": "aoJoBqPh0SY",
+          "artifact": "short-20260623-slot3",
+          "fp": "e46965506a49bdc616c03c46217bb1717cb92305968a879f28af1c2f01a46ee0",
+          "ts": "2026-06-23T16:10:03.617341+00:00"
         }
       }
     }
