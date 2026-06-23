@@ -2332,6 +2332,13 @@
       "question": "What is 77 × 11 + 21?",
       "answer": "868",
       "date_iso": "2026-06-23"
+    },
+    {
+      "fp": "83a31af55afb404194d219299757230828f3b6128bace60b730ab8d9e19b2c13",
+      "q_norm": "what is 54 6 12",
+      "question": "What is 54 × 6 + 12?",
+      "answer": "336",
+      "date_iso": "2026-06-23"
     }
   ],
   "publishes": {
@@ -6708,6 +6715,12 @@
           "artifact": "short-20260623-slot1",
           "fp": "3a8bcb1dd5562aada3ffacc86bfa8da6826aa31213a4b548349f8bff10d4c3f7",
           "ts": "2026-06-23T05:13:52.816998+00:00"
+        },
+        "2": {
+          "video_id": "KdHYNm7Wgz4",
+          "artifact": "short-20260623-slot2",
+          "fp": "83a31af55afb404194d219299757230828f3b6128bace60b730ab8d9e19b2c13",
+          "ts": "2026-06-23T10:42:11.787049+00:00"
         }
       }
     }
