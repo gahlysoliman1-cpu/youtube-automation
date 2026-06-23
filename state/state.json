@@ -2346,6 +2346,13 @@
       "question": "What is 66 × 3 + 27?",
       "answer": "225",
       "date_iso": "2026-06-23"
+    },
+    {
+      "fp": "49d3c1c9f25f941f84292040e2418c18b65935b748b8556233aacaaa232785ee",
+      "q_norm": "what is 24 7 36",
+      "question": "What is 24 × 7 + 36?",
+      "answer": "204",
+      "date_iso": "2026-06-23"
     }
   ],
   "publishes": {
@@ -6734,6 +6741,12 @@
           "artifact": "short-20260623-slot3",
           "fp": "e46965506a49bdc616c03c46217bb1717cb92305968a879f28af1c2f01a46ee0",
           "ts": "2026-06-23T16:10:03.617341+00:00"
+        },
+        "4": {
+          "video_id": "eUJ16Z07UtM",
+          "artifact": "short-20260623-slot4",
+          "fp": "49d3c1c9f25f941f84292040e2418c18b65935b748b8556233aacaaa232785ee",
+          "ts": "2026-06-23T21:07:08.632087+00:00"
         }
       }
     }
