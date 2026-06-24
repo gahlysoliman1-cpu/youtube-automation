@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "d22cdb6feac905c60996b8195ce6296266f1e3bea78774325478e946e809000a",
-      "q_norm": "what is 89 2 37",
-      "question": "What is 89 × 2 + 37?",
-      "answer": "215",
-      "date_iso": "2026-03-25"
-    },
-    {
-      "fp": "6601f86a9842b5e0d6c27c5f35e33684d0ddced5b4ac1935c895a823a25082eb",
-      "q_norm": "what is 44 4 13",
-      "question": "What is 44 × 4 + 13?",
-      "answer": "189",
-      "date_iso": "2026-03-25"
-    },
-    {
-      "fp": "9f74e58ce7eb85f50efa5c6e93dfaa7b883561c7b2b4ec88376465b40d119735",
-      "q_norm": "what is 89 11 22",
-      "question": "What is 89 × 11 + 22?",
-      "answer": "1001",
-      "date_iso": "2026-03-25"
-    },
-    {
-      "fp": "ab6bd89bab42968c7a5b06c2e5a26f64dc2623f4b91d368cbb6fe25a000206ef",
-      "q_norm": "what is 58 10 25",
-      "question": "What is 58 × 10 + 25?",
-      "answer": "605",
-      "date_iso": "2026-03-25"
-    },
-    {
       "fp": "8d25e081bf255d04f4a1352cbf1b048107658bfaed479f4a6f0a8d2fa92f7647",
       "q_norm": "what is 49 3 8",
       "question": "What is 49 × 3 + 8?",
@@ -2353,6 +2325,13 @@
       "question": "What is 24 × 7 + 36?",
       "answer": "204",
       "date_iso": "2026-06-23"
+    },
+    {
+      "fp": "84faa4efb671d54adb31c866a4aea713e68bb3a62454d4966e708758320a6f0a",
+      "q_norm": "what is 40 10 15",
+      "question": "What is 40 × 10 + 15?",
+      "answer": "415",
+      "date_iso": "2026-06-24"
     }
   ],
   "publishes": {
@@ -6747,6 +6726,16 @@
           "artifact": "short-20260623-slot4",
           "fp": "49d3c1c9f25f941f84292040e2418c18b65935b748b8556233aacaaa232785ee",
           "ts": "2026-06-23T21:07:08.632087+00:00"
+        }
+      }
+    },
+    "20260624": {
+      "shorts": {
+        "1": {
+          "video_id": "WCK3t4Pj5cE",
+          "artifact": "short-20260624-slot1",
+          "fp": "84faa4efb671d54adb31c866a4aea713e68bb3a62454d4966e708758320a6f0a",
+          "ts": "2026-06-24T05:11:50.063112+00:00"
         }
       }
     }
