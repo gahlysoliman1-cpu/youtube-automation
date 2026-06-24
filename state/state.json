@@ -2332,6 +2332,13 @@
       "question": "What is 40 × 10 + 15?",
       "answer": "415",
       "date_iso": "2026-06-24"
+    },
+    {
+      "fp": "9a3bf92b70adbec04684d980a15e79bd2069a0e7a9056a450e9e55812a7aea9d",
+      "q_norm": "what is 55 11 15",
+      "question": "What is 55 × 11 + 15?",
+      "answer": "620",
+      "date_iso": "2026-06-24"
     }
   ],
   "publishes": {
@@ -6736,6 +6743,12 @@
           "artifact": "short-20260624-slot1",
           "fp": "84faa4efb671d54adb31c866a4aea713e68bb3a62454d4966e708758320a6f0a",
           "ts": "2026-06-24T05:11:50.063112+00:00"
+        },
+        "2": {
+          "video_id": "67sY3mJZda4",
+          "artifact": "short-20260624-slot2",
+          "fp": "9a3bf92b70adbec04684d980a15e79bd2069a0e7a9056a450e9e55812a7aea9d",
+          "ts": "2026-06-24T10:27:46.723079+00:00"
         }
       }
     }
