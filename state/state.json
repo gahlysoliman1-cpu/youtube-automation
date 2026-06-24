@@ -2339,6 +2339,13 @@
       "question": "What is 55 × 11 + 15?",
       "answer": "620",
       "date_iso": "2026-06-24"
+    },
+    {
+      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+      "q_norm": "what is the capital of brazil",
+      "question": "What is the capital of Brazil?",
+      "answer": "Brasília",
+      "date_iso": "2026-06-24"
     }
   ],
   "publishes": {
@@ -6749,6 +6756,12 @@
           "artifact": "short-20260624-slot2",
           "fp": "9a3bf92b70adbec04684d980a15e79bd2069a0e7a9056a450e9e55812a7aea9d",
           "ts": "2026-06-24T10:27:46.723079+00:00"
+        },
+        "3": {
+          "video_id": "X4UTrlwNXwE",
+          "artifact": "short-20260624-slot3",
+          "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
+          "ts": "2026-06-24T15:41:20.667738+00:00"
         }
       }
     }
