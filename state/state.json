@@ -2346,6 +2346,13 @@
       "question": "What is the capital of Brazil?",
       "answer": "Brasília",
       "date_iso": "2026-06-24"
+    },
+    {
+      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+      "q_norm": "what is the capital of italy",
+      "question": "What is the capital of Italy?",
+      "answer": "Rome",
+      "date_iso": "2026-06-24"
     }
   ],
   "publishes": {
@@ -6762,6 +6769,12 @@
           "artifact": "short-20260624-slot3",
           "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
           "ts": "2026-06-24T15:41:20.667738+00:00"
+        },
+        "4": {
+          "video_id": "Nyq8gceVPPk",
+          "artifact": "short-20260624-slot4",
+          "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
+          "ts": "2026-06-24T20:58:28.538253+00:00"
         }
       }
     }
