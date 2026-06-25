@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "8d25e081bf255d04f4a1352cbf1b048107658bfaed479f4a6f0a8d2fa92f7647",
-      "q_norm": "what is 49 3 8",
-      "question": "What is 49 × 3 + 8?",
-      "answer": "155",
-      "date_iso": "2026-03-26"
-    },
-    {
-      "fp": "9b7c0e823502104c136edf2652dc156b54d186508018c446715aed579e7bfc03",
-      "q_norm": "what is 80 6 15",
-      "question": "What is 80 × 6 + 15?",
-      "answer": "495",
-      "date_iso": "2026-03-26"
-    },
-    {
-      "fp": "40b4a57b219cd4e4ddce8edabb7c0356734e2d848bef9da313b90ccd1d1df3de",
-      "q_norm": "what is 35 2 24",
-      "question": "What is 35 × 2 + 24?",
-      "answer": "94",
-      "date_iso": "2026-03-26"
-    },
-    {
-      "fp": "1ec2b1a4629ea206e0fd76428db78ae50c17524a9d570f509b23d3546102635e",
-      "q_norm": "what is 54 9 32",
-      "question": "What is 54 × 9 + 32?",
-      "answer": "518",
-      "date_iso": "2026-03-26"
-    },
-    {
       "fp": "bd57851a01244ca10032675c067592670587177add75366d1aaa3a04f9870823",
       "q_norm": "what is 68 9 32",
       "question": "What is 68 × 9 + 32?",
@@ -2353,6 +2325,13 @@
       "question": "What is the capital of Italy?",
       "answer": "Rome",
       "date_iso": "2026-06-24"
+    },
+    {
+      "fp": "825e68705aea1003701c93710257e1c16318f46642902be098d5851d4ff3ceb2",
+      "q_norm": "what is 78 6 7",
+      "question": "What is 78 × 6 + 7?",
+      "answer": "475",
+      "date_iso": "2026-06-25"
     }
   ],
   "publishes": {
@@ -6775,6 +6754,16 @@
           "artifact": "short-20260624-slot4",
           "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
           "ts": "2026-06-24T20:58:28.538253+00:00"
+        }
+      }
+    },
+    "20260625": {
+      "shorts": {
+        "1": {
+          "video_id": "LrOCbB-Uz4U",
+          "artifact": "short-20260625-slot1",
+          "fp": "825e68705aea1003701c93710257e1c16318f46642902be098d5851d4ff3ceb2",
+          "ts": "2026-06-25T05:14:33.147018+00:00"
         }
       }
     }
