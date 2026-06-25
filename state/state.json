@@ -2339,6 +2339,13 @@
       "question": "What is 12 × 6 + 22?",
       "answer": "94",
       "date_iso": "2026-06-25"
+    },
+    {
+      "fp": "f09cff156d401ec9d129bb003b9d8744f8cdab0856fe0894690eef4bb1906347",
+      "q_norm": "what is 56 10 23",
+      "question": "What is 56 × 10 + 23?",
+      "answer": "583",
+      "date_iso": "2026-06-25"
     }
   ],
   "publishes": {
@@ -6777,6 +6784,12 @@
           "artifact": "short-20260625-slot2",
           "fp": "42409d2431d377be5d4d06b75e677c74c84f4fb69198ed2c797da93666f4efdf",
           "ts": "2026-06-25T10:21:36.045073+00:00"
+        },
+        "3": {
+          "video_id": "voHouOqfHgM",
+          "artifact": "short-20260625-slot3",
+          "fp": "f09cff156d401ec9d129bb003b9d8744f8cdab0856fe0894690eef4bb1906347",
+          "ts": "2026-06-25T15:45:15.718276+00:00"
         }
       }
     }
