@@ -2346,6 +2346,13 @@
       "question": "What is 56 × 10 + 23?",
       "answer": "583",
       "date_iso": "2026-06-25"
+    },
+    {
+      "fp": "178238523f2b2f2157a89c5bf8eb448336fd6544a861895a840f816a97404877",
+      "q_norm": "what is 27 4 25",
+      "question": "What is 27 × 4 + 25?",
+      "answer": "133",
+      "date_iso": "2026-06-25"
     }
   ],
   "publishes": {
@@ -6790,6 +6797,12 @@
           "artifact": "short-20260625-slot3",
           "fp": "f09cff156d401ec9d129bb003b9d8744f8cdab0856fe0894690eef4bb1906347",
           "ts": "2026-06-25T15:45:15.718276+00:00"
+        },
+        "4": {
+          "video_id": "sp5y9ObiAAQ",
+          "artifact": "short-20260625-slot4",
+          "fp": "178238523f2b2f2157a89c5bf8eb448336fd6544a861895a840f816a97404877",
+          "ts": "2026-06-25T21:03:12.456217+00:00"
         }
       }
     }
