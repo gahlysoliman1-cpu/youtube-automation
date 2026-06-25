@@ -2332,6 +2332,13 @@
       "question": "What is 78 × 6 + 7?",
       "answer": "475",
       "date_iso": "2026-06-25"
+    },
+    {
+      "fp": "42409d2431d377be5d4d06b75e677c74c84f4fb69198ed2c797da93666f4efdf",
+      "q_norm": "what is 12 6 22",
+      "question": "What is 12 × 6 + 22?",
+      "answer": "94",
+      "date_iso": "2026-06-25"
     }
   ],
   "publishes": {
@@ -6764,6 +6771,12 @@
           "artifact": "short-20260625-slot1",
           "fp": "825e68705aea1003701c93710257e1c16318f46642902be098d5851d4ff3ceb2",
           "ts": "2026-06-25T05:14:33.147018+00:00"
+        },
+        "2": {
+          "video_id": "BoWMWosKjvk",
+          "artifact": "short-20260625-slot2",
+          "fp": "42409d2431d377be5d4d06b75e677c74c84f4fb69198ed2c797da93666f4efdf",
+          "ts": "2026-06-25T10:21:36.045073+00:00"
         }
       }
     }
