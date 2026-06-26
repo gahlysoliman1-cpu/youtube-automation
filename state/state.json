@@ -2339,6 +2339,13 @@
       "question": "What is 24 × 9 + 38?",
       "answer": "254",
       "date_iso": "2026-06-26"
+    },
+    {
+      "fp": "0787e1275b745ade9f757f1611f168c9ee34448395f8e6758c0f870ac315c968",
+      "q_norm": "what is 65 5 10",
+      "question": "What is 65 × 5 + 10?",
+      "answer": "335",
+      "date_iso": "2026-06-26"
     }
   ],
   "publishes": {
@@ -6805,6 +6812,12 @@
           "artifact": "short-20260626-slot2",
           "fp": "5fda059983ba383140c303f9d0c90476d16eb520f8ff5027b6c3931183d9058a",
           "ts": "2026-06-26T10:30:58.785106+00:00"
+        },
+        "3": {
+          "video_id": "OJmQ92eJxB8",
+          "artifact": "short-20260626-slot3",
+          "fp": "0787e1275b745ade9f757f1611f168c9ee34448395f8e6758c0f870ac315c968",
+          "ts": "2026-06-26T15:34:02.115984+00:00"
         }
       }
     }
