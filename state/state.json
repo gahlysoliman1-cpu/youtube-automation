@@ -2346,6 +2346,13 @@
       "question": "What is 65 × 5 + 10?",
       "answer": "335",
       "date_iso": "2026-06-26"
+    },
+    {
+      "fp": "cc4ab86413fa97e4dbeb978777cfdf81fe2e0960522720a561dceb296ffa803a",
+      "q_norm": "what is 62 9 26",
+      "question": "What is 62 × 9 + 26?",
+      "answer": "584",
+      "date_iso": "2026-06-26"
     }
   ],
   "publishes": {
@@ -6818,6 +6825,12 @@
           "artifact": "short-20260626-slot3",
           "fp": "0787e1275b745ade9f757f1611f168c9ee34448395f8e6758c0f870ac315c968",
           "ts": "2026-06-26T15:34:02.115984+00:00"
+        },
+        "4": {
+          "video_id": "KDsMpRl3DWk",
+          "artifact": "short-20260626-slot4",
+          "fp": "cc4ab86413fa97e4dbeb978777cfdf81fe2e0960522720a561dceb296ffa803a",
+          "ts": "2026-06-26T20:51:57.749653+00:00"
         }
       }
     }
