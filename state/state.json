@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "bd57851a01244ca10032675c067592670587177add75366d1aaa3a04f9870823",
-      "q_norm": "what is 68 9 32",
-      "question": "What is 68 × 9 + 32?",
-      "answer": "644",
-      "date_iso": "2026-03-27"
-    },
-    {
-      "fp": "ef9c8b88d39df331fb29b42ea2da67701f29902cb48466594669a3a907b1be0a",
-      "q_norm": "what is 92 8 14",
-      "question": "What is 92 × 8 + 14?",
-      "answer": "750",
-      "date_iso": "2026-03-27"
-    },
-    {
-      "fp": "2fbd24f50c86cfbcacc6bb7d6bee96acf036a58f251cc60a51f30966dba04a06",
-      "q_norm": "what is 34 6 35",
-      "question": "What is 34 × 6 + 35?",
-      "answer": "239",
-      "date_iso": "2026-03-27"
-    },
-    {
-      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
-      "q_norm": "what has keys but can t open locks",
-      "question": "What has keys but can't open locks?",
-      "answer": "A piano",
-      "date_iso": "2026-03-27"
-    },
-    {
       "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
       "q_norm": "which planet is known as the red planet",
       "question": "Which planet is known as the Red Planet?",
@@ -2353,6 +2325,13 @@
       "question": "What is 27 × 4 + 25?",
       "answer": "133",
       "date_iso": "2026-06-25"
+    },
+    {
+      "fp": "e4e718c2429662fe0a613737f17110e21f0595e15d3d9084a70d4016220cfc0e",
+      "q_norm": "what is 22 3 29",
+      "question": "What is 22 × 3 + 29?",
+      "answer": "95",
+      "date_iso": "2026-06-26"
     }
   ],
   "publishes": {
@@ -6803,6 +6782,16 @@
           "artifact": "short-20260625-slot4",
           "fp": "178238523f2b2f2157a89c5bf8eb448336fd6544a861895a840f816a97404877",
           "ts": "2026-06-25T21:03:12.456217+00:00"
+        }
+      }
+    },
+    "20260626": {
+      "shorts": {
+        "1": {
+          "video_id": "9FIB8oSXwcY",
+          "artifact": "short-20260626-slot1",
+          "fp": "e4e718c2429662fe0a613737f17110e21f0595e15d3d9084a70d4016220cfc0e",
+          "ts": "2026-06-26T05:23:27.896725+00:00"
         }
       }
     }
