@@ -2332,6 +2332,13 @@
       "question": "What is 22 × 3 + 29?",
       "answer": "95",
       "date_iso": "2026-06-26"
+    },
+    {
+      "fp": "5fda059983ba383140c303f9d0c90476d16eb520f8ff5027b6c3931183d9058a",
+      "q_norm": "what is 24 9 38",
+      "question": "What is 24 × 9 + 38?",
+      "answer": "254",
+      "date_iso": "2026-06-26"
     }
   ],
   "publishes": {
@@ -6792,6 +6799,12 @@
           "artifact": "short-20260626-slot1",
           "fp": "e4e718c2429662fe0a613737f17110e21f0595e15d3d9084a70d4016220cfc0e",
           "ts": "2026-06-26T05:23:27.896725+00:00"
+        },
+        "2": {
+          "video_id": "PjFgKT2mu7c",
+          "artifact": "short-20260626-slot2",
+          "fp": "5fda059983ba383140c303f9d0c90476d16eb520f8ff5027b6c3931183d9058a",
+          "ts": "2026-06-26T10:30:58.785106+00:00"
         }
       }
     }
