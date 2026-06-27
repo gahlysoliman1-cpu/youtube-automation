@@ -2332,6 +2332,13 @@
       "question": "What is 29 × 3 + 14?",
       "answer": "101",
       "date_iso": "2026-06-27"
+    },
+    {
+      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+      "q_norm": "what gets wetter the more it dries",
+      "question": "What gets wetter the more it dries?",
+      "answer": "A towel",
+      "date_iso": "2026-06-27"
     }
   ],
   "publishes": {
@@ -6820,6 +6827,12 @@
           "artifact": "short-20260627-slot1",
           "fp": "8f9a0f68242b2d970ffb4307879b9cde19040560814de9ce25ee18b346b3ce89",
           "ts": "2026-06-27T05:02:24.194505+00:00"
+        },
+        "2": {
+          "video_id": "1ZbDaQSimx8",
+          "artifact": "short-20260627-slot2",
+          "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
+          "ts": "2026-06-27T09:34:09.879048+00:00"
         }
       }
     }
