@@ -2346,6 +2346,13 @@
       "question": "What is 97 × 3 + 27?",
       "answer": "318",
       "date_iso": "2026-06-27"
+    },
+    {
+      "fp": "97274416009dbca2c2a19e5bcaa4555899f697320add0b1cea4417d3ac727af3",
+      "q_norm": "what is 81 5 16",
+      "question": "What is 81 × 5 + 16?",
+      "answer": "421",
+      "date_iso": "2026-06-27"
     }
   ],
   "publishes": {
@@ -6846,6 +6853,12 @@
           "artifact": "short-20260627-slot3",
           "fp": "0282d897842e9a4b78611cd17d1682498d78e35f000016695115c140efad6f5e",
           "ts": "2026-06-27T14:53:42.809917+00:00"
+        },
+        "4": {
+          "video_id": "a-vCMgdwTNA",
+          "artifact": "short-20260627-slot4",
+          "fp": "97274416009dbca2c2a19e5bcaa4555899f697320add0b1cea4417d3ac727af3",
+          "ts": "2026-06-27T20:17:13.065332+00:00"
         }
       }
     }
