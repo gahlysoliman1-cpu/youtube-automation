@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "5d1c7d864b4a2a561cc8ede6b2b9790040568b2debe5c0ec669eb73bf9274fab",
-      "q_norm": "which planet is known as the red planet",
-      "question": "Which planet is known as the Red Planet?",
-      "answer": "Mars",
-      "date_iso": "2026-03-28"
-    },
-    {
-      "fp": "f9dc905cf95f696be0345de4c7dc9a70421a28bab7e1d89685a46c6b2265e217",
-      "q_norm": "what is 19 2 30",
-      "question": "What is 19 × 2 + 30?",
-      "answer": "68",
-      "date_iso": "2026-03-28"
-    },
-    {
-      "fp": "7f90a87f298d0c4025ccdde5415c30cb7eff08d69dadf9c919da66e4badd8db6",
-      "q_norm": "what is 90 10 18",
-      "question": "What is 90 × 10 + 18?",
-      "answer": "918",
-      "date_iso": "2026-03-28"
-    },
-    {
-      "fp": "c593c93d71d357ecb7c0461235f0c3169f3b421335eca44fa347e3feffc5875d",
-      "q_norm": "what is 56 4 7",
-      "question": "What is 56 × 4 + 7?",
-      "answer": "231",
-      "date_iso": "2026-03-28"
-    },
-    {
       "fp": "b938ef52172c8ea8d2996a56dfdf6248d386f3c5e646a7a4dad2259a2afec9a6",
       "q_norm": "what is 40 8 23",
       "question": "What is 40 × 8 + 23?",
@@ -2353,6 +2325,13 @@
       "question": "What is 62 × 9 + 26?",
       "answer": "584",
       "date_iso": "2026-06-26"
+    },
+    {
+      "fp": "8f9a0f68242b2d970ffb4307879b9cde19040560814de9ce25ee18b346b3ce89",
+      "q_norm": "what is 29 3 14",
+      "question": "What is 29 × 3 + 14?",
+      "answer": "101",
+      "date_iso": "2026-06-27"
     }
   ],
   "publishes": {
@@ -6831,6 +6810,16 @@
           "artifact": "short-20260626-slot4",
           "fp": "cc4ab86413fa97e4dbeb978777cfdf81fe2e0960522720a561dceb296ffa803a",
           "ts": "2026-06-26T20:51:57.749653+00:00"
+        }
+      }
+    },
+    "20260627": {
+      "shorts": {
+        "1": {
+          "video_id": "vpgUqu__54I",
+          "artifact": "short-20260627-slot1",
+          "fp": "8f9a0f68242b2d970ffb4307879b9cde19040560814de9ce25ee18b346b3ce89",
+          "ts": "2026-06-27T05:02:24.194505+00:00"
         }
       }
     }
