@@ -2332,6 +2332,13 @@
       "question": "What is 35 × 5 + 36?",
       "answer": "211",
       "date_iso": "2026-06-28"
+    },
+    {
+      "fp": "b7c3e5e00061fc35270b9101993cbe815508345f53cbd9ea269cae0894b6b746",
+      "q_norm": "what is 74 4 13",
+      "question": "What is 74 × 4 + 13?",
+      "answer": "309",
+      "date_iso": "2026-06-28"
     }
   ],
   "publishes": {
@@ -6848,6 +6855,12 @@
           "artifact": "short-20260628-slot1",
           "fp": "f3ab5fa093bfd6c69f95d4f5babb03252707b40f8546fcdb03e57c63452d5b17",
           "ts": "2026-06-28T05:42:36.079910+00:00"
+        },
+        "2": {
+          "video_id": "G2tZNpfHTe4",
+          "artifact": "short-20260628-slot2",
+          "fp": "b7c3e5e00061fc35270b9101993cbe815508345f53cbd9ea269cae0894b6b746",
+          "ts": "2026-06-28T10:09:27.646891+00:00"
         }
       }
     }
