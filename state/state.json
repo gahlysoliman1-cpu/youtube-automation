@@ -2346,6 +2346,13 @@
       "question": "What is the capital of Canada?",
       "answer": "Ottawa",
       "date_iso": "2026-06-28"
+    },
+    {
+      "fp": "275b906e73aa77af69206bbee783ae8dead8c690452586a091590a91c86244d6",
+      "q_norm": "what is 97 6 12",
+      "question": "What is 97 × 6 + 12?",
+      "answer": "594",
+      "date_iso": "2026-06-28"
     }
   ],
   "publishes": {
@@ -6874,6 +6881,12 @@
           "artifact": "short-20260628-slot3",
           "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
           "ts": "2026-06-28T14:56:12.922354+00:00"
+        },
+        "4": {
+          "video_id": "ipv4_pV12Rg",
+          "artifact": "short-20260628-slot4",
+          "fp": "275b906e73aa77af69206bbee783ae8dead8c690452586a091590a91c86244d6",
+          "ts": "2026-06-28T20:21:52.751668+00:00"
         }
       }
     }
