@@ -2339,6 +2339,13 @@
       "question": "What is 74 × 4 + 13?",
       "answer": "309",
       "date_iso": "2026-06-28"
+    },
+    {
+      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+      "q_norm": "what is the capital of canada",
+      "question": "What is the capital of Canada?",
+      "answer": "Ottawa",
+      "date_iso": "2026-06-28"
     }
   ],
   "publishes": {
@@ -6861,6 +6868,12 @@
           "artifact": "short-20260628-slot2",
           "fp": "b7c3e5e00061fc35270b9101993cbe815508345f53cbd9ea269cae0894b6b746",
           "ts": "2026-06-28T10:09:27.646891+00:00"
+        },
+        "3": {
+          "video_id": "si2sDk2qBqQ",
+          "artifact": "short-20260628-slot3",
+          "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
+          "ts": "2026-06-28T14:56:12.922354+00:00"
         }
       }
     }
