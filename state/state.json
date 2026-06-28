@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "b938ef52172c8ea8d2996a56dfdf6248d386f3c5e646a7a4dad2259a2afec9a6",
-      "q_norm": "what is 40 8 23",
-      "question": "What is 40 × 8 + 23?",
-      "answer": "343",
-      "date_iso": "2026-03-29"
-    },
-    {
-      "fp": "a98ed82fef54e07dc4cf7b4679caa08724b5af603c0dd93bf6a86c475713ebaa",
-      "q_norm": "what is 51 3 26",
-      "question": "What is 51 × 3 + 26?",
-      "answer": "179",
-      "date_iso": "2026-03-29"
-    },
-    {
-      "fp": "c53764ea632bafa18a1deb4a807c6f410829d6688090ba80d1369cedf058c7e7",
-      "q_norm": "what is the capital of canada",
-      "question": "What is the capital of Canada?",
-      "answer": "Ottawa",
-      "date_iso": "2026-03-29"
-    },
-    {
-      "fp": "d832be57fc35827ecaff1fc34aefd0764e29ed3fa7ca0ab57471e904bddb9135",
-      "q_norm": "what is the capital of france",
-      "question": "What is the capital of France?",
-      "answer": "Paris",
-      "date_iso": "2026-03-29"
-    },
-    {
       "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
       "q_norm": "what gets wetter the more it dries",
       "question": "What gets wetter the more it dries?",
@@ -2353,6 +2325,13 @@
       "question": "What is 81 × 5 + 16?",
       "answer": "421",
       "date_iso": "2026-06-27"
+    },
+    {
+      "fp": "f3ab5fa093bfd6c69f95d4f5babb03252707b40f8546fcdb03e57c63452d5b17",
+      "q_norm": "what is 35 5 36",
+      "question": "What is 35 × 5 + 36?",
+      "answer": "211",
+      "date_iso": "2026-06-28"
     }
   ],
   "publishes": {
@@ -6859,6 +6838,16 @@
           "artifact": "short-20260627-slot4",
           "fp": "97274416009dbca2c2a19e5bcaa4555899f697320add0b1cea4417d3ac727af3",
           "ts": "2026-06-27T20:17:13.065332+00:00"
+        }
+      }
+    },
+    "20260628": {
+      "shorts": {
+        "1": {
+          "video_id": "_Mbsjza-IxE",
+          "artifact": "short-20260628-slot1",
+          "fp": "f3ab5fa093bfd6c69f95d4f5babb03252707b40f8546fcdb03e57c63452d5b17",
+          "ts": "2026-06-28T05:42:36.079910+00:00"
         }
       }
     }
