@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "bbaf0eab98762d94eeb536a5f952fee3627aa8b6c47ee73a6a045b8e64b12162",
-      "q_norm": "what gets wetter the more it dries",
-      "question": "What gets wetter the more it dries?",
-      "answer": "A towel",
-      "date_iso": "2026-03-30"
-    },
-    {
-      "fp": "9a65ef9f8edcd4f7076617d393a16b07c928b4d6e374fee63e23d4dcaedb7738",
-      "q_norm": "what is 31 11 5",
-      "question": "What is 31 × 11 + 5?",
-      "answer": "346",
-      "date_iso": "2026-03-30"
-    },
-    {
-      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
-      "q_norm": "what has hands but can t clap",
-      "question": "What has hands but can't clap?",
-      "answer": "A clock",
-      "date_iso": "2026-03-30"
-    },
-    {
-      "fp": "c236c3d620d7132051e5ed4e7528817618445dde6d30dc3a816bfc5990200771",
-      "q_norm": "what is 37 6 19",
-      "question": "What is 37 × 6 + 19?",
-      "answer": "241",
-      "date_iso": "2026-03-30"
-    },
-    {
       "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
       "q_norm": "what is the capital of italy",
       "question": "What is the capital of Italy?",
@@ -2353,6 +2325,13 @@
       "question": "What is 97 × 6 + 12?",
       "answer": "594",
       "date_iso": "2026-06-28"
+    },
+    {
+      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+      "q_norm": "what force pulls objects toward earth",
+      "question": "What force pulls objects toward Earth?",
+      "answer": "Gravity",
+      "date_iso": "2026-06-29"
     }
   ],
   "publishes": {
@@ -6887,6 +6866,16 @@
           "artifact": "short-20260628-slot4",
           "fp": "275b906e73aa77af69206bbee783ae8dead8c690452586a091590a91c86244d6",
           "ts": "2026-06-28T20:21:52.751668+00:00"
+        }
+      }
+    },
+    "20260629": {
+      "shorts": {
+        "1": {
+          "video_id": "Kv1QHKlSzaY",
+          "artifact": "short-20260629-slot1",
+          "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
+          "ts": "2026-06-29T06:02:54.940557+00:00"
         }
       }
     }
