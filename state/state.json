@@ -2339,6 +2339,13 @@
       "question": "What is 33 × 10 + 33?",
       "answer": "363",
       "date_iso": "2026-06-29"
+    },
+    {
+      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+      "q_norm": "what is the capital of australia",
+      "question": "What is the capital of Australia?",
+      "answer": "Canberra",
+      "date_iso": "2026-06-29"
     }
   ],
   "publishes": {
@@ -6889,6 +6896,12 @@
           "artifact": "short-20260629-slot2",
           "fp": "983ff05c1ad51aab43571d867379c668f01643b8057bfba37c67b7d019a35c67",
           "ts": "2026-06-29T12:11:54.705545+00:00"
+        },
+        "3": {
+          "video_id": "7rQIPKNkhUg",
+          "artifact": "short-20260629-slot3",
+          "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
+          "ts": "2026-06-29T16:41:19.615579+00:00"
         }
       }
     }
