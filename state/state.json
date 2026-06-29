@@ -2346,6 +2346,13 @@
       "question": "What is the capital of Australia?",
       "answer": "Canberra",
       "date_iso": "2026-06-29"
+    },
+    {
+      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+      "q_norm": "what has hands but can t clap",
+      "question": "What has hands but can't clap?",
+      "answer": "A clock",
+      "date_iso": "2026-06-29"
     }
   ],
   "publishes": {
@@ -6902,6 +6909,12 @@
           "artifact": "short-20260629-slot3",
           "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
           "ts": "2026-06-29T16:41:19.615579+00:00"
+        },
+        "4": {
+          "video_id": "QWu7qPvqX70",
+          "artifact": "short-20260629-slot4",
+          "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
+          "ts": "2026-06-29T20:56:47.961093+00:00"
         }
       }
     }
