@@ -2332,6 +2332,13 @@
       "question": "What force pulls objects toward Earth?",
       "answer": "Gravity",
       "date_iso": "2026-06-29"
+    },
+    {
+      "fp": "983ff05c1ad51aab43571d867379c668f01643b8057bfba37c67b7d019a35c67",
+      "q_norm": "what is 33 10 33",
+      "question": "What is 33 × 10 + 33?",
+      "answer": "363",
+      "date_iso": "2026-06-29"
     }
   ],
   "publishes": {
@@ -6876,6 +6883,12 @@
           "artifact": "short-20260629-slot1",
           "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
           "ts": "2026-06-29T06:02:54.940557+00:00"
+        },
+        "2": {
+          "video_id": "Hlo8jEO4Axs",
+          "artifact": "short-20260629-slot2",
+          "fp": "983ff05c1ad51aab43571d867379c668f01643b8057bfba37c67b7d019a35c67",
+          "ts": "2026-06-29T12:11:54.705545+00:00"
         }
       }
     }
