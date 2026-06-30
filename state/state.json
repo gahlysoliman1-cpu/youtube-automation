@@ -2332,6 +2332,13 @@
       "question": "What is the capital of Germany?",
       "answer": "Berlin",
       "date_iso": "2026-06-30"
+    },
+    {
+      "fp": "a402c854628855f44631e94842cbff286a5209f94b941c61701ebde935b47fac",
+      "q_norm": "what is 32 3 20",
+      "question": "What is 32 × 3 + 20?",
+      "answer": "116",
+      "date_iso": "2026-06-30"
     }
   ],
   "publishes": {
@@ -6904,6 +6911,12 @@
           "artifact": "short-20260630-slot1",
           "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
           "ts": "2026-06-30T05:16:46.223322+00:00"
+        },
+        "2": {
+          "video_id": "AdOyt9uugkw",
+          "artifact": "short-20260630-slot2",
+          "fp": "a402c854628855f44631e94842cbff286a5209f94b941c61701ebde935b47fac",
+          "ts": "2026-06-30T10:36:31.439420+00:00"
         }
       }
     }
