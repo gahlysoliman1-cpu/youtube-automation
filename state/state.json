@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "1e342815af07649ea4c1f6527e5b9be5f66d88edd3a4612602d070909670dabc",
-      "q_norm": "what is the capital of italy",
-      "question": "What is the capital of Italy?",
-      "answer": "Rome",
-      "date_iso": "2026-03-31"
-    },
-    {
-      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
-      "q_norm": "what is the capital of germany",
-      "question": "What is the capital of Germany?",
-      "answer": "Berlin",
-      "date_iso": "2026-03-31"
-    },
-    {
-      "fp": "a6ae63d6dbce1844e4c15866220e3c3a8bb3acd429605b7771f0084cbb38b4fe",
-      "q_norm": "what force pulls objects toward earth",
-      "question": "What force pulls objects toward Earth?",
-      "answer": "Gravity",
-      "date_iso": "2026-03-31"
-    },
-    {
-      "fp": "ecf5cfbc585fb951d0f285c4d2a9ff0a0aadef35a3e2d8f12bda88882e05d744",
-      "q_norm": "what is 48 7 34",
-      "question": "What is 48 × 7 + 34?",
-      "answer": "370",
-      "date_iso": "2026-03-31"
-    },
-    {
       "fp": "e7eaae2da6d1f6cf1ed7a5d1d8870c9b651fefd44555daeee53fcbd4935b503e",
       "q_norm": "what is 33 8 33",
       "question": "What is 33 × 8 + 33?",
@@ -2353,6 +2325,13 @@
       "question": "What has hands but can't clap?",
       "answer": "A clock",
       "date_iso": "2026-06-29"
+    },
+    {
+      "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+      "q_norm": "what is the capital of germany",
+      "question": "What is the capital of Germany?",
+      "answer": "Berlin",
+      "date_iso": "2026-06-30"
     }
   ],
   "publishes": {
@@ -6915,6 +6894,16 @@
           "artifact": "short-20260629-slot4",
           "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
           "ts": "2026-06-29T20:56:47.961093+00:00"
+        }
+      }
+    },
+    "20260630": {
+      "shorts": {
+        "1": {
+          "video_id": "ts7BkVScvEg",
+          "artifact": "short-20260630-slot1",
+          "fp": "9e5a38cb4ef14186a734261e8dc668c82e64fd1363ca343b50ff833b13c634be",
+          "ts": "2026-06-30T05:16:46.223322+00:00"
         }
       }
     }
