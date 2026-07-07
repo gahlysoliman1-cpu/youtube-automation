@@ -3,188 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "e7eaae2da6d1f6cf1ed7a5d1d8870c9b651fefd44555daeee53fcbd4935b503e",
-      "q_norm": "what is 33 8 33",
-      "question": "What is 33 × 8 + 33?",
-      "answer": "297",
-      "date_iso": "2026-04-01"
-    },
-    {
-      "fp": "0c05f8a573714de3551408c6439d608e8254836009613cab3509256f7bedd730",
-      "q_norm": "what is 32 8 10",
-      "question": "What is 32 × 8 + 10?",
-      "answer": "266",
-      "date_iso": "2026-04-01"
-    },
-    {
-      "fp": "7280c0d6582596046120b7ea59f886c8ae072cb0ba70e645c280d16e4db5acb3",
-      "q_norm": "what is 27 9 40",
-      "question": "What is 27 × 9 + 40?",
-      "answer": "283",
-      "date_iso": "2026-04-01"
-    },
-    {
-      "fp": "5ef540be977410978483b1921cabd26d59595206537e39836e5b51cb194f3500",
-      "q_norm": "what is 94 5 29",
-      "question": "What is 94 × 5 + 29?",
-      "answer": "499",
-      "date_iso": "2026-04-02"
-    },
-    {
-      "fp": "995c07b9fd33e81851216151edabc42b2f9077d60e5893e276bd0c3fc29615a0",
-      "q_norm": "what gas do plants absorb from the air",
-      "question": "What gas do plants absorb from the air?",
-      "answer": "Carbon dioxide",
-      "date_iso": "2026-04-02"
-    },
-    {
-      "fp": "e814afd6a3f3d4141f207b112bf95a44f900411c2d1d45c72af65f881d16e694",
-      "q_norm": "what is 56 3 35",
-      "question": "What is 56 × 3 + 35?",
-      "answer": "203",
-      "date_iso": "2026-04-02"
-    },
-    {
-      "fp": "ebd90e7b2635d0e15e702c5dab6b9f048be316f644f9dfd35310cdf5c725ed2e",
-      "q_norm": "what is 24 4 26",
-      "question": "What is 24 × 4 + 26?",
-      "answer": "122",
-      "date_iso": "2026-04-02"
-    },
-    {
-      "fp": "766475eb1e38a8c5c3b1a579e0e5058215be5896c446aa0702fe796c114ca654",
-      "q_norm": "what is 47 5 5",
-      "question": "What is 47 × 5 + 5?",
-      "answer": "240",
-      "date_iso": "2026-04-03"
-    },
-    {
-      "fp": "266c6e97ed1fd73388644869efd94c87bc4789cb809177adc01bd2cba0e47ef1",
-      "q_norm": "what is 33 11 21",
-      "question": "What is 33 × 11 + 21?",
-      "answer": "384",
-      "date_iso": "2026-04-03"
-    },
-    {
-      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
-      "q_norm": "what has a neck but no head",
-      "question": "What has a neck but no head?",
-      "answer": "A bottle",
-      "date_iso": "2026-04-03"
-    },
-    {
-      "fp": "f355860edaaabf9e552680f1f80f2caf9da8371704329946f087e83b900fb6c4",
-      "q_norm": "what is the capital of mexico",
-      "question": "What is the capital of Mexico?",
-      "answer": "Mexico City",
-      "date_iso": "2026-04-03"
-    },
-    {
-      "fp": "bf0033b846b9a4e65aafd82eefdc305ac34fbce37c238049e5e329d802853d1b",
-      "q_norm": "what is h2o commonly called",
-      "question": "What is H2O commonly called?",
-      "answer": "Water",
-      "date_iso": "2026-04-04"
-    },
-    {
-      "fp": "7ef5696c1144ba3adf8704aa1b08ced3bca07c458972c42f44a0e4c9cdf734e9",
-      "q_norm": "what is 84 11 28",
-      "question": "What is 84 × 11 + 28?",
-      "answer": "952",
-      "date_iso": "2026-04-04"
-    },
-    {
-      "fp": "6f960aab84852118133001dc5a40e185052b7378cac130a87ed8ad93bd3c09cb",
-      "q_norm": "what is the capital of japan",
-      "question": "What is the capital of Japan?",
-      "answer": "Tokyo",
-      "date_iso": "2026-04-04"
-    },
-    {
-      "fp": "9820746576e3556dc958abced7fecc71e934daa58a3be53f2d3a85635cc4c4c3",
-      "q_norm": "what is 46 8 29",
-      "question": "What is 46 × 8 + 29?",
-      "answer": "397",
-      "date_iso": "2026-04-05"
-    },
-    {
-      "fp": "2dceb8007ca4500624c9f3716e196c54e445b699c5c4bd86085e8dd01f0fd13f",
-      "q_norm": "what is 40 5 33",
-      "question": "What is 40 × 5 + 33?",
-      "answer": "233",
-      "date_iso": "2026-04-05"
-    },
-    {
-      "fp": "c7f0fdbea67a70ee4c6536ecc29836945d7ef9b26f27f39161c69bdfb0da2bc4",
-      "q_norm": "what is 71 6 10",
-      "question": "What is 71 × 6 + 10?",
-      "answer": "436",
-      "date_iso": "2026-04-05"
-    },
-    {
-      "fp": "3917e59d7b73506ba43237cab4b3973c9f57abb75ce9d5b8a31d8c32b44eef68",
-      "q_norm": "what is 99 5 6",
-      "question": "What is 99 × 5 + 6?",
-      "answer": "501",
-      "date_iso": "2026-04-05"
-    },
-    {
-      "fp": "81acc5560032ae9a7f794b12015600a5b8d4cfa1ca70f745d938bebee8aa0ecd",
-      "q_norm": "what is 78 4 25",
-      "question": "What is 78 × 4 + 25?",
-      "answer": "337",
-      "date_iso": "2026-04-06"
-    },
-    {
-      "fp": "d94b99ee2685fccb4ba8f9f3be766790de9b347b6f115731b8ae38319bd6acec",
-      "q_norm": "what is 28 9 25",
-      "question": "What is 28 × 9 + 25?",
-      "answer": "277",
-      "date_iso": "2026-04-06"
-    },
-    {
-      "fp": "f9a5e2db1d9d214e29cee60a924095cc8b11418a28569f78364aad5ff142fd61",
-      "q_norm": "what is 76 5 27",
-      "question": "What is 76 × 5 + 27?",
-      "answer": "407",
-      "date_iso": "2026-04-06"
-    },
-    {
-      "fp": "c3759ae675b4324118c5f8493e893e59d7a58bde17fe2272e323719b61da2b8b",
-      "q_norm": "what is 58 5 26",
-      "question": "What is 58 × 5 + 26?",
-      "answer": "316",
-      "date_iso": "2026-04-06"
-    },
-    {
-      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
-      "q_norm": "which star is closest to earth",
-      "question": "Which star is closest to Earth?",
-      "answer": "The Sun",
-      "date_iso": "2026-04-07"
-    },
-    {
-      "fp": "9aa2274258849e9784e5cddb7c131a18f099bb54c5244933b9caf6ca4f7c2b84",
-      "q_norm": "what is the capital of brazil",
-      "question": "What is the capital of Brazil?",
-      "answer": "Brasília",
-      "date_iso": "2026-04-07"
-    },
-    {
-      "fp": "5b19b4d712702a59d4853582bb628f00de777a7d5f7cf321585518987a66f096",
-      "q_norm": "what is 18 9 28",
-      "question": "What is 18 × 9 + 28?",
-      "answer": "190",
-      "date_iso": "2026-04-07"
-    },
-    {
-      "fp": "1132e95a9c02763e67735e4d3875434b38a793328954ceca9e9730acc9c35f8a",
-      "q_norm": "what is 73 7 7",
-      "question": "What is 73 × 7 + 7?",
-      "answer": "518",
-      "date_iso": "2026-04-07"
-    },
-    {
       "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
       "q_norm": "what is the capital of australia",
       "question": "What is the capital of Australia?",
@@ -2339,6 +2157,13 @@
       "question": "What is 32 × 3 + 20?",
       "answer": "116",
       "date_iso": "2026-06-30"
+    },
+    {
+      "fp": "525b1f03558cba95c13b8145f6965e4c83c879f6108ba805604ef786412370dd",
+      "q_norm": "what is 18 3 38",
+      "question": "What is 18 × 3 + 38?",
+      "answer": "92",
+      "date_iso": "2026-07-07"
     }
   ],
   "publishes": {
@@ -6917,6 +6742,16 @@
           "artifact": "short-20260630-slot2",
           "fp": "a402c854628855f44631e94842cbff286a5209f94b941c61701ebde935b47fac",
           "ts": "2026-06-30T10:36:31.439420+00:00"
+        }
+      }
+    },
+    "20260707": {
+      "shorts": {
+        "1": {
+          "video_id": "GAUVbbXmb2s",
+          "artifact": "short-20260707-slot1",
+          "fp": "525b1f03558cba95c13b8145f6965e4c83c879f6108ba805604ef786412370dd",
+          "ts": "2026-07-07T05:03:38.646946+00:00"
         }
       }
     }
