@@ -2164,6 +2164,13 @@
       "question": "What is 18 × 3 + 38?",
       "answer": "92",
       "date_iso": "2026-07-07"
+    },
+    {
+      "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+      "q_norm": "what has keys but can t open locks",
+      "question": "What has keys but can't open locks?",
+      "answer": "A piano",
+      "date_iso": "2026-07-07"
     }
   ],
   "publishes": {
@@ -6752,6 +6759,12 @@
           "artifact": "short-20260707-slot1",
           "fp": "525b1f03558cba95c13b8145f6965e4c83c879f6108ba805604ef786412370dd",
           "ts": "2026-07-07T05:03:38.646946+00:00"
+        },
+        "2": {
+          "video_id": "UGHeTf5fY2o",
+          "artifact": "short-20260707-slot2",
+          "fp": "e8d6ab55667f2e9a81570803593bbcce8ae85f98403ff3f68c7f7679adf35a88",
+          "ts": "2026-07-07T10:33:42.804501+00:00"
         }
       }
     }
