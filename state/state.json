@@ -2171,6 +2171,13 @@
       "question": "Which star is closest to Earth?",
       "answer": "The Sun",
       "date_iso": "2026-07-08"
+    },
+    {
+      "fp": "cd76fb70c2c197ba29d5ef47fe8f2d7c6183a3cbed407210e5a9daf832627dae",
+      "q_norm": "what is 19 11 6",
+      "question": "What is 19 × 11 + 6?",
+      "answer": "215",
+      "date_iso": "2026-07-08"
     }
   ],
   "publishes": {
@@ -6793,6 +6800,12 @@
           "artifact": "short-20260708-slot2",
           "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
           "ts": "2026-07-08T09:32:20.026721+00:00"
+        },
+        "3": {
+          "video_id": "4xFf8-YfKPk",
+          "artifact": "short-20260708-slot3",
+          "fp": "cd76fb70c2c197ba29d5ef47fe8f2d7c6183a3cbed407210e5a9daf832627dae",
+          "ts": "2026-07-08T15:31:41.571665+00:00"
         }
       }
     }
