@@ -2178,6 +2178,13 @@
       "question": "What is 19 × 11 + 6?",
       "answer": "215",
       "date_iso": "2026-07-08"
+    },
+    {
+      "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+      "q_norm": "what is the capital of spain",
+      "question": "What is the capital of Spain?",
+      "answer": "Madrid",
+      "date_iso": "2026-07-08"
     }
   ],
   "publishes": {
@@ -6806,6 +6813,12 @@
           "artifact": "short-20260708-slot3",
           "fp": "cd76fb70c2c197ba29d5ef47fe8f2d7c6183a3cbed407210e5a9daf832627dae",
           "ts": "2026-07-08T15:31:41.571665+00:00"
+        },
+        "4": {
+          "video_id": "RmfuKmQJ93c",
+          "artifact": "short-20260708-slot4",
+          "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
+          "ts": "2026-07-08T20:26:00.199685+00:00"
         }
       }
     }
