@@ -2164,6 +2164,13 @@
       "question": "What has a neck but no head?",
       "answer": "A bottle",
       "date_iso": "2026-07-08"
+    },
+    {
+      "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+      "q_norm": "which star is closest to earth",
+      "question": "Which star is closest to Earth?",
+      "answer": "The Sun",
+      "date_iso": "2026-07-08"
     }
   ],
   "publishes": {
@@ -6780,6 +6787,12 @@
           "artifact": "short-20260708-slot1",
           "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
           "ts": "2026-07-08T04:25:57.938471+00:00"
+        },
+        "2": {
+          "video_id": "aALGo2aiwzk",
+          "artifact": "short-20260708-slot2",
+          "fp": "812d393f971c502af5c71954e47ec8bd2a0744043e548d3e4a9cb5571999ff89",
+          "ts": "2026-07-08T09:32:20.026721+00:00"
         }
       }
     }
