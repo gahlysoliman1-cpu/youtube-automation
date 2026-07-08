@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "94cb23f8ca7b504b6288ab779d1dddca1ca84e74691a0da382bb0650d1ea781b",
-      "q_norm": "what is the capital of australia",
-      "question": "What is the capital of Australia?",
-      "answer": "Canberra",
-      "date_iso": "2026-04-08"
-    },
-    {
-      "fp": "b99f0f7947b11376b93d2af4ca165b79a231cc3ddf0c40853e77b7d89830492f",
-      "q_norm": "what is 43 3 13",
-      "question": "What is 43 × 3 + 13?",
-      "answer": "142",
-      "date_iso": "2026-04-08"
-    },
-    {
-      "fp": "da92534c796dd90d0c0712070052f58aa5d97553da9c8e9267b7781a22928c27",
-      "q_norm": "what is the capital of egypt",
-      "question": "What is the capital of Egypt?",
-      "answer": "Cairo",
-      "date_iso": "2026-04-08"
-    },
-    {
-      "fp": "8aa32ab89584a3a21ae6893adb9174306a1662866825460053a645f2ac58e13c",
-      "q_norm": "what is 28 8 16",
-      "question": "What is 28 × 8 + 16?",
-      "answer": "240",
-      "date_iso": "2026-04-08"
-    },
-    {
       "fp": "909a91d79bee9ead0e8c34af272be199997587c9ef164a4c05b93baa9566db34",
       "q_norm": "what is 42 9 15",
       "question": "What is 42 × 9 + 15?",
@@ -2185,6 +2157,13 @@
       "question": "What is 97 × 10 + 15?",
       "answer": "985",
       "date_iso": "2026-07-07"
+    },
+    {
+      "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+      "q_norm": "what has a neck but no head",
+      "question": "What has a neck but no head?",
+      "answer": "A bottle",
+      "date_iso": "2026-07-08"
     }
   ],
   "publishes": {
@@ -6791,6 +6770,16 @@
           "artifact": "short-20260707-slot4",
           "fp": "ce14053f84ce4b78b83f0c1f27f31eb607c8228ac683c108e69e538c55da5e9e",
           "ts": "2026-07-07T20:57:41.574757+00:00"
+        }
+      }
+    },
+    "20260708": {
+      "shorts": {
+        "1": {
+          "video_id": "2Pw29pIdwAU",
+          "artifact": "short-20260708-slot1",
+          "fp": "08fd484ecfaf7e9a07ee18866445235a1120472cb41f72abbd7948d97777aea0",
+          "ts": "2026-07-08T04:25:57.938471+00:00"
         }
       }
     }
