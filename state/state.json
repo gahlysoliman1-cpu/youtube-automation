@@ -3,34 +3,6 @@
   "bootstrapped": true,
   "used": [
     {
-      "fp": "909a91d79bee9ead0e8c34af272be199997587c9ef164a4c05b93baa9566db34",
-      "q_norm": "what is 42 9 15",
-      "question": "What is 42 × 9 + 15?",
-      "answer": "393",
-      "date_iso": "2026-04-09"
-    },
-    {
-      "fp": "40aee4a9c0bd5d2b0b39f3d0714c24d14f0d651ea9ba1609a9b4987924c01942",
-      "q_norm": "what is 48 3 20",
-      "question": "What is 48 × 3 + 20?",
-      "answer": "164",
-      "date_iso": "2026-04-09"
-    },
-    {
-      "fp": "976202f9c400149040f1dce841e68c44821eb4a88fbd4edd83917dd54ecb13a2",
-      "q_norm": "what is 69 9 10",
-      "question": "What is 69 × 9 + 10?",
-      "answer": "631",
-      "date_iso": "2026-04-09"
-    },
-    {
-      "fp": "5d10c3461e16e3dc809904686513eff438b87ba04439a6d5a95725f5907d3d1c",
-      "q_norm": "what has hands but can t clap",
-      "question": "What has hands but can't clap?",
-      "answer": "A clock",
-      "date_iso": "2026-04-09"
-    },
-    {
       "fp": "98cbe6ee352520272e0ffb971f2392c27ba57a0d47b8dc02abe5b90b02da89d3",
       "q_norm": "what is 55 10 10",
       "question": "What is 55 × 10 + 10?",
@@ -2185,6 +2157,13 @@
       "question": "What is the capital of Spain?",
       "answer": "Madrid",
       "date_iso": "2026-07-08"
+    },
+    {
+      "fp": "165793460440511e66f906218a6eec88ec3534381dc55c78e1f3cbba204346e7",
+      "q_norm": "what is 89 7 25",
+      "question": "What is 89 × 7 + 25?",
+      "answer": "648",
+      "date_iso": "2026-07-09"
     }
   ],
   "publishes": {
@@ -6819,6 +6798,16 @@
           "artifact": "short-20260708-slot4",
           "fp": "90caa344192e8a4c020bc2bd7b1861f767761d3dd9f6741dd78326d66a31005b",
           "ts": "2026-07-08T20:26:00.199685+00:00"
+        }
+      }
+    },
+    "20260709": {
+      "shorts": {
+        "1": {
+          "video_id": "JWbu3W_07cw",
+          "artifact": "short-20260709-slot1",
+          "fp": "165793460440511e66f906218a6eec88ec3534381dc55c78e1f3cbba204346e7",
+          "ts": "2026-07-09T05:10:17.589135+00:00"
         }
       }
     }
